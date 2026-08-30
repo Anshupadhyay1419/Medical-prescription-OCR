@@ -1,0 +1,68 @@
+Line 0: [3,11] Rx
+Line 1: [200,29] Wellness Health Clinic
+Line 2: [682,26] Dr. S. Mukhopadhyay
+Line 3: [196,69] 28A. Lake Gardens , Kolkata - 700 045
+Line 4: [757,61] MBBS , MD ( Medicine )
+Line 5: [196,101] Pho : 033 4062 8880 ( 98300 11345
+Line 6: [735,88] Reg. No. 61520 ( WBMC )
+Line 7: [766,117] Consultant Physician
+Line 8: [35,171] Pt. Name - Mr. A. Dutta
+Line 9: [458,166] BP -146/88mmmy Date-29/5/25
+Line 10: [30,214] Age - 56yrs ( M.
+Line 11: [592,204] ( High ) .
+Line 12: [30,272] but - 74 kg .
+Line 13: [455,251] PPBS - 186 mg/dl
+Line 14: [19,316] Diagnosis - Essential Hypertension
+Line 15: [240,362] Type 2 Diabetes Mellitus .
+Line 16: [11,432] Rex .
+Line 17: [264,427] Dyslipidemia .
+Line 18: [17,484] O. Tab. Telma-H 40/12.5
+Line 19: [592,476] 1-0-1 .
+Line 20: [809,465] x ( month
+Line 21: [16,542] Q Tab. ' Metformin SR 500
+Line 22: [589,529] 1-0-1 .
+Line 23: [804,519] x ( month
+Line 24: [14,593] Q Tab. Gliminox-M2 500/2
+Line 25: [577,577] 0-0-1 ( BD. x. month
+Line 26: [12,665] O. Tab. Clopilet 75
+Line 27: [571,652] 0-0-1 .
+Line 28: [815,637] x ( month
+Line 29: [12,726] O. Tab. Atorva 20 #
+Line 30: [558,700] o-O-I.H.S. # I. month
+Line 31: [12,790] Q Cap. Omega-3,1000
+Line 32: [552,775] 1-0-1 .
+Line 33: [812,764] & month
+Line 34: [9,852] Q. Syp. Deriphyllin .
+Line 35: [542,835] 10 mL TDS .
+Line 36: [809,833] x 5 days .
+Line 37: [9,913] ( Tab. Vit. D3 60K
+Line 38: [541,909] 1 tab .
+Line 39: [811,896] I once a week
+Line 40: [814,935] x 8 weeks .
+Line 41: [11,984] Q Tab. Rantac 150
+Line 42: [533,980] 0-1-0 .
+Line 43: [811,982] x 15 days .
+Line 44: [507,1012] ( Before dinner )
+Line 45: [22,1097] Advice -
+Line 46: [452,1084] Investigations .
+Line 47: [740,1097] Bring previous .
+Line 48: [26,1124] Low salt diet ,
+Line 49: [28,1154] - Avoid # only # fried food
+Line 50: [448,1136] # FBS , PPBS .
+Line 51: [750,1142] reports #
+Line 52: [447,1174] # HLAIC .
+Line 53: [744,1183] all medicines .
+Line 54: [26,1201] walk 30-40 min daily
+Line 55: [443,1206] # Lipid Profile
+Line 56: [740,1218] during next
+Line 57: [30,1252] - Reduce weight
+Line 58: [444,1246] # Sir. Creative
+Line 59: [745,1262] visit .
+Line 60: [29,1282] - Avoid smoking & Alcohol
+Line 61: [440,1281] # LFT .
+Line 62: [26,1324] - Take medicine's regularly
+Line 63: [437,1350] # Urine RIE .
+Line 64: [439,1321] # ECG .
+Line 65: [20,1397] Follow up after 1 month
+Line 66: [627,1375] S. Mukhopadhyay
+Line 67: [748,1453] 29 (5/25 .

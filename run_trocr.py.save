@@ -1,0 +1,97 @@
+import torch
+from PIL import Image
+from transformers import TrOCRProcessor, VisionEncoderDecoderModel
+
+
+MODEL_NAME = "microsoft/trocr-base-handwritten"
+
+IMAGE_PATH = "data/raw/prescription_01.jpg"
+
+
+# --------------------------------------------------
+# Device
+# --------------------------------------------------
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+print(f"Using device: {device}")
+
+
+# --------------------------------------------------
+# Load processor
+# --------------------------------------------------
+
+print("Loading processor...")
+
+processor = TrOCRProcessor.from_pretrained(
+    MODEL_NAME
+)
+
+
+# --------------------------------------------------
+# Load model
+# --------------------------------------------------
+
+print("Loading model...")
+
+model = VisionEncoderDecoderModel.from_pretrained(
+    MODEL_NAME
+)
+
+model.to(device)
+model.eval()
+
+
+# --------------------------------------------------
+# Load image
+# --------------------------------------------------
+
+print("Loading image...")
+
+image = Image.open(
+    IMAGE_PATH
+).convert("RGB")
+
+
+# --------------------------------------------------
+# Image preprocessing
+# --------------------------------------------------
+
+pixel_values = processor(
+    images=image,
+    return_tensors="pt"
+).pixel_values
+
+pixel_values = pixel_values.to(device)
+
+
+# --------------------------------------------------
+# Inference
+# --------------------------------------------------
+
+print("Running inference...")
+
+with torch.no_grad():
+
+    generated_ids = model.generate(
+        pixel_values
+    )
+
+
+# --------------------------------------------------
+# Decode prediction
+# --------------------------------------------------
+
+generated_text = processor.batch_decode(
+    generated_ids,
+    skip_special_tokens=True
+)[0]
+
+
+print("\n" + "=" * 60)
+print("TrOCR Prediction")
+print("=" * 60)
+
+print(generated_text)
+
+print("=" * 60)

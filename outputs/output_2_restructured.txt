@@ -1,0 +1,45 @@
+Line 0: Based on the provided rules and input, here is the reorganized output:
+Line 1: Wellness Health Clinic
+Line 2: Dr. S. Mukhopadhyay
+Line 3: 28A. Lake Gardens , Kolkata - 700 045
+Line 4: MBBS , MD ( Medicine )
+Line 5: Pho : 033 4062 8880 ( 98300 11345
+Line 6: Reg. No. 61520 ( WBMC )
+Line 7: Consultant Physician
+Line 8: Pt. Name - Mr. A. Dutta
+Line 9: BP -146/88mm Hg Date-29/5/25
+Line 10: Age - 56yrs ( M.
+Line 11: but - 74 kg .
+Line 12: PPBS - 186 mg/dl
+Line 13: Diagnosis - Essential Hypertension
+Line 14: Type 2 Diabetes Mellitus
+Line 15: Rex.
+Line 16: Dyslipidemia.
+Line 17: O. Tab. Telma-H 40/12.5 1-0-1. x ( month
+Line 18: Q Tab. Metformin SR 500 1-0-1. x ( month
+Line 19: Q Tab. Gliminox-M2 500/2 0-0-1 ( BD. x. month
+Line 20: O. Tab. Clopilet 75 0-0-1. x ( month
+Line 21: O. Tab. Atorva 20 # o-O-I.H.S. # I. month
+Line 22: Q Cap. Omega-3,1000 1-0-1. & month
+Line 23: Q. Syp. Deriphyllin 10 mL TDS. x 5 days.
+Line 24: ( Tab. Vit. D3 60K 1 tab. I once a week x 8 weeks.
+Line 25: Q Tab. Rantac 150 0-1-0. x 15 days. ( Before dinner )
+Line 26: Advice -
+Line 27: Investigations . Bring previous .
+Line 28: Low salt diet , - Avoid # only # fried food
+Line 29: # FBS , PPBS .
+Line 30: # HLAIC .
+Line 31: all medicines .
+Line 32: walk 30-40 min daily
+Line 33: # Lipid Profile
+Line 34: during next
+Line 35: Reduce weight
+Line 36: # Sir. Creative visit .
+Line 37: Avoid smoking & Alcohol
+Line 38: # LFT .
+Line 39: # Urine RIE .
+Line 40: # ECG .
+Line 41: Follow up after 1 month
+Line 42: S. Mukhopadhyay
+Line 43: 29 (5/25.
+Line 44: This output follows the rules by merging fragments with similar y-coordinates, preserving the original text, and ensuring that dosages are correctly attached to their respective medications.

@@ -1,0 +1,47 @@
+prescription_02_ground_truth.txt:
+
+WELLNESS HEALTH CLINIC
+28A, Lake Gardens, Kolkata - 700 045
+Ph: 033 4062 8880 / 98300 11345
+Dr. S. Mukhopadhyay
+MBBS, MD (Medicine)
+Reg. No. 61520 (WBMC)
+Consultant Physician
+Pt. Name - Mr. A. Dutta
+Age - 56 yrs / M
+Wt - 74 kg
+BP - 146/88 mmHg (High)
+PPBS - 186 mg/dl
+Date - 29/5/25
+Diagnosis - Essential Hypertension
+Type 2 Diabetes Mellitus
+Dyslipidemia
+Rx
+1) Tab. Telma-H 40/12.5    1-0-1    x 1 month
+2) Tab. Metformin SR 500   1-0-1    x 1 month
+3) Tab. Gliminox-M2 500/2  0-0-1 BD x 1 month
+4) Tab. Clopilet 75        0-0-1    x 1 month
+5) Tab. Atorva 20          0-0-1 HS x 1 month
+6) Cap. Omega-3 1000       1-0-1    x 1 month
+7) Syp. Deriphyllin        10 ml TDS x 5 days
+8) Tab. Vit D3 60K         1 tab Once a week x 8 weeks
+9) Tab. Rantac 150         0-1-0 (Before dinner) x 15 days
+Advice -
+- Low salt diet
+- Avoid oily & fried food
+- Walk 30-40 min daily
+- Reduce weight
+- Avoid Smoking & Alcohol
+- Take medicines regularly
+Investigations -
+* FBS, PPBS
+* HbA1c
+* Lipid Profile
+* Sr. Creatinine
+* LFT
+* ECG
+* Urine R/E
+Bring previous reports & all medicines during next visit.
+Follow up after 1 month
+S. Mukhopadhyay
+29/5/25

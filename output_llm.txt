@@ -1,0 +1,68 @@
+Line 0: RX
+Line 1: Wellness health clinic
+Line 2: Dr. S. Mukhopadyay
+Line 3: 28A, Lake Gardens , Kolkata - 700 045
+Line 4: MBBS , MD (Medicine )
+Line 5: Pho: 033 4062 8880 ( 98300 11345
+Line 6: Reg. No. 61520 ( WBMC )
+Line 7: Consultant physician
+Line 8: Pt. Name - Mr. A. Dutta
+Line 9: BP-146/88mmHg Date-29/5/25
+Line 10: Age - 56 yrs ( M.
+Line 11: 
+Line 12: Wt - 74 kg .
+Line 13: PPBS -186 mg/dL
+Line 14: Diagnosis - Essential Hypertension
+Line 15: Type 2 Diabetes Mellitus .
+Line 16: Rx .
+Line 17: Dyslipidemia .
+Line 18: O. Tab. Telma-H. 40/12.5
+Line 19: 1-0-1 .
+Line 20: x 1 month .
+Line 21: Q Tab. Metformin SR 500
+Line 22: 1-0 - 1
+Line 23: x( month
+Line 24: Q Tab. Gliminox-M2 500/2
+Line 25: 0-0-1 BD. x. month
+Line 26: OD Tab. Clopidogrel 75
+Line 27: 1-0-1 .
+Line 28: x (month.
+Line 29: O. Tab. Atorva 20
+Line 30: 0-0-1 HS. X. month
+Line 31: Q Cap. Omega-3,1000
+Line 32: 1-0 - 1
+Line 33: & month
+Line 34: Q. Syp. Deriphyllin
+Line 35: 10 ml TDS
+Line 36: x 5 days .
+Line 37: (Tab. Vit. D3 60K.
+Line 38: I tab.
+Line 39: Once a week
+Line 40: X 8 weeks .
+Line 41: OD Tab. Rantac 150
+Line 42: 0-1-0
+Line 43: x 15 days .
+Line 44: ( BD ) .
+Line 45: Advice .
+Line 46: Investigations .
+Line 47: Bring previous.
+Line 48: Low salt diet ,
+Line 49: Avoid # only # fried food
+Line 50: # FBS, PPBS
+Line 51: 
+Line 52: # HbA1c .
+Line 53: all medicines
+Line 54: Walk 30-40 min daily
+Line 55: # Lipid Profile
+Line 56: during next
+Line 57: Reduce weight .
+Line 58: # Sr. Creatinine
+Line 59: visit.
+Line 60: Avoid Smoking & Alcohol
+Line 61: # LFT.
+Line 62: Take medicine regularly
+Line 63: Urine R/E
+Line 64: # ECG.
+Line 65: Follow up after 1 month
+Line 66: S. Mukhopadyay
+Line 67: 29/5/25

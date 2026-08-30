@@ -1,10 +1,12 @@
 """
-Complete evaluation script.
-Compares raw TrOCR output vs final pipeline output against ground truth.
+Evaluate OCR output against per-image ground truths in the gts folder.
+The script reads all files named final_clean*.txt from outputs and matches
+against gts/<image_number>.txt for the same index.
 """
 from jiwer import cer, wer
 from difflib import SequenceMatcher
 from collections import Counter
+import os
 import re
 
 
@@ -92,117 +94,54 @@ def extract_dosages(lines):
 # MAIN
 # ============================================================
 
-TRUTH_FILE = "prescription_02_ground_truth.txt"
-RAW_FILE = "outputs/output_1_raw.txt"
-FINAL_FILE = "outputs/output_final.txt"
+OUTPUT_DIR = "outputs"
+GTS_DIR = "gts"
 
-# load all
-truth = load_truth(TRUTH_FILE)
-raw = load_lines(RAW_FILE)
-final = load_lines(FINAL_FILE)
+final_files = sorted(
+    os.path.join(OUTPUT_DIR, f)
+    for f in os.listdir(OUTPUT_DIR)
+    if f.startswith("final_clean") and f.endswith(".txt")
+)
 
-# clean raw (has coordinates prefix like "[123,456] text")
-raw = [re.sub(r'^\[\d+,\d+\]\s*', '', l) for l in raw]
+if not final_files:
+    raise FileNotFoundError(f"No final_clean*.txt files found in {OUTPUT_DIR}")
 
-# compute metrics
-raw_metrics = compute_metrics(truth, raw)
-final_metrics = compute_metrics(truth, final)
-
-# ============================================================
-# DISPLAY RESULTS
-# ============================================================
-
+all_final_metrics = []
 print("=" * 70)
-print("EVALUATION RESULTS")
+print("EVALUATION RESULTS FOR ALL FINAL_CLEAN FILES")
 print("=" * 70)
 
-print(f"\nLine counts:")
-print(f"  Ground truth: {len(truth)}")
-print(f"  Raw TrOCR:    {len(raw)}  (diff: {abs(len(raw)-len(truth))})")
-print(f"  Final:        {len(final)}  (diff: {abs(len(final)-len(truth))})")
+for final_path in final_files:
+    image_index = os.path.splitext(os.path.basename(final_path))[0].replace("final_clean", "")
+    truth_path = os.path.join(GTS_DIR, f"image{image_index}.txt")
+
+    if not os.path.exists(truth_path):
+        print(f"Skipping {final_path}: matching truth not found at {truth_path}")
+        continue
+
+    truth = load_truth(truth_path)
+    final = load_lines(final_path)
+
+    final_metrics = compute_metrics(truth, final)
+    all_final_metrics.append((final_path, final_metrics, len(truth), len(final)))
+
+    print(f"\nFile: {final_path}")
+    print(f"  Ground truth: {len(truth)} lines")
+    print(f"  Final OCR:    {len(final)} lines")
+    print(f"  CER (joined): {final_metrics['cer_joined']:.3f}")
+    print(f"  WER (joined): {final_metrics['wer_joined']:.3f}")
+    print(f"  Best-match CER: {final_metrics['best_match_cer']:.3f}")
+    print(f"  Best-match WER: {final_metrics['best_match_wer']:.3f}")
+
+if not all_final_metrics:
+    raise RuntimeError(f"No matching ground truths found in {GTS_DIR} for final_clean files")
+
+average_cer = sum(m['best_match_cer'] for _, m, _, _ in all_final_metrics) / len(all_final_metrics)
+average_wer = sum(m['best_match_wer'] for _, m, _, _ in all_final_metrics) / len(all_final_metrics)
 
 print(f"\n{'='*70}")
-print("CHARACTER ERROR RATE (CER)")
+print("AVERAGE RESULTS")
 print("=" * 70)
-print(f"{'Metric':<30} {'Raw':<12} {'Final':<12} {'Improvement':<15}")
-print("-" * 70)
-
-def print_row(label, raw_val, final_val, lower_better=True):
-    if lower_better:
-        improvement = (raw_val - final_val) * 100
-        marker = "✓" if final_val < raw_val else "✗"
-    else:
-        improvement = (final_val - raw_val) * 100
-        marker = "✓" if final_val > raw_val else "✗"
-    print(f"{label:<30} {raw_val:<12.3f} {final_val:<12.3f} {improvement:+.1f}% {marker}")
-
-print_row("CER (joined text)", raw_metrics['cer_joined'], final_metrics['cer_joined'])
-print_row("CER (best-match)", raw_metrics['best_match_cer'], final_metrics['best_match_cer'])
-
-print(f"\n{'='*70}")
-print("WORD ERROR RATE (WER)")
-print("=" * 70)
-print(f"{'Metric':<30} {'Raw':<12} {'Final':<12} {'Improvement':<15}")
-print("-" * 70)
-
-print_row("WER (joined text)", raw_metrics['wer_joined'], final_metrics['wer_joined'])
-print_row("WER (best-match)", raw_metrics['best_match_wer'], final_metrics['best_match_wer'])
-
-print(f"\n{'='*70}")
-print("RECALL METRICS (higher = better)")
-print("=" * 70)
-print(f"{'Metric':<30} {'Raw':<12} {'Final':<12} {'Change':<15}")
-print("-" * 70)
-
-print_row("Character recall", raw_metrics['char_recall'], final_metrics['char_recall'], lower_better=False)
-
-print(f"\n{'='*70}")
-print("MEDICAL FIELD EXTRACTION")
-print("=" * 70)
-
-truth_drugs = extract_drugs(truth)
-raw_drugs = extract_drugs(raw)
-final_drugs = extract_drugs(final)
-
-print(f"\nDrug names (truth has {len(truth_drugs)}):")
-print(f"  Truth drugs:  {sorted(truth_drugs)}")
-print(f"  Raw found:    {len(raw_drugs & truth_drugs)}/{len(truth_drugs)} correct, "
-      f"{len(raw_drugs - truth_drugs)} spurious")
-print(f"  Final found:  {len(final_drugs & truth_drugs)}/{len(truth_drugs)} correct, "
-      f"{len(final_drugs - truth_drugs)} spurious")
-
-if final_drugs - truth_drugs:
-    print(f"  Spurious in final: {sorted(final_drugs - truth_drugs)}")
-if truth_drugs - final_drugs:
-    print(f"  Missing from final: {sorted(truth_drugs - final_drugs)}")
-
-truth_doses = Counter(extract_dosages(truth))
-raw_doses = Counter(extract_dosages(raw))
-final_doses = Counter(extract_dosages(final))
-
-print(f"\nDose schedules (like X-X-X):")
-print(f"  Truth doses: {sorted(truth_doses.items())}")
-print(f"  Raw doses:   {sorted(raw_doses.items())}")
-print(f"  Final doses: {sorted(final_doses.items())}")
-
-print(f"\n{'='*70}")
-print("SUMMARY")
-print("=" * 70)
-
-improvements = [
-    ("CER (best-match)", raw_metrics['best_match_cer'], final_metrics['best_match_cer']),
-    ("WER (best-match)", raw_metrics['best_match_wer'], final_metrics['best_match_wer']),
-    ("Line count accuracy", abs(len(raw)-len(truth)), abs(len(final)-len(truth))),
-    ("Drug recall", len(raw_drugs & truth_drugs), len(final_drugs & truth_drugs)),
-]
-
-print()
-for label, raw_v, final_v in improvements:
-    if isinstance(raw_v, float):
-        change = f"{(raw_v - final_v) * 100:+.1f}% absolute"
-    else:
-        change = f"{raw_v} → {final_v}"
-    print(f"  {label:<25} {change}")
-
-print(f"\n  Final pipeline improved best-match CER by "
-      f"{(raw_metrics['best_match_cer'] - final_metrics['best_match_cer']) * 100:.1f}%")
+print(f"Files evaluated: {len(all_final_metrics)}")
+print(f"Average best-match CER: {average_cer:.3f}")
+print(f"Average best-match WER: {average_wer:.3f}")

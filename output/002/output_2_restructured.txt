@@ -1,0 +1,42 @@
+Line 0: ax
+Line 1: life care medicals .
+Line 2: Dr. P. Roy .
+Line 3: 45/A , Gariahat Road ( S ) ,
+Line 4: MBBS , MD ( Medicine )
+Line 5: Kolkata-700 019 .
+Line 6: Reg. No. 72145 ( WBMC )
+Line 7: ph : 033 2460 2786
+Line 8: Consultant Physician
+Line 9: Name - S. K. Maiti
+Line 10: Date 26/5/25 .
+Line 11: 62 y.1.m.
+Line 12: Rx
+Line 13: 0 Tab Amlokind - AT 550
+Line 14: I-O-1 .
+Line 15: x ( with
+Line 16: O. Cap. # Roosevelt 10
+Line 17: 0-0e1 .
+Line 18: ts .
+Line 19: x ( with
+Line 20: B. Tab Glimet - Mr.
+Line 21: I-O-I .
+Line 22: x 1 with
+Line 23: 500 ( 2 .
+Line 24: Q Tab. Ecosprin , AV.
+Line 25: 0-0- ( ex tenth
+Line 26: 75 ( 20 .
+Line 27: 5 mg .
+Line 28: G.B.D.
+Line 29: 8 Sep.
+Line 30: Monti cope .
+Line 31: 5 days .
+Line 32: Diet - low salt .
+Line 33: # F/U after
+Line 34: No red meat .
+Line 35: walk 40 min.
+Line 36: 4 weeks .
+Line 37: app who ( go .
+Line 38: ' Sugar chk . PP.
+Line 39: ( High ) )
+Line 40: death .
+Line 41: wt loss .

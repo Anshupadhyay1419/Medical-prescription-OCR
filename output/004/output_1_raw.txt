@@ -1,0 +1,20 @@
+Line 0: [33,55] Sai Karuna
+Line 1: [645,46] Dr. Siri V.
+Line 2: [645,70] mbbs , ms (obg ) , firm
+Line 3: [643,98] consultant Obstetrician
+Line 4: [36,130] Fertility & Maternity Centre
+Line 5: [645,125] infertility Specialist &
+Line 6: [645,148] Laparoscopic Surgeon
+Line 7: [51,194] Miss Bshouvann .
+Line 8: [650,178] # 1/2 .
+Line 9: [5,362] - T. Cabugolin .
+Line 10: [381,375] to.25mg .
+Line 11: [194,472] twice weekly .
+Line 12: [582,463] x uweekly .
+Line 13: [253,536] ( Man ( Thus ) ) .
+Line 14: [0,638] - Dailyshire 60 kg ( metlyend sole )
+Line 15: [257,734] Devino sok .
+Line 16: [182,812] weekly once x 8 weeks .
+Line 17: [11,943] I. Thyerson song
+Line 18: [281,1040] to-
+Line 19: [180,1097] empty- stomach .

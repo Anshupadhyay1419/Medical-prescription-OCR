@@ -1,0 +1,25 @@
+City Care Hospital
+OPD - General Medicine
+Ph: 080-23456789
+
+Name - R. Nikhil
+Age/Sex - 29 / M
+UHID - 45872
+Date - 15/5/24
+BP - 120/80
+HR - 89/min
+T - 98.6°F
+SpO₂ - 99%
+BG - O+
+
+C/o - Fever, cold, body ache
+Since 2 days
+
+Rx
+
+Tab. Dolo 650 1-1-1 x 3 d
+Tab. Azithro 500 1-0-0 x 3 d
+Tab. Levocet 5 mg 0-0-1 x 5 d
+Cofsy L.S 2 tsp TDS x 5 d
+
+Adv: Plenty of fluids, rest

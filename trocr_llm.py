@@ -1,4 +1,5 @@
 import os
+import re
 import time
 import cv2
 from PIL import Image
@@ -11,9 +12,11 @@ from llm_reranker import rerank_candidates
 from llm_restructurer import restructure_document   
 
 
-IMG_PATH = "images/bw.png"    
+IMG_PATH = "image"
 OUTPUT_DIR = "outputs"
-GROUND_TRUTH = "prescription_02_ground_truth.txt"                      
+GROUND_TRUTH = None
+FINAL_OUTPUT_PREFIX = "final_clean"
+SUPPORTED_EXTENSIONS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff"}
 
 # pipeline toggles
 USE_POINT_A = False  
@@ -52,18 +55,20 @@ def sort_reading_order(boxes):
 
 def run_pipeline(
     img_path=IMG_PATH,
-    output_dir=OUTPUT_DIR,
+    output_path=None,
     use_point_a=USE_POINT_A,
     use_point_d=USE_POINT_D,
     use_point_b=USE_POINT_B,
 ):
-    os.makedirs(output_dir, exist_ok=True)
+    if output_path is None:
+        output_path = os.path.join(OUTPUT_DIR, f"{FINAL_OUTPUT_PREFIX}1.txt")
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
     
     print("=" * 60)
     print("PRESCRIPTION OCR PIPELINE")
     print("=" * 60)
     print(f"Input:  {img_path}")
-    print(f"Output: {output_dir}/")
+    print(f"Output: {output_path}")
     print(f"Config: Point A={use_point_a}, Point D={use_point_d}, Point B={use_point_b}")
     print()
     
@@ -86,17 +91,7 @@ def run_pipeline(
     sorted_boxes = sort_reading_order(raw_boxes)
     print(f"      Sorted {len(sorted_boxes)} boxes\n")
     
-    # save debug image with box numbers
     img = cv2.imread(img_path)
-    debug_img = img.copy()
-    for i, box in enumerate(sorted_boxes):
-        pts = [(int(x), int(y)) for x, y in box]
-        x1, y1 = min(p[0] for p in pts), min(p[1] for p in pts)
-        x2, y2 = max(p[0] for p in pts), max(p[1] for p in pts)
-        cv2.rectangle(debug_img, (x1, y1), (x2, y2), (0, 255, 0), 2)
-        cv2.putText(debug_img, str(i), (x1, y1 - 5),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
-    cv2.imwrite(f"{output_dir}/debug_detection.png", debug_img)
     
     # ---- STAGE 3: TrOCR RECOGNITION (with optional Point A) ----
     label = "TrOCR + Point A reranker" if use_point_a else "TrOCR (greedy)"
@@ -139,11 +134,6 @@ def run_pipeline(
     
     print(f"      Recognition done in {time.time() - t0:.0f}s\n")
     
-    # save raw output (checkpoint 1)
-    with open(f"{output_dir}/output_1_raw.txt", "w", encoding="utf-8") as f:
-        for i, (text, x1, y1, x2, y2) in enumerate(raw_lines_with_boxes):
-            f.write(f"Line {i}: [{x1},{y1}] {text}\n")
-    
     # ---- STAGE 4: POINT D (LLM RESTRUCTURER) ----
     if use_point_d:
         print(f"[4/5] Point D: LLM document restructuring...")
@@ -152,10 +142,10 @@ def run_pipeline(
         print(f"      Restructured {len(raw_lines_with_boxes)} → "
               f"{len(restructured_lines)} lines in {time.time() - t0:.0f}s\n")
         
-        # save (checkpoint 2)
-        with open(f"{output_dir}/output_2_restructured.txt", "w", encoding="utf-8") as f:
-            for i, line in enumerate(restructured_lines):
-                f.write(f"Line {i}: {line}\n")
+        # # save (checkpoint 2)
+        # with open(f"{output_dir}/output_2_restructured.txt", "w", encoding="utf-8") as f:
+        #     for i, line in enumerate(restructured_lines):
+        #         f.write(f"Line {i}: {line}\n")
     else:
         # skip Point D — just extract text without coords
         restructured_lines = [t for t, *_ in raw_lines_with_boxes]
@@ -169,15 +159,8 @@ def run_pipeline(
     else:
         final_lines = restructured_lines
     
-    # ---- SAVE FINAL OUTPUT ----
-    final_path = f"{output_dir}/output_final.txt"
-    with open(final_path, "w", encoding="utf-8") as f:
-        for i, line in enumerate(final_lines):
-            f.write(f"Line {i}: {line}\n")
-    
-    # also save a "clean" version without line numbers (for CER measurement)
-    clean_path = f"{output_dir}/output_final_clean.txt"
-    with open(clean_path, "w", encoding="utf-8") as f:
+    # ---- SAVE FINAL OUTPUT ONLY ----
+    with open(output_path, "w", encoding="utf-8") as f:
         for line in final_lines:
             f.write(f"{line}\n")
     
@@ -185,13 +168,7 @@ def run_pipeline(
     print("=" * 60)
     print("PIPELINE COMPLETE")
     print("=" * 60)
-    print(f"Files in {output_dir}/:")
-    print(f"  debug_detection.png       (visual: green boxes on image)")
-    print(f"  output_1_raw.txt          (checkpoint: after TrOCR)")
-    if use_point_d:
-        print(f"  output_2_restructured.txt (checkpoint: after Point D)")
-    print(f"  output_final.txt          (final with line numbers)")
-    print(f"  output_final_clean.txt    (final without line numbers)")
+    print(f"Saved final cleaned output: {output_path}")
     print()
     
     # # ---- OPTIONAL: AUTO-EVALUATE ----
@@ -220,5 +197,36 @@ def run_pipeline(
 # ENTRY POINT
 # ============================================================
 
+def natural_sort_key(name):
+    return [int(part) if part.isdigit() else part.lower() for part in re.split(r'(\d+)', name)]
+
+
+def extract_image_number(filename):
+    matches = re.findall(r'(\d+)', os.path.basename(filename))
+    return int(matches[-1]) if matches else 0
+
+
+def list_images(image_dir):
+    if not os.path.isdir(image_dir):
+        raise FileNotFoundError(f"Image directory not found: {image_dir}")
+
+    image_files = []
+    for filename in sorted(os.listdir(image_dir), key=natural_sort_key):
+        full_path = os.path.join(image_dir, filename)
+        if os.path.isfile(full_path) and os.path.splitext(filename)[1].lower() in SUPPORTED_EXTENSIONS:
+            image_files.append(full_path)
+
+    return image_files
+
+
 if __name__ == "__main__":
-    run_pipeline()
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    image_files = list_images(IMG_PATH)
+    if not image_files:
+        raise FileNotFoundError(f"No supported images found in {IMG_PATH}")
+
+    for image_path in image_files:
+        image_number = extract_image_number(image_path)
+        output_path = os.path.join(OUTPUT_DIR, f"{FINAL_OUTPUT_PREFIX}{image_number}.txt")
+        print(f"\nProcessing image: {image_path} -> {output_path}")
+        run_pipeline(img_path=image_path, output_path=output_path)

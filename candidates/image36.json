@@ -1,0 +1,453 @@
+[
+ {
+  "box": [
+   201,
+   30,
+   515,
+   84
+  ],
+  "paddle": "Dr. Pankaj Singh",
+  "paddle_score": 0.9998205900192261,
+  "trocr": "Dr. Pankaj Singh"
+ },
+ {
+  "box": [
+   773,
+   36,
+   1018,
+   86
+  ],
+  "paddle": "Date：11/08/24",
+  "paddle_score": 0.9622703194618225,
+  "trocr": "Date : 11/08 (24 ."
+ },
+ {
+  "box": [
+   199,
+   86,
+   475,
+   133
+  ],
+  "paddle": "MBBS, MS (ENT)",
+  "paddle_score": 0.9593068361282349,
+  "trocr": "MBBS , MS (ENT )"
+ },
+ {
+  "box": [
+   766,
+   105,
+   1025,
+   153
+  ],
+  "paddle": "Time : 11:20 am",
+  "paddle_score": 0.966545820236206,
+  "trocr": "Time : 11:20 am"
+ },
+ {
+  "box": [
+   197,
+   131,
+   474,
+   190
+  ],
+  "paddle": "Reg. No. 30987",
+  "paddle_score": 0.9873979687690735,
+  "trocr": "Reg. No. 30987 ."
+ },
+ {
+  "box": [
+   35,
+   221,
+   485,
+   272
+  ],
+  "paddle": "Name : Ms. Rhea Kapoor",
+  "paddle_score": 0.9789325594902039,
+  "trocr": "Name : Ms. Rhea Kapoor"
+ },
+ {
+  "box": [
+   732,
+   208,
+   1006,
+   275
+  ],
+  "paddle": "Age/Sex : 30/F",
+  "paddle_score": 0.9392699599266052,
+  "trocr": "Age ( Sex : 30 (F."
+ },
+ {
+  "box": [
+   35,
+   274,
+   502,
+   331
+  ],
+  "paddle": "Add : 7/12, Model Town,",
+  "paddle_score": 0.9951091408729553,
+  "trocr": "Add : 7/2 , Model Town ,"
+ },
+ {
+  "box": [
+   191,
+   324,
+   488,
+   370
+  ],
+  "paddle": "Lucknow - 226001",
+  "paddle_score": 0.9540326595306396,
+  "trocr": "Lucknow - 220001"
+ },
+ {
+  "box": [
+   24,
+   377,
+   599,
+   454
+  ],
+  "paddle": "C/0:Sorethroat since 3 days,",
+  "paddle_score": 0.8994777798652649,
+  "trocr": "CFO : Sore throat since 3 days ,"
+ },
+ {
+  "box": [
+   188,
+   439,
+   586,
+   487
+  ],
+  "paddle": "difficulty in swallowing.",
+  "paddle_score": 0.9809200167655945,
+  "trocr": "difficulty in swallowing ."
+ },
+ {
+  "box": [
+   185,
+   473,
+   900,
+   533
+  ],
+  "paddle": "Nasal congestion and mild cough since 2 days",
+  "paddle_score": 0.9531962871551514,
+  "trocr": "Nasal congestion and mild cough since 2 days ."
+ },
+ {
+  "box": [
+   185,
+   525,
+   628,
+   575
+  ],
+  "paddle": "No fever. No breathlessness.",
+  "paddle_score": 0.9990796446800232,
+  "trocr": "No fever . \" No breathlessness ."
+ },
+ {
+  "box": [
+   28,
+   584,
+   478,
+   650
+  ],
+  "paddle": "Dx : Acute Pharyngitis",
+  "paddle_score": 0.9685863256454468,
+  "trocr": "Dix : Acute Pharyngitis ."
+ },
+ {
+  "box": [
+   28,
+   648,
+   103,
+   744
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9718328714370728,
+  "trocr": "Rx"
+ },
+ {
+  "box": [
+   157,
+   653,
+   617,
+   712
+  ],
+  "paddle": "① Tab. Amoxycillin 500 mg",
+  "paddle_score": 0.9851003885269165,
+  "trocr": "CD Tab. Amosycillin 500 mg"
+ },
+ {
+  "box": [
+   318,
+   694,
+   639,
+   738
+  ],
+  "paddle": "1 tab TDS after food",
+  "paddle_score": 0.9998658299446106,
+  "trocr": "1 tab TDS after food"
+ },
+ {
+  "box": [
+   860,
+   683,
+   1023,
+   742
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9526447653770447,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   157,
+   743,
+   605,
+   795
+  ],
+  "paddle": "② Tab. Ibuprofen 400 mg",
+  "paddle_score": 0.9970446228981018,
+  "trocr": "Q Tab. Ibuprofen 400 mg ,"
+ },
+ {
+  "box": [
+   318,
+   783,
+   644,
+   827
+  ],
+  "paddle": "1 tab TDS after food",
+  "paddle_score": 0.9997715950012207,
+  "trocr": "1 tab \" TDS after \" food"
+ },
+ {
+  "box": [
+   862,
+   771,
+   1017,
+   822
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9531477689743042,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   157,
+   830,
+   614,
+   878
+  ],
+  "paddle": "③ Tab. Levocetirizine 5 mg",
+  "paddle_score": 0.985988199710846,
+  "trocr": "3 Table . Levocetirizine 5 mg"
+ },
+ {
+  "box": [
+   318,
+   872,
+   472,
+   908
+  ],
+  "paddle": "1 tab HS",
+  "paddle_score": 0.9999479651451111,
+  "trocr": "1 tab HS ."
+ },
+ {
+  "box": [
+   861,
+   854,
+   1017,
+   905
+  ],
+  "paddle": "-5 days",
+  "paddle_score": 0.9918537735939026,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   165,
+   917,
+   213,
+   956
+  ],
+  "paddle": "④",
+  "paddle_score": 0.9557734727859497,
+  "trocr": "4"
+ },
+ {
+  "box": [
+   236,
+   911,
+   613,
+   955
+  ],
+  "paddle": "Throat Gargle (Betadine)",
+  "paddle_score": 0.9994046688079834,
+  "trocr": "Throat Gargle ( Betadine )"
+ },
+ {
+  "box": [
+   861,
+   934,
+   1017,
+   985
+  ],
+  "paddle": "-5 days",
+  "paddle_score": 0.9881921410560608,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   304,
+   948,
+   668,
+   993
+  ],
+  "paddle": "Gargle with warm water BD",
+  "paddle_score": 0.9999637007713318,
+  "trocr": "Gargle with warm water BD"
+ },
+ {
+  "box": [
+   156,
+   986,
+   636,
+   1048
+  ],
+  "paddle": "⑤ Syp. Ambroxol 15 mg/5 ml",
+  "paddle_score": 0.9923315048217773,
+  "trocr": "5 Sep. ' Ambrosol 15 mg.5 mL"
+ },
+ {
+  "box": [
+   861,
+   1009,
+   1017,
+   1060
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.936410129070282,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   318,
+   1028,
+   472,
+   1065
+  ],
+  "paddle": "5 ml TDS",
+  "paddle_score": 0.9492876529693604,
+  "trocr": "5 mL TDS ."
+ },
+ {
+  "box": [
+   43,
+   1093,
+   684,
+   1143
+  ],
+  "paddle": "Advice : - Take warm saline gargle twice daily.",
+  "paddle_score": 0.9879394769668579,
+  "trocr": "Advice : - Take warm saline gargle twice daily ."
+ },
+ {
+  "box": [
+   179,
+   1133,
+   593,
+   1177
+  ],
+  "paddle": "- Drink plenty of warm fluids.",
+  "paddle_score": 0.9993559718132019,
+  "trocr": "- Drink plenty of warm fluids ."
+ },
+ {
+  "box": [
+   180,
+   1170,
+   636,
+   1210
+  ],
+  "paddle": "- Avoid cold drinks and ice cream.",
+  "paddle_score": 0.9874926209449768,
+  "trocr": "- Avoid cold \"drinks and ice cream ."
+ },
+ {
+  "box": [
+   809,
+   1131,
+   1003,
+   1275
+  ],
+  "paddle": "Ouhn",
+  "paddle_score": 0.32055985927581787,
+  "trocr": "Gahn since"
+ },
+ {
+  "box": [
+   179,
+   1207,
+   650,
+   1249
+  ],
+  "paddle": "- Take steam inhalation twice daily.",
+  "paddle_score": 0.9966084361076355,
+  "trocr": "- Take steam inhalation twice daily ."
+ },
+ {
+  "box": [
+   182,
+   1246,
+   656,
+   1287
+  ],
+  "paddle": "- Avoid exposure to dust and smoke.",
+  "paddle_score": 0.9969308972358704,
+  "trocr": "- Avoid exposure to dust and smoke ."
+ },
+ {
+  "box": [
+   784,
+   1228,
+   1040,
+   1347
+  ],
+  "paddle": "Dr. Pankayj Singh",
+  "paddle_score": 0.8676856756210327,
+  "trocr": "Dr. Pankaj Singh"
+ },
+ {
+  "box": [
+   182,
+   1282,
+   697,
+   1328
+  ],
+  "paddle": "- If symptoms persist more than 5 days",
+  "paddle_score": 0.9855107665061951,
+  "trocr": "- If symptoms persist more than 5 days"
+ },
+ {
+  "box": [
+   225,
+   1323,
+   539,
+   1359
+  ],
+  "paddle": "or worsen, consult again.",
+  "paddle_score": 0.9941096305847168,
+  "trocr": "or worsen , consult again ."
+ },
+ {
+  "box": [
+   182,
+   1359,
+   535,
+   1400
+  ],
+  "paddle": "- Follow up after 5 days.",
+  "paddle_score": 0.9841272830963135,
+  "trocr": "- Follow up after 5 days ."
+ }
+]

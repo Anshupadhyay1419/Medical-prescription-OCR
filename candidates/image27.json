@@ -1,0 +1,398 @@
+[
+ {
+  "box": [
+   191,
+   18,
+   483,
+   76
+  ],
+  "paddle": "Dr. V. Bansal",
+  "paddle_score": 0.9788700342178345,
+  "trocr": "Dr. V. Bansal"
+ },
+ {
+  "box": [
+   717,
+   31,
+   991,
+   91
+  ],
+  "paddle": "Date 12/07/24",
+  "paddle_score": 0.999527096748352,
+  "trocr": "Date 12 (07 ( 24 ."
+ },
+ {
+  "box": [
+   195,
+   81,
+   539,
+   135
+  ],
+  "paddle": "MBBS, MS Cortho)",
+  "paddle_score": 0.9887465834617615,
+  "trocr": "MBBS , MS. Cortho )"
+ },
+ {
+  "box": [
+   720,
+   107,
+   1016,
+   165
+  ],
+  "paddle": "Time 6:05 pm",
+  "paddle_score": 0.9987682700157166,
+  "trocr": "Time 6:05 pm ."
+ },
+ {
+  "box": [
+   194,
+   132,
+   482,
+   194
+  ],
+  "paddle": "Reg. No. 36478",
+  "paddle_score": 0.9970589876174927,
+  "trocr": "Reg. No. 3648"
+ },
+ {
+  "box": [
+   54,
+   215,
+   591,
+   278
+  ],
+  "paddle": "Name - Mr. Sandeep Verma",
+  "paddle_score": 0.9846007823944092,
+  "trocr": "Name - Mr. Sandeep Verma"
+ },
+ {
+  "box": [
+   699,
+   208,
+   1026,
+   267
+  ],
+  "paddle": "Age/sex-28/M",
+  "paddle_score": 0.9861025214195251,
+  "trocr": "Age ( Sex - 28 (M."
+ },
+ {
+  "box": [
+   58,
+   274,
+   593,
+   337
+  ],
+  "paddle": "Add - 23, Shastri Nagar,",
+  "paddle_score": 0.991549015045166,
+  "trocr": "Add - 23 , Shastri Nagar ,"
+ },
+ {
+  "box": [
+   234,
+   324,
+   508,
+   384
+  ],
+  "paddle": "Jaipur (Raj.)",
+  "paddle_score": 0.9821573495864868,
+  "trocr": "Taipur ( Raj . ) ."
+ },
+ {
+  "box": [
+   43,
+   375,
+   843,
+   464
+  ],
+  "paddle": "C/0 - Pain in lower back since 1 week",
+  "paddle_score": 0.9436867237091064,
+  "trocr": "CFO - Pain in lower back since 1 week"
+ },
+ {
+  "box": [
+   214,
+   434,
+   722,
+   491
+  ],
+  "paddle": "radiating to right leg ++",
+  "paddle_score": 0.9850213527679443,
+  "trocr": "' radiating to right leg . It"
+ },
+ {
+  "box": [
+   213,
+   478,
+   694,
+   533
+  ],
+  "paddle": "increases on sitting Long.",
+  "paddle_score": 0.9893244504928589,
+  "trocr": "increases on sitting long ."
+ },
+ {
+  "box": [
+   217,
+   523,
+   704,
+   580
+  ],
+  "paddle": "No h/o trauma. No fever.",
+  "paddle_score": 0.9830837845802307,
+  "trocr": "No hjo trauma . No fever ."
+ },
+ {
+  "box": [
+   35,
+   576,
+   773,
+   641
+  ],
+  "paddle": "Dx - Lumbar Sprain with Sciatica",
+  "paddle_score": 0.9974846839904785,
+  "trocr": "Dr. Lumbar Sprain with Sciatica"
+ },
+ {
+  "box": [
+   32,
+   659,
+   108,
+   748
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9843365550041199,
+  "trocr": "Rx"
+ },
+ {
+  "box": [
+   129,
+   659,
+   1050,
+   768
+  ],
+  "paddle": "TAA+PAR",
+  "paddle_score": 0.6271142959594727,
+  "trocr": "O. Tab. Acelofenac 100 mg + Paracetamol 325mg-7 days"
+ },
+ {
+  "box": [
+   285,
+   731,
+   633,
+   782
+  ],
+  "paddle": "1 tab BD after food",
+  "paddle_score": 0.9851830005645752,
+  "trocr": "1 tab \" BD after food"
+ },
+ {
+  "box": [
+   140,
+   787,
+   665,
+   854
+  ],
+  "paddle": "② Tab. Thiocolchicoside 4mg",
+  "paddle_score": 0.9844726324081421,
+  "trocr": "O. Tab. Thiocolchicoside 4 mg"
+ },
+ {
+  "box": [
+   863,
+   810,
+   1032,
+   875
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9671977758407593,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   305,
+   841,
+   502,
+   884
+  ],
+  "paddle": "1 tab TDS",
+  "paddle_score": 0.9639561772346497,
+  "trocr": "1 tab TDS ."
+ },
+ {
+  "box": [
+   143,
+   885,
+   573,
+   951
+  ],
+  "paddle": "③ Syp. Neurobion Forte",
+  "paddle_score": 0.9983799457550049,
+  "trocr": "( 3 ) Syp. Neurobion Forte"
+ },
+ {
+  "box": [
+   861,
+   908,
+   1037,
+   962
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.9517838358879089,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   305,
+   929,
+   682,
+   978
+  ],
+  "paddle": "10 ml OD after dinner",
+  "paddle_score": 0.9790142774581909,
+  "trocr": "10 ml od after dinner"
+ },
+ {
+  "box": [
+   148,
+   977,
+   494,
+   1034
+  ],
+  "paddle": "④ Diclofenac Gel",
+  "paddle_score": 0.9943724274635315,
+  "trocr": "A Dickofenac Gel ."
+ },
+ {
+  "box": [
+   308,
+   1011,
+   621,
+   1075
+  ],
+  "paddle": "Apply locally TID",
+  "paddle_score": 0.9848048090934753,
+  "trocr": "Apply locally TID ."
+ },
+ {
+  "box": [
+   856,
+   997,
+   1035,
+   1053
+  ],
+  "paddle": "- 10 days",
+  "paddle_score": 0.9934527277946472,
+  "trocr": "-10 days ."
+ },
+ {
+  "box": [
+   145,
+   1069,
+   650,
+   1124
+  ],
+  "paddle": "⑤ Calcium + Vit D3 Tablet",
+  "paddle_score": 0.9837313890457153,
+  "trocr": "(5 Calcium + Vit Dz Tablet"
+ },
+ {
+  "box": [
+   852,
+   1089,
+   1030,
+   1145
+  ],
+  "paddle": "-30 days",
+  "paddle_score": 0.9969164133071899,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   311,
+   1117,
+   496,
+   1160
+  ],
+  "paddle": "1 tab OD",
+  "paddle_score": 0.9978479146957397,
+  "trocr": "1 tab OD ."
+ },
+ {
+  "box": [
+   34,
+   1179,
+   588,
+   1232
+  ],
+  "paddle": "Advice :- - Avoid heavy lifting.",
+  "paddle_score": 0.9974637627601624,
+  "trocr": "Advice : - Avoid heavy lifting ."
+ },
+ {
+  "box": [
+   202,
+   1218,
+   755,
+   1276
+  ],
+  "paddle": "- Do back strengthening exercise.",
+  "paddle_score": 0.9742094278335571,
+  "trocr": "- Do back strengthening exercise ."
+ },
+ {
+  "box": [
+   807,
+   1189,
+   1003,
+   1322
+  ],
+  "paddle": "le ",
+  "paddle_score": 0.4113601744174957,
+  "trocr": "Planions"
+ },
+ {
+  "box": [
+   199,
+   1304,
+   644,
+   1359
+  ],
+  "paddle": "- Avoid prolonged sitting.",
+  "paddle_score": 0.999399721622467,
+  "trocr": "- Avoid prolonged sitting ."
+ },
+ {
+  "box": [
+   200,
+   1265,
+   614,
+   1316
+  ],
+  "paddle": "- Use hot fomentation;",
+  "paddle_score": 0.9992774724960327,
+  "trocr": "- Use hot fomentation ;"
+ },
+ {
+  "box": [
+   817,
+   1271,
+   1052,
+   1375
+  ],
+  "paddle": "Dr. V. Bansal",
+  "paddle_score": 0.9971905946731567,
+  "trocr": "Dr. V. Bansal"
+ },
+ {
+  "box": [
+   199,
+   1345,
+   741,
+   1408
+  ],
+  "paddle": "- If pain increases, Visit again.",
+  "paddle_score": 0.9549331068992615,
+  "trocr": "- If pain increases , visit again ."
+ }
+]

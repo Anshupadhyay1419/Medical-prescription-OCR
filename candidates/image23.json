@@ -1,0 +1,354 @@
+[
+ {
+  "box": [
+   186,
+   37,
+   463,
+   97
+  ],
+  "paddle": "Dr. S. khan",
+  "paddle_score": 0.9479600787162781,
+  "trocr": "Dr. S. Khan ."
+ },
+ {
+  "box": [
+   191,
+   95,
+   573,
+   159
+  ],
+  "paddle": "MBBS, DNB (Gen. Med.)",
+  "paddle_score": 0.9434167742729187,
+  "trocr": "MBBS , DNB ( Gen. Med. )"
+ },
+ {
+  "box": [
+   723,
+   68,
+   1009,
+   127
+  ],
+  "paddle": "Date 03106124",
+  "paddle_score": 0.9603856801986694,
+  "trocr": "date 03,06 )24 ."
+ },
+ {
+  "box": [
+   190,
+   144,
+   482,
+   215
+  ],
+  "paddle": "Reg-No.64218",
+  "paddle_score": 0.9580653309822083,
+  "trocr": "Reg. No. 64218 ."
+ },
+ {
+  "box": [
+   715,
+   137,
+   1021,
+   198
+  ],
+  "paddle": "Time 9:15ami",
+  "paddle_score": 0.9525688290596008,
+  "trocr": "Time 9:15 am"
+ },
+ {
+  "box": [
+   67,
+   238,
+   598,
+   313
+  ],
+  "paddle": "Name - Ramesh Yadav",
+  "paddle_score": 0.944364070892334,
+  "trocr": "name - Ramesh Yadav"
+ },
+ {
+  "box": [
+   708,
+   239,
+   1035,
+   305
+  ],
+  "paddle": "Agelsex-62/m",
+  "paddle_score": 0.9889466762542725,
+  "trocr": "Age ( sex - b2 )m."
+ },
+ {
+  "box": [
+   81,
+   306,
+   618,
+   376
+  ],
+  "paddle": "Add - 12/4, New Palasia,",
+  "paddle_score": 0.9909973740577698,
+  "trocr": "Add - 12/4 , New Palasia ,"
+ },
+ {
+  "box": [
+   382,
+   351,
+   647,
+   420
+  ],
+  "paddle": "Ujjain (m.P.)",
+  "paddle_score": 0.8973220586776733,
+  "trocr": "'ujjain ( m.P. ) ."
+ },
+ {
+  "box": [
+   71,
+   420,
+   965,
+   500
+  ],
+  "paddle": "c/o - cough + whitish sputum, breathing",
+  "paddle_score": 0.9352992177009583,
+  "trocr": "to - cough # whitish sputum , breathing"
+ },
+ {
+  "box": [
+   236,
+   484,
+   778,
+   545
+  ],
+  "paddle": "problem since 5-6 days",
+  "paddle_score": 0.9945953488349915,
+  "trocr": "problem since 5-6 days"
+ },
+ {
+  "box": [
+   245,
+   538,
+   482,
+   593
+  ],
+  "paddle": "No fever.",
+  "paddle_score": 0.9994791746139526,
+  "trocr": "\" no fever ."
+ },
+ {
+  "box": [
+   50,
+   617,
+   547,
+   685
+  ],
+  "paddle": "Dx- Acute Bronchitis",
+  "paddle_score": 0.9927488565444946,
+  "trocr": "DX-Acute Bronchitis"
+ },
+ {
+  "box": [
+   49,
+   698,
+   125,
+   772
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9035627841949463,
+  "trocr": "Rex ."
+ },
+ {
+  "box": [
+   139,
+   712,
+   656,
+   784
+  ],
+  "paddle": "① Tab. Azithal 500 my",
+  "paddle_score": 0.9462944865226746,
+  "trocr": "O. Tab. Azithal 500 mg"
+ },
+ {
+  "box": [
+   283,
+   775,
+   593,
+   833
+  ],
+  "paddle": "1 tab od x",
+  "paddle_score": 0.9677155613899231,
+  "trocr": "1 tab od X"
+ },
+ {
+  "box": [
+   782,
+   746,
+   980,
+   818
+  ],
+  "paddle": "× 5 days",
+  "paddle_score": 0.9473134279251099,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   139,
+   838,
+   744,
+   902
+  ],
+  "paddle": "② Tab. Acebrophylline 1oo my",
+  "paddle_score": 0.943465530872345,
+  "trocr": "(O Tab. Acebrophylline 100 mg"
+ },
+ {
+  "box": [
+   274,
+   891,
+   719,
+   952
+  ],
+  "paddle": "1 tab BD after food",
+  "paddle_score": 0.9816555380821228,
+  "trocr": "1 tab BD \" after food ."
+ },
+ {
+  "box": [
+   785,
+   879,
+   981,
+   946
+  ],
+  "paddle": "× 7 days",
+  "paddle_score": 0.9189770817756653,
+  "trocr": "x 7 days ."
+ },
+ {
+  "box": [
+   130,
+   960,
+   605,
+   1049
+  ],
+  "paddle": "③ Syp. Ambrodiy Ls",
+  "paddle_score": 0.9480485916137695,
+  "trocr": "( 3 ) Syp. Ambrodil , LS."
+ },
+ {
+  "box": [
+   294,
+   1019,
+   567,
+   1079
+  ],
+  "paddle": "10 ml TID",
+  "paddle_score": 0.9622879028320312,
+  "trocr": "10 mL TID ."
+ },
+ {
+  "box": [
+   784,
+   1006,
+   984,
+   1072
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.925421953201294,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   128,
+   1084,
+   565,
+   1159
+  ],
+  "paddle": "④ Levolin Respules",
+  "paddle_score": 0.9761263728141785,
+  "trocr": "A Levolin Respules ."
+ },
+ {
+  "box": [
+   280,
+   1133,
+   707,
+   1211
+  ],
+  "paddle": "1 respule BD via neb",
+  "paddle_score": 0.9751008152961731,
+  "trocr": "1' reshule' BD via net"
+ },
+ {
+  "box": [
+   778,
+   1112,
+   976,
+   1186
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.9397525787353516,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   43,
+   1235,
+   179,
+   1287
+  ],
+  "paddle": "Advice",
+  "paddle_score": 0.9935641288757324,
+  "trocr": "advice ."
+ },
+ {
+  "box": [
+   175,
+   1224,
+   579,
+   1289
+  ],
+  "paddle": "- Steam inhalation",
+  "paddle_score": 0.9952566623687744,
+  "trocr": "- Steam inhalation ."
+ },
+ {
+  "box": [
+   184,
+   1266,
+   718,
+   1342
+  ],
+  "paddle": "- Avoid cold drinks / dust",
+  "paddle_score": 0.9797067642211914,
+  "trocr": "- Avoid cold drinks ( dust ,"
+ },
+ {
+  "box": [
+   752,
+   1262,
+   1020,
+   1430
+  ],
+  "paddle": "Dr.sKkfo",
+  "paddle_score": 0.6261869668960571,
+  "trocr": "Dr.s. Kim"
+ },
+ {
+  "box": [
+   780,
+   1235,
+   910,
+   1331
+  ],
+  "paddle": "f2",
+  "paddle_score": 0.8166972398757935,
+  "trocr": "for"
+ },
+ {
+  "box": [
+   178,
+   1322,
+   724,
+   1411
+  ],
+  "paddle": "- plenty of warm fluids.",
+  "paddle_score": 0.9469790458679199,
+  "trocr": "a plenty of warm fluids ."
+ }
+]

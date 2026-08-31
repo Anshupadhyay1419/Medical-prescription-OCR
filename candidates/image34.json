@@ -1,0 +1,420 @@
+[
+ {
+  "box": [
+   196,
+   18,
+   502,
+   71
+  ],
+  "paddle": "Dr. Ritu Bansal",
+  "paddle_score": 0.9999545812606812,
+  "trocr": "Dr. Ritu Bansal"
+ },
+ {
+  "box": [
+   748,
+   27,
+   1006,
+   79
+  ],
+  "paddle": "Date：09/08/24",
+  "paddle_score": 0.99351567029953,
+  "trocr": "Date : 09/08 ( 24 ."
+ },
+ {
+  "box": [
+   74,
+   51,
+   93,
+   75
+  ],
+  "paddle": "第",
+  "paddle_score": 0.5951164364814758,
+  "trocr": "#"
+ },
+ {
+  "box": [
+   196,
+   78,
+   560,
+   130
+  ],
+  "paddle": "MBBS MD (Dermatology)",
+  "paddle_score": 0.9858899116516113,
+  "trocr": "MBBS MD ( Dermatology )"
+ },
+ {
+  "box": [
+   751,
+   99,
+   1006,
+   146
+  ],
+  "paddle": "Time: 4:15 pm",
+  "paddle_score": 0.9615217447280884,
+  "trocr": "Time : 4:15 pm."
+ },
+ {
+  "box": [
+   194,
+   123,
+   462,
+   186
+  ],
+  "paddle": "Reg. No. 44312",
+  "paddle_score": 0.9918480515480042,
+  "trocr": "Reg. No. 44312 ."
+ },
+ {
+  "box": [
+   41,
+   214,
+   522,
+   267
+  ],
+  "paddle": "Name : Miss. Ananya Verma",
+  "paddle_score": 0.9798882007598877,
+  "trocr": "Name : Miss . Ananya Verma"
+ },
+ {
+  "box": [
+   711,
+   202,
+   986,
+   267
+  ],
+  "paddle": "Age/Sex : 24/F",
+  "paddle_score": 0.985669732093811,
+  "trocr": "Age ( Sex : 24 (F."
+ },
+ {
+  "box": [
+   41,
+   265,
+   465,
+   317
+  ],
+  "paddle": "Add : 128, Green Park,",
+  "paddle_score": 0.9810910820960999,
+  "trocr": "Add : 128 , Green Park ,"
+ },
+ {
+  "box": [
+   194,
+   315,
+   441,
+   358
+  ],
+  "paddle": "Delhi - 110016",
+  "paddle_score": 0.9554407000541687,
+  "trocr": "Delhi - 110016"
+ },
+ {
+  "box": [
+   31,
+   374,
+   893,
+   442
+  ],
+  "paddle": "C/0:Itching and redness over face since 1week,",
+  "paddle_score": 0.9401770234107971,
+  "trocr": "CFO : Itching and redness over face since 1 week ,"
+ },
+ {
+  "box": [
+   189,
+   424,
+   796,
+   480
+  ],
+  "paddle": "small pimples on forehead and cheeks.",
+  "paddle_score": 0.9858217239379883,
+  "trocr": "small \" pimples on forehead and cheeks ."
+ },
+ {
+  "box": [
+   188,
+   470,
+   668,
+   530
+  ],
+  "paddle": "No pain or burning sensation.",
+  "paddle_score": 0.9997423887252808,
+  "trocr": "No pair or burning sensation ."
+ },
+ {
+  "box": [
+   188,
+   525,
+   344,
+   573
+  ],
+  "paddle": "No fever.",
+  "paddle_score": 0.9999637603759766,
+  "trocr": "No fever ."
+ },
+ {
+  "box": [
+   34,
+   582,
+   543,
+   647
+  ],
+  "paddle": "Dx : Acne Vulgaris (Mild)",
+  "paddle_score": 0.9924734234809875,
+  "trocr": "Dix : Acne Vulgaris ( Mild )"
+ },
+ {
+  "box": [
+   34,
+   655,
+   102,
+   742
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9885416030883789,
+  "trocr": "Rex"
+ },
+ {
+  "box": [
+   162,
+   673,
+   619,
+   724
+  ],
+  "paddle": "① Tab. Doxycycline 100 mg",
+  "paddle_score": 0.9827773571014404,
+  "trocr": "CD Tab. Doxycycline 100 mg"
+ },
+ {
+  "box": [
+   319,
+   719,
+   631,
+   757
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9971850514411926,
+  "trocr": "1 tab \"OD after food"
+ },
+ {
+  "box": [
+   855,
+   700,
+   1023,
+   756
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.977265477180481,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   159,
+   766,
+   616,
+   824
+  ],
+  "paddle": "② Tab. Levocetirizine 5 mg",
+  "paddle_score": 0.9926584959030151,
+  "trocr": "Q Tab. Levocetirizine 5 mg"
+ },
+ {
+  "box": [
+   850,
+   784,
+   1020,
+   842
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.9715566635131836,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   316,
+   813,
+   471,
+   854
+  ],
+  "paddle": "1 tab HS",
+  "paddle_score": 0.9562990069389343,
+  "trocr": "1 tab HS ."
+ },
+ {
+  "box": [
+   160,
+   863,
+   558,
+   911
+  ],
+  "paddle": "③ Gel. Clindamycin 1%",
+  "paddle_score": 0.9723271131515503,
+  "trocr": "3 ) Gel. Clindamycin 17 ."
+ },
+ {
+  "box": [
+   843,
+   872,
+   1017,
+   926
+  ],
+  "paddle": "-30 days",
+  "paddle_score": 0.9946175813674927,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   317,
+   900,
+   698,
+   952
+  ],
+  "paddle": "Apply thin layer on face BD",
+  "paddle_score": 0.9936140775680542,
+  "trocr": "Apply thin layer on face BD"
+ },
+ {
+  "box": [
+   159,
+   947,
+   640,
+   1000
+  ],
+  "paddle": "④ Face Wash (Salicylic Acid)",
+  "paddle_score": 0.9992031455039978,
+  "trocr": "# Face Wash ( Salicytic Acid )"
+ },
+ {
+  "box": [
+   842,
+   951,
+   1017,
+   1013
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9265882968902588,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   321,
+   996,
+   552,
+   1038
+  ],
+  "paddle": "Use twice daily",
+  "paddle_score": 0.9999812841415405,
+  "trocr": "Use twice daily"
+ },
+ {
+  "box": [
+   162,
+   1033,
+   526,
+   1080
+  ],
+  "paddle": "⑤ Sunscreen SPF 50",
+  "paddle_score": 0.9952663779258728,
+  "trocr": "5 ) Sunscreen SPF 50 ."
+ },
+ {
+  "box": [
+   843,
+   1040,
+   1015,
+   1095
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9709546566009521,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   311,
+   1069,
+   619,
+   1124
+  ],
+  "paddle": "Apply before going out",
+  "paddle_score": 0.9808467626571655,
+  "trocr": "Apply before going out"
+ },
+ {
+  "box": [
+   38,
+   1151,
+   631,
+   1196
+  ],
+  "paddle": "Advice : - Wash face gently twice daily.",
+  "paddle_score": 0.9987980127334595,
+  "trocr": "Advice : - Wash face gently twice daily ."
+ },
+ {
+  "box": [
+   179,
+   1195,
+   741,
+   1238
+  ],
+  "paddle": "- Avoid oily cosmetics and heavy makeup.",
+  "paddle_score": 0.9989458322525024,
+  "trocr": "- Avoid oily cosmetics and heavy makeup ."
+ },
+ {
+  "box": [
+   805,
+   1155,
+   997,
+   1289
+  ],
+  "paddle": "eer",
+  "paddle_score": 0.27663663029670715,
+  "trocr": "fumm ."
+ },
+ {
+  "box": [
+   182,
+   1238,
+   648,
+   1278
+  ],
+  "paddle": "- Do not pick or squeeze pimples.",
+  "paddle_score": 0.9945763349533081,
+  "trocr": "- Do not pick or squeeze pimples ."
+ },
+ {
+  "box": [
+   182,
+   1280,
+   546,
+   1321
+  ],
+  "paddle": "- Drink plenty of water.",
+  "paddle_score": 0.9983676075935364,
+  "trocr": "- Drink plenty of water ."
+ },
+ {
+  "box": [
+   792,
+   1255,
+   1031,
+   1350
+  ],
+  "paddle": "Dr. Ritu Bansal",
+  "paddle_score": 0.9623191952705383,
+  "trocr": "Dr. Rita Bansal"
+ },
+ {
+  "box": [
+   182,
+   1321,
+   577,
+   1367
+  ],
+  "paddle": "- Follow up after 3 weeks.",
+  "paddle_score": 0.9811308979988098,
+  "trocr": "- Follow up after 3 weeks ."
+ }
+]

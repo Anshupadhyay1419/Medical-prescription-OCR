@@ -1,0 +1,409 @@
+[
+ {
+  "box": [
+   191,
+   27,
+   475,
+   77
+  ],
+  "paddle": "Dr. A. Mehta",
+  "paddle_score": 0.9806876182556152,
+  "trocr": "Dr. A. Mehta ."
+ },
+ {
+  "box": [
+   747,
+   47,
+   1017,
+   95
+  ],
+  "paddle": "Date : 19/07/24",
+  "paddle_score": 0.9684851169586182,
+  "trocr": "Date : 19 (07 ( 24 ."
+ },
+ {
+  "box": [
+   193,
+   84,
+   576,
+   136
+  ],
+  "paddle": "MBBS, MD (Dermatology)",
+  "paddle_score": 0.9947431683540344,
+  "trocr": "MBBS , MD ( Dermatology )"
+ },
+ {
+  "box": [
+   192,
+   134,
+   469,
+   190
+  ],
+  "paddle": "Reg. No. 28956",
+  "paddle_score": 0.9882817268371582,
+  "trocr": "Reg. No. 28956 ."
+ },
+ {
+  "box": [
+   743,
+   116,
+   1018,
+   157
+  ],
+  "paddle": "Time : 11:30 am",
+  "paddle_score": 0.9766356945037842,
+  "trocr": "Time : 11 :30 am"
+ },
+ {
+  "box": [
+   51,
+   223,
+   577,
+   278
+  ],
+  "paddle": "Name : Ms. Riya Malhotra",
+  "paddle_score": 0.9987136721611023,
+  "trocr": "Name : Ms. Riya Malhotra"
+ },
+ {
+  "box": [
+   745,
+   214,
+   1034,
+   270
+  ],
+  "paddle": "Age/Sex: 24/F",
+  "paddle_score": 0.949517548084259,
+  "trocr": "Age (Sex : 24 (F."
+ },
+ {
+  "box": [
+   52,
+   279,
+   546,
+   334
+  ],
+  "paddle": "Add : 45, Green Park,",
+  "paddle_score": 0.9950199127197266,
+  "trocr": "Add : 45 , Green Park ,"
+ },
+ {
+  "box": [
+   240,
+   330,
+   574,
+   374
+  ],
+  "paddle": "New Delhi - 110016",
+  "paddle_score": 0.998255729675293,
+  "trocr": "New Delhi -110016"
+ },
+ {
+  "box": [
+   40,
+   394,
+   933,
+   456
+  ],
+  "paddle": "C/0 : Itching and red rashes over both arms",
+  "paddle_score": 0.9924903512001038,
+  "trocr": "Cjo : Itching and red rashes over both arms"
+ },
+ {
+  "box": [
+   222,
+   446,
+   997,
+   499
+  ],
+  "paddle": "since 5 days, after using new body lotion.",
+  "paddle_score": 0.9909860491752625,
+  "trocr": "since \" 5 days , after using new body lotion ."
+ },
+ {
+  "box": [
+   225,
+   498,
+   639,
+   551
+  ],
+  "paddle": "No fever. No discharge.",
+  "paddle_score": 0.9967373013496399,
+  "trocr": "No fever . No discharge ."
+ },
+ {
+  "box": [
+   42,
+   556,
+   688,
+   623
+  ],
+  "paddle": "Dx : Allergic Contact Dermatitis",
+  "paddle_score": 0.9885311722755432,
+  "trocr": "Dr. Allergic Contact Dermatitis"
+ },
+ {
+  "box": [
+   46,
+   640,
+   119,
+   715
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9789493083953857,
+  "trocr": "Rex ."
+ },
+ {
+  "box": [
+   157,
+   655,
+   632,
+   707
+  ],
+  "paddle": "① Tab. Levocetirizine 5 mg",
+  "paddle_score": 0.9968668818473816,
+  "trocr": "OD Tab. Levocetirizine 5 mg"
+ },
+ {
+  "box": [
+   855,
+   677,
+   1018,
+   735
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9575339555740356,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   295,
+   703,
+   628,
+   748
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9979819059371948,
+  "trocr": "1 tab 0D after food"
+ },
+ {
+  "box": [
+   168,
+   766,
+   623,
+   808
+  ],
+  "paddle": "② Tab. Deflazacort 6 mg",
+  "paddle_score": 0.9793244004249573,
+  "trocr": "Q Tab. Deflazacort b mg"
+ },
+ {
+  "box": [
+   852,
+   775,
+   1023,
+   837
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.980483889579773,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   304,
+   808,
+   710,
+   849
+  ],
+  "paddle": "1 tab OD after breakfast",
+  "paddle_score": 0.9802446961402893,
+  "trocr": "1 tab 0D after breakfast"
+ },
+ {
+  "box": [
+   159,
+   861,
+   696,
+   911
+  ],
+  "paddle": "③ Mometasone Furoate Cream",
+  "paddle_score": 0.9849253296852112,
+  "trocr": "3 ) Mometasone Furoate Cream"
+ },
+ {
+  "box": [
+   308,
+   903,
+   711,
+   958
+  ],
+  "paddle": "Apply thin layer on rashes",
+  "paddle_score": 0.989878237247467,
+  "trocr": "Apply thin layer on rashes"
+ },
+ {
+  "box": [
+   852,
+   902,
+   1020,
+   958
+  ],
+  "paddle": "- 7 days",
+  "paddle_score": 0.9531184434890747,
+  "trocr": "- 7 days ."
+ },
+ {
+  "box": [
+   464,
+   943,
+   512,
+   976
+  ],
+  "paddle": "BD",
+  "paddle_score": 0.9999858736991882,
+  "trocr": "bd ."
+ },
+ {
+  "box": [
+   146,
+   968,
+   599,
+   1036
+  ],
+  "paddle": "④ Syp. Calamine Lotion",
+  "paddle_score": 0.9624725580215454,
+  "trocr": "O. Syp. Calamine , Lotion ,"
+ },
+ {
+  "box": [
+   845,
+   994,
+   1009,
+   1051
+  ],
+  "paddle": "- 7 days",
+  "paddle_score": 0.9053044319152832,
+  "trocr": "- 7 days ."
+ },
+ {
+  "box": [
+   315,
+   1015,
+   596,
+   1062
+  ],
+  "paddle": "Apply locally TID",
+  "paddle_score": 0.9609236717224121,
+  "trocr": "Apply Locally TID ."
+ },
+ {
+  "box": [
+   150,
+   1062,
+   555,
+   1110
+  ],
+  "paddle": "⑤ Moisturizing Cream",
+  "paddle_score": 0.9804381132125854,
+  "trocr": "to Moisturizing Cream ."
+ },
+ {
+  "box": [
+   838,
+   1080,
+   1015,
+   1136
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.9543435573577881,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   316,
+   1109,
+   562,
+   1152
+  ],
+  "paddle": "Apply regularly",
+  "paddle_score": 0.9998175501823425,
+  "trocr": "Apply regularly"
+ },
+ {
+  "box": [
+   39,
+   1186,
+   508,
+   1223
+  ],
+  "paddle": "Advice : - Avoid scratching.",
+  "paddle_score": 0.9879526495933533,
+  "trocr": "Advice : - Avoid scratching ."
+ },
+ {
+  "box": [
+   193,
+   1222,
+   680,
+   1263
+  ],
+  "paddle": "- Avoid use of the same lotion.",
+  "paddle_score": 0.983714759349823,
+  "trocr": "- Avoid use of the same lotion ."
+ },
+ {
+  "box": [
+   813,
+   1172,
+   1006,
+   1312
+  ],
+  "paddle": "Dae",
+  "paddle_score": 0.34820297360420227,
+  "trocr": "# Queen"
+ },
+ {
+  "box": [
+   194,
+   1264,
+   613,
+   1299
+  ],
+  "paddle": "- Use mild soap for bath.",
+  "paddle_score": 0.9976438283920288,
+  "trocr": "- Use mild soap for both ."
+ },
+ {
+  "box": [
+   191,
+   1303,
+   540,
+   1336
+  ],
+  "paddle": "- Wear cotton clothes.",
+  "paddle_score": 0.9974376559257507,
+  "trocr": "- Wear cotton clothes ."
+ },
+ {
+  "box": [
+   798,
+   1284,
+   1038,
+   1375
+  ],
+  "paddle": "Dr. A. Mehta",
+  "paddle_score": 0.9893383979797363,
+  "trocr": "Dr. A. Mehta ."
+ },
+ {
+  "box": [
+   186,
+   1330,
+   795,
+   1394
+  ],
+  "paddle": "-Ifnotbetterin7days,visitagain.",
+  "paddle_score": 0.9561765193939209,
+  "trocr": "- If not better in 7 days , visit again ."
+ }
+]

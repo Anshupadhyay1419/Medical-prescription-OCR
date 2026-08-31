@@ -1,0 +1,508 @@
+[
+ {
+  "box": [
+   205,
+   32,
+   464,
+   71
+  ],
+  "paddle": "LIFE CARE CLINIC",
+  "paddle_score": 0.995328426361084,
+  "trocr": "Life care clinic"
+ },
+ {
+  "box": [
+   782,
+   35,
+   919,
+   66
+  ],
+  "paddle": "Clinic Timing :",
+  "paddle_score": 0.9996969699859619,
+  "trocr": "clinic timing :"
+ },
+ {
+  "box": [
+   798,
+   62,
+   898,
+   86
+  ],
+  "paddle": "Mon - Sat",
+  "paddle_score": 0.9971827268600464,
+  "trocr": "mon-sat ."
+ },
+ {
+  "box": [
+   80,
+   75,
+   117,
+   149
+  ],
+  "paddle": "P9",
+  "paddle_score": 0.27329739928245544,
+  "trocr": "s ."
+ },
+ {
+  "box": [
+   206,
+   77,
+   456,
+   106
+  ],
+  "paddle": "Dr. R. K. Malhotra",
+  "paddle_score": 0.9928250908851624,
+  "trocr": "Dr. R. K. Malhotra ."
+ },
+ {
+  "box": [
+   758,
+   83,
+   938,
+   112
+  ],
+  "paddle": "9:30 AM - 1:00 PM",
+  "paddle_score": 0.9970561861991882,
+  "trocr": "9:30 AM-1,00 pm."
+ },
+ {
+  "box": [
+   206,
+   110,
+   435,
+   138
+  ],
+  "paddle": "MBBS, DNB (Medicine)",
+  "paddle_score": 0.9979754686355591,
+  "trocr": "MBBS , DNB ( Medicine )"
+ },
+ {
+  "box": [
+   757,
+   107,
+   939,
+   136
+  ],
+  "paddle": "6:00 PM - 9:00 PM",
+  "paddle_score": 0.9661667943000793,
+  "trocr": "6,00 pm-9,00 pm."
+ },
+ {
+  "box": [
+   208,
+   139,
+   410,
+   166
+  ],
+  "paddle": "Consultant Physician",
+  "paddle_score": 0.9999961853027344,
+  "trocr": "Consultant Physician ."
+ },
+ {
+  "box": [
+   726,
+   131,
+   970,
+   162
+  ],
+  "paddle": "(Sunday by Appointment)",
+  "paddle_score": 0.9833323359489441,
+  "trocr": "( Sunday by Appointment )"
+ },
+ {
+  "box": [
+   48,
+   206,
+   126,
+   245
+  ],
+  "paddle": "Name",
+  "paddle_score": 0.9999961853027344,
+  "trocr": "name ."
+ },
+ {
+  "box": [
+   160,
+   190,
+   446,
+   254
+  ],
+  "paddle": ": Ms Pooja S.",
+  "paddle_score": 0.9754405617713928,
+  "trocr": " : Mr. Pooja S."
+ },
+ {
+  "box": [
+   670,
+   192,
+   920,
+   254
+  ],
+  "paddle": "Date:14/6/24",
+  "paddle_score": 0.9808654189109802,
+  "trocr": "date : 14/6/24 ."
+ },
+ {
+  "box": [
+   46,
+   256,
+   104,
+   296
+  ],
+  "paddle": "Age",
+  "paddle_score": 0.9999945759773254,
+  "trocr": "age ."
+ },
+ {
+  "box": [
+   158,
+   253,
+   304,
+   294
+  ],
+  "paddle": ":28",
+  "paddle_score": 0.942777156829834,
+  "trocr": ": 28 ."
+ },
+ {
+  "box": [
+   354,
+   256,
+   410,
+   288
+  ],
+  "paddle": "/F",
+  "paddle_score": 0.798506498336792,
+  "trocr": "1f ."
+ },
+ {
+  "box": [
+   675,
+   251,
+   718,
+   286
+  ],
+  "paddle": "BP",
+  "paddle_score": 0.9999388456344604,
+  "trocr": "bp ."
+ },
+ {
+  "box": [
+   42,
+   307,
+   104,
+   370
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.977125883102417,
+  "trocr": "rx."
+ },
+ {
+  "box": [
+   156,
+   360,
+   628,
+   432
+  ],
+  "paddle": "O Tas. Dolo - 6s 0",
+  "paddle_score": 0.8679828643798828,
+  "trocr": "D. Tads . Dolo - bso"
+ },
+ {
+  "box": [
+   369,
+   424,
+   604,
+   477
+  ],
+  "paddle": "1-1-1",
+  "paddle_score": 0.9979400634765625,
+  "trocr": "1-1-1 ."
+ },
+ {
+  "box": [
+   655,
+   412,
+   818,
+   468
+  ],
+  "paddle": "x3d.",
+  "paddle_score": 0.9958397150039673,
+  "trocr": "x 3d ."
+ },
+ {
+  "box": [
+   138,
+   491,
+   195,
+   546
+  ],
+  "paddle": "2",
+  "paddle_score": 0.9990158081054688,
+  "trocr": "e"
+ },
+ {
+  "box": [
+   256,
+   486,
+   650,
+   560
+  ],
+  "paddle": "Cap. Imoxy 500",
+  "paddle_score": 0.9535430073738098,
+  "trocr": "Cap. Amory 500"
+ },
+ {
+  "box": [
+   359,
+   534,
+   781,
+   605
+  ],
+  "paddle": "1-0-1 x5d",
+  "paddle_score": 0.9055150151252747,
+  "trocr": "I-0-0, X 5d."
+ },
+ {
+  "box": [
+   136,
+   614,
+   195,
+   678
+  ],
+  "paddle": "3",
+  "paddle_score": 0.9705199003219604,
+  "trocr": "3 )"
+ },
+ {
+  "box": [
+   269,
+   617,
+   610,
+   679
+  ],
+  "paddle": "Tas. Pant-D",
+  "paddle_score": 0.9401025176048279,
+  "trocr": "Tab. Pant-D"
+ },
+ {
+  "box": [
+   395,
+   688,
+   696,
+   738
+  ],
+  "paddle": "0-0-1 AC",
+  "paddle_score": 0.9454556703567505,
+  "trocr": "0-0-I AC."
+ },
+ {
+  "box": [
+   726,
+   678,
+   890,
+   738
+  ],
+  "paddle": "x7d",
+  "paddle_score": 0.9936017394065857,
+  "trocr": "ex 7d ."
+ },
+ {
+  "box": [
+   139,
+   760,
+   198,
+   830
+  ],
+  "paddle": "#",
+  "paddle_score": 0.981204092502594,
+  "trocr": "4"
+ },
+ {
+  "box": [
+   276,
+   750,
+   695,
+   834
+  ],
+  "paddle": "Syp. Montedl LC",
+  "paddle_score": 0.9079956412315369,
+  "trocr": "Syp. momter LC"
+ },
+ {
+  "box": [
+   376,
+   825,
+   650,
+   885
+  ],
+  "paddle": "5ml Hs",
+  "paddle_score": 0.9628556370735168,
+  "trocr": "5 miles . His"
+ },
+ {
+  "box": [
+   739,
+   820,
+   874,
+   879
+  ],
+  "paddle": "x7d",
+  "paddle_score": 0.9976058006286621,
+  "trocr": "x 7d ."
+ },
+ {
+  "box": [
+   128,
+   890,
+   190,
+   950
+  ],
+  "paddle": "S",
+  "paddle_score": 0.9398674368858337,
+  "trocr": "5 )"
+ },
+ {
+  "box": [
+   257,
+   893,
+   667,
+   963
+  ],
+  "paddle": "Tas. Ibugesic",
+  "paddle_score": 0.9991964101791382,
+  "trocr": "Tab . Ibugesic"
+ },
+ {
+  "box": [
+   381,
+   952,
+   891,
+   1018
+  ],
+  "paddle": "sospain/fever",
+  "paddle_score": 0.9505077004432678,
+  "trocr": "so ! \" rain ( fever ."
+ },
+ {
+  "box": [
+   133,
+   1022,
+   189,
+   1077
+  ],
+  "paddle": "6",
+  "paddle_score": 0.9932923316955566,
+  "trocr": "6 )"
+ },
+ {
+  "box": [
+   265,
+   1022,
+   699,
+   1091
+  ],
+  "paddle": "Mupisocin oint.",
+  "paddle_score": 0.9543241858482361,
+  "trocr": "Mufirocin oint ."
+ },
+ {
+  "box": [
+   752,
+   1027,
+   907,
+   1118
+  ],
+  "paddle": "(app)",
+  "paddle_score": 0.9089007377624512,
+  "trocr": "Capp ) ."
+ },
+ {
+  "box": [
+   394,
+   1077,
+   515,
+   1125
+  ],
+  "paddle": "TOS",
+  "paddle_score": 0.8316704630851746,
+  "trocr": "TDS ."
+ },
+ {
+  "box": [
+   56,
+   1163,
+   800,
+   1240
+  ],
+  "paddle": "Advise! Warm Saline gargles",
+  "paddle_score": 0.9718349575996399,
+  "trocr": "Adrise ! . Warren saline gargles"
+ },
+ {
+  "box": [
+   261,
+   1235,
+   671,
+   1285
+  ],
+  "paddle": "Steam inhalation",
+  "paddle_score": 0.9983706474304199,
+  "trocr": "Steam inhalation"
+ },
+ {
+  "box": [
+   244,
+   1281,
+   693,
+   1362
+  ],
+  "paddle": "Plenty of fluids.",
+  "paddle_score": 0.9891343712806702,
+  "trocr": "Plenty of fluids ."
+ },
+ {
+  "box": [
+   770,
+   1265,
+   897,
+   1418
+  ],
+  "paddle": "ie",
+  "paddle_score": 0.34500181674957275,
+  "trocr": "Order ."
+ },
+ {
+  "box": [
+   229,
+   1345,
+   724,
+   1465
+  ],
+  "paddle": "Review on 20/6/24",
+  "paddle_score": 0.9806140661239624,
+  "trocr": "Review \" on 20/6/24 ."
+ },
+ {
+  "box": [
+   781,
+   1397,
+   981,
+   1429
+  ],
+  "paddle": "Dr. R. K. Malhotra",
+  "paddle_score": 0.9998860955238342,
+  "trocr": "Dr. R. K. Malhotra ."
+ },
+ {
+  "box": [
+   805,
+   1425,
+   959,
+   1458
+  ],
+  "paddle": "Reg. No. 65212",
+  "paddle_score": 0.9770511984825134,
+  "trocr": "Reg. No. 65212"
+ }
+]

@@ -1,0 +1,563 @@
+[
+ {
+  "box": [
+   138,
+   30,
+   485,
+   73
+  ],
+  "paddle": "Sai Ram ENT Care",
+  "paddle_score": 0.9756518602371216,
+  "trocr": "Sai Ram ENT Care"
+ },
+ {
+  "box": [
+   867,
+   17,
+   1104,
+   62
+  ],
+  "paddle": "Dr. K. SRINIVAS",
+  "paddle_score": 0.9835456013679504,
+  "trocr": "Dr. K. Srinivas"
+ },
+ {
+  "box": [
+   929,
+   55,
+   1104,
+   89
+  ],
+  "paddle": "MBBS, MS (ENT)",
+  "paddle_score": 0.9938373565673828,
+  "trocr": "imbbs , ms (ent )"
+ },
+ {
+  "box": [
+   220,
+   75,
+   483,
+   113
+  ],
+  "paddle": "& Hearing Centre",
+  "paddle_score": 0.9999776482582092,
+  "trocr": "& Hearing Centre ."
+ },
+ {
+  "box": [
+   868,
+   83,
+   1105,
+   120
+  ],
+  "paddle": "Consultant ENT Surgeon",
+  "paddle_score": 0.9999237656593323,
+  "trocr": "consultantENT Surgeon ."
+ },
+ {
+  "box": [
+   137,
+   114,
+   405,
+   147
+  ],
+  "paddle": "Door No. 7-1-93/A, 1st Floor,",
+  "paddle_score": 0.9753761291503906,
+  "trocr": "door No. 7-1-93/A. 1\" Floor ,"
+ },
+ {
+  "box": [
+   939,
+   111,
+   1106,
+   147
+  ],
+  "paddle": "Regd. No. 55210",
+  "paddle_score": 0.9992607235908508,
+  "trocr": "regd. No. 55210"
+ },
+ {
+  "box": [
+   137,
+   142,
+   426,
+   170
+  ],
+  "paddle": "Above Indian Bank, Ameerpet,",
+  "paddle_score": 0.9999675750732422,
+  "trocr": "Above Indian Bank , Ameerpet ,"
+ },
+ {
+  "box": [
+   140,
+   169,
+   347,
+   192
+  ],
+  "paddle": "Hyderabad - 500 016.",
+  "paddle_score": 0.9997437596321106,
+  "trocr": "Hyderabad -500 016 ."
+ },
+ {
+  "box": [
+   906,
+   154,
+   1131,
+   229
+  ],
+  "paddle": "Dt:14/6/24",
+  "paddle_score": 0.9978512525558472,
+  "trocr": "Dt : 14/6/24 ."
+ },
+ {
+  "box": [
+   140,
+   193,
+   344,
+   217
+  ],
+  "paddle": "Ph : 040 - 2345 6789",
+  "paddle_score": 0.9315935969352722,
+  "trocr": "ph :040-2345 6789"
+ },
+ {
+  "box": [
+   52,
+   261,
+   463,
+   330
+  ],
+  "paddle": "Pt name : A. Deepak,",
+  "paddle_score": 0.9697918891906738,
+  "trocr": "Pt name : A. Deepake"
+ },
+ {
+  "box": [
+   546,
+   248,
+   862,
+   325
+  ],
+  "paddle": "CHo : sore throat",
+  "paddle_score": 0.8834431767463684,
+  "trocr": "ofo : sore throat ."
+ },
+ {
+  "box": [
+   973,
+   289,
+   1115,
+   344
+  ],
+  "paddle": "T:99℉",
+  "paddle_score": 0.913291335105896,
+  "trocr": "T : 99of ,"
+ },
+ {
+  "box": [
+   43,
+   329,
+   411,
+   405
+  ],
+  "paddle": "Age/sex : 22 /M",
+  "paddle_score": 0.9436095952987671,
+  "trocr": "Age ( sex : 22 (M."
+ },
+ {
+  "box": [
+   625,
+   341,
+   924,
+   433
+  ],
+  "paddle": "pain on swallowing",
+  "paddle_score": 0.9675098061561584,
+  "trocr": "pain on swallowing ."
+ },
+ {
+  "box": [
+   638,
+   306,
+   861,
+   363
+  ],
+  "paddle": "since 3 days",
+  "paddle_score": 0.9965123534202576,
+  "trocr": "since 3 days ."
+ },
+ {
+  "box": [
+   961,
+   326,
+   1134,
+   386
+  ],
+  "paddle": "BP: 110/70",
+  "paddle_score": 0.9510809779167175,
+  "trocr": "bp : iio ( to"
+ },
+ {
+  "box": [
+   963,
+   369,
+   1153,
+   431
+  ],
+  "paddle": "P: 88/min",
+  "paddle_score": 0.944336473941803,
+  "trocr": "p : 88\"fm."
+ },
+ {
+  "box": [
+   12,
+   425,
+   100,
+   546
+  ],
+  "paddle": "R",
+  "paddle_score": 0.9125829935073853,
+  "trocr": "Ry ."
+ },
+ {
+  "box": [
+   114,
+   443,
+   661,
+   544
+  ],
+  "paddle": "* ① Tab. Augmentin-625",
+  "paddle_score": 0.9362249970436096,
+  "trocr": "# O. Tab. Augmentin-625"
+ },
+ {
+  "box": [
+   675,
+   487,
+   843,
+   559
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.943304717540741,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   449,
+   515,
+   573,
+   560
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9999561309814453,
+  "trocr": "1-0-1 ."
+ },
+ {
+  "box": [
+   939,
+   519,
+   1152,
+   602
+  ],
+  "paddle": "Gargle with",
+  "paddle_score": 0.9829472899436951,
+  "trocr": "Gargle with"
+ },
+ {
+  "box": [
+   184,
+   596,
+   234,
+   639
+  ],
+  "paddle": "2",
+  "paddle_score": 0.9140850901603699,
+  "trocr": "a )"
+ },
+ {
+  "box": [
+   244,
+   567,
+   612,
+   636
+  ],
+  "paddle": "Tab. Ibuprofen - 400",
+  "paddle_score": 0.9847627878189087,
+  "trocr": "Tab. Ibuprofen - 400"
+ },
+ {
+  "box": [
+   687,
+   591,
+   863,
+   663
+  ],
+  "paddle": "x 3 days",
+  "paddle_score": 0.9976720809936523,
+  "trocr": "x 3 days ."
+ },
+ {
+  "box": [
+   945,
+   579,
+   1146,
+   640
+  ],
+  "paddle": "warm salt",
+  "paddle_score": 0.9941967725753784,
+  "trocr": "warm salt ."
+ },
+ {
+  "box": [
+   409,
+   623,
+   559,
+   668
+  ],
+  "paddle": "1-1-1",
+  "paddle_score": 0.9994735717773438,
+  "trocr": "i-1-"
+ },
+ {
+  "box": [
+   990,
+   621,
+   1098,
+   669
+  ],
+  "paddle": "water",
+  "paddle_score": 0.9999780654907227,
+  "trocr": "water ."
+ },
+ {
+  "box": [
+   164,
+   672,
+   526,
+   755
+  ],
+  "paddle": "③ Syp. Benadryl",
+  "paddle_score": 0.9488412141799927,
+  "trocr": "O. Syp. Benadryl ."
+ },
+ {
+  "box": [
+   963,
+   662,
+   1141,
+   718
+  ],
+  "paddle": "3-4 times",
+  "paddle_score": 0.9923436641693115,
+  "trocr": "3-4 times ."
+ },
+ {
+  "box": [
+   311,
+   730,
+   422,
+   775
+  ],
+  "paddle": "10 ml",
+  "paddle_score": 0.9981623888015747,
+  "trocr": "10 mt ."
+ },
+ {
+  "box": [
+   698,
+   705,
+   868,
+   780
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.9435750842094421,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   970,
+   706,
+   1114,
+   772
+  ],
+  "paddle": "a day",
+  "paddle_score": 0.9628484845161438,
+  "trocr": "a day ."
+ },
+ {
+  "box": [
+   339,
+   747,
+   633,
+   818
+  ],
+  "paddle": "0-0-1 (Night)",
+  "paddle_score": 0.9813486337661743,
+  "trocr": "o-mlo - ( ( Night ) ."
+ },
+ {
+  "box": [
+   168,
+   815,
+   524,
+   893
+  ],
+  "paddle": "④ Throat Lozenges",
+  "paddle_score": 0.9690503478050232,
+  "trocr": "W Throat Losenges ."
+ },
+ {
+  "box": [
+   530,
+   835,
+   728,
+   898
+  ],
+  "paddle": "→sos",
+  "paddle_score": 0.9508627653121948,
+  "trocr": "# SOS ."
+ },
+ {
+  "box": [
+   316,
+   870,
+   489,
+   940
+  ],
+  "paddle": "1 Lozenge",
+  "paddle_score": 0.9706388115882874,
+  "trocr": "1 Lozenge ."
+ },
+ {
+  "box": [
+   631,
+   868,
+   860,
+   944
+  ],
+  "paddle": "(max 4/day)",
+  "paddle_score": 0.9971694350242615,
+  "trocr": "( max 4 (day ) ."
+ },
+ {
+  "box": [
+   81,
+   954,
+   255,
+   1031
+  ],
+  "paddle": "Advice:",
+  "paddle_score": 0.943776547908783,
+  "trocr": "Advice :"
+ },
+ {
+  "box": [
+   122,
+   994,
+   486,
+   1080
+  ],
+  "paddle": "- Drink warm water",
+  "paddle_score": 0.9489258527755737,
+  "trocr": "to Drink warm , writes"
+ },
+ {
+  "box": [
+   625,
+   978,
+   908,
+   1063
+  ],
+  "paddle": "A If not better",
+  "paddle_score": 0.9883670210838318,
+  "trocr": "# If not better ."
+ },
+ {
+  "box": [
+   125,
+   1036,
+   490,
+   1124
+  ],
+  "paddle": "- Avoid cold drinks",
+  "paddle_score": 0.949141263961792,
+  "trocr": "- Avoid broadcasters"
+ },
+ {
+  "box": [
+   207,
+   1083,
+   455,
+   1152
+  ],
+  "paddle": "of ice creams",
+  "paddle_score": 0.9837719798088074,
+  "trocr": "roid ice dreams ."
+ },
+ {
+  "box": [
+   679,
+   1025,
+   896,
+   1100
+  ],
+  "paddle": "in 3 days,",
+  "paddle_score": 0.9982763528823853,
+  "trocr": "tin 3 days ,"
+ },
+ {
+  "box": [
+   700,
+   1075,
+   829,
+   1130
+  ],
+  "paddle": "review.",
+  "paddle_score": 0.9924648404121399,
+  "trocr": "review ."
+ },
+ {
+  "box": [
+   884,
+   1071,
+   1094,
+   1224
+  ],
+  "paddle": "p",
+  "paddle_score": 0.22688469290733337,
+  "trocr": "the idea"
+ },
+ {
+  "box": [
+   120,
+   1140,
+   669,
+   1268
+  ],
+  "paddle": "Tatea shaaion fnes aiy",
+  "paddle_score": 0.5652345418930054,
+  "trocr": "- Externalation 2 times daily ."
+ },
+ {
+  "box": [
+   124,
+   1138,
+   357,
+   1206
+  ],
+  "paddle": "- Take rest",
+  "paddle_score": 0.9948627948760986,
+  "trocr": "- Take rest ,"
+ },
+ {
+  "box": [
+   869,
+   1188,
+   1107,
+   1270
+  ],
+  "paddle": "Dr. K. Srinivas",
+  "paddle_score": 0.9649695158004761,
+  "trocr": "Dr. K. Srinivas ."
+ }
+]

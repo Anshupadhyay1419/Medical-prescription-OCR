@@ -1,0 +1,420 @@
+[
+ {
+  "box": [
+   200,
+   18,
+   506,
+   77
+  ],
+  "paddle": "Dr. K. Khanna",
+  "paddle_score": 0.9834349751472473,
+  "trocr": "Dr. K. Khanna"
+ },
+ {
+  "box": [
+   760,
+   39,
+   1023,
+   92
+  ],
+  "paddle": "Date:05/08/24",
+  "paddle_score": 0.9918912649154663,
+  "trocr": "Date : 05/08/24"
+ },
+ {
+  "box": [
+   196,
+   86,
+   572,
+   131
+  ],
+  "paddle": "MBBS, MS (Orthopaedics)",
+  "paddle_score": 0.9994117021560669,
+  "trocr": "MBBS , MS ( Orthopaedics )"
+ },
+ {
+  "box": [
+   753,
+   110,
+   1028,
+   156
+  ],
+  "paddle": "Time : 6:30 pm",
+  "paddle_score": 0.942137598991394,
+  "trocr": "Time : 6:30 pm."
+ },
+ {
+  "box": [
+   194,
+   134,
+   473,
+   192
+  ],
+  "paddle": "Reg. No. 36521",
+  "paddle_score": 0.9996650815010071,
+  "trocr": "Reg. No. 36521 ."
+ },
+ {
+  "box": [
+   48,
+   217,
+   531,
+   266
+  ],
+  "paddle": "Name : Mr. Vikram Malhotra",
+  "paddle_score": 0.9780721664428711,
+  "trocr": "Name : Mr. Vikram Malhotra"
+ },
+ {
+  "box": [
+   731,
+   202,
+   1005,
+   269
+  ],
+  "paddle": "Age/Sex : 29/M",
+  "paddle_score": 0.9730129837989807,
+  "trocr": "Age ( Sex : 29/M."
+ },
+ {
+  "box": [
+   47,
+   267,
+   543,
+   322
+  ],
+  "paddle": "Add : 101, Shanti Enclave,",
+  "paddle_score": 0.9740389585494995,
+  "trocr": "Add : 101 , Shanti Enclave ,"
+ },
+ {
+  "box": [
+   214,
+   316,
+   533,
+   362
+  ],
+  "paddle": "Faridabad - 121009",
+  "paddle_score": 0.9938087463378906,
+  "trocr": "Faridabad - 121009"
+ },
+ {
+  "box": [
+   43,
+   383,
+   935,
+   456
+  ],
+  "paddle": "C/0Painandswellinginrightkneeince5days",
+  "paddle_score": 0.8761340975761414,
+  "trocr": "CFO : Pain and swelling in right knee since 5 days ,"
+ },
+ {
+  "box": [
+   205,
+   436,
+   725,
+   494
+  ],
+  "paddle": "increased after playing football.",
+  "paddle_score": 0.9828857779502869,
+  "trocr": "increased after \" playing \" football ."
+ },
+ {
+  "box": [
+   206,
+   481,
+   887,
+   542
+  ],
+  "paddle": "Difficulty in walking and climbing stairs.",
+  "paddle_score": 0.9720736145973206,
+  "trocr": "Difficulty in walking and climbing stairs ."
+ },
+ {
+  "box": [
+   205,
+   534,
+   651,
+   586
+  ],
+  "paddle": "No h/o trauma. No fever.",
+  "paddle_score": 0.9993770122528076,
+  "trocr": "No\" Info \" trauma . No\" fever ."
+ },
+ {
+  "box": [
+   29,
+   597,
+   697,
+   661
+  ],
+  "paddle": "Dx : Acute Knee Sprain (Grade II)",
+  "paddle_score": 0.9881094694137573,
+  "trocr": "Dr. Acute Knee Spain ( Grade II )"
+ },
+ {
+  "box": [
+   34,
+   667,
+   103,
+   750
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9938177466392517,
+  "trocr": "Rex"
+ },
+ {
+  "box": [
+   164,
+   683,
+   591,
+   736
+  ],
+  "paddle": "① Tab. Etoricoxib 60 mg",
+  "paddle_score": 0.9995574951171875,
+  "trocr": "O. Tab. Etoricoxib 60 mg ."
+ },
+ {
+  "box": [
+   862,
+   697,
+   1015,
+   753
+  ],
+  "paddle": "- 7 days",
+  "paddle_score": 0.9624569416046143,
+  "trocr": "- 7 days ."
+ },
+ {
+  "box": [
+   324,
+   725,
+   640,
+   772
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9713117480278015,
+  "trocr": "1 tab 0D after food"
+ },
+ {
+  "box": [
+   164,
+   778,
+   625,
+   825
+  ],
+  "paddle": "② Tab. Paracetamol 500 mg",
+  "paddle_score": 0.9545994400978088,
+  "trocr": "Q Tab. Paracetamol 500 mg"
+ },
+ {
+  "box": [
+   859,
+   780,
+   1017,
+   836
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.934578537940979,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   324,
+   820,
+   620,
+   861
+  ],
+  "paddle": "1 tab TDS if pain",
+  "paddle_score": 0.9996285438537598,
+  "trocr": "1 tab TDS if pain"
+ },
+ {
+  "box": [
+   160,
+   864,
+   631,
+   917
+  ],
+  "paddle": "③ Tab. Thiocolchicoside 4 mg",
+  "paddle_score": 0.9997127652168274,
+  "trocr": "3 . Tab. Thiocolchicoside 4 mg"
+ },
+ {
+  "box": [
+   861,
+   867,
+   1018,
+   919
+  ],
+  "paddle": "- 7 days",
+  "paddle_score": 0.9641939401626587,
+  "trocr": "- 7 days ."
+ },
+ {
+  "box": [
+   322,
+   906,
+   483,
+   947
+  ],
+  "paddle": "1 tab BD",
+  "paddle_score": 0.9999697208404541,
+  "trocr": "1 tab BD ."
+ },
+ {
+  "box": [
+   164,
+   953,
+   472,
+   997
+  ],
+  "paddle": "④ Diclofenac Gel",
+  "paddle_score": 0.9899348616600037,
+  "trocr": "A Diclofenac Gel ."
+ },
+ {
+  "box": [
+   861,
+   952,
+   1020,
+   1003
+  ],
+  "paddle": "- 10 days",
+  "paddle_score": 0.9940816164016724,
+  "trocr": "-10 days ."
+ },
+ {
+  "box": [
+   325,
+   986,
+   591,
+   1038
+  ],
+  "paddle": "Apply Locally TID",
+  "paddle_score": 0.9865357875823975,
+  "trocr": "Apply ' Locally TID ."
+ },
+ {
+  "box": [
+   164,
+   1036,
+   642,
+   1078
+  ],
+  "paddle": "⑤ Calcium + Vit D3 Tablet",
+  "paddle_score": 0.998176097869873,
+  "trocr": "5 ) Calcium + Vit D3 Tablet"
+ },
+ {
+  "box": [
+   858,
+   1036,
+   1021,
+   1088
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9842589497566223,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   328,
+   1075,
+   489,
+   1112
+  ],
+  "paddle": "1 tab OD",
+  "paddle_score": 0.9965255260467529,
+  "trocr": "1 tab OD ."
+ },
+ {
+  "box": [
+   40,
+   1143,
+   643,
+   1189
+  ],
+  "paddle": "Advice : - Rest the knee and avoid strain.",
+  "paddle_score": 0.9815789461135864,
+  "trocr": "Advice : - Rest the knee and avoid strain ."
+ },
+ {
+  "box": [
+   803,
+   1120,
+   986,
+   1267
+  ],
+  "paddle": "Ben",
+  "paddle_score": 0.30835676193237305,
+  "trocr": "# Queen"
+ },
+ {
+  "box": [
+   179,
+   1184,
+   747,
+   1229
+  ],
+  "paddle": "- Apply ice pack for 15 mins, twice daily.",
+  "paddle_score": 0.9988736510276794,
+  "trocr": "- Apply ice pack for 15 mins , twice daily ."
+ },
+ {
+  "box": [
+   182,
+   1228,
+   458,
+   1264
+  ],
+  "paddle": "- Use knee support.",
+  "paddle_score": 0.9991161227226257,
+  "trocr": "- Use \" knee support ."
+ },
+ {
+  "box": [
+   182,
+   1262,
+   603,
+   1306
+  ],
+  "paddle": "- Do physiotherapy as advised.",
+  "paddle_score": 0.9984217286109924,
+  "trocr": "- Do physiology as advised ."
+ },
+ {
+  "box": [
+   793,
+   1235,
+   1034,
+   1343
+  ],
+  "paddle": "Dr. K. Khanna",
+  "paddle_score": 0.9980588555335999,
+  "trocr": "Dr. K. Khanna"
+ },
+ {
+  "box": [
+   184,
+   1306,
+   649,
+   1344
+  ],
+  "paddle": "- Do not squat or sit cross-legged",
+  "paddle_score": 0.9993241429328918,
+  "trocr": "- Do not squat or sit cross-legged"
+ },
+ {
+  "box": [
+   184,
+   1345,
+   504,
+   1388
+  ],
+  "paddle": "- Review after 7 days.",
+  "paddle_score": 0.9717803597450256,
+  "trocr": "- Review after 7 days ."
+ }
+]

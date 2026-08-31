@@ -1,0 +1,453 @@
+[
+ {
+  "box": [
+   20,
+   9,
+   121,
+   121
+  ],
+  "paddle": "RX",
+  "paddle_score": 0.8345268964767456,
+  "trocr": "rx."
+ },
+ {
+  "box": [
+   173,
+   19,
+   475,
+   48
+  ],
+  "paddle": "HEALTH PLUS CLINIC",
+  "paddle_score": 0.9999257326126099,
+  "trocr": "Health Plus Clinic"
+ },
+ {
+  "box": [
+   793,
+   13,
+   1047,
+   43
+  ],
+  "paddle": "Dr. A. Chatterjee",
+  "paddle_score": 0.998889148235321,
+  "trocr": "Dr. A. Chatterjee"
+ },
+ {
+  "box": [
+   171,
+   53,
+   384,
+   83
+  ],
+  "paddle": "23, Raja Basu Road",
+  "paddle_score": 0.9999610185623169,
+  "trocr": "23 , Raja Basu Road"
+ },
+ {
+  "box": [
+   827,
+   46,
+   1049,
+   71
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.992226243019104,
+  "trocr": "MBBS . MD ( Medicine )"
+ },
+ {
+  "box": [
+   171,
+   81,
+   360,
+   111
+  ],
+  "paddle": "Kolkata - 700029",
+  "paddle_score": 0.9993727803230286,
+  "trocr": "Kolkata-700029 ."
+ },
+ {
+  "box": [
+   803,
+   74,
+   1050,
+   104
+  ],
+  "paddle": "Reg. No. 53867 (WBMC)",
+  "paddle_score": 0.9932796955108643,
+  "trocr": "Reg. No. 53867 ( WBMC )"
+ },
+ {
+  "box": [
+   173,
+   110,
+   384,
+   140
+  ],
+  "paddle": "Ph:033 2465 7550",
+  "paddle_score": 0.984910249710083,
+  "trocr": "ph : 033 2465 7550"
+ },
+ {
+  "box": [
+   833,
+   105,
+   1049,
+   131
+  ],
+  "paddle": "Consultant Physician",
+  "paddle_score": 0.9999943971633911,
+  "trocr": "Consultant Physician"
+ },
+ {
+  "box": [
+   12,
+   157,
+   441,
+   244
+  ],
+  "paddle": "PA. Mr. B. Sen",
+  "paddle_score": 0.9766042828559875,
+  "trocr": "Pts Mr. B. Sen."
+ },
+ {
+  "box": [
+   864,
+   153,
+   1130,
+   256
+  ],
+  "paddle": "D424/5/25",
+  "paddle_score": 0.9531776905059814,
+  "trocr": "D4 24/8/25 ."
+ },
+ {
+  "box": [
+   56,
+   229,
+   255,
+   311
+  ],
+  "paddle": "58 yrs",
+  "paddle_score": 0.9919930100440979,
+  "trocr": "58 yrs ."
+ },
+ {
+  "box": [
+   392,
+   230,
+   576,
+   301
+  ],
+  "paddle": "Sex M",
+  "paddle_score": 0.9911470413208008,
+  "trocr": "Sex , M."
+ },
+ {
+  "box": [
+   687,
+   281,
+   902,
+   383
+  ],
+  "paddle": "40/12.5",
+  "paddle_score": 0.997285008430481,
+  "trocr": "40 fta.5 ."
+ },
+ {
+  "box": [
+   929,
+   289,
+   1127,
+   365
+  ],
+  "paddle": "x 15 d.",
+  "paddle_score": 0.9571345448493958,
+  "trocr": "ex 15'd ."
+ },
+ {
+  "box": [
+   111,
+   436,
+   565,
+   547
+  ],
+  "paddle": "② Metglim 500",
+  "paddle_score": 0.9652466177940369,
+  "trocr": "O. Mugglin , 500 ."
+ },
+ {
+  "box": [
+   414,
+   380,
+   730,
+   443
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9728595018386841,
+  "trocr": "I -O - I."
+ },
+ {
+  "box": [
+   719,
+   425,
+   825,
+   484
+  ],
+  "paddle": "500",
+  "paddle_score": 0.9999033808708191,
+  "trocr": "500"
+ },
+ {
+  "box": [
+   906,
+   403,
+   1105,
+   482
+  ],
+  "paddle": "x 1 mo",
+  "paddle_score": 0.9568526744842529,
+  "trocr": "ex from"
+ },
+ {
+  "box": [
+   102,
+   541,
+   632,
+   660
+  ],
+  "paddle": "3 clppid-Av 75",
+  "paddle_score": 0.8878094553947449,
+  "trocr": "O clapid-AV. 75 ."
+ },
+ {
+  "box": [
+   379,
+   502,
+   688,
+   562
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9470028877258301,
+  "trocr": "1 -0-"
+ },
+ {
+  "box": [
+   684,
+   532,
+   840,
+   622
+  ],
+  "paddle": "75 mg",
+  "paddle_score": 0.9789168238639832,
+  "trocr": "75 mg ."
+ },
+ {
+  "box": [
+   903,
+   523,
+   1094,
+   596
+  ],
+  "paddle": "x 1 mo",
+  "paddle_score": 0.9740644097328186,
+  "trocr": "x ( mo ."
+ },
+ {
+  "box": [
+   82,
+   627,
+   706,
+   789
+  ],
+  "paddle": "4 r Ato 20",
+  "paddle_score": 0.7974952459335327,
+  "trocr": "0 # A to # 20 ,"
+ },
+ {
+  "box": [
+   368,
+   607,
+   675,
+   671
+  ],
+  "paddle": "0-0-1",
+  "paddle_score": 0.993200421333313,
+  "trocr": "0-0-"
+ },
+ {
+  "box": [
+   696,
+   649,
+   862,
+   733
+  ],
+  "paddle": "20 mg",
+  "paddle_score": 0.9461911916732788,
+  "trocr": "200 mg ."
+ },
+ {
+  "box": [
+   952,
+   632,
+   1093,
+   708
+  ],
+  "paddle": "x Im",
+  "paddle_score": 0.8616863489151001,
+  "trocr": "ex 1m ."
+ },
+ {
+  "box": [
+   366,
+   712,
+   774,
+   810
+  ],
+  "paddle": "0 - 0 - 1 HS",
+  "paddle_score": 0.8270103335380554,
+  "trocr": "to # so # # #"
+ },
+ {
+  "box": [
+   84,
+   792,
+   571,
+   907
+  ],
+  "paddle": "⑤ Syp. D'congest",
+  "paddle_score": 0.9299874305725098,
+  "trocr": "O. Syp. D \" congest ."
+ },
+ {
+  "box": [
+   696,
+   779,
+   837,
+   869
+  ],
+  "paddle": "coml",
+  "paddle_score": 0.8666524291038513,
+  "trocr": "comb ."
+ },
+ {
+  "box": [
+   903,
+   766,
+   1018,
+   848
+  ],
+  "paddle": "BD",
+  "paddle_score": 0.9914985299110413,
+  "trocr": "BD"
+ },
+ {
+  "box": [
+   27,
+   906,
+   463,
+   1012
+  ],
+  "paddle": "Diet - Low salf",
+  "paddle_score": 0.9372268915176392,
+  "trocr": "Diet - Low salt ."
+ },
+ {
+  "box": [
+   508,
+   888,
+   1081,
+   973
+  ],
+  "paddle": "Tab. Ecosprin 75 od",
+  "paddle_score": 0.9747597575187683,
+  "trocr": "Tabo Ecosprin 75, only"
+ },
+ {
+  "box": [
+   37,
+   987,
+   413,
+   1072
+  ],
+  "paddle": "walk 30 min.",
+  "paddle_score": 0.999586284160614,
+  "trocr": "walk 30 min."
+ },
+ {
+  "box": [
+   503,
+   1001,
+   923,
+   1154
+  ],
+  "paddle": "awoid oily fond",
+  "paddle_score": 0.8755850195884705,
+  "trocr": "avoidify food ,"
+ },
+ {
+  "box": [
+   567,
+   950,
+   848,
+   1038
+  ],
+  "paddle": "after dinn.",
+  "paddle_score": 0.9989166259765625,
+  "trocr": "after disc."
+ },
+ {
+  "box": [
+   23,
+   1106,
+   281,
+   1230
+  ],
+  "paddle": "Sugar (f)",
+  "paddle_score": 0.991845965385437,
+  "trocr": "' Sugar ( f ) ."
+ },
+ {
+  "box": [
+   32,
+   1050,
+   308,
+   1135
+  ],
+  "paddle": "Bp chk.",
+  "paddle_score": 0.9466623663902283,
+  "trocr": "Bip chk ."
+ },
+ {
+  "box": [
+   517,
+   1115,
+   706,
+   1186
+  ],
+  "paddle": "wt. Loss",
+  "paddle_score": 0.9868105053901672,
+  "trocr": "wt . Loss"
+ },
+ {
+  "box": [
+   810,
+   1077,
+   1112,
+   1236
+  ],
+  "paddle": "hum",
+  "paddle_score": 0.5377810597419739,
+  "trocr": "death ."
+ },
+ {
+  "box": [
+   5,
+   1164,
+   432,
+   1326
+  ],
+  "paddle": "F/0 1 moth",
+  "paddle_score": 0.8098597526550293,
+  "trocr": "fugger's month ."
+ }
+]

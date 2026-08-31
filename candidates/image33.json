@@ -1,0 +1,442 @@
+[
+ {
+  "box": [
+   206,
+   24,
+   479,
+   77
+  ],
+  "paddle": "Dr. A. Mehta",
+  "paddle_score": 0.9919739365577698,
+  "trocr": "Dr. A. Mehta ."
+ },
+ {
+  "box": [
+   754,
+   39,
+   1019,
+   95
+  ],
+  "paddle": "Date:07/08/24",
+  "paddle_score": 0.994355320930481,
+  "trocr": "Date : 07/08 (24"
+ },
+ {
+  "box": [
+   208,
+   81,
+   574,
+   132
+  ],
+  "paddle": "MBBS, DCH (Paediatrics)",
+  "paddle_score": 0.9999142289161682,
+  "trocr": "MBBS , DCH ( Paediatrics )"
+ },
+ {
+  "box": [
+   759,
+   108,
+   1021,
+   156
+  ],
+  "paddle": "Time : 12:05 pm",
+  "paddle_score": 0.9924672245979309,
+  "trocr": "Time : 12:05 pm ."
+ },
+ {
+  "box": [
+   206,
+   132,
+   468,
+   192
+  ],
+  "paddle": "Reg. No. 19876",
+  "paddle_score": 0.9997073411941528,
+  "trocr": "Reg. No. 19876 ."
+ },
+ {
+  "box": [
+   38,
+   217,
+   532,
+   264
+  ],
+  "paddle": "Name : Master Aarav Sharma",
+  "paddle_score": 0.9890280365943909,
+  "trocr": "Name : Master Aarav Sharma"
+ },
+ {
+  "box": [
+   717,
+   203,
+   1019,
+   269
+  ],
+  "paddle": "Age/Sex : 5Y/M",
+  "paddle_score": 0.9815841317176819,
+  "trocr": "Age ( Sex : 5Y/M."
+ },
+ {
+  "box": [
+   38,
+   270,
+   445,
+   319
+  ],
+  "paddle": "Add : 26, Park View,",
+  "paddle_score": 0.9803496599197388,
+  "trocr": "Add : 26 , Park View ,"
+ },
+ {
+  "box": [
+   202,
+   316,
+   468,
+   365
+  ],
+  "paddle": "Jaipur - 302016",
+  "paddle_score": 0.9969469904899597,
+  "trocr": "Jaipur - 302016"
+ },
+ {
+  "box": [
+   32,
+   372,
+   870,
+   448
+  ],
+  "paddle": "C/0Feversince2days,highgrade,comesin",
+  "paddle_score": 0.9134641289710999,
+  "trocr": "CFO : Fever since 2 days , high grade , comes in"
+ },
+ {
+  "box": [
+   196,
+   437,
+   321,
+   481
+  ],
+  "paddle": "evening.",
+  "paddle_score": 0.9774202704429626,
+  "trocr": "evening ."
+ },
+ {
+  "box": [
+   193,
+   463,
+   833,
+   524
+  ],
+  "paddle": "Mild cough and sore throat since 1 day.",
+  "paddle_score": 0.9698403477668762,
+  "trocr": "Mild cough and sore throat since 1 day ."
+ },
+ {
+  "box": [
+   196,
+   511,
+   696,
+   564
+  ],
+  "paddle": "No vomiting. No loose motions.",
+  "paddle_score": 0.9934807419776917,
+  "trocr": "No vomiting . No loose motions ."
+ },
+ {
+  "box": [
+   197,
+   562,
+   457,
+   611
+  ],
+  "paddle": "Appetite reduced.",
+  "paddle_score": 0.9942612648010254,
+  "trocr": "Appetite reduced ."
+ },
+ {
+  "box": [
+   39,
+   618,
+   116,
+   668
+  ],
+  "paddle": "Dx",
+  "paddle_score": 0.9999436736106873,
+  "trocr": "DX"
+ },
+ {
+  "box": [
+   177,
+   614,
+   654,
+   662
+  ],
+  "paddle": "Acute Febrile Illness (Viral)",
+  "paddle_score": 0.9998373985290527,
+  "trocr": "Acute Febrile Illness ( Viral )"
+ },
+ {
+  "box": [
+   37,
+   673,
+   103,
+   756
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9938344955444336,
+  "trocr": "Rex ."
+ },
+ {
+  "box": [
+   165,
+   685,
+   699,
+   744
+  ],
+  "paddle": "① Syp. Paracetamol 250 mg/5 ml",
+  "paddle_score": 0.9951865077018738,
+  "trocr": "OD Syp. Paracetamol 250 mg/5 mL"
+ },
+ {
+  "box": [
+   884,
+   701,
+   1029,
+   753
+  ],
+  "paddle": "- 3 days",
+  "paddle_score": 0.9850566387176514,
+  "trocr": "- 3 days ."
+ },
+ {
+  "box": [
+   318,
+   731,
+   633,
+   771
+  ],
+  "paddle": "5 ml TDS after food",
+  "paddle_score": 0.996368408203125,
+  "trocr": "5ml TDS after food"
+ },
+ {
+  "box": [
+   167,
+   781,
+   721,
+   836
+  ],
+  "paddle": "② Syp. Levocetirizine 2.5 mg/5 ml",
+  "paddle_score": 0.9979058504104614,
+  "trocr": "O. Syp. Levocetirizine 2.5 mg.5 mL"
+ },
+ {
+  "box": [
+   882,
+   787,
+   1034,
+   839
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9506689310073853,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   318,
+   826,
+   461,
+   863
+  ],
+  "paddle": "5 ml HS",
+  "paddle_score": 0.9976099729537964,
+  "trocr": "5ml HS ."
+ },
+ {
+  "box": [
+   167,
+   869,
+   653,
+   922
+  ],
+  "paddle": "③ Syp. Ambroxol 15 mg/5 ml",
+  "paddle_score": 0.9981644153594971,
+  "trocr": "3 ) Sep. Ambroxol 15 mg/5 mL"
+ },
+ {
+  "box": [
+   884,
+   870,
+   1032,
+   920
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9747694730758667,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   319,
+   909,
+   472,
+   946
+  ],
+  "paddle": "5 ml TDS",
+  "paddle_score": 0.9782828688621521,
+  "trocr": "5ml TDS ."
+ },
+ {
+  "box": [
+   165,
+   950,
+   450,
+   1005
+  ],
+  "paddle": "④ Syp. Zincovit",
+  "paddle_score": 0.9967907071113586,
+  "trocr": "A. Syp. Zincovit ."
+ },
+ {
+  "box": [
+   881,
+   950,
+   1034,
+   1000
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.9721624851226807,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   318,
+   988,
+   600,
+   1030
+  ],
+  "paddle": "5 ml OD after food",
+  "paddle_score": 0.9994234442710876,
+  "trocr": "5ml 0D after food"
+ },
+ {
+  "box": [
+   168,
+   1030,
+   307,
+   1075
+  ],
+  "paddle": "⑤ ORS",
+  "paddle_score": 0.9569282531738281,
+  "trocr": " # ORS."
+ },
+ {
+  "box": [
+   882,
+   1030,
+   987,
+   1071
+  ],
+  "paddle": "- sos",
+  "paddle_score": 0.9832509756088257,
+  "trocr": "- sos ."
+ },
+ {
+  "box": [
+   310,
+   1062,
+   469,
+   1109
+  ],
+  "paddle": "As required",
+  "paddle_score": 0.9995884299278259,
+  "trocr": "As required"
+ },
+ {
+  "box": [
+   35,
+   1137,
+   517,
+   1184
+  ],
+  "paddle": "Advice : - Give plenty of fluids.",
+  "paddle_score": 0.9782750606536865,
+  "trocr": "Advice : - Give plenty of fluids ."
+ },
+ {
+  "box": [
+   182,
+   1179,
+   608,
+   1220
+  ],
+  "paddle": "- Give light, home-cooked food.",
+  "paddle_score": 0.9893513321876526,
+  "trocr": "- Give ' light ' , home-cooked food ."
+ },
+ {
+  "box": [
+   825,
+   1169,
+   994,
+   1302
+  ],
+  "paddle": "Ge",
+  "paddle_score": 0.425483763217926,
+  "trocr": "feder #"
+ },
+ {
+  "box": [
+   182,
+   1219,
+   778,
+   1263
+  ],
+  "paddle": "- Sponge with lukewarm water if fever > 100F.",
+  "paddle_score": 0.9793627262115479,
+  "trocr": "- Sponge with lukewarm water if fever's 100\"F."
+ },
+ {
+  "box": [
+   184,
+   1265,
+   676,
+   1300
+  ],
+  "paddle": "- Keep child in well-ventilated room.",
+  "paddle_score": 0.9733450412750244,
+  "trocr": "- Keep child in well-ventilated room ."
+ },
+ {
+  "box": [
+   815,
+   1260,
+   1031,
+   1361
+  ],
+  "paddle": "Dr. A. Mehta",
+  "paddle_score": 0.9819003939628601,
+  "trocr": "Dr. A. Mehta ."
+ },
+ {
+  "box": [
+   183,
+   1305,
+   677,
+   1347
+  ],
+  "paddle": "- If fever persists more than 3 days",
+  "paddle_score": 0.999192476272583,
+  "trocr": "- If fewer persists more than 3 days"
+ },
+ {
+  "box": [
+   222,
+   1344,
+   721,
+   1386
+  ],
+  "paddle": "or condition worsens, visit immediately.",
+  "paddle_score": 0.9984890222549438,
+  "trocr": "or condition worsens , visit immediately"
+ }
+]

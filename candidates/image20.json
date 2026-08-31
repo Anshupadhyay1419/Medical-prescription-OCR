@@ -1,0 +1,464 @@
+[
+ {
+  "box": [
+   33,
+   21,
+   137,
+   138
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.7716728448867798,
+  "trocr": "ax"
+ },
+ {
+  "box": [
+   203,
+   30,
+   501,
+   71
+  ],
+  "paddle": "LIFE CARE MEDICALS",
+  "paddle_score": 0.9999381303787231,
+  "trocr": "life care medicals ."
+ },
+ {
+  "box": [
+   732,
+   30,
+   879,
+   72
+  ],
+  "paddle": "Dr. P. Roy",
+  "paddle_score": 0.9879524111747742,
+  "trocr": "Dr. P. Roy ."
+ },
+ {
+  "box": [
+   203,
+   64,
+   458,
+   104
+  ],
+  "paddle": "45/A, Gariahat Road (S),",
+  "paddle_score": 0.9997722506523132,
+  "trocr": "45/A , Gariahat Road ( S ) ,"
+ },
+ {
+  "box": [
+   735,
+   72,
+   959,
+   99
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.9999080300331116,
+  "trocr": "MBBS , MD ( Medicine )"
+ },
+ {
+  "box": [
+   208,
+   99,
+   392,
+   126
+  ],
+  "paddle": "Kolkata - 700 019",
+  "paddle_score": 0.9997539520263672,
+  "trocr": "Kolkata-700 019 ."
+ },
+ {
+  "box": [
+   735,
+   100,
+   977,
+   127
+  ],
+  "paddle": "Reg. No. 72145 (WBMC)",
+  "paddle_score": 0.9812738299369812,
+  "trocr": "Reg. No. 72145 ( WBMC )"
+ },
+ {
+  "box": [
+   206,
+   126,
+   426,
+   157
+  ],
+  "paddle": "Ph:033 2460 2786",
+  "paddle_score": 0.9848214983940125,
+  "trocr": "ph : 033 2460 2786"
+ },
+ {
+  "box": [
+   737,
+   130,
+   950,
+   156
+  ],
+  "paddle": "Consultant Physician",
+  "paddle_score": 0.9999957084655762,
+  "trocr": "Consultant Physician"
+ },
+ {
+  "box": [
+   23,
+   197,
+   425,
+   264
+  ],
+  "paddle": "Name - S. K. Maiti",
+  "paddle_score": 0.9488439559936523,
+  "trocr": "Name - S. K. Maiti"
+ },
+ {
+  "box": [
+   740,
+   181,
+   1027,
+   275
+  ],
+  "paddle": "Date 26/5/25",
+  "paddle_score": 0.9763908386230469,
+  "trocr": "Date 26/5/25 ."
+ },
+ {
+  "box": [
+   134,
+   258,
+   386,
+   353
+  ],
+  "paddle": "62 y/m",
+  "paddle_score": 0.9778714179992676,
+  "trocr": "62 y.1.m."
+ },
+ {
+  "box": [
+   2,
+   333,
+   117,
+   426
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9991999864578247,
+  "trocr": "Rx"
+ },
+ {
+  "box": [
+   23,
+   393,
+   792,
+   523
+  ],
+  "paddle": "① Tab Amlokind - AT 5/50",
+  "paddle_score": 0.9327964782714844,
+  "trocr": "0 Tab Amlokind - AT 550"
+ },
+ {
+  "box": [
+   868,
+   395,
+   1026,
+   455
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9999443292617798,
+  "trocr": "I-O-1 ."
+ },
+ {
+  "box": [
+   887,
+   445,
+   1050,
+   511
+  ],
+  "paddle": "x 1 mth",
+  "paddle_score": 0.9625791907310486,
+  "trocr": "x ( with"
+ },
+ {
+  "box": [
+   35,
+   524,
+   668,
+   620
+  ],
+  "paddle": "② Cap . Rosuvast 10",
+  "paddle_score": 0.9691948294639587,
+  "trocr": "O. Cap. # Roosevelt 10"
+ },
+ {
+  "box": [
+   712,
+   521,
+   861,
+   573
+  ],
+  "paddle": "0-0-1",
+  "paddle_score": 0.9977188110351562,
+  "trocr": "0-0e1 ."
+ },
+ {
+  "box": [
+   769,
+   557,
+   855,
+   608
+  ],
+  "paddle": "HS",
+  "paddle_score": 0.9864386320114136,
+  "trocr": "ts ."
+ },
+ {
+  "box": [
+   874,
+   540,
+   1048,
+   604
+  ],
+  "paddle": "x 1 mth",
+  "paddle_score": 0.9214865565299988,
+  "trocr": "x ( with"
+ },
+ {
+  "box": [
+   26,
+   621,
+   580,
+   714
+  ],
+  "paddle": "③ Tab Glimet - M",
+  "paddle_score": 0.9032784700393677,
+  "trocr": "B. Tab Glimet - Mr."
+ },
+ {
+  "box": [
+   696,
+   623,
+   851,
+   677
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9999690055847168,
+  "trocr": "I-O-I ."
+ },
+ {
+  "box": [
+   881,
+   632,
+   1051,
+   696
+  ],
+  "paddle": "x 1 mth",
+  "paddle_score": 0.9334740042686462,
+  "trocr": "x 1 with"
+ },
+ {
+  "box": [
+   390,
+   677,
+   550,
+   746
+  ],
+  "paddle": "500/2",
+  "paddle_score": 0.999176025390625,
+  "trocr": "500 ( 2 ."
+ },
+ {
+  "box": [
+   30,
+   743,
+   607,
+   836
+  ],
+  "paddle": "④ Tab. Ecosprin Av",
+  "paddle_score": 0.9384666085243225,
+  "trocr": "Q Tab. Ecosprin , AV."
+ },
+ {
+  "box": [
+   700,
+   728,
+   1057,
+   800
+  ],
+  "paddle": "0-0-1 x 1mth",
+  "paddle_score": 0.9573297500610352,
+  "trocr": "0-0- ( ex tenth"
+ },
+ {
+  "box": [
+   410,
+   801,
+   582,
+   873
+  ],
+  "paddle": "75/20",
+  "paddle_score": 0.9999455213546753,
+  "trocr": "75 ( 20 ."
+ },
+ {
+  "box": [
+   677,
+   842,
+   821,
+   925
+  ],
+  "paddle": "5mg",
+  "paddle_score": 0.7560610771179199,
+  "trocr": "5 mg ."
+ },
+ {
+  "box": [
+   806,
+   831,
+   999,
+   909
+  ],
+  "paddle": "BD",
+  "paddle_score": 0.9994178414344788,
+  "trocr": "G.B.D."
+ },
+ {
+  "box": [
+   28,
+   865,
+   251,
+   979
+  ],
+  "paddle": "© Syp.",
+  "paddle_score": 0.8260882496833801,
+  "trocr": "8 Sep."
+ },
+ {
+  "box": [
+   310,
+   869,
+   562,
+   943
+  ],
+  "paddle": "Monticope",
+  "paddle_score": 0.9984337687492371,
+  "trocr": "Monti cope ."
+ },
+ {
+  "box": [
+   875,
+   890,
+   1072,
+   982
+  ],
+  "paddle": "5 days",
+  "paddle_score": 0.9767282009124756,
+  "trocr": "5 days ."
+ },
+ {
+  "box": [
+   112,
+   1002,
+   467,
+   1072
+  ],
+  "paddle": "Diet - low salt",
+  "paddle_score": 0.9964340329170227,
+  "trocr": "Diet - low salt ."
+ },
+ {
+  "box": [
+   625,
+   1007,
+   928,
+   1088
+  ],
+  "paddle": "* F/u after",
+  "paddle_score": 0.9832257628440857,
+  "trocr": "# F/U after"
+ },
+ {
+  "box": [
+   213,
+   1053,
+   532,
+   1118
+  ],
+  "paddle": "No red meat",
+  "paddle_score": 0.9940357208251953,
+  "trocr": "No red meat ."
+ },
+ {
+  "box": [
+   120,
+   1113,
+   440,
+   1177
+  ],
+  "paddle": "walk 40 min",
+  "paddle_score": 0.9810689687728882,
+  "trocr": "walk 40 min."
+ },
+ {
+  "box": [
+   708,
+   1089,
+   902,
+   1153
+  ],
+  "paddle": "4 weeks",
+  "paddle_score": 0.9741514325141907,
+  "trocr": "4 weeks ."
+ },
+ {
+  "box": [
+   98,
+   1229,
+   387,
+   1327
+  ],
+  "paddle": "BP 140/90",
+  "paddle_score": 0.9676042199134827,
+  "trocr": "app who ( go ."
+ },
+ {
+  "box": [
+   125,
+   1161,
+   457,
+   1244
+  ],
+  "paddle": "Sugar chk. PP",
+  "paddle_score": 0.9435506463050842,
+  "trocr": "' Sugar chk . PP."
+ },
+ {
+  "box": [
+   380,
+   1238,
+   541,
+   1351
+  ],
+  "paddle": "(high)",
+  "paddle_score": 0.9553005695343018,
+  "trocr": "( High ) )"
+ },
+ {
+  "box": [
+   723,
+   1197,
+   1038,
+   1362
+  ],
+  "paddle": "tithm",
+  "paddle_score": 0.5168814659118652,
+  "trocr": "death ."
+ },
+ {
+  "box": [
+   90,
+   1318,
+   301,
+   1388
+  ],
+  "paddle": "wt loss",
+  "paddle_score": 0.9526516199111938,
+  "trocr": "wt loss ."
+ }
+]

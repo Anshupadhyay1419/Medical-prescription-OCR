@@ -1,0 +1,497 @@
+[
+ {
+  "box": [
+   51,
+   34,
+   173,
+   160
+  ],
+  "paddle": "Bx",
+  "paddle_score": 0.8125091791152954,
+  "trocr": "RX"
+ },
+ {
+  "box": [
+   251,
+   33,
+   519,
+   84
+  ],
+  "paddle": "CITY CARE CLINIC",
+  "paddle_score": 0.9988508224487305,
+  "trocr": "city care clinic ."
+ },
+ {
+  "box": [
+   707,
+   43,
+   915,
+   77
+  ],
+  "paddle": "Dr. S. Mukherjee",
+  "paddle_score": 0.981387197971344,
+  "trocr": "Dr. S. Mukherjee"
+ },
+ {
+  "box": [
+   280,
+   75,
+   503,
+   114
+  ],
+  "paddle": "17/4, Park Street",
+  "paddle_score": 0.9645156860351562,
+  "trocr": "17/4 , Park Street"
+ },
+ {
+  "box": [
+   715,
+   72,
+   923,
+   103
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.999869167804718,
+  "trocr": "MBBS , MD ( Medicine )"
+ },
+ {
+  "box": [
+   278,
+   102,
+   498,
+   140
+  ],
+  "paddle": "Kolkata - 700016",
+  "paddle_score": 0.9993919730186462,
+  "trocr": "Kolkata - 700016"
+ },
+ {
+  "box": [
+   705,
+   96,
+   930,
+   128
+  ],
+  "paddle": "Reg. No. 66234 (WBMC)",
+  "paddle_score": 0.999972939491272,
+  "trocr": "Reg. No. 66234 ( WBMC )"
+ },
+ {
+  "box": [
+   260,
+   126,
+   512,
+   168
+  ],
+  "paddle": "Ph : 033 4001 4001",
+  "paddle_score": 0.9725772142410278,
+  "trocr": "ph :033 4001,4001"
+ },
+ {
+  "box": [
+   731,
+   121,
+   927,
+   154
+  ],
+  "paddle": "Consultant Physician",
+  "paddle_score": 0.9999640583992004,
+  "trocr": "consultant physician ."
+ },
+ {
+  "box": [
+   65,
+   191,
+   351,
+   273
+  ],
+  "paddle": "Pt→R.Das",
+  "paddle_score": 0.9166234731674194,
+  "trocr": "Pter R. D.A.S."
+ },
+ {
+  "box": [
+   630,
+   176,
+   993,
+   293
+  ],
+  "paddle": "D+-23/5/25",
+  "paddle_score": 0.9281834363937378,
+  "trocr": "Dt- 2.5 (25 ."
+ },
+ {
+  "box": [
+   142,
+   251,
+   378,
+   349
+  ],
+  "paddle": "52y/M",
+  "paddle_score": 0.9964291453361511,
+  "trocr": "5.2 y. m."
+ },
+ {
+  "box": [
+   80,
+   363,
+   315,
+   474
+  ],
+  "paddle": "BP high",
+  "paddle_score": 0.8935570120811462,
+  "trocr": "B.P high"
+ },
+ {
+  "box": [
+   361,
+   323,
+   840,
+   442
+  ],
+  "paddle": "To-→ gidd nes t hed d",
+  "paddle_score": 0.8660153746604919,
+  "trocr": "Go-s giddries + had a"
+ },
+ {
+  "box": [
+   48,
+   499,
+   99,
+   554
+  ],
+  "paddle": "①",
+  "paddle_score": 0.6747269630432129,
+  "trocr": "0 ."
+ },
+ {
+  "box": [
+   139,
+   468,
+   355,
+   559
+  ],
+  "paddle": "T-H",
+  "paddle_score": 0.9922310709953308,
+  "trocr": "Tr. H."
+ },
+ {
+  "box": [
+   464,
+   428,
+   922,
+   546
+  ],
+  "paddle": "40/12.515d",
+  "paddle_score": 0.9161162376403809,
+  "trocr": "40/2.5 0-25 -15d."
+ },
+ {
+  "box": [
+   249,
+   537,
+   536,
+   612
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.996871292591095,
+  "trocr": "I-O-L"
+ },
+ {
+  "box": [
+   24,
+   632,
+   104,
+   707
+  ],
+  "paddle": "2",
+  "paddle_score": 0.5497421026229858,
+  "trocr": "a"
+ },
+ {
+  "box": [
+   148,
+   608,
+   519,
+   712
+  ],
+  "paddle": "Mtglim-500",
+  "paddle_score": 0.9979832768440247,
+  "trocr": "Mtglim -500"
+ },
+ {
+  "box": [
+   600,
+   592,
+   952,
+   681
+  ],
+  "paddle": "500 mg x/m-",
+  "paddle_score": 0.8353176712989807,
+  "trocr": "500 my x ) man ."
+ },
+ {
+  "box": [
+   290,
+   672,
+   549,
+   753
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9998852014541626,
+  "trocr": "I-O-l"
+ },
+ {
+  "box": [
+   654,
+   710,
+   971,
+   819
+  ],
+  "paddle": "75 mg x 1m",
+  "paddle_score": 0.8596218824386597,
+  "trocr": "75 my x ) mo ."
+ },
+ {
+  "box": [
+   27,
+   740,
+   569,
+   851
+  ],
+  "paddle": "3 clpid-Av 75",
+  "paddle_score": 0.9254205226898193,
+  "trocr": "O clpid-Av. 75 ."
+ },
+ {
+  "box": [
+   24,
+   857,
+   344,
+   960
+  ],
+  "paddle": "④ A to 20",
+  "paddle_score": 0.938775897026062,
+  "trocr": "O.A to 20 ."
+ },
+ {
+  "box": [
+   270,
+   812,
+   540,
+   879
+  ],
+  "paddle": "0-0-1",
+  "paddle_score": 0.9988710284233093,
+  "trocr": "0-0-1 ."
+ },
+ {
+  "box": [
+   586,
+   863,
+   667,
+   920
+  ],
+  "paddle": "20",
+  "paddle_score": 0.9999710321426392,
+  "trocr": "20 ."
+ },
+ {
+  "box": [
+   813,
+   842,
+   958,
+   912
+  ],
+  "paddle": "x1m-",
+  "paddle_score": 0.873009979724884,
+  "trocr": "& I. me"
+ },
+ {
+  "box": [
+   250,
+   922,
+   451,
+   990
+  ],
+  "paddle": "0-0-1",
+  "paddle_score": 0.9790102243423462,
+  "trocr": "0-0 ("
+ },
+ {
+  "box": [
+   579,
+   915,
+   654,
+   962
+  ],
+  "paddle": "HS",
+  "paddle_score": 0.9985132217407227,
+  "trocr": "ts ."
+ },
+ {
+  "box": [
+   4,
+   961,
+   547,
+   1094
+  ],
+  "paddle": "3 Syp Dicongest",
+  "paddle_score": 0.9308629631996155,
+  "trocr": "( O. Syp. \" D' Congest ,"
+ },
+ {
+  "box": [
+   621,
+   973,
+   752,
+   1043
+  ],
+  "paddle": "10mg",
+  "paddle_score": 0.8335248231887817,
+  "trocr": "10 mf ."
+ },
+ {
+  "box": [
+   449,
+   1042,
+   530,
+   1102
+  ],
+  "paddle": "BD",
+  "paddle_score": 0.9999451637268066,
+  "trocr": "B.D."
+ },
+ {
+  "box": [
+   86,
+   1154,
+   390,
+   1223
+  ],
+  "paddle": "Diet - low salt",
+  "paddle_score": 0.9458692669868469,
+  "trocr": "Diet - low salt ."
+ },
+ {
+  "box": [
+   458,
+   1132,
+   679,
+   1212
+  ],
+  "paddle": "BP->150/96",
+  "paddle_score": 0.9514200091362,
+  "trocr": "BP-7 150/96 ."
+ },
+ {
+  "box": [
+   757,
+   1128,
+   895,
+   1208
+  ],
+  "paddle": "take",
+  "paddle_score": 0.9986156225204468,
+  "trocr": "fake . '"
+ },
+ {
+  "box": [
+   87,
+   1206,
+   394,
+   1287
+  ],
+  "paddle": "walk 30' / dly",
+  "paddle_score": 0.9587014317512512,
+  "trocr": "walk 30'd dry ."
+ },
+ {
+  "box": [
+   461,
+   1213,
+   709,
+   1275
+  ],
+  "paddle": "PP→78/min",
+  "paddle_score": 0.9352108836174011,
+  "trocr": "pp-9 78 ( min."
+ },
+ {
+  "box": [
+   819,
+   1188,
+   914,
+   1241
+  ],
+  "paddle": "neg",
+  "paddle_score": 0.9953166842460632,
+  "trocr": "peg ."
+ },
+ {
+  "box": [
+   91,
+   1271,
+   400,
+   1364
+  ],
+  "paddle": "BP. Sugar chk",
+  "paddle_score": 0.996317982673645,
+  "trocr": "B.P. Sugar chile ."
+ },
+ {
+  "box": [
+   454,
+   1270,
+   656,
+   1338
+  ],
+  "paddle": "wt-→32",
+  "paddle_score": 0.8404617309570312,
+  "trocr": "wt-s big ."
+ },
+ {
+  "box": [
+   671,
+   1301,
+   924,
+   1460
+  ],
+  "paddle": "talm",
+  "paddle_score": 0.4717061519622803,
+  "trocr": "always ."
+ },
+ {
+  "box": [
+   0,
+   1383,
+   83,
+   1460
+  ],
+  "paddle": "Adv!",
+  "paddle_score": 0.9260768890380859,
+  "trocr": "adv ! ."
+ },
+ {
+  "box": [
+   88,
+   1342,
+   395,
+   1451
+  ],
+  "paddle": "Flu I month",
+  "paddle_score": 0.8872115612030029,
+  "trocr": "Flu't month ."
+ },
+ {
+  "box": [
+   726,
+   1417,
+   957,
+   1518
+  ],
+  "paddle": "23/5Tm.",
+  "paddle_score": 0.8885999917984009,
+  "trocr": "2.3/3 ) Two"
+ }
+]

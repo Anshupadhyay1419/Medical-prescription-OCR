@@ -1,0 +1,409 @@
+[
+ {
+  "box": [
+   210,
+   27,
+   528,
+   69
+  ],
+  "paddle": "Dr. M. Kulkarni",
+  "paddle_score": 0.9831424951553345,
+  "trocr": "Dr. M. Kulkarni"
+ },
+ {
+  "box": [
+   751,
+   42,
+   1010,
+   97
+  ],
+  "paddle": "Date 05/07/24",
+  "paddle_score": 0.9998282194137573,
+  "trocr": "Date 05 (07 (24 ."
+ },
+ {
+  "box": [
+   214,
+   81,
+   585,
+   127
+  ],
+  "paddle": "MBBS, MD (Paediatrics)",
+  "paddle_score": 0.9819989800453186,
+  "trocr": "MBBS , MD ( Paediatrics )"
+ },
+ {
+  "box": [
+   214,
+   136,
+   485,
+   187
+  ],
+  "paddle": "Reg. No. 45127",
+  "paddle_score": 0.9985566735267639,
+  "trocr": "Reg. No. 45127"
+ },
+ {
+  "box": [
+   751,
+   113,
+   1023,
+   160
+  ],
+  "paddle": "Time 12:35 pm",
+  "paddle_score": 0.9784822463989258,
+  "trocr": "Time 12:35 pm ."
+ },
+ {
+  "box": [
+   35,
+   216,
+   540,
+   264
+  ],
+  "paddle": "Name - Baby Aarar Patil",
+  "paddle_score": 0.9995068907737732,
+  "trocr": "Name - Baby Aarav Patil"
+ },
+ {
+  "box": [
+   723,
+   212,
+   1028,
+   270
+  ],
+  "paddle": "Age/sex - 2 Y/M",
+  "paddle_score": 0.9378128051757812,
+  "trocr": "Age ( sex - 2 Y.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M"
+ },
+ {
+  "box": [
+   32,
+   274,
+   534,
+   324
+  ],
+  "paddle": "Add - B-2/17, Sai Park,",
+  "paddle_score": 0.9764048457145691,
+  "trocr": "Add - B-2/7 , Sai Park ,"
+ },
+ {
+  "box": [
+   218,
+   329,
+   352,
+   367
+  ],
+  "paddle": "Nashik.",
+  "paddle_score": 0.9999688267707825,
+  "trocr": "nashik ."
+ },
+ {
+  "box": [
+   34,
+   380,
+   1026,
+   442
+  ],
+  "paddle": "C/0 - Loose motions since 2 days, 4-5 episodes/day,",
+  "paddle_score": 0.9814722537994385,
+  "trocr": "CFO - Loose motions since 2 days , 4-5 episodes today ,"
+ },
+ {
+  "box": [
+   197,
+   433,
+   1024,
+   496
+  ],
+  "paddle": "no blood in stool, vomiting 2 times yesterday,",
+  "paddle_score": 0.9941850900650024,
+  "trocr": "no blood in stool , vomiting 2 times yesterday ,"
+ },
+ {
+  "box": [
+   196,
+   484,
+   520,
+   537
+  ],
+  "paddle": "fever Low grade.",
+  "paddle_score": 0.9990902543067932,
+  "trocr": "fever low grade ."
+ },
+ {
+  "box": [
+   21,
+   532,
+   579,
+   598
+  ],
+  "paddle": "Dx - Acute Gastroenteritis",
+  "paddle_score": 0.9935373663902283,
+  "trocr": "DX - Acute Gastroenteritis"
+ },
+ {
+  "box": [
+   9,
+   596,
+   301,
+   703
+  ],
+  "paddle": "Rx O ORS",
+  "paddle_score": 0.9064540863037109,
+  "trocr": "RXO ORS."
+ },
+ {
+  "box": [
+   222,
+   660,
+   883,
+   714
+  ],
+  "paddle": "1 packet in 200 ml boiled & cooled water",
+  "paddle_score": 0.9836562275886536,
+  "trocr": "1 packet in 200 ml boiled & cooled water"
+ },
+ {
+  "box": [
+   220,
+   712,
+   626,
+   765
+  ],
+  "paddle": "give small sips frequently",
+  "paddle_score": 0.9999499917030334,
+  "trocr": "give small tips frequently"
+ },
+ {
+  "box": [
+   881,
+   697,
+   1027,
+   754
+  ],
+  "paddle": "- 2 days",
+  "paddle_score": 0.882736086845398,
+  "trocr": "- 2 days ."
+ },
+ {
+  "box": [
+   128,
+   778,
+   628,
+   827
+  ],
+  "paddle": "② Tab. Racecadotril 100 mg",
+  "paddle_score": 0.9757121205329895,
+  "trocr": "Q Tab. Racecadotril 100 mg"
+ },
+ {
+  "box": [
+   305,
+   820,
+   503,
+   865
+  ],
+  "paddle": "1 tab TDS",
+  "paddle_score": 0.9998501539230347,
+  "trocr": "1 tab TDS ."
+ },
+ {
+  "box": [
+   870,
+   804,
+   1032,
+   861
+  ],
+  "paddle": "- 3 days",
+  "paddle_score": 0.991193413734436,
+  "trocr": "- 3 days ."
+ },
+ {
+  "box": [
+   116,
+   878,
+   270,
+   947
+  ],
+  "paddle": "③ syp.",
+  "paddle_score": 0.9650540351867676,
+  "trocr": "0 sep ."
+ },
+ {
+  "box": [
+   288,
+   879,
+   449,
+   927
+  ],
+  "paddle": "Zincovit",
+  "paddle_score": 0.9999356269836426,
+  "trocr": "zincovit ."
+ },
+ {
+  "box": [
+   297,
+   912,
+   633,
+   967
+  ],
+  "paddle": "5 ml OD after food",
+  "paddle_score": 0.9982560276985168,
+  "trocr": "5 mL \"0D after food"
+ },
+ {
+  "box": [
+   862,
+   896,
+   1035,
+   958
+  ],
+  "paddle": "- 14 days",
+  "paddle_score": 0.9581385850906372,
+  "trocr": "- 14 days ."
+ },
+ {
+  "box": [
+   115,
+   966,
+   274,
+   1034
+  ],
+  "paddle": "④ syp.",
+  "paddle_score": 0.990693986415863,
+  "trocr": "0 sep ."
+ },
+ {
+  "box": [
+   282,
+   962,
+   628,
+   1016
+  ],
+  "paddle": "Ondem 2 mg/5ml",
+  "paddle_score": 0.9805482029914856,
+  "trocr": "Ondem 2 mg ( 5 mL"
+ },
+ {
+  "box": [
+   854,
+   986,
+   995,
+   1040
+  ],
+  "paddle": "- sos",
+  "paddle_score": 0.9780555963516235,
+  "trocr": "- sos ."
+ },
+ {
+  "box": [
+   296,
+   1003,
+   693,
+   1058
+  ],
+  "paddle": "2.5 ml sos if vomiting",
+  "paddle_score": 0.9920501112937927,
+  "trocr": "2.5 mL SOS if vomiting"
+ },
+ {
+  "box": [
+   117,
+   1058,
+   462,
+   1115
+  ],
+  "paddle": "5 Probiotic Sachet",
+  "paddle_score": 0.9724664688110352,
+  "trocr": "5 Probiotic Secret"
+ },
+ {
+  "box": [
+   856,
+   1081,
+   1020,
+   1139
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9027425050735474,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   296,
+   1101,
+   519,
+   1145
+  ],
+  "paddle": "1 sachet OD",
+  "paddle_score": 0.9965471625328064,
+  "trocr": "1 socket OD ."
+ },
+ {
+  "box": [
+   37,
+   1161,
+   597,
+   1217
+  ],
+  "paddle": "Advice :- - continue breast feeding",
+  "paddle_score": 0.9792852997779846,
+  "trocr": "Advice : - continue breast feeding"
+ },
+ {
+  "box": [
+   203,
+   1209,
+   710,
+   1267
+  ],
+  "paddle": "- give home made khichdi, curd",
+  "paddle_score": 0.9923399686813354,
+  "trocr": "- give home made ' Khichdi , cured"
+ },
+ {
+  "box": [
+   202,
+   1261,
+   667,
+   1306
+  ],
+  "paddle": "- avoid outside food & juices",
+  "paddle_score": 0.9741798043251038,
+  "trocr": "\" avoid outside food & juices"
+ },
+ {
+  "box": [
+   792,
+   1263,
+   1045,
+   1377
+  ],
+  "paddle": "Dr. M. Kukani",
+  "paddle_score": 0.8969734907150269,
+  "trocr": "Dr. M. Kulkarni ."
+ },
+ {
+  "box": [
+   199,
+   1306,
+   679,
+   1353
+  ],
+  "paddle": "- if fever increases or lethargy,",
+  "paddle_score": 0.9858695268630981,
+  "trocr": "- if fever increases or lethargy ,"
+ },
+ {
+  "box": [
+   241,
+   1350,
+   620,
+   1397
+  ],
+  "paddle": "visit hospital immediately.",
+  "paddle_score": 0.985572338104248,
+  "trocr": "visit hospital immediately ."
+ }
+]

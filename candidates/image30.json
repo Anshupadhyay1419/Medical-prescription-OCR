@@ -1,0 +1,387 @@
+[
+ {
+  "box": [
+   191,
+   13,
+   482,
+   70
+  ],
+  "paddle": "Dr. P. Sharma",
+  "paddle_score": 0.992189347743988,
+  "trocr": "Dr. P. Sharma"
+ },
+ {
+  "box": [
+   746,
+   40,
+   1009,
+   95
+  ],
+  "paddle": "Date:31/07/24",
+  "paddle_score": 0.9711757302284241,
+  "trocr": "Date : 31/07 (24 ."
+ },
+ {
+  "box": [
+   200,
+   71,
+   514,
+   121
+  ],
+  "paddle": "MBBS, DNB (OBG)",
+  "paddle_score": 0.9451841711997986,
+  "trocr": "MBBS , DNB ( OBG )"
+ },
+ {
+  "box": [
+   202,
+   122,
+   480,
+   180
+  ],
+  "paddle": "Reg. No. 41236",
+  "paddle_score": 0.9603978395462036,
+  "trocr": "Reg. No. 41236"
+ },
+ {
+  "box": [
+   745,
+   111,
+   1017,
+   156
+  ],
+  "paddle": "Time : 4:40 pm",
+  "paddle_score": 0.9663789868354797,
+  "trocr": "Time : 4:40 pm."
+ },
+ {
+  "box": [
+   40,
+   217,
+   515,
+   273
+  ],
+  "paddle": "Name : Ms. Sneha Iyer",
+  "paddle_score": 0.9976764917373657,
+  "trocr": "Name : Ms. Sneha Iyer"
+ },
+ {
+  "box": [
+   743,
+   211,
+   1020,
+   270
+  ],
+  "paddle": "Age/Sex : 32/F",
+  "paddle_score": 0.9611086845397949,
+  "trocr": "Age ( Sex : 32 (F."
+ },
+ {
+  "box": [
+   41,
+   260,
+   661,
+   329
+  ],
+  "paddle": "Add : 12, Lake View Apartments,",
+  "paddle_score": 0.9897441267967224,
+  "trocr": "Add : 12 , Lake View Apartments ,"
+ },
+ {
+  "box": [
+   223,
+   316,
+   564,
+   376
+  ],
+  "paddle": "Bangalore - 560076",
+  "paddle_score": 0.9617636203765869,
+  "trocr": "Bangalore - 560076"
+ },
+ {
+  "box": [
+   30,
+   378,
+   1032,
+   459
+  ],
+  "paddle": "C/0Whitedischargewithfomeln4days,",
+  "paddle_score": 0.7772224545478821,
+  "trocr": "CFO : White discharge with foul smell since 4 days ,"
+ },
+ {
+  "box": [
+   208,
+   439,
+   855,
+   495
+  ],
+  "paddle": "mild lower abdominal pain, itching.",
+  "paddle_score": 0.9965813755989075,
+  "trocr": "mild lower abdominal pain , itching ."
+ },
+ {
+  "box": [
+   210,
+   488,
+   812,
+   546
+  ],
+  "paddle": "No fever. No urinary complaints.",
+  "paddle_score": 0.9846811294555664,
+  "trocr": "No fever . No urinary complaints ."
+ },
+ {
+  "box": [
+   29,
+   560,
+   702,
+   618
+  ],
+  "paddle": "Dx : Bacterial Vaginosis (likely)",
+  "paddle_score": 0.9966539144515991,
+  "trocr": "Dx : Bacterial Vaginosis ( likely )"
+ },
+ {
+  "box": [
+   25,
+   635,
+   702,
+   721
+  ],
+  "paddle": "Rx 1 Tab. Metronidazole 400mg",
+  "paddle_score": 0.906898021697998,
+  "trocr": "RXO Tab. Metronidazole 400 mg"
+ },
+ {
+  "box": [
+   852,
+   677,
+   1029,
+   738
+  ],
+  "paddle": "- 7 days",
+  "paddle_score": 0.9633496999740601,
+  "trocr": "- 7 days ."
+ },
+ {
+  "box": [
+   307,
+   698,
+   688,
+   751
+  ],
+  "paddle": "1 tab BD after food",
+  "paddle_score": 0.9975795745849609,
+  "trocr": "1 tab BD after food"
+ },
+ {
+  "box": [
+   140,
+   763,
+   666,
+   813
+  ],
+  "paddle": "② Cap. Fluconazole 150 mg",
+  "paddle_score": 0.9799367785453796,
+  "trocr": "O. Cap. Fluconazole 150 mg"
+ },
+ {
+  "box": [
+   853,
+   783,
+   1026,
+   845
+  ],
+  "paddle": "- I day",
+  "paddle_score": 0.9732083678245544,
+  "trocr": "- I day ."
+ },
+ {
+  "box": [
+   308,
+   811,
+   691,
+   862
+  ],
+  "paddle": "1 cap OD (single dose)",
+  "paddle_score": 0.9983503222465515,
+  "trocr": "1 cap 0D ( single dose )"
+ },
+ {
+  "box": [
+   132,
+   861,
+   474,
+   925
+  ],
+  "paddle": "③ Tab. Probiotic",
+  "paddle_score": 0.9877042770385742,
+  "trocr": "3 . Tab. Probiotic"
+ },
+ {
+  "box": [
+   300,
+   903,
+   649,
+   963
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9990946054458618,
+  "trocr": "1\" tab \" OD after food"
+ },
+ {
+  "box": [
+   850,
+   890,
+   1029,
+   955
+  ],
+  "paddle": "- 7 days",
+  "paddle_score": 0.983548104763031,
+  "trocr": "- 7 days ."
+ },
+ {
+  "box": [
+   131,
+   960,
+   695,
+   1031
+  ],
+  "paddle": "④ Syp. Doxycycline (if needed)",
+  "paddle_score": 0.9732593894004822,
+  "trocr": "A Syp. Doxycycline ( if needed )"
+ },
+ {
+  "box": [
+   842,
+   991,
+   1025,
+   1055
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9443750381469727,
+  "trocr": "- 5 days ."
+ },
+ {
+  "box": [
+   303,
+   1015,
+   644,
+   1068
+  ],
+  "paddle": "1 tsp BD after food",
+  "paddle_score": 0.9999348521232605,
+  "trocr": "1 tsp \" BD after food"
+ },
+ {
+  "box": [
+   129,
+   1069,
+   616,
+   1124
+  ],
+  "paddle": "5 Warm water sitz bath",
+  "paddle_score": 0.948086142539978,
+  "trocr": "5 ) Warm water sitz bath"
+ },
+ {
+  "box": [
+   842,
+   1088,
+   1023,
+   1156
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9189931154251099,
+  "trocr": "- 5 days ."
+ },
+ {
+  "box": [
+   307,
+   1120,
+   508,
+   1163
+  ],
+  "paddle": "10 mins BD",
+  "paddle_score": 0.9939006567001343,
+  "trocr": "10 mins BD ."
+ },
+ {
+  "box": [
+   31,
+   1187,
+   856,
+   1237
+  ],
+  "paddle": "Advice : - Avoid irritants (soaps, perfumed products).",
+  "paddle_score": 0.9950479865074158,
+  "trocr": "Advice : - Avoid irritants ( soaps , performed products ) ."
+ },
+ {
+  "box": [
+   176,
+   1235,
+   725,
+   1282
+  ],
+  "paddle": "- Wear loose cotton undergarments.",
+  "paddle_score": 0.9955439567565918,
+  "trocr": "- Wear loose cotton undergarments ."
+ },
+ {
+  "box": [
+   849,
+   1226,
+   1041,
+   1350
+  ],
+  "paddle": "F Shama",
+  "paddle_score": 0.7317520976066589,
+  "trocr": "of shama ."
+ },
+ {
+  "box": [
+   179,
+   1279,
+   495,
+   1321
+  ],
+  "paddle": "- Maintain hygiene.",
+  "paddle_score": 0.9792928099632263,
+  "trocr": "- Maintain hygiene ."
+ },
+ {
+  "box": [
+   179,
+   1317,
+   701,
+   1367
+  ],
+  "paddle": "- If symptoms persist or worsen,",
+  "paddle_score": 0.9902750253677368,
+  "trocr": "- If symptoms \" persist or worsen ,"
+ },
+ {
+  "box": [
+   829,
+   1303,
+   1064,
+   1419
+  ],
+  "paddle": "Dr.P. Sharma",
+  "paddle_score": 0.9591315388679504,
+  "trocr": "Dr. P. Sharma"
+ },
+ {
+  "box": [
+   219,
+   1360,
+   400,
+   1415
+  ],
+  "paddle": "visit again.",
+  "paddle_score": 0.9674558043479919,
+  "trocr": "visit \" again ."
+ }
+]

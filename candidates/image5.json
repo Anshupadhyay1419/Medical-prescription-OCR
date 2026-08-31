@@ -1,0 +1,640 @@
+[
+ {
+  "box": [
+   138,
+   7,
+   467,
+   45
+  ],
+  "paddle": "CITY CARE CLINIC",
+  "paddle_score": 0.9999875426292419,
+  "trocr": "city care clinic"
+ },
+ {
+  "box": [
+   841,
+   4,
+   1096,
+   37
+  ],
+  "paddle": "Dr. Anil Kumar",
+  "paddle_score": 0.9992968440055847,
+  "trocr": "Dr. Anil Kumar"
+ },
+ {
+  "box": [
+   140,
+   48,
+   466,
+   74
+  ],
+  "paddle": "Health for a Better Tomorrow",
+  "paddle_score": 0.9991578459739685,
+  "trocr": "Health for a Better Tomorrow"
+ },
+ {
+  "box": [
+   822,
+   44,
+   1112,
+   67
+  ],
+  "paddle": "MBBS, MS (General Surgery)",
+  "paddle_score": 0.9997580051422119,
+  "trocr": "MBBS . MS ( General Surgery )"
+ },
+ {
+  "box": [
+   878,
+   67,
+   1113,
+   95
+  ],
+  "paddle": "Reg. No. KA-01-67890",
+  "paddle_score": 0.9997318387031555,
+  "trocr": "Reg. No. KA-01-678990"
+ },
+ {
+  "box": [
+   140,
+   82,
+   459,
+   110
+  ],
+  "paddle": "48, 2nd Floor, Lake View Complex,",
+  "paddle_score": 0.994450569152832,
+  "trocr": "48, 2nd Floor , Lake View Complex ,"
+ },
+ {
+  "box": [
+   917,
+   96,
+   1114,
+   120
+  ],
+  "paddle": "Consultant Surgeon",
+  "paddle_score": 0.9999902248382568,
+  "trocr": "Consultant Surgeon"
+ },
+ {
+  "box": [
+   137,
+   108,
+   389,
+   134
+  ],
+  "paddle": "New BEL Road, Mathikere,",
+  "paddle_score": 0.9999627470970154,
+  "trocr": "New BEL Road , Mathikere ,"
+ },
+ {
+  "box": [
+   140,
+   136,
+   332,
+   159
+  ],
+  "paddle": "Bengaluru - 560054.",
+  "paddle_score": 0.9714173674583435,
+  "trocr": "Bengaluru-560054 ."
+ },
+ {
+  "box": [
+   984,
+   133,
+   1114,
+   156
+  ],
+  "paddle": "OPD Timings:",
+  "paddle_score": 0.9818251729011536,
+  "trocr": "opp timings :"
+ },
+ {
+  "box": [
+   138,
+   159,
+   326,
+   185
+  ],
+  "paddle": "Ph: 080-2356 7788",
+  "paddle_score": 0.9964637756347656,
+  "trocr": "ph.080-2356 7.88"
+ },
+ {
+  "box": [
+   791,
+   156,
+   1117,
+   182
+  ],
+  "paddle": "Mon to Sat : 11:00 AM - 1:30 PM",
+  "paddle_score": 0.9721519947052002,
+  "trocr": "Mon to Sat : 11,00 AM - 1:30 PM"
+ },
+ {
+  "box": [
+   917,
+   181,
+   1117,
+   207
+  ],
+  "paddle": "6:00 PM - 8:30 PM",
+  "paddle_score": 0.9623678922653198,
+  "trocr": "6,00 pm - 8.30 pm."
+ },
+ {
+  "box": [
+   845,
+   207,
+   1081,
+   230
+  ],
+  "paddle": "Sunday : By Appointment",
+  "paddle_score": 0.9719073176383972,
+  "trocr": "Sunday : By Appointment"
+ },
+ {
+  "box": [
+   44,
+   268,
+   234,
+   311
+  ],
+  "paddle": "Pt. ID: 7856",
+  "paddle_score": 0.9803414344787598,
+  "trocr": "pt.id : 7856 ."
+ },
+ {
+  "box": [
+   346,
+   272,
+   643,
+   325
+  ],
+  "paddle": "Mr. Arvind. M",
+  "paddle_score": 0.9874791502952576,
+  "trocr": "Mr. Arvind . M."
+ },
+ {
+  "box": [
+   889,
+   271,
+   1078,
+   316
+  ],
+  "paddle": "Dt. 18/5/24",
+  "paddle_score": 0.9975635409355164,
+  "trocr": "dt. 18 (5/24 ."
+ },
+ {
+  "box": [
+   347,
+   332,
+   607,
+   396
+  ],
+  "paddle": "Age : 36 Y/M",
+  "paddle_score": 0.9046617150306702,
+  "trocr": "Age : 36 4 (M."
+ },
+ {
+  "box": [
+   839,
+   332,
+   1023,
+   371
+  ],
+  "paddle": "BP-118/76",
+  "paddle_score": 0.9995291829109192,
+  "trocr": "BP-118 (76 ."
+ },
+ {
+  "box": [
+   36,
+   364,
+   112,
+   476
+  ],
+  "paddle": "R",
+  "paddle_score": 0.9905609488487244,
+  "trocr": "Ry"
+ },
+ {
+  "box": [
+   838,
+   371,
+   1070,
+   409
+  ],
+  "paddle": "Pulse - 72 /min",
+  "paddle_score": 0.9554749131202698,
+  "trocr": "pulse - 72 ( min."
+ },
+ {
+  "box": [
+   141,
+   426,
+   200,
+   475
+  ],
+  "paddle": "1",
+  "paddle_score": 0.8671891093254089,
+  "trocr": "0"
+ },
+ {
+  "box": [
+   221,
+   423,
+   546,
+   472
+  ],
+  "paddle": "Tab. Nexpro - RD",
+  "paddle_score": 0.9946762323379517,
+  "trocr": "Tab. Nexpro - RD ."
+ },
+ {
+  "box": [
+   837,
+   413,
+   1017,
+   453
+  ],
+  "paddle": "Wt - 70 Kg",
+  "paddle_score": 0.904297947883606,
+  "trocr": "wt-70 kg ."
+ },
+ {
+  "box": [
+   219,
+   467,
+   514,
+   512
+  ],
+  "paddle": "(Esomeprazole 40)",
+  "paddle_score": 0.9776377081871033,
+  "trocr": "( Esomeprazole 40 )"
+ },
+ {
+  "box": [
+   630,
+   465,
+   672,
+   505
+  ],
+  "paddle": "2",
+  "paddle_score": 0.9881342053413391,
+  "trocr": "2 ."
+ },
+ {
+  "box": [
+   262,
+   502,
+   577,
+   557
+  ],
+  "paddle": "1-0-1 before food",
+  "paddle_score": 0.9520280361175537,
+  "trocr": "1-0' -1 before food"
+ },
+ {
+  "box": [
+   704,
+   497,
+   791,
+   545
+  ],
+  "paddle": "Cap.",
+  "paddle_score": 0.9999454021453857,
+  "trocr": "cap ."
+ },
+ {
+  "box": [
+   778,
+   494,
+   1050,
+   538
+  ],
+  "paddle": "Rantac - 150",
+  "paddle_score": 0.9484526515007019,
+  "trocr": "Rantac - 150"
+ },
+ {
+  "box": [
+   338,
+   547,
+   495,
+   608
+  ],
+  "paddle": "× 10 days",
+  "paddle_score": 0.9422743320465088,
+  "trocr": "x 10 days ."
+ },
+ {
+  "box": [
+   855,
+   537,
+   914,
+   575
+  ],
+  "paddle": "HS",
+  "paddle_score": 0.9996506571769714,
+  "trocr": "hs ."
+ },
+ {
+  "box": [
+   899,
+   569,
+   1042,
+   620
+  ],
+  "paddle": "x 10 days",
+  "paddle_score": 0.9924876093864441,
+  "trocr": "x 10 days ."
+ },
+ {
+  "box": [
+   39,
+   613,
+   93,
+   673
+  ],
+  "paddle": "3",
+  "paddle_score": 0.9983853101730347,
+  "trocr": "3 ."
+ },
+ {
+  "box": [
+   121,
+   616,
+   432,
+   692
+  ],
+  "paddle": "Syp. Digene Gel",
+  "paddle_score": 0.9984341263771057,
+  "trocr": "Syp . Digene Gel ."
+ },
+ {
+  "box": [
+   593,
+   620,
+   653,
+   668
+  ],
+  "paddle": "4.",
+  "paddle_score": 0.9992247819900513,
+  "trocr": "4 ."
+ },
+ {
+  "box": [
+   687,
+   628,
+   941,
+   668
+  ],
+  "paddle": "Tab. Domstal",
+  "paddle_score": 0.9974625110626221,
+  "trocr": "Tab. Domstal"
+ },
+ {
+  "box": [
+   170,
+   678,
+   345,
+   720
+  ],
+  "paddle": "15 ml →",
+  "paddle_score": 0.9172945618629456,
+  "trocr": "15ml \""
+ },
+ {
+  "box": [
+   708,
+   679,
+   903,
+   724
+  ],
+  "paddle": "10 mg BD",
+  "paddle_score": 0.9379819631576538,
+  "trocr": "10 mg ( BD ."
+ },
+ {
+  "box": [
+   954,
+   689,
+   1135,
+   760
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.8932917714118958,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   130,
+   713,
+   453,
+   767
+  ],
+  "paddle": "TDS - After meals",
+  "paddle_score": 0.949221670627594,
+  "trocr": "TDS - After meals"
+ },
+ {
+  "box": [
+   352,
+   781,
+   786,
+   832
+  ],
+  "paddle": "⑤ Tab. Cezont - CV 625",
+  "paddle_score": 0.982038676738739,
+  "trocr": "(O Tab. Cezont - CV 625"
+ },
+ {
+  "box": [
+   461,
+   829,
+   776,
+   886
+  ],
+  "paddle": "[1-1-1] x 7 days",
+  "paddle_score": 0.9724419116973877,
+  "trocr": "CI-1-1 ) x 7 days ."
+ },
+ {
+  "box": [
+   873,
+   840,
+   1161,
+   918
+  ],
+  "paddle": "RBS today: 142mg/dl",
+  "paddle_score": 0.933730959892273,
+  "trocr": "RBS today : 142 mg/dl ."
+ },
+ {
+  "box": [
+   127,
+   905,
+   175,
+   949
+  ],
+  "paddle": "6",
+  "paddle_score": 0.999933123588562,
+  "trocr": "6"
+ },
+ {
+  "box": [
+   214,
+   892,
+   469,
+   944
+  ],
+  "paddle": "Probiotic Sachet",
+  "paddle_score": 0.9994778037071228,
+  "trocr": "Probiotic Secret"
+ },
+ {
+  "box": [
+   281,
+   923,
+   666,
+   993
+  ],
+  "paddle": "OD → Empty stomach",
+  "paddle_score": 0.9401242136955261,
+  "trocr": "# Empty stomach ,"
+ },
+ {
+  "box": [
+   503,
+   991,
+   638,
+   1041
+  ],
+  "paddle": "x 7 days",
+  "paddle_score": 0.9933910369873047,
+  "trocr": "x 7 days ."
+ },
+ {
+  "box": [
+   797,
+   966,
+   1055,
+   1019
+  ],
+  "paddle": "Tab Paracetomol",
+  "paddle_score": 0.999247133731842,
+  "trocr": "Tab Paracetomol ."
+ },
+ {
+  "box": [
+   44,
+   1039,
+   408,
+   1104
+  ],
+  "paddle": "Advice : - Light diet",
+  "paddle_score": 0.9758473634719849,
+  "trocr": "Advice : - Light diet ."
+ },
+ {
+  "box": [
+   844,
+   1023,
+   1077,
+   1089
+  ],
+  "paddle": "if fever/pain",
+  "paddle_score": 0.9934187531471252,
+  "trocr": "if fever ( pain ."
+ },
+ {
+  "box": [
+   865,
+   1010,
+   934,
+   1045
+  ],
+  "paddle": "sos",
+  "paddle_score": 0.9995604157447815,
+  "trocr": "sos ."
+ },
+ {
+  "box": [
+   193,
+   1079,
+   570,
+   1146
+  ],
+  "paddle": "- Avoid oily & spicy food",
+  "paddle_score": 0.9690714478492737,
+  "trocr": "- Avoid only & spicy food"
+ },
+ {
+  "box": [
+   186,
+   1134,
+   463,
+   1194
+  ],
+  "paddle": "- Plenty of water",
+  "paddle_score": 0.9968680143356323,
+  "trocr": "- Plenty of water"
+ },
+ {
+  "box": [
+   580,
+   1135,
+   782,
+   1200
+  ],
+  "paddle": "Review after",
+  "paddle_score": 0.9997258186340332,
+  "trocr": "Review after"
+ },
+ {
+  "box": [
+   182,
+   1181,
+   519,
+   1236
+  ],
+  "paddle": "- Avoid late night food",
+  "paddle_score": 0.9684439897537231,
+  "trocr": "- Avoid \" late night food"
+ },
+ {
+  "box": [
+   652,
+   1192,
+   765,
+   1235
+  ],
+  "paddle": "I week",
+  "paddle_score": 0.9566845297813416,
+  "trocr": "I week"
+ },
+ {
+  "box": [
+   177,
+   1229,
+   523,
+   1286
+  ],
+  "paddle": "- Walk 30 mins daily",
+  "paddle_score": 0.992801308631897,
+  "trocr": "- Walk 30 mins daily"
+ },
+ {
+  "box": [
+   943,
+   1212,
+   1112,
+   1292
+  ],
+  "paddle": "18/5/24",
+  "paddle_score": 0.9998288750648499,
+  "trocr": "18/5 (24 ."
+ }
+]

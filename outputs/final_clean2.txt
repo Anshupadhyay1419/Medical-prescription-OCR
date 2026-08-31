@@ -9,8 +9,8 @@ date : 14/6/24
 age : 28
 Rx.
 D. Tads . Dolo - bso 1-1-1 x 3d .
-Cap. Amory 500 I-0-0, X 5d.
-Tab. Pant-D 0-0-I AC.
+Cap. Amory 500 1-0-0, X 5d.
+Tab. Pant-D 0-0-1 AC.
 ex 7d .
 Syp. momter LC 5 miles . His x 7d .
 Tab. Ibugesic so ! " rain ( fever .
@@ -23,7 +23,5 @@ Order .
 Review " on 20/6/24
 Dr. R. K. Malhotra
 Reg. No. 65212
-The text is divided into sections based on y-coordinates.
-Medications and their dosages are correctly grouped.
-Each fragment is preserved exactly as input.
-Dosage attachment rules are followed to ensure patient safety.
+The clinic information and doctor's details are on the top.
+The prescription section starts with "rx." and contains multiple medications and their dosages.

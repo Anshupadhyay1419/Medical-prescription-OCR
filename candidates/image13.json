@@ -1,0 +1,299 @@
+[
+ {
+  "box": [
+   976,
+   1,
+   1069,
+   30
+  ],
+  "paddle": "CRYSTAL",
+  "paddle_score": 0.9999709129333496,
+  "trocr": "crystal"
+ },
+ {
+  "box": [
+   874,
+   18,
+   946,
+   50
+  ],
+  "paddle": "DATE:",
+  "paddle_score": 0.980162501335144,
+  "trocr": "date :"
+ },
+ {
+  "box": [
+   878,
+   45,
+   973,
+   70
+  ],
+  "paddle": "PAGE No.",
+  "paddle_score": 0.9984022974967957,
+  "trocr": "page no ."
+ },
+ {
+  "box": [
+   50,
+   69,
+   1110,
+   171
+  ],
+  "paddle": "thammpuled to -the sicy hemodyna",
+  "paddle_score": 0.8960480690002441,
+  "trocr": "translated to the sick hemodipna ."
+ },
+ {
+  "box": [
+   40,
+   131,
+   1130,
+   227
+  ],
+  "paddle": "-mically unstable requiring pressos",
+  "paddle_score": 0.7885903120040894,
+  "trocr": "mically unstable requiring pressure shortly"
+ },
+ {
+  "box": [
+   47,
+   193,
+   1050,
+   280
+  ],
+  "paddle": "after arival pt began exsanguinating",
+  "paddle_score": 0.944926917552948,
+  "trocr": "after arrival at began unchanging"
+ },
+ {
+  "box": [
+   49,
+   251,
+   1089,
+   335
+  ],
+  "paddle": "from his abdomen and left chest tube",
+  "paddle_score": 0.9818360805511475,
+  "trocr": "from his abdomen and left chest tube"
+ },
+ {
+  "box": [
+   40,
+   315,
+   1021,
+   389
+  ],
+  "paddle": "pt was also noted to be hypothermic",
+  "paddle_score": 0.9883186221122742,
+  "trocr": "It was also noted to be hypothesis"
+ },
+ {
+  "box": [
+   44,
+   375,
+   1038,
+   447
+  ],
+  "paddle": "and coa gulopathic aggressive volume",
+  "paddle_score": 0.9935452342033386,
+  "trocr": "and coargulopathic aggressive volume"
+ },
+ {
+  "box": [
+   37,
+   433,
+   1141,
+   500
+  ],
+  "paddle": "resuscitation was continued with crustall",
+  "paddle_score": 0.9593744874000549,
+  "trocr": "resuscitation was continued with crystall"
+ },
+ {
+  "box": [
+   27,
+   490,
+   1135,
+   562
+  ],
+  "paddle": "and blood products the abdominal dressing",
+  "paddle_score": 0.965779185295105,
+  "trocr": "and blood products the abdominal dressing"
+ },
+ {
+  "box": [
+   20,
+   550,
+   1102,
+   615
+  ],
+  "paddle": "was removed and the pts ad abdomen",
+  "paddle_score": 0.9819112420082092,
+  "trocr": "was removed and the pets at abdomen"
+ },
+ {
+  "box": [
+   39,
+   613,
+   1095,
+   670
+  ],
+  "paddle": "was reaxploxed diffuse bleeding was",
+  "paddle_score": 0.9932546615600586,
+  "trocr": "was reemployed diffuse bleeding was"
+ },
+ {
+  "box": [
+   32,
+   670,
+   1133,
+   728
+  ],
+  "paddle": "noted and the a abdomen was repacked",
+  "paddle_score": 0.9727747440338135,
+  "trocr": "noted and the so abdomen was \" repacked"
+ },
+ {
+  "box": [
+   29,
+   732,
+   1075,
+   788
+  ],
+  "paddle": "a discussion with the pts family was",
+  "paddle_score": 0.9937891364097595,
+  "trocr": "a discussion with the pts family was"
+ },
+ {
+  "box": [
+   25,
+   785,
+   1143,
+   855
+  ],
+  "paddle": "held regasding the pate pt's dirce situath",
+  "paddle_score": 0.9603234529495239,
+  "trocr": "held regarding the party pt's direct situation"
+ },
+ {
+  "box": [
+   30,
+   845,
+   1143,
+   914
+  ],
+  "paddle": "at that point it was the decision of",
+  "paddle_score": 0.98561030626297,
+  "trocr": "at that point it was the decision of"
+ },
+ {
+  "box": [
+   25,
+   906,
+   1143,
+   977
+  ],
+  "paddle": "the pt's family to make the pt comfos",
+  "paddle_score": 0.9466134905815125,
+  "trocr": "the pt's family to make the pt. London"
+ },
+ {
+  "box": [
+   25,
+   966,
+   1097,
+   1040
+  ],
+  "paddle": "measuses only resuscitation ceased and",
+  "paddle_score": 0.9892615079879761,
+  "trocr": "measures only resuscitation ceased and"
+ },
+ {
+  "box": [
+   25,
+   1030,
+   1113,
+   1105
+  ],
+  "paddle": "thept expired shoolly thescafles medi",
+  "paddle_score": 0.976216197013855,
+  "trocr": "the 1pt expired shortly thescafles media"
+ },
+ {
+  "box": [
+   15,
+   1091,
+   1067,
+   1165
+  ],
+  "paddle": "- cation on admission hone dischasge",
+  "paddle_score": 0.963222086429596,
+  "trocr": "-catch on admission home discharge"
+ },
+ {
+  "box": [
+   22,
+   1148,
+   1140,
+   1235
+  ],
+  "paddle": "mediations none dischasge deposition",
+  "paddle_score": 0.9733790159225464,
+  "trocr": "medications none discharge deposition"
+ },
+ {
+  "box": [
+   22,
+   1216,
+   1143,
+   1304
+  ],
+  "paddle": "expvied dischasge diagnosis guin ",
+  "paddle_score": 0.9606389999389648,
+  "trocr": "expired discharge diagnosis \" gum ?"
+ },
+ {
+  "box": [
+   20,
+   1275,
+   1143,
+   1369
+  ],
+  "paddle": "wound to chest abdomen dischasge.",
+  "paddle_score": 0.9933604598045349,
+  "trocr": "wound to chest abdomen discharge"
+ },
+ {
+  "box": [
+   23,
+   1340,
+   1143,
+   1440
+  ],
+  "paddle": "condition expired follow up instsucth",
+  "paddle_score": 0.9500374794006348,
+  "trocr": "condition captured follow up instruction"
+ },
+ {
+  "box": [
+   279,
+   1432,
+   439,
+   1488
+  ],
+  "paddle": "none.",
+  "paddle_score": 0.9997091293334961,
+  "trocr": "none ."
+ },
+ {
+  "box": [
+   32,
+   1517,
+   92,
+   1557
+  ],
+  "paddle": "23",
+  "paddle_score": 0.47962212562561035,
+  "trocr": "girl ."
+ }
+]

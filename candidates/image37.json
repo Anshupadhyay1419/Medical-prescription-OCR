@@ -1,0 +1,453 @@
+[
+ {
+  "box": [
+   193,
+   25,
+   600,
+   88
+  ],
+  "paddle": "Dr. Priyanka Malhotra",
+  "paddle_score": 0.9999292492866516,
+  "trocr": "Dr. Priyanka Malhotra"
+ },
+ {
+  "box": [
+   782,
+   38,
+   1037,
+   89
+  ],
+  "paddle": "Date：12/08/24",
+  "paddle_score": 0.9730014204978943,
+  "trocr": "Date : 12/08 (24 ."
+ },
+ {
+  "box": [
+   193,
+   84,
+   606,
+   136
+  ],
+  "paddle": "MBBS, MD (Obst. & Gynae)",
+  "paddle_score": 0.9758641719818115,
+  "trocr": "MBBS , MD ( Obst. & Gynae )"
+ },
+ {
+  "box": [
+   783,
+   108,
+   1037,
+   156
+  ],
+  "paddle": "Time: 5:30 pm",
+  "paddle_score": 0.9660173058509827,
+  "trocr": "Time : 5:30 pm."
+ },
+ {
+  "box": [
+   192,
+   132,
+   468,
+   195
+  ],
+  "paddle": "Reg. No. 46789",
+  "paddle_score": 0.9995465874671936,
+  "trocr": "Reg. No. 46789 ."
+ },
+ {
+  "box": [
+   34,
+   218,
+   472,
+   269
+  ],
+  "paddle": "Name : Mrs. Neha Joshi",
+  "paddle_score": 0.9973176717758179,
+  "trocr": "Name : Mrs. Neha Joshi"
+ },
+ {
+  "box": [
+   737,
+   212,
+   1020,
+   272
+  ],
+  "paddle": "Age/Sex : 28/F",
+  "paddle_score": 0.9458338022232056,
+  "trocr": "Age ( Sex : 28 (F."
+ },
+ {
+  "box": [
+   31,
+   271,
+   586,
+   328
+  ],
+  "paddle": "Add : C-103, Maple Residency,",
+  "paddle_score": 0.9962565898895264,
+  "trocr": "Add : C-103 , Maple Residency ,"
+ },
+ {
+  "box": [
+   189,
+   320,
+   585,
+   365
+  ],
+  "paddle": "Kharadi, Pune - 411014",
+  "paddle_score": 0.9972631335258484,
+  "trocr": "Kharadi , Pune - 411014"
+ },
+ {
+  "box": [
+   23,
+   375,
+   775,
+   451
+  ],
+  "paddle": "C/0:Lowerabdominal painsince5days,",
+  "paddle_score": 0.8814786672592163,
+  "trocr": "CFO : Lower abdominal pain since 5 days ,"
+ },
+ {
+  "box": [
+   186,
+   427,
+   528,
+   477
+  ],
+  "paddle": "more during periods.",
+  "paddle_score": 0.9780716896057129,
+  "trocr": "more during periods ."
+ },
+ {
+  "box": [
+   188,
+   464,
+   710,
+   516
+  ],
+  "paddle": "Periods are regular but painful.",
+  "paddle_score": 0.9862734079360962,
+  "trocr": "Periods are \" regular but painful ."
+ },
+ {
+  "box": [
+   183,
+   499,
+   897,
+   568
+  ],
+  "paddle": "owgeo.",
+  "paddle_score": 0.629217803478241,
+  "trocr": "No white discharge . No burning micturition ."
+ },
+ {
+  "box": [
+   187,
+   558,
+   342,
+   602
+  ],
+  "paddle": "No fever.",
+  "paddle_score": 0.9999663829803467,
+  "trocr": "No fever ."
+ },
+ {
+  "box": [
+   26,
+   603,
+   392,
+   667
+  ],
+  "paddle": "Dx : Dysmenorrhea",
+  "paddle_score": 0.9760506749153137,
+  "trocr": "Dix : Dysmenorrhea ."
+ },
+ {
+  "box": [
+   31,
+   668,
+   96,
+   753
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9847100377082825,
+  "trocr": "Rex"
+ },
+ {
+  "box": [
+   160,
+   674,
+   654,
+   727
+  ],
+  "paddle": "① Tab. Mefenamic Acid 500 mg",
+  "paddle_score": 0.9838401079177856,
+  "trocr": "OD Tab. Mefenamic Acid 500 mg"
+ },
+ {
+  "box": [
+   873,
+   704,
+   1030,
+   756
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9379463195800781,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   307,
+   716,
+   639,
+   759
+  ],
+  "paddle": "1 tab TDS after food",
+  "paddle_score": 0.9999328851699829,
+  "trocr": "1 ' tab TDS after food \""
+ },
+ {
+  "box": [
+   162,
+   766,
+   595,
+   813
+  ],
+  "paddle": "② Tab. Drotaverine 80 mg",
+  "paddle_score": 0.9956796765327454,
+  "trocr": "Q Table Drosaverine 80 mg"
+ },
+ {
+  "box": [
+   868,
+   787,
+   1031,
+   848
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9238463640213013,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   307,
+   805,
+   457,
+   842
+  ],
+  "paddle": "1 tab BD",
+  "paddle_score": 0.9469412565231323,
+  "trocr": "1 tab BD ."
+ },
+ {
+  "box": [
+   160,
+   851,
+   589,
+   897
+  ],
+  "paddle": "③ Tab. Levocetirizine 5 mg",
+  "paddle_score": 0.9998258948326111,
+  "trocr": "3 ) Tab. Levocetirizine 5 mg"
+ },
+ {
+  "box": [
+   307,
+   888,
+   455,
+   925
+  ],
+  "paddle": "1 tab HS",
+  "paddle_score": 0.998615562915802,
+  "trocr": "1 tab HS ."
+ },
+ {
+  "box": [
+   872,
+   881,
+   1030,
+   932
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9525289535522461,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   157,
+   926,
+   576,
+   991
+  ],
+  "paddle": "④ Syp. Calcium + Vit D3",
+  "paddle_score": 0.9990348815917969,
+  "trocr": "O. Syp. Calcium # Vit-D3 ."
+ },
+ {
+  "box": [
+   307,
+   968,
+   619,
+   1011
+  ],
+  "paddle": "10 ml OD after food",
+  "paddle_score": 0.9973261952400208,
+  "trocr": "10 mL 0D after food"
+ },
+ {
+  "box": [
+   868,
+   961,
+   1029,
+   1011
+  ],
+  "paddle": "-30 days",
+  "paddle_score": 0.9935680627822876,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   165,
+   1014,
+   642,
+   1056
+  ],
+  "paddle": "⑤ Hot Water Bag Fomentation",
+  "paddle_score": 0.9917883276939392,
+  "trocr": "5 . Hot Water Bag Foundation"
+ },
+ {
+  "box": [
+   318,
+   1054,
+   585,
+   1091
+  ],
+  "paddle": "When pain occurs",
+  "paddle_score": 0.9999372959136963,
+  "trocr": "When pain occurs ."
+ },
+ {
+  "box": [
+   870,
+   1044,
+   973,
+   1084
+  ],
+  "paddle": "- sos",
+  "paddle_score": 0.9862458109855652,
+  "trocr": "- sos ."
+ },
+ {
+  "box": [
+   32,
+   1116,
+   847,
+   1174
+  ],
+  "paddle": "Advice:-Takerestandavoidheavyworkduringperiods.",
+  "paddle_score": 0.8550076484680176,
+  "trocr": "Advice : - Take rest and avoid heavy work during periods ."
+ },
+ {
+  "box": [
+   176,
+   1160,
+   532,
+   1199
+  ],
+  "paddle": "- Drink plenty of water.",
+  "paddle_score": 0.997694730758667,
+  "trocr": "- Drink plenty of water ."
+ },
+ {
+  "box": [
+   176,
+   1191,
+   659,
+   1232
+  ],
+  "paddle": "- Eat iron rich and balanced diet.",
+  "paddle_score": 0.9943742156028748,
+  "trocr": "- Eat iron rich \" and balanced diet ."
+ },
+ {
+  "box": [
+   826,
+   1175,
+   1015,
+   1304
+  ],
+  "paddle": "Barrchn",
+  "paddle_score": 0.5785059928894043,
+  "trocr": "Daulin-"
+ },
+ {
+  "box": [
+   176,
+   1229,
+   585,
+   1270
+  ],
+  "paddle": "- Avoid oily and junk food.",
+  "paddle_score": 0.9890061616897583,
+  "trocr": "- Avoid oily and junk food ."
+ },
+ {
+  "box": [
+   174,
+   1265,
+   622,
+   1305
+  ],
+  "paddle": "- Do regular exercise and yoga.",
+  "paddle_score": 0.9929818511009216,
+  "trocr": "- Do regular exercise and yoga ."
+ },
+ {
+  "box": [
+   174,
+   1300,
+   606,
+   1341
+  ],
+  "paddle": "- If pain persists or worsens,",
+  "paddle_score": 0.9996811151504517,
+  "trocr": "- If pain persists or worsens ,"
+ },
+ {
+  "box": [
+   772,
+   1252,
+   1074,
+   1385
+  ],
+  "paddle": "Dr Phiyerk Malhetrea",
+  "paddle_score": 0.5725843906402588,
+  "trocr": "Dr. Priyanka Malhotra ."
+ },
+ {
+  "box": [
+   223,
+   1338,
+   421,
+   1374
+  ],
+  "paddle": "consult again.",
+  "paddle_score": 0.9998197555541992,
+  "trocr": "consult again ."
+ },
+ {
+  "box": [
+   174,
+   1366,
+   560,
+   1412
+  ],
+  "paddle": "- Follow up after 2 weeks.",
+  "paddle_score": 0.9995762705802917,
+  "trocr": "- Follow up \" after 2 weeks ."
+ }
+]

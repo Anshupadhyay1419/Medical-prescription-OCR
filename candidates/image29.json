@@ -1,0 +1,409 @@
+[
+ {
+  "box": [
+   207,
+   27,
+   519,
+   85
+  ],
+  "paddle": "Dr. Neha Singh",
+  "paddle_score": 0.9991202354431152,
+  "trocr": "Dr. Neha Singh"
+ },
+ {
+  "box": [
+   755,
+   42,
+   1017,
+   97
+  ],
+  "paddle": "Date:24/07/24",
+  "paddle_score": 0.9957630634307861,
+  "trocr": "Date : 24/07 ( 24 ."
+ },
+ {
+  "box": [
+   211,
+   86,
+   546,
+   136
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.9960023164749146,
+  "trocr": "MBBS , MD ( Medicine )"
+ },
+ {
+  "box": [
+   757,
+   108,
+   1014,
+   153
+  ],
+  "paddle": "Time ： 9:15 am",
+  "paddle_score": 0.9718354940414429,
+  "trocr": "Time : 9:15 am"
+ },
+ {
+  "box": [
+   206,
+   135,
+   485,
+   192
+  ],
+  "paddle": "Reg. No. 62345",
+  "paddle_score": 0.9994944334030151,
+  "trocr": "Reg. No. 62345"
+ },
+ {
+  "box": [
+   60,
+   211,
+   502,
+   258
+  ],
+  "paddle": "Name : Mr. Amit Kumar",
+  "paddle_score": 0.9753501415252686,
+  "trocr": "Name : Mr. Amit Kumar"
+ },
+ {
+  "box": [
+   700,
+   202,
+   1011,
+   260
+  ],
+  "paddle": "Age/Sex : 42/M",
+  "paddle_score": 0.9770346879959106,
+  "trocr": "Age ( Sex : 42 (M."
+ },
+ {
+  "box": [
+   65,
+   267,
+   499,
+   315
+  ],
+  "paddle": "Add : 78, Model Town,",
+  "paddle_score": 0.9928363561630249,
+  "trocr": "Add : 78 , Model Town ,"
+ },
+ {
+  "box": [
+   217,
+   310,
+   513,
+   359
+  ],
+  "paddle": "Lucknow - 226001",
+  "paddle_score": 0.9718736410140991,
+  "trocr": "Lucknow - 220001"
+ },
+ {
+  "box": [
+   55,
+   360,
+   836,
+   435
+  ],
+  "paddle": "C/o:Feversince3days,mainlyineening",
+  "paddle_score": 0.8273501396179199,
+  "trocr": "CIO : Fever since 3 days , mainly in evening ,"
+ },
+ {
+  "box": [
+   216,
+   417,
+   773,
+   475
+  ],
+  "paddle": "headache, body ache and weakness",
+  "paddle_score": 0.9915000200271606,
+  "trocr": "headache , bodyache and weakness ."
+ },
+ {
+  "box": [
+   211,
+   464,
+   715,
+   528
+  ],
+  "paddle": "No cold or cough. No vomiting.",
+  "paddle_score": 0.9862467050552368,
+  "trocr": "No cold or cough . No vomiting ."
+ },
+ {
+  "box": [
+   51,
+   532,
+   407,
+   590
+  ],
+  "paddle": "Dx : Viral Fever",
+  "paddle_score": 0.9996950030326843,
+  "trocr": "DX : Viral Fever"
+ },
+ {
+  "box": [
+   51,
+   608,
+   117,
+   689
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9973727464675903,
+  "trocr": "Rex ."
+ },
+ {
+  "box": [
+   165,
+   612,
+   641,
+   679
+  ],
+  "paddle": "① Tab. Paracetamol 650 mg",
+  "paddle_score": 0.9867396354675293,
+  "trocr": "CD Tab. Paracetamol 650 mg"
+ },
+ {
+  "box": [
+   320,
+   660,
+   656,
+   712
+  ],
+  "paddle": "1 tab TDS after food",
+  "paddle_score": 0.987226128578186,
+  "trocr": "I tab TDS after food"
+ },
+ {
+  "box": [
+   855,
+   647,
+   1013,
+   704
+  ],
+  "paddle": "- 3 days",
+  "paddle_score": 0.9469936490058899,
+  "trocr": "- 3 days ."
+ },
+ {
+  "box": [
+   170,
+   721,
+   633,
+   774
+  ],
+  "paddle": "② Tab. Levocetirizine 5 mg",
+  "paddle_score": 0.9734495878219604,
+  "trocr": "Q Table . Levocetirizine 5 mg"
+ },
+ {
+  "box": [
+   855,
+   736,
+   1018,
+   793
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9898719787597656,
+  "trocr": "- 5 days ."
+ },
+ {
+  "box": [
+   327,
+   764,
+   494,
+   809
+  ],
+  "paddle": "1 tab HS",
+  "paddle_score": 0.9955882430076599,
+  "trocr": "1 tab HS ."
+ },
+ {
+  "box": [
+   166,
+   811,
+   611,
+   863
+  ],
+  "paddle": "③ Tab. Vitamin C 500 mg",
+  "paddle_score": 0.999162495136261,
+  "trocr": "( Tab. Vitamin ( 500 mg"
+ },
+ {
+  "box": [
+   852,
+   830,
+   1015,
+   885
+  ],
+  "paddle": "- 10 days",
+  "paddle_score": 0.9859247207641602,
+  "trocr": "-10 days ."
+ },
+ {
+  "box": [
+   325,
+   855,
+   494,
+   898
+  ],
+  "paddle": "1 tab OD",
+  "paddle_score": 0.979839563369751,
+  "trocr": "1 tab .OD ."
+ },
+ {
+  "box": [
+   160,
+   893,
+   407,
+   964
+  ],
+  "paddle": "④ Syp. ORS",
+  "paddle_score": 0.8931678533554077,
+  "trocr": "OD Syp. ORS."
+ },
+ {
+  "box": [
+   328,
+   930,
+   761,
+   982
+  ],
+  "paddle": "20 ml after each loose motion",
+  "paddle_score": 0.9990639686584473,
+  "trocr": "20ml after each loose motion"
+ },
+ {
+  "box": [
+   848,
+   922,
+   961,
+   968
+  ],
+  "paddle": "- sos",
+  "paddle_score": 0.9247762560844421,
+  "trocr": "- sos ."
+ },
+ {
+  "box": [
+   168,
+   985,
+   472,
+   1029
+  ],
+  "paddle": "⑤ Tab. Zincovit",
+  "paddle_score": 0.9911422729492188,
+  "trocr": "5 Tab. Zincovit ."
+ },
+ {
+  "box": [
+   845,
+   1005,
+   1010,
+   1060
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.9812759757041931,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   325,
+   1025,
+   630,
+   1071
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9714506268501282,
+  "trocr": "1 tab 0D after food"
+ },
+ {
+  "box": [
+   42,
+   1110,
+   545,
+   1163
+  ],
+  "paddle": "Advice :- - Take plenty of fluids.",
+  "paddle_score": 0.9703689813613892,
+  "trocr": "Advice : - Take plenty of fluids ."
+ },
+ {
+  "box": [
+   194,
+   1154,
+   730,
+   1208
+  ],
+  "paddle": "-Takelightandeasilydigestbldie",
+  "paddle_score": 0.8307544589042664,
+  "trocr": "- Take \" light \" and \" easily digestible diet ."
+ },
+ {
+  "box": [
+   809,
+   1131,
+   1001,
+   1279
+  ],
+  "paddle": "Clhe",
+  "paddle_score": 0.38094595074653625,
+  "trocr": "# Offensive"
+ },
+ {
+  "box": [
+   196,
+   1207,
+   503,
+   1243
+  ],
+  "paddle": "- Avoid outside food.",
+  "paddle_score": 0.9792211651802063,
+  "trocr": "- Avoid outside food ."
+ },
+ {
+  "box": [
+   196,
+   1249,
+   392,
+   1282
+  ],
+  "paddle": "- Rest well.",
+  "paddle_score": 0.9976162314414978,
+  "trocr": "- Rest well ."
+ },
+ {
+  "box": [
+   794,
+   1238,
+   1035,
+   1341
+  ],
+  "paddle": "Dr. Neha Singh",
+  "paddle_score": 0.9852622151374817,
+  "trocr": "Dr. Neha Singh ."
+ },
+ {
+  "box": [
+   191,
+   1279,
+   741,
+   1334
+  ],
+  "paddle": "- If fever persists more than 3 days,",
+  "paddle_score": 0.9848241806030273,
+  "trocr": "- If fever persists more than 3 days ,"
+ },
+ {
+  "box": [
+   240,
+   1329,
+   415,
+   1383
+  ],
+  "paddle": "visit again.",
+  "paddle_score": 0.9991102814674377,
+  "trocr": "visit again ."
+ }
+]

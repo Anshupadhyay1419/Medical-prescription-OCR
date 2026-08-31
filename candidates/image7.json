@@ -1,0 +1,596 @@
+[
+ {
+  "box": [
+   189,
+   0,
+   467,
+   57
+  ],
+  "paddle": "LIFE LINE CLINIC",
+  "paddle_score": 0.9999517202377319,
+  "trocr": "Life line clinic ."
+ },
+ {
+  "box": [
+   831,
+   23,
+   1069,
+   66
+  ],
+  "paddle": "Dr. S. NITHYA",
+  "paddle_score": 0.9970636367797852,
+  "trocr": "Dr. S. NITHYA ."
+ },
+ {
+  "box": [
+   189,
+   45,
+   488,
+   96
+  ],
+  "paddle": "& DIAGNOSTIC CENTRE",
+  "paddle_score": 0.9997247457504272,
+  "trocr": "& Diagnostic centre"
+ },
+ {
+  "box": [
+   946,
+   58,
+   1072,
+   89
+  ],
+  "paddle": "MBBS, DGO",
+  "paddle_score": 0.9595948457717896,
+  "trocr": "mibbs , ago"
+ },
+ {
+  "box": [
+   190,
+   87,
+   382,
+   125
+  ],
+  "paddle": "Near Old Post Office,",
+  "paddle_score": 0.9999115467071533,
+  "trocr": "near Old Post Office ,"
+ },
+ {
+  "box": [
+   918,
+   84,
+   1072,
+   117
+  ],
+  "paddle": "Reg. No. 89321",
+  "paddle_score": 0.9853053689002991,
+  "trocr": "reg. No. 89321"
+ },
+ {
+  "box": [
+   190,
+   116,
+   470,
+   155
+  ],
+  "paddle": "Station Road, Salem - 636 007.",
+  "paddle_score": 0.9849252104759216,
+  "trocr": "Station Road , Salem-636007 ."
+ },
+ {
+  "box": [
+   832,
+   110,
+   1097,
+   147
+  ],
+  "paddle": "Consultant Gynaecologist",
+  "paddle_score": 0.9999927878379822,
+  "trocr": "consultant Gynaecologist"
+ },
+ {
+  "box": [
+   188,
+   140,
+   375,
+   178
+  ],
+  "paddle": "Ph: 0427 - 4050 123",
+  "paddle_score": 0.9765288829803467,
+  "trocr": "ph. 0427-4050123"
+ },
+ {
+  "box": [
+   910,
+   153,
+   988,
+   181
+  ],
+  "paddle": "Timings:",
+  "paddle_score": 0.9999045133590698,
+  "trocr": "timings :"
+ },
+ {
+  "box": [
+   816,
+   172,
+   1084,
+   204
+  ],
+  "paddle": "Mon - Fri : 9.30 AM - 1.00 PM",
+  "paddle_score": 0.9571095705032349,
+  "trocr": "Mon-Fri : 9.30 AM-1.00 PM"
+ },
+ {
+  "box": [
+   913,
+   192,
+   1084,
+   223
+  ],
+  "paddle": "5.00 PM - 8.00 PM",
+  "paddle_score": 0.9636797308921814,
+  "trocr": "5,00 pm-8,000pm."
+ },
+ {
+  "box": [
+   817,
+   224,
+   856,
+   247
+  ],
+  "paddle": "Sat",
+  "paddle_score": 0.9999927878379822,
+  "trocr": "sat ."
+ },
+ {
+  "box": [
+   885,
+   214,
+   1086,
+   246
+  ],
+  "paddle": ": 9.30 AM - 1.00 PM",
+  "paddle_score": 0.9696230888366699,
+  "trocr": "# 9.30,AM - 1,00pm ."
+ },
+ {
+  "box": [
+   920,
+   240,
+   1060,
+   269
+  ],
+  "paddle": "Sunday Holiday",
+  "paddle_score": 0.999982476234436,
+  "trocr": "sunday Holiday ."
+ },
+ {
+  "box": [
+   55,
+   293,
+   434,
+   349
+  ],
+  "paddle": "Name: MRS. KAVITHA.R",
+  "paddle_score": 0.9935201406478882,
+  "trocr": "Name : MRS. KAVITHA.R"
+ },
+ {
+  "box": [
+   734,
+   306,
+   995,
+   356
+  ],
+  "paddle": "Date：03/06/24",
+  "paddle_score": 0.996522068977356,
+  "trocr": "date : 03 (06 ( 24 ."
+ },
+ {
+  "box": [
+   50,
+   343,
+   258,
+   406
+  ],
+  "paddle": "Age : 29 yxs",
+  "paddle_score": 0.9492599964141846,
+  "trocr": "age : 29 years ."
+ },
+ {
+  "box": [
+   281,
+   359,
+   428,
+   407
+  ],
+  "paddle": "Sex : F",
+  "paddle_score": 0.9747496247291565,
+  "trocr": "sex : f"
+ },
+ {
+  "box": [
+   53,
+   429,
+   115,
+   499
+  ],
+  "paddle": "R",
+  "paddle_score": 0.9994460940361023,
+  "trocr": "rx."
+ },
+ {
+  "box": [
+   947,
+   416,
+   1022,
+   457
+  ],
+  "paddle": "LMP",
+  "paddle_score": 0.9999582767486572,
+  "trocr": "lmp ."
+ },
+ {
+  "box": [
+   179,
+   472,
+   232,
+   514
+  ],
+  "paddle": "1",
+  "paddle_score": 0.8468765020370483,
+  "trocr": "0 ."
+ },
+ {
+  "box": [
+   262,
+   469,
+   554,
+   514
+  ],
+  "paddle": "Tab. FOLVITE -5",
+  "paddle_score": 0.9597418308258057,
+  "trocr": "Tab. FOLVITE - 5"
+ },
+ {
+  "box": [
+   942,
+   457,
+   1105,
+   516
+  ],
+  "paddle": "20/5/24",
+  "paddle_score": 0.9997380971908569,
+  "trocr": "20 (5 (24 ."
+ },
+ {
+  "box": [
+   371,
+   524,
+   524,
+   566
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.999944806098938,
+  "trocr": "1-0-1 ."
+ },
+ {
+  "box": [
+   606,
+   521,
+   757,
+   577
+  ],
+  "paddle": "× 60 days",
+  "paddle_score": 0.9164688587188721,
+  "trocr": "1x 60 days ."
+ },
+ {
+  "box": [
+   77,
+   608,
+   468,
+   667
+  ],
+  "paddle": "☆ ② Cap. OMEGA-3",
+  "paddle_score": 0.917774498462677,
+  "trocr": "# Q Cap. Omega-3"
+ },
+ {
+  "box": [
+   681,
+   648,
+   716,
+   683
+  ],
+  "paddle": "3",
+  "paddle_score": 0.9999839067459106,
+  "trocr": "3 )"
+ },
+ {
+  "box": [
+   739,
+   635,
+   994,
+   687
+  ],
+  "paddle": "Tab. DROTIN -MR",
+  "paddle_score": 0.9871277213096619,
+  "trocr": "Tab. DRETIN -MR."
+ },
+ {
+  "box": [
+   268,
+   699,
+   424,
+   755
+  ],
+  "paddle": "After food",
+  "paddle_score": 0.9998804926872253,
+  "trocr": "After food ."
+ },
+ {
+  "box": [
+   282,
+   658,
+   436,
+   706
+  ],
+  "paddle": "I Cap O.D",
+  "paddle_score": 0.9537899494171143,
+  "trocr": "1 cap od ."
+ },
+ {
+  "box": [
+   482,
+   673,
+   624,
+   736
+  ],
+  "paddle": "x 45 days",
+  "paddle_score": 0.9076716899871826,
+  "trocr": "( 45 days )"
+ },
+ {
+  "box": [
+   814,
+   688,
+   949,
+   732
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9999328851699829,
+  "trocr": "1-0-1 ."
+ },
+ {
+  "box": [
+   1017,
+   676,
+   1154,
+   725
+  ],
+  "paddle": "× 10 days",
+  "paddle_score": 0.9625651240348816,
+  "trocr": "x 10 days ."
+ },
+ {
+  "box": [
+   90,
+   775,
+   193,
+   828
+  ],
+  "paddle": "△④",
+  "paddle_score": 0.8558692336082458,
+  "trocr": "s . A ."
+ },
+ {
+  "box": [
+   200,
+   766,
+   420,
+   837
+  ],
+  "paddle": "Syp. GYNEX",
+  "paddle_score": 0.9974433183670044,
+  "trocr": "syp. GYNEX ."
+ },
+ {
+  "box": [
+   608,
+   797,
+   643,
+   832
+  ],
+  "paddle": "5",
+  "paddle_score": 0.9919793605804443,
+  "trocr": "(5 )"
+ },
+ {
+  "box": [
+   667,
+   788,
+   930,
+   835
+  ],
+  "paddle": "Tab. CALCIUM D3",
+  "paddle_score": 0.9931531548500061,
+  "trocr": "Tab. CALCIUM D3 ."
+ },
+ {
+  "box": [
+   265,
+   847,
+   466,
+   913
+  ],
+  "paddle": "After meals",
+  "paddle_score": 0.9988638162612915,
+  "trocr": "After meals ."
+ },
+ {
+  "box": [
+   271,
+   819,
+   426,
+   865
+  ],
+  "paddle": "10 ml BD",
+  "paddle_score": 0.9878774881362915,
+  "trocr": "10 mL. BD."
+ },
+ {
+  "box": [
+   743,
+   841,
+   880,
+   882
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9999468922615051,
+  "trocr": "1-0-1 ."
+ },
+ {
+  "box": [
+   961,
+   833,
+   1095,
+   883
+  ],
+  "paddle": "× 30 days",
+  "paddle_score": 0.9461266398429871,
+  "trocr": "x 30 days ."
+ },
+ {
+  "box": [
+   372,
+   890,
+   534,
+   954
+  ],
+  "paddle": "x 20 days",
+  "paddle_score": 0.9522063136100769,
+  "trocr": "x 20 days ."
+ },
+ {
+  "box": [
+   56,
+   972,
+   480,
+   1058
+  ],
+  "paddle": "AdviceTake balanceddiet",
+  "paddle_score": 0.8776043653488159,
+  "trocr": "Advice : # Take balanced diet"
+ },
+ {
+  "box": [
+   740,
+   937,
+   928,
+   1009
+  ],
+  "paddle": "If Nausea",
+  "paddle_score": 0.9811837077140808,
+  "trocr": "If Nausea ."
+ },
+ {
+  "box": [
+   752,
+   966,
+   1071,
+   1046
+  ],
+  "paddle": "Take Tab. Emeto-4",
+  "paddle_score": 0.9553666710853577,
+  "trocr": "Take\"Tab . Emeto-4"
+ },
+ {
+  "box": [
+   168,
+   1015,
+   505,
+   1102
+  ],
+  "paddle": "Drink plenty of water",
+  "paddle_score": 0.9698833227157593,
+  "trocr": "I Drink plenty of winter"
+ },
+ {
+  "box": [
+   833,
+   1033,
+   908,
+   1080
+  ],
+  "paddle": "sos",
+  "paddle_score": 0.929368793964386,
+  "trocr": "sos ."
+ },
+ {
+  "box": [
+   155,
+   1063,
+   480,
+   1144
+  ],
+  "paddle": "→ Avoid heavy lifting",
+  "paddle_score": 0.934862494468689,
+  "trocr": "# Avoid heavy lifting ."
+ },
+ {
+  "box": [
+   146,
+   1160,
+   354,
+   1223
+  ],
+  "paddle": "→Take rest",
+  "paddle_score": 0.982138454914093,
+  "trocr": "7 Take rest ."
+ },
+ {
+  "box": [
+   150,
+   1112,
+   397,
+   1185
+  ],
+  "paddle": "☐ Regular walk",
+  "paddle_score": 0.9278871417045593,
+  "trocr": "Regular walk"
+ },
+ {
+  "box": [
+   447,
+   1147,
+   748,
+   1251
+  ],
+  "paddle": " Next Review on",
+  "paddle_score": 0.8539153337478638,
+  "trocr": "A Next Review on ?"
+ },
+ {
+  "box": [
+   926,
+   1158,
+   1144,
+   1238
+  ],
+  "paddle": "DR.S.NITHYA",
+  "paddle_score": 0.9988921880722046,
+  "trocr": "Dr. S. Nithya ."
+ },
+ {
+  "box": [
+   596,
+   1192,
+   784,
+   1278
+  ],
+  "paddle": "01/07/24",
+  "paddle_score": 0.9998971223831177,
+  "trocr": "( 07 ( 24 ."
+ }
+]

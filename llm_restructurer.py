@@ -4,6 +4,8 @@ LLM-based document restructurer for medical prescriptions.
 import requests
 import re
 
+from postprocess import is_commentary, normalize_doses
+
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "qwen2.5:7b"
 
@@ -134,30 +136,51 @@ def parse_llm_output(raw_text):
     """Extract clean lines from LLM output."""
     raw_lines = [l.strip() for l in raw_text.split('\n') if l.strip()]
     cleaned = []
-    
+
     skip_prefixes = (
         'output:', 'output ', 'reconstructed:', 'here is', 'here are',
         'the following', 'note:', 'explanation:', '```', '---', '===',
         'input:', 'result:', 'response:', 'answer:', 'correct output:',
         'correct output', 'example', 'expected:',
     )
-    
+
     for line in raw_lines:
         if line.lower().startswith(skip_prefixes):
             continue
+        # the model frequently appends a sentence describing what it just did
+        # ("This output preserves the original text exactly...") — that is not OCR
+        if is_commentary(line):
+            continue
         if len(line) < 3:
             continue
-        
+
         # strip formatting prefixes
         line = re.sub(r'^\s*[-*•●○▪]\s*', '', line)
         line = re.sub(r'^\s*\d+[.)\]]\s*', '', line)
         line = re.sub(r'^\s*Line\s*\d+\s*:\s*', '', line, flags=re.IGNORECASE)
         line = line.strip('`"\'')
-        
+
         if line.strip():
-            cleaned.append(line.strip())
-    
+            cleaned.append(normalize_doses(line.strip()))
+
     return cleaned
+
+
+def _count_visual_rows(lines_with_boxes, tol=40):
+    """
+    How many distinct text rows the page actually has, by clustering box
+    y-centres. Used to detect when the LLM has collapsed everything onto one line.
+    """
+    centres = sorted((y1 + y2) / 2 for _, _, y1, _, y2 in lines_with_boxes)
+    if not centres:
+        return 0
+    rows = 1
+    last = centres[0]
+    for c in centres[1:]:
+        if c - last > tol:
+            rows += 1
+        last = c
+    return rows
 
 
 def deduplicate_lines(lines):
@@ -250,7 +273,18 @@ def restructure_document(lines_with_boxes, timeout=180, verbose=False):
         
         if verbose:
             print(f"  [Restructurer] Parsed {len(cleaned)} clean lines")
-        
+
+        # ---- SAFETY CHECK 0: Structural collapse ----
+        # If the model answered as one unbroken paragraph instead of separate
+        # lines, every field/medication ends up on a single line. That destroys
+        # the document structure (and wrecks line-level scoring), so reject it.
+        expected_rows = _count_visual_rows(lines_with_boxes)
+        if cleaned and len(cleaned) < max(2, expected_rows * 0.4):
+            print(f"  [Restructurer] WARNING: output collapsed to {len(cleaned)} line(s) "
+                  f"but the page has ~{expected_rows} visual rows")
+            print(f"  [Restructurer] Falling back to original")
+            return [line[0] for line in lines_with_boxes]
+
         # ---- SAFETY CHECK 1: Character bounds ----
         input_char_count = sum(len(t) for t, *_ in lines_with_boxes)
         output_char_count = sum(len(l) for l in cleaned)

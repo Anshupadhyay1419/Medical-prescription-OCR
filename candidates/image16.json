@@ -1,0 +1,420 @@
+[
+ {
+  "box": [
+   21,
+   6,
+   142,
+   134
+  ],
+  "paddle": "R",
+  "paddle_score": 0.999054491519928,
+  "trocr": "Rx ."
+ },
+ {
+  "box": [
+   209,
+   16,
+   591,
+   59
+  ],
+  "paddle": "CITY CARE CLINIC",
+  "paddle_score": 0.9679163694381714,
+  "trocr": "city care clinic"
+ },
+ {
+  "box": [
+   1021,
+   13,
+   1290,
+   46
+  ],
+  "paddle": "Dr. S. Mukherjee",
+  "paddle_score": 0.9998235106468201,
+  "trocr": "Dr. S. Mukherjee"
+ },
+ {
+  "box": [
+   210,
+   58,
+   624,
+   90
+  ],
+  "paddle": "17/4, Park Street, Kolkata - 700016",
+  "paddle_score": 0.9974928498268127,
+  "trocr": "17/4 , Park Street , Kolkata - 700016"
+ },
+ {
+  "box": [
+   1058,
+   46,
+   1291,
+   74
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.9999693632125854,
+  "trocr": "MBBS , MD ( Medicine )"
+ },
+ {
+  "box": [
+   1043,
+   74,
+   1290,
+   101
+  ],
+  "paddle": "Reg. No. 66234 (WBMC)",
+  "paddle_score": 0.9933162927627563,
+  "trocr": "Reg. No. 66234 ( WBMC )"
+ },
+ {
+  "box": [
+   208,
+   90,
+   435,
+   120
+  ],
+  "paddle": "Ph: 033 4001 4001",
+  "paddle_score": 0.9993372559547424,
+  "trocr": "ph. 033 4001, 4001 ."
+ },
+ {
+  "box": [
+   1077,
+   98,
+   1291,
+   125
+  ],
+  "paddle": "Consultant Physician",
+  "paddle_score": 0.9999882578849792,
+  "trocr": "Consultant Physician"
+ },
+ {
+  "box": [
+   29,
+   155,
+   383,
+   211
+  ],
+  "paddle": "Name: R. Das",
+  "paddle_score": 0.9679062962532043,
+  "trocr": "Name : R. Das"
+ },
+ {
+  "box": [
+   1218,
+   127,
+   1483,
+   215
+  ],
+  "paddle": "Date: 23/5/25",
+  "paddle_score": 0.960487425327301,
+  "trocr": "date : 23/5/25"
+ },
+ {
+  "box": [
+   25,
+   214,
+   241,
+   273
+  ],
+  "paddle": "Age : 52",
+  "paddle_score": 0.9710171222686768,
+  "trocr": "Age : 52 ."
+ },
+ {
+  "box": [
+   399,
+   201,
+   625,
+   273
+  ],
+  "paddle": "Sex : M",
+  "paddle_score": 0.9607457518577576,
+  "trocr": "sex : M."
+ },
+ {
+  "box": [
+   43,
+   267,
+   772,
+   349
+  ],
+  "paddle": "Rx- 1. Tab. Telma-H",
+  "paddle_score": 0.9384404420852661,
+  "trocr": "Rx- 1 . Tab. Telma-H"
+ },
+ {
+  "box": [
+   883,
+   262,
+   1438,
+   355
+  ],
+  "paddle": "49/12.5 mg x 15d",
+  "paddle_score": 0.8795042037963867,
+  "trocr": "4of125 mg x 15d ."
+ },
+ {
+  "box": [
+   513,
+   341,
+   794,
+   391
+  ],
+  "paddle": "1- 0- 1",
+  "paddle_score": 0.8637381792068481,
+  "trocr": "1 - O-1 ."
+ },
+ {
+  "box": [
+   197,
+   389,
+   901,
+   464
+  ],
+  "paddle": "2. Tab. Metglim-500",
+  "paddle_score": 0.9988294839859009,
+  "trocr": "2 . Tab. Mretglim-500 ,"
+ },
+ {
+  "box": [
+   979,
+   377,
+   1164,
+   452
+  ],
+  "paddle": "500mg",
+  "paddle_score": 0.9651905298233032,
+  "trocr": "500 mg ."
+ },
+ {
+  "box": [
+   1244,
+   374,
+   1437,
+   437
+  ],
+  "paddle": "x 1 mo",
+  "paddle_score": 0.9432500004768372,
+  "trocr": "x I mo ."
+ },
+ {
+  "box": [
+   654,
+   441,
+   890,
+   487
+  ],
+  "paddle": "1 -0-1",
+  "paddle_score": 0.9156124591827393,
+  "trocr": "1 - O-I ."
+ },
+ {
+  "box": [
+   185,
+   480,
+   906,
+   554
+  ],
+  "paddle": "3. Cap. Clopid-Av 75",
+  "paddle_score": 0.9977390170097351,
+  "trocr": "3 . Cap. Clopid-AV.75"
+ },
+ {
+  "box": [
+   1022,
+   472,
+   1171,
+   539
+  ],
+  "paddle": "75mg",
+  "paddle_score": 0.9974620342254639,
+  "trocr": "75 my ."
+ },
+ {
+  "box": [
+   1251,
+   468,
+   1436,
+   528
+  ],
+  "paddle": "x 1mo",
+  "paddle_score": 0.9445560574531555,
+  "trocr": "x 1 mo ."
+ },
+ {
+  "box": [
+   667,
+   533,
+   882,
+   583
+  ],
+  "paddle": "0-0-1",
+  "paddle_score": 0.9981082081794739,
+  "trocr": "0-0-1 ."
+ },
+ {
+  "box": [
+   177,
+   579,
+   813,
+   668
+  ],
+  "paddle": "4. Tab. Atorva 20",
+  "paddle_score": 0.9883637428283691,
+  "trocr": "4 . Tab. Atorva 20"
+ },
+ {
+  "box": [
+   1040,
+   564,
+   1440,
+   645
+  ],
+  "paddle": "20 my x 1 mo",
+  "paddle_score": 0.9327200055122375,
+  "trocr": "20 mg x 1 mo"
+ },
+ {
+  "box": [
+   673,
+   627,
+   986,
+   687
+  ],
+  "paddle": "0-0-1 Hs",
+  "paddle_score": 0.8973754048347473,
+  "trocr": "0-0- ( HS."
+ },
+ {
+  "box": [
+   177,
+   689,
+   765,
+   778
+  ],
+  "paddle": "5. Syp. D'congest",
+  "paddle_score": 0.9965099096298218,
+  "trocr": "5 . Syp. D'congest"
+ },
+ {
+  "box": [
+   812,
+   719,
+   942,
+   783
+  ],
+  "paddle": "10ml",
+  "paddle_score": 0.974549412727356,
+  "trocr": "10 mb ."
+ },
+ {
+  "box": [
+   1062,
+   688,
+   1168,
+   755
+  ],
+  "paddle": "bd",
+  "paddle_score": 0.9994624853134155,
+  "trocr": "bol ."
+ },
+ {
+  "box": [
+   41,
+   782,
+   468,
+   842
+  ],
+  "paddle": "Diet low Sact",
+  "paddle_score": 0.9507583975791931,
+  "trocr": "Diet Low Salt"
+ },
+ {
+  "box": [
+   925,
+   771,
+   1018,
+   824
+  ],
+  "paddle": "sos",
+  "paddle_score": 0.9368756413459778,
+  "trocr": "sos ."
+ },
+ {
+  "box": [
+   1064,
+   772,
+   1310,
+   897
+  ],
+  "paddle": "ah",
+  "paddle_score": 0.6430264711380005,
+  "trocr": "Wahn ."
+ },
+ {
+  "box": [
+   92,
+   827,
+   594,
+   892
+  ],
+  "paddle": "walk 30 min daily",
+  "paddle_score": 0.9909815192222595,
+  "trocr": "walk 30 min daily ."
+ },
+ {
+  "box": [
+   115,
+   875,
+   620,
+   940
+  ],
+  "paddle": "BP & Sugar check",
+  "paddle_score": 0.9918680191040039,
+  "trocr": "BPS Sugar check"
+ },
+ {
+  "box": [
+   1135,
+   892,
+   1399,
+   950
+  ],
+  "paddle": "Dr. S. Mukherjee",
+  "paddle_score": 0.9998350739479065,
+  "trocr": "Dr. S. Mukherjee"
+ },
+ {
+  "box": [
+   84,
+   918,
+   634,
+   997
+  ],
+  "paddle": "F/U after 1 month.",
+  "paddle_score": 0.9668587446212769,
+  "trocr": "F/IU \" after 1 month"
+ },
+ {
+  "box": [
+   1129,
+   953,
+   1409,
+   1010
+  ],
+  "paddle": "Reg. No. 66234 (WBMC)",
+  "paddle_score": 0.9980130791664124,
+  "trocr": "Reg. No. 66234 ( WBMC )"
+ },
+ {
+  "box": [
+   1135,
+   926,
+   1401,
+   980
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.9871277213096619,
+  "trocr": "mbbs , MD ( Medicine )"
+ }
+]

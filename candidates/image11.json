@@ -1,0 +1,332 @@
+[
+ {
+  "box": [
+   65,
+   1,
+   450,
+   68
+  ],
+  "paddle": "* Admission date-",
+  "paddle_score": 0.9924382567405701,
+  "trocr": "# Admission date -"
+ },
+ {
+  "box": [
+   75,
+   45,
+   444,
+   110
+  ],
+  "paddle": "* Discharge date-",
+  "paddle_score": 0.9348561763763428,
+  "trocr": "# Discharge date :"
+ },
+ {
+  "box": [
+   73,
+   86,
+   441,
+   155
+  ],
+  "paddle": "* Date of Birth -",
+  "paddle_score": 0.967818558216095,
+  "trocr": "# Date of birth -"
+ },
+ {
+  "box": [
+   79,
+   139,
+   256,
+   186
+  ],
+  "paddle": "Sex→",
+  "paddle_score": 0.8916593194007874,
+  "trocr": "# Sexes ."
+ },
+ {
+  "box": [
+   77,
+   177,
+   419,
+   237
+  ],
+  "paddle": "* service→Surgery",
+  "paddle_score": 0.9653472900390625,
+  "trocr": "# Service - Surgery ."
+ },
+ {
+  "box": [
+   129,
+   256,
+   627,
+   321
+  ],
+  "paddle": "Allergies→ no drug allecgies",
+  "paddle_score": 0.9628617167472839,
+  "trocr": "Allergies - no drug categories"
+ },
+ {
+  "box": [
+   51,
+   337,
+   516,
+   401
+  ],
+  "paddle": "→ Inpamation son pile!",
+  "paddle_score": 0.9121645092964172,
+  "trocr": "I Information on spite :"
+ },
+ {
+  "box": [
+   125,
+   421,
+   840,
+   473
+  ],
+  "paddle": "Complaint→ Gun shot wond mayor",
+  "paddle_score": 0.9878875017166138,
+  "trocr": "Complaint - Spur shots wound major"
+ },
+ {
+  "box": [
+   131,
+   467,
+   780,
+   514
+  ],
+  "paddle": "surgical or invasive procedeure",
+  "paddle_score": 0.9753846526145935,
+  "trocr": "surgical or invasive procedure"
+ },
+ {
+  "box": [
+   131,
+   500,
+   902,
+   562
+  ],
+  "paddle": "placenent of bilateral thoracostomy",
+  "paddle_score": 0.9674285650253296,
+  "trocr": "placement of bilateral thoracotomy"
+ },
+ {
+  "box": [
+   137,
+   541,
+   881,
+   605
+  ],
+  "paddle": "tubees beft thosacotoy exploratory",
+  "paddle_score": 0.9340670704841614,
+  "trocr": "tubes kept thoracotomy explanatory"
+ },
+ {
+  "box": [
+   138,
+   580,
+   922,
+   647
+  ],
+  "paddle": "laparotomy left diaphragons repair",
+  "paddle_score": 0.9303946495056152,
+  "trocr": "laparatory left displays"
+ },
+ {
+  "box": [
+   135,
+   615,
+   943,
+   689
+  ],
+  "paddle": "left uppy lobe lung rexition washont",
+  "paddle_score": 0.925678014755249,
+  "trocr": "left upon vote with resources without"
+ },
+ {
+  "box": [
+   141,
+   664,
+   829,
+   725
+  ],
+  "paddle": "of left wrist repair of sight",
+  "paddle_score": 0.9287026524543762,
+  "trocr": "of left with repairs of sight"
+ },
+ {
+  "box": [
+   138,
+   705,
+   866,
+   763
+  ],
+  "paddle": "common illial vein wsist repain",
+  "paddle_score": 0.9614162445068359,
+  "trocr": "common illiac vein - whilst began"
+ },
+ {
+  "box": [
+   139,
+   746,
+   809,
+   805
+  ],
+  "paddle": "of sight common illiac wein",
+  "paddle_score": 0.977942705154419,
+  "trocr": "of sight common illiac resin"
+ },
+ {
+  "box": [
+   136,
+   784,
+   841,
+   849
+  ],
+  "paddle": "faceration histony of present",
+  "paddle_score": 0.9442814588546753,
+  "trocr": "faceration history of present"
+ },
+ {
+  "box": [
+   130,
+   828,
+   803,
+   893
+  ],
+  "paddle": "illness pt is y o m who",
+  "paddle_score": 0.9630205035209656,
+  "trocr": "illness pt is you who"
+ },
+ {
+  "box": [
+   127,
+   866,
+   926,
+   939
+  ],
+  "paddle": "presented to hompital via location",
+  "paddle_score": 0.9596590995788574,
+  "trocr": "presented to hospital via formations"
+ },
+ {
+  "box": [
+   136,
+   912,
+   866,
+   983
+  ],
+  "paddle": "un s p gun shot wound to",
+  "paddle_score": 0.96156245470047,
+  "trocr": "thissp gun shot wound to"
+ },
+ {
+  "box": [
+   136,
+   955,
+   962,
+   1026
+  ],
+  "paddle": "chest and abdomen pt einresponsive",
+  "paddle_score": 0.9501056671142578,
+  "trocr": "chest and abdomen pt unresponsive"
+ },
+ {
+  "box": [
+   132,
+   1005,
+   899,
+   1073
+  ],
+  "paddle": "at scene and intubated prior to",
+  "paddle_score": 0.9339246153831482,
+  "trocr": "at scene and irritated prior to"
+ },
+ {
+  "box": [
+   129,
+   1050,
+   880,
+   1121
+  ],
+  "paddle": "assival part medical histony none",
+  "paddle_score": 0.9227874279022217,
+  "trocr": "assinal past medical history zone"
+ },
+ {
+  "box": [
+   130,
+   1097,
+   836,
+   1169
+  ],
+  "paddle": "tamily histay , ron contsibutory",
+  "paddle_score": 0.9094840288162231,
+  "trocr": "family history , non contemporary"
+ },
+ {
+  "box": [
+   135,
+   1139,
+   835,
+   1218
+  ],
+  "paddle": "physical exaon p 130s bp ger",
+  "paddle_score": 0.9341750144958496,
+  "trocr": "physical example 130s by good"
+ },
+ {
+  "box": [
+   121,
+   1181,
+   856,
+   1263
+  ],
+  "paddle": "unresponsive intubated gurshol",
+  "paddle_score": 0.9391416311264038,
+  "trocr": "unresponsive irritated gunshot"
+ },
+ {
+  "box": [
+   115,
+   1230,
+   857,
+   1307
+  ],
+  "paddle": "wourds to chest and abdomen",
+  "paddle_score": 0.9749058485031128,
+  "trocr": "wounds to chest and abdomen"
+ },
+ {
+  "box": [
+   118,
+   1275,
+   812,
+   1357
+  ],
+  "paddle": "diminishe atel heat",
+  "paddle_score": 0.6990373134613037,
+  "trocr": "eines simplified bilateral heart"
+ },
+ {
+  "box": [
+   120,
+   1326,
+   956,
+   1401
+  ],
+  "paddle": "tachycardic abd. distended fast",
+  "paddle_score": 0.9717164635658264,
+  "trocr": "tachycardic about disturbed fast"
+ },
+ {
+  "box": [
+   120,
+   1365,
+   928,
+   1465
+  ],
+  "paddle": "gossly fporitive ext sem oodto",
+  "paddle_score": 0.8307774662971497,
+  "trocr": "grossly positive express to"
+ }
+]

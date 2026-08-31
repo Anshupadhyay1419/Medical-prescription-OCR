@@ -1,0 +1,453 @@
+[
+ {
+  "box": [
+   182,
+   14,
+   570,
+   66
+  ],
+  "paddle": "AAROGYA CLINIC",
+  "paddle_score": 0.9999788999557495,
+  "trocr": "AAROGYA Clinic"
+ },
+ {
+  "box": [
+   811,
+   3,
+   1019,
+   37
+  ],
+  "paddle": "Dr. K. Srinivas",
+  "paddle_score": 0.9997900128364563,
+  "trocr": "Dr. K. Srinivas ."
+ },
+ {
+  "box": [
+   672,
+   32,
+   1021,
+   64
+  ],
+  "paddle": "MBBS, DCH, DNB (Family Medicine)",
+  "paddle_score": 0.999904453754425,
+  "trocr": "MBBS , DCH , DNB ( Family Medicine )"
+ },
+ {
+  "box": [
+   182,
+   67,
+   526,
+   95
+  ],
+  "paddle": "Family Physician & Diabetology",
+  "paddle_score": 0.9970524907112122,
+  "trocr": "Family Physician & Diabetology"
+ },
+ {
+  "box": [
+   811,
+   58,
+   1020,
+   89
+  ],
+  "paddle": "Reg. No. KMC 78934",
+  "paddle_score": 0.9965407848358154,
+  "trocr": "Reg. No. KMC 78934"
+ },
+ {
+  "box": [
+   184,
+   100,
+   485,
+   124
+  ],
+  "paddle": "Plot No. 12, Green Park Layout,",
+  "paddle_score": 0.9983845949172974,
+  "trocr": "Plot No. 12 . Green Park Layout ,"
+ },
+ {
+  "box": [
+   829,
+   85,
+   1022,
+   116
+  ],
+  "paddle": "Ph: 080-4123 5678",
+  "paddle_score": 0.9839158058166504,
+  "trocr": "phio80-4123 5678"
+ },
+ {
+  "box": [
+   182,
+   126,
+   456,
+   151
+  ],
+  "paddle": "Near Union Bank, Bellandur,",
+  "paddle_score": 0.9967225193977356,
+  "trocr": "Near Union Bank , Bellandur ,"
+ },
+ {
+  "box": [
+   788,
+   115,
+   1022,
+   152
+  ],
+  "paddle": "CONSULTATION HOURS",
+  "paddle_score": 0.9999876022338867,
+  "trocr": "consultation hours ."
+ },
+ {
+  "box": [
+   184,
+   152,
+   382,
+   177
+  ],
+  "paddle": "Bangalore - 560103.",
+  "paddle_score": 0.9936783313751221,
+  "trocr": "Bangalore-560103 ."
+ },
+ {
+  "box": [
+   701,
+   143,
+   1023,
+   179
+  ],
+  "paddle": "Mon - Fri : 10:00 AM – 1:30 PM",
+  "paddle_score": 0.9765146374702454,
+  "trocr": "Mon-Fri : 10,00 AM -1,30 PM"
+ },
+ {
+  "box": [
+   824,
+   168,
+   1023,
+   201
+  ],
+  "paddle": "5:30 PM - 8:30 PM",
+  "paddle_score": 0.9892929196357727,
+  "trocr": "5:30 pm-8.30 pm."
+ },
+ {
+  "box": [
+   753,
+   191,
+   1025,
+   229
+  ],
+  "paddle": "Sat : 10:00 AM - 1:00 PM",
+  "paddle_score": 0.9713566899299622,
+  "trocr": "sat : 10,00 AM - 1,00 PM."
+ },
+ {
+  "box": [
+   864,
+   218,
+   1023,
+   251
+  ],
+  "paddle": "Sunday Closed",
+  "paddle_score": 0.9999923706054688,
+  "trocr": "sunder closed"
+ },
+ {
+  "box": [
+   67,
+   285,
+   565,
+   334
+  ],
+  "paddle": "Patient Name: Mys. Lakshmi. V",
+  "paddle_score": 0.9690688848495483,
+  "trocr": "Patient Name : Mrs. Lafeshmi' . V"
+ },
+ {
+  "box": [
+   715,
+   280,
+   1007,
+   353
+  ],
+  "paddle": "Date:29/04/24",
+  "paddle_score": 0.9934866428375244,
+  "trocr": "date : 29/04/24 ."
+ },
+ {
+  "box": [
+   63,
+   348,
+   383,
+   411
+  ],
+  "paddle": "Age/Sex : 41/F",
+  "paddle_score": 0.9247186779975891,
+  "trocr": "Age 1 sex : 4IFF"
+ },
+ {
+  "box": [
+   717,
+   344,
+   1003,
+   401
+  ],
+  "paddle": "Wt. : 58 kg",
+  "paddle_score": 0.9600477814674377,
+  "trocr": "wt. : 58 kg ."
+ },
+ {
+  "box": [
+   713,
+   392,
+   1009,
+   463
+  ],
+  "paddle": "BP：126/84",
+  "paddle_score": 0.9876326322555542,
+  "trocr": "BP : 126/84 ."
+ },
+ {
+  "box": [
+   44,
+   442,
+   106,
+   509
+  ],
+  "paddle": "R",
+  "paddle_score": 0.9931364059448242,
+  "trocr": "rx."
+ },
+ {
+  "box": [
+   144,
+   487,
+   596,
+   558
+  ],
+  "paddle": "① Tab. Thyro -25",
+  "paddle_score": 0.938740611076355,
+  "trocr": "O. Tab. Thyro-25"
+ },
+ {
+  "box": [
+   704,
+   515,
+   826,
+   559
+  ],
+  "paddle": "o0",
+  "paddle_score": 0.6615101099014282,
+  "trocr": "od a"
+ },
+ {
+  "box": [
+   343,
+   554,
+   513,
+   598
+  ],
+  "paddle": "1-0-0",
+  "paddle_score": 0.9996819496154785,
+  "trocr": "1-0-0"
+ },
+ {
+  "box": [
+   898,
+   554,
+   1072,
+   625
+  ],
+  "paddle": "x 30 days",
+  "paddle_score": 0.9201288223266602,
+  "trocr": "x 30 days ."
+ },
+ {
+  "box": [
+   139,
+   602,
+   779,
+   681
+  ],
+  "paddle": "② Tab. Shelcal 500 - AF",
+  "paddle_score": 0.9726278185844421,
+  "trocr": "Q Tab. Shelcal 500 - AF."
+ },
+ {
+  "box": [
+   409,
+   662,
+   566,
+   707
+  ],
+  "paddle": "1-1-1",
+  "paddle_score": 0.9997087717056274,
+  "trocr": "1-1-"
+ },
+ {
+  "box": [
+   136,
+   701,
+   1060,
+   785
+  ],
+  "paddle": "③ Tab. Neurokind -OD - Hs - x 15 days",
+  "paddle_score": 0.9375016689300537,
+  "trocr": "G. Tob. Neurokind -OD - HS - 8x 15 days"
+ },
+ {
+  "box": [
+   374,
+   766,
+   540,
+   811
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.999788761138916,
+  "trocr": "1-0-"
+ },
+ {
+  "box": [
+   702,
+   787,
+   1076,
+   855
+  ],
+  "paddle": "o0 - x 30 days",
+  "paddle_score": 0.8974811434745789,
+  "trocr": "OD is 30 days"
+ },
+ {
+  "box": [
+   133,
+   808,
+   594,
+   898
+  ],
+  "paddle": "2 Cap. Evion 400",
+  "paddle_score": 0.9454947710037231,
+  "trocr": "O. Cap. Evion , 400"
+ },
+ {
+  "box": [
+   375,
+   869,
+   521,
+   917
+  ],
+  "paddle": "1-0-0",
+  "paddle_score": 0.9997892379760742,
+  "trocr": "1-0-0 ."
+ },
+ {
+  "box": [
+   131,
+   935,
+   347,
+   1011
+  ],
+  "paddle": "⑤ syp.",
+  "paddle_score": 0.8955451846122742,
+  "trocr": "O. Syp."
+ },
+ {
+  "box": [
+   352,
+   927,
+   571,
+   987
+  ],
+  "paddle": "Livo-83",
+  "paddle_score": 0.9852175116539001,
+  "trocr": "Livo -83 ."
+ },
+ {
+  "box": [
+   697,
+   895,
+   1080,
+   967
+  ],
+  "paddle": "BD — × 20 days",
+  "paddle_score": 0.9091828465461731,
+  "trocr": "BD - X 20 days"
+ },
+ {
+  "box": [
+   381,
+   977,
+   511,
+   1030
+  ],
+  "paddle": "5 ml",
+  "paddle_score": 0.9763734936714172,
+  "trocr": "5 miles ."
+ },
+ {
+  "box": [
+   117,
+   1063,
+   814,
+   1144
+  ],
+  "paddle": "Adve: - Avoid oily / spicy food",
+  "paddle_score": 0.9301034212112427,
+  "trocr": "Adve : - Avoid only ( Spicy food"
+ },
+ {
+  "box": [
+   270,
+   1128,
+   588,
+   1199
+  ],
+  "paddle": "- Regular walk",
+  "paddle_score": 0.9976873993873596,
+  "trocr": "- Regular walk ."
+ },
+ {
+  "box": [
+   272,
+   1177,
+   755,
+   1258
+  ],
+  "paddle": "- Take plenty of water",
+  "paddle_score": 0.9957731366157532,
+  "trocr": "- Take plenty of water"
+ },
+ {
+  "box": [
+   832,
+   1168,
+   1013,
+   1295
+  ],
+  "paddle": "lih",
+  "paddle_score": 0.7981480956077576,
+  "trocr": "lish #"
+ },
+ {
+  "box": [
+   197,
+   1267,
+   665,
+   1356
+  ],
+  "paddle": "Review after 4 weeks.",
+  "paddle_score": 0.9973309636116028,
+  "trocr": "Review after 4 weeks ."
+ },
+ {
+  "box": [
+   852,
+   1288,
+   1012,
+   1323
+  ],
+  "paddle": "Dr. K. Srinivas",
+  "paddle_score": 0.9822390079498291,
+  "trocr": "Dr. K. Srinivas ."
+ }
+]

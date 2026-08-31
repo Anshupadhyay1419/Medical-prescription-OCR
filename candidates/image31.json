@@ -1,0 +1,442 @@
+[
+ {
+  "box": [
+   197,
+   23,
+   470,
+   71
+  ],
+  "paddle": "Dr. S. Verma",
+  "paddle_score": 0.9949557185173035,
+  "trocr": "Dr. S. Verma ."
+ },
+ {
+  "box": [
+   766,
+   33,
+   1028,
+   89
+  ],
+  "paddle": "Date : 02/08/24",
+  "paddle_score": 0.9414705634117126,
+  "trocr": "Date : 02/08/24 ."
+ },
+ {
+  "box": [
+   196,
+   81,
+   540,
+   128
+  ],
+  "paddle": "MBBS, MD (Cardiology)",
+  "paddle_score": 0.9972459673881531,
+  "trocr": "MBBS , MD ( Cardiology )"
+ },
+ {
+  "box": [
+   768,
+   102,
+   1035,
+   150
+  ],
+  "paddle": "Time : 10:20 am",
+  "paddle_score": 0.979832649230957,
+  "trocr": "Time : 10:20 am"
+ },
+ {
+  "box": [
+   196,
+   128,
+   462,
+   186
+  ],
+  "paddle": "Reg. No. 27891",
+  "paddle_score": 0.9931340217590332,
+  "trocr": "Reg. No. 27891 ."
+ },
+ {
+  "box": [
+   43,
+   215,
+   494,
+   270
+  ],
+  "paddle": "Name : Mr. Rajesh Gupta",
+  "paddle_score": 0.9973176717758179,
+  "trocr": "Name : Mr. Rajesh Gupta"
+ },
+ {
+  "box": [
+   735,
+   205,
+   1026,
+   270
+  ],
+  "paddle": "Age/Sex: 56/M",
+  "paddle_score": 0.9338306188583374,
+  "trocr": "Age ( Sex : 56 (M."
+ },
+ {
+  "box": [
+   46,
+   270,
+   440,
+   320
+  ],
+  "paddle": "Add : 34, Sector-7,",
+  "paddle_score": 0.9863492846488953,
+  "trocr": "Add : 34 , Sector-7 ,"
+ },
+ {
+  "box": [
+   205,
+   316,
+   534,
+   371
+  ],
+  "paddle": "Chandigarh - 160019",
+  "paddle_score": 0.9905718564987183,
+  "trocr": "Chandigarh - 160019 ."
+ },
+ {
+  "box": [
+   38,
+   375,
+   846,
+   450
+  ],
+  "paddle": "C/0Chestheavinessonexrtionsince10days,",
+  "paddle_score": 0.7761703133583069,
+  "trocr": "CFO : Chest heaviness on exertion since 10 days ,"
+ },
+ {
+  "box": [
+   200,
+   427,
+   731,
+   474
+  ],
+  "paddle": "breathlessness on climbing stairs,",
+  "paddle_score": 0.9857239723205566,
+  "trocr": "breathlessness on climbing stairs ,"
+ },
+ {
+  "box": [
+   197,
+   469,
+   699,
+   521
+  ],
+  "paddle": "occasional sweating. No fever.",
+  "paddle_score": 0.9998050928115845,
+  "trocr": "occasional sweating . No\" fever ."
+ },
+ {
+  "box": [
+   199,
+   513,
+   627,
+   564
+  ],
+  "paddle": "No cough. No palpitations.",
+  "paddle_score": 0.9971825480461121,
+  "trocr": "No cough . No palpitations ."
+ },
+ {
+  "box": [
+   40,
+   575,
+   122,
+   626
+  ],
+  "paddle": "Dx",
+  "paddle_score": 0.9999675154685974,
+  "trocr": "DX"
+ },
+ {
+  "box": [
+   123,
+   568,
+   548,
+   628
+  ],
+  "paddle": ": Stable Angina (IHD)",
+  "paddle_score": 0.9882925152778625,
+  "trocr": " : Stable Angina ( IHD ) ."
+ },
+ {
+  "box": [
+   35,
+   637,
+   102,
+   722
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9965856075286865,
+  "trocr": "Rex"
+ },
+ {
+  "box": [
+   170,
+   656,
+   620,
+   708
+  ],
+  "paddle": "① Tab. Ecosprin AV 75 mg",
+  "paddle_score": 0.9897809624671936,
+  "trocr": "OD Tab. Ecosprin AV 75 mg"
+ },
+ {
+  "box": [
+   865,
+   674,
+   1026,
+   732
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9929861426353455,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   333,
+   700,
+   643,
+   744
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9749509692192078,
+  "trocr": "1 tab 0D after food"
+ },
+ {
+  "box": [
+   170,
+   753,
+   612,
+   801
+  ],
+  "paddle": "② Tab. Clopidogrel 75 mg",
+  "paddle_score": 0.9892315864562988,
+  "trocr": "Q Tab. Clopidogrel 75 mg ."
+ },
+ {
+  "box": [
+   856,
+   758,
+   1028,
+   824
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9923854470252991,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   330,
+   792,
+   645,
+   834
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9986484050750732,
+  "trocr": "1 tab \"OD after food"
+ },
+ {
+  "box": [
+   163,
+   839,
+   625,
+   895
+  ],
+  "paddle": "③ Tab. Atorvastatin 20 mg",
+  "paddle_score": 0.9888224005699158,
+  "trocr": "3 ) Tab. Atorvastatin 20 mg ."
+ },
+ {
+  "box": [
+   854,
+   846,
+   1029,
+   910
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9893453121185303,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   330,
+   882,
+   486,
+   923
+  ],
+  "paddle": "1 tab HS",
+  "paddle_score": 0.9990595579147339,
+  "trocr": "1 tab HS ."
+ },
+ {
+  "box": [
+   163,
+   923,
+   730,
+   975
+  ],
+  "paddle": "④ Tab. Metoprolol Succinate 25 mg",
+  "paddle_score": 0.9873189330101013,
+  "trocr": "4 Tab . Metoprolol Succinate 25 mg"
+ },
+ {
+  "box": [
+   853,
+   932,
+   1029,
+   992
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9878067374229431,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   328,
+   964,
+   650,
+   1006
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.9833638072013855,
+  "trocr": "1 tab 0D after food"
+ },
+ {
+  "box": [
+   160,
+   1009,
+   757,
+   1062
+  ],
+  "paddle": "⑤ Tab. Isosorbide Mononitrate 10 mg",
+  "paddle_score": 0.9911813139915466,
+  "trocr": "5 ) Tab. Isosorbide , Mononitrate 10 mg"
+ },
+ {
+  "box": [
+   850,
+   1014,
+   1029,
+   1074
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9835261106491089,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   328,
+   1051,
+   489,
+   1091
+  ],
+  "paddle": "1 tab BD",
+  "paddle_score": 0.9999773502349854,
+  "trocr": "1 tab BD ."
+ },
+ {
+  "box": [
+   43,
+   1120,
+   525,
+   1171
+  ],
+  "paddle": "Advice : - Avoid heavy exertion.",
+  "paddle_score": 0.9817187786102295,
+  "trocr": "Advice : - Avoid heavy exertion ."
+ },
+ {
+  "box": [
+   182,
+   1161,
+   596,
+   1204
+  ],
+  "paddle": "- Reduce salt and oily food.",
+  "paddle_score": 0.972976565361023,
+  "trocr": "- Reduce salt and oily food ."
+ },
+ {
+  "box": [
+   814,
+   1130,
+   1001,
+   1260
+  ],
+  "paddle": "Aae",
+  "paddle_score": 0.40520116686820984,
+  "trocr": "down ."
+ },
+ {
+  "box": [
+   177,
+   1196,
+   727,
+   1248
+  ],
+  "paddle": "- Do regular walking (30 mins daily)",
+  "paddle_score": 0.9988875985145569,
+  "trocr": "- Do regular walking ( 30 mins daily ) ."
+ },
+ {
+  "box": [
+   179,
+   1240,
+   610,
+   1285
+  ],
+  "paddle": "- Avoid smoking and alcohol.",
+  "paddle_score": 0.9994152784347534,
+  "trocr": "- Avoid smoking and alcohol ."
+ },
+ {
+  "box": [
+   795,
+   1220,
+   1030,
+   1328
+  ],
+  "paddle": "Dr. S. Verma",
+  "paddle_score": 0.9862382411956787,
+  "trocr": "Dr. S. Verma ."
+ },
+ {
+  "box": [
+   177,
+   1277,
+   701,
+   1321
+  ],
+  "paddle": "- If chest pain increases or at rest,",
+  "paddle_score": 0.999154806137085,
+  "trocr": "- If chest pain increases or at rest ,"
+ },
+ {
+  "box": [
+   236,
+   1320,
+   515,
+   1356
+  ],
+  "paddle": "consult immediately.",
+  "paddle_score": 0.9998218417167664,
+  "trocr": "\" consult immediately ."
+ },
+ {
+  "box": [
+   173,
+   1351,
+   594,
+   1398
+  ],
+  "paddle": "- Follow up after 1 month.",
+  "paddle_score": 0.9997588396072388,
+  "trocr": "- Follow up after 1'm month ."
+ }
+]

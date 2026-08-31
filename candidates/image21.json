@@ -1,0 +1,211 @@
+[
+ {
+  "box": [
+   345,
+   50,
+   733,
+   110
+  ],
+  "paddle": "City Care Hospital",
+  "paddle_score": 0.9999887943267822,
+  "trocr": "city care Hospital"
+ },
+ {
+  "box": [
+   798,
+   42,
+   998,
+   158
+  ],
+  "paddle": "15/5/24",
+  "paddle_score": 0.9968291521072388,
+  "trocr": "15/5/24 ."
+ },
+ {
+  "box": [
+   395,
+   108,
+   688,
+   149
+  ],
+  "paddle": "OPD - General Medicine",
+  "paddle_score": 0.9982860088348389,
+  "trocr": "OPD-General Medicine ."
+ },
+ {
+  "box": [
+   50,
+   136,
+   117,
+   208
+  ],
+  "paddle": "R",
+  "paddle_score": 0.999703586101532,
+  "trocr": "rx ."
+ },
+ {
+  "box": [
+   434,
+   145,
+   648,
+   183
+  ],
+  "paddle": "Ph: 080-23456789",
+  "paddle_score": 0.9722734689712524,
+  "trocr": "phox080-23456789"
+ },
+ {
+  "box": [
+   52,
+   219,
+   1000,
+   307
+  ],
+  "paddle": "Name R. NIKHIL Age/Sex 29/M UHID 45872",
+  "paddle_score": 0.9454461932182312,
+  "trocr": "Name RANKHIL AGeisex 29/M UNID 45872"
+ },
+ {
+  "box": [
+   51,
+   322,
+   1006,
+   406
+  ],
+  "paddle": "BP120/80HR 88/minT 98.6°FSPO299%BGO+",
+  "paddle_score": 0.9267117977142334,
+  "trocr": "BP 120,80 HR 88/min T 98-6\"F SP02 99/0, BG.0\""
+ },
+ {
+  "box": [
+   38,
+   442,
+   779,
+   572
+  ],
+  "paddle": "Lo fever, cold, body ache",
+  "paddle_score": 0.8880367875099182,
+  "trocr": "of fever , cold , body ache"
+ },
+ {
+  "box": [
+   174,
+   557,
+   518,
+   636
+  ],
+  "paddle": "since 2 days.",
+  "paddle_score": 0.9980669021606445,
+  "trocr": "since 2 days ."
+ },
+ {
+  "box": [
+   34,
+   672,
+   138,
+   783
+  ],
+  "paddle": "Bx",
+  "paddle_score": 0.905755877494812,
+  "trocr": "Rx ."
+ },
+ {
+  "box": [
+   142,
+   702,
+   991,
+   825
+  ],
+  "paddle": "1Tab.Dolo6501-1-1×3d",
+  "paddle_score": 0.9259979128837585,
+  "trocr": "if Tab. DoLo 650-1-1-1-X.3d."
+ },
+ {
+  "box": [
+   134,
+   805,
+   979,
+   923
+  ],
+  "paddle": "2)Tab.Azithro5001-0-0×3d",
+  "paddle_score": 0.930316150188446,
+  "trocr": "a ) Tab. Azithro 500 1-0-0 X 3d"
+ },
+ {
+  "box": [
+   126,
+   911,
+   995,
+   1049
+  ],
+  "paddle": "3）Tab.Leo50-0-15d",
+  "paddle_score": 0.7046064734458923,
+  "trocr": "3 ) Tab. Levocet 5mg 0-0-1 X5d."
+ },
+ {
+  "box": [
+   118,
+   1059,
+   520,
+   1169
+  ],
+  "paddle": "4) Cofsyl L.s",
+  "paddle_score": 0.9953958988189697,
+  "trocr": "4 ) Cofsyl L.S."
+ },
+ {
+  "box": [
+   646,
+   1049,
+   823,
+   1126
+  ],
+  "paddle": "2 tsp",
+  "paddle_score": 0.9937655329704285,
+  "trocr": "2 top"
+ },
+ {
+  "box": [
+   828,
+   1024,
+   995,
+   1116
+  ],
+  "paddle": "×5d",
+  "paddle_score": 0.8344643712043762,
+  "trocr": "ex 5el ."
+ },
+ {
+  "box": [
+   650,
+   1111,
+   787,
+   1175
+  ],
+  "paddle": "TID",
+  "paddle_score": 0.9999682307243347,
+  "trocr": "ti'd ."
+ },
+ {
+  "box": [
+   50,
+   1212,
+   738,
+   1356
+  ],
+  "paddle": "Adrplenty of fluids,resh.",
+  "paddle_score": 0.8846215605735779,
+  "trocr": "Adv : plenty of fluids , rest ... ."
+ },
+ {
+  "box": [
+   759,
+   1244,
+   1008,
+   1385
+  ],
+  "paddle": "Vermo",
+  "paddle_score": 0.7257038950920105,
+  "trocr": "vermo ."
+ }
+]

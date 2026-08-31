@@ -1,0 +1,343 @@
+[
+ {
+  "box": [
+   219,
+   38,
+   424,
+   69
+  ],
+  "paddle": "Dr. R. Mehta",
+  "paddle_score": 0.9987738728523254,
+  "trocr": "Dr. R. Mehta ."
+ },
+ {
+  "box": [
+   722,
+   51,
+   995,
+   103
+  ],
+  "paddle": "Date: 24/05/2024",
+  "paddle_score": 0.9935116767883301,
+  "trocr": "date : 24/05 ( 2024 ."
+ },
+ {
+  "box": [
+   219,
+   77,
+   509,
+   103
+  ],
+  "paddle": "MBBS, MD (Internal Medicine)",
+  "paddle_score": 0.9964614510536194,
+  "trocr": "MBBS , MD ( Internal Medicine )"
+ },
+ {
+  "box": [
+   97,
+   102,
+   132,
+   163
+  ],
+  "paddle": "SPR",
+  "paddle_score": 0.3635455071926117,
+  "trocr": "#"
+ },
+ {
+  "box": [
+   219,
+   110,
+   376,
+   137
+  ],
+  "paddle": "Reg. No. 78945",
+  "paddle_score": 0.997143566608429,
+  "trocr": "Reg. No. 78945"
+ },
+ {
+  "box": [
+   727,
+   115,
+   969,
+   151
+  ],
+  "paddle": "Time: 11:30 AM",
+  "paddle_score": 0.9883662462234497,
+  "trocr": "Time : 11:30 AM ."
+ },
+ {
+  "box": [
+   219,
+   143,
+   433,
+   170
+  ],
+  "paddle": "Consulting Physician",
+  "paddle_score": 0.9999961853027344,
+  "trocr": "Consulting Physician"
+ },
+ {
+  "box": [
+   55,
+   214,
+   484,
+   260
+  ],
+  "paddle": "Patient Name: Amit Verma",
+  "paddle_score": 0.9641268849372864,
+  "trocr": "Patient Name : Amit Verma"
+ },
+ {
+  "box": [
+   725,
+   217,
+   997,
+   259
+  ],
+  "paddle": "Age/Sex: 45 /M",
+  "paddle_score": 0.9344726204872131,
+  "trocr": "Age ( Sex : 4.5 (M."
+ },
+ {
+  "box": [
+   54,
+   277,
+   688,
+   327
+  ],
+  "paddle": "Address: 56, Shanti Nagar, Indore",
+  "paddle_score": 0.9696534872055054,
+  "trocr": "Address : 56 , Shanti Nagar , Indore"
+ },
+ {
+  "box": [
+   59,
+   348,
+   848,
+   391
+  ],
+  "paddle": "Chief Complaints: Fever, body ache, sore throat",
+  "paddle_score": 0.9718666672706604,
+  "trocr": "Chief Complaints : Fever , body acre , sore throat"
+ },
+ {
+  "box": [
+   305,
+   404,
+   554,
+   448
+  ],
+  "paddle": "since 2 days",
+  "paddle_score": 0.9999585747718811,
+  "trocr": "since 2 days ."
+ },
+ {
+  "box": [
+   51,
+   467,
+   498,
+   525
+  ],
+  "paddle": "Diagnosis： Acute Pharyngitis",
+  "paddle_score": 0.9604279398918152,
+  "trocr": "Diagnosis : Acute Pharyngitis"
+ },
+ {
+  "box": [
+   49,
+   532,
+   114,
+   602
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9602030515670776,
+  "trocr": "Rex ."
+ },
+ {
+  "box": [
+   148,
+   576,
+   613,
+   628
+  ],
+  "paddle": "1) Tab. Augmentin 625 mg",
+  "paddle_score": 0.9600934386253357,
+  "trocr": "D Tab. Augmentin 625 mg"
+ },
+ {
+  "box": [
+   216,
+   632,
+   714,
+   679
+  ],
+  "paddle": "1 tab twice daily after food",
+  "paddle_score": 0.9690302014350891,
+  "trocr": "1 tab twice daily after food"
+ },
+ {
+  "box": [
+   819,
+   618,
+   993,
+   674
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9632487893104553,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   143,
+   707,
+   648,
+   759
+  ],
+  "paddle": "② Tab. Paracetamol 650 mg",
+  "paddle_score": 0.9985582828521729,
+  "trocr": "O. Tab. Paracetamol 650 mg"
+ },
+ {
+  "box": [
+   213,
+   760,
+   609,
+   812
+  ],
+  "paddle": "1 tab every 8 hours",
+  "paddle_score": 0.999722421169281,
+  "trocr": "1 tab every 8 hours ."
+ },
+ {
+  "box": [
+   816,
+   743,
+   995,
+   804
+  ],
+  "paddle": "- 3 days",
+  "paddle_score": 0.9739145040512085,
+  "trocr": "- 3 days ."
+ },
+ {
+  "box": [
+   136,
+   842,
+   628,
+   893
+  ],
+  "paddle": "③ Tab. Levocetirizine 5 mg",
+  "paddle_score": 0.9720074534416199,
+  "trocr": "3 . Tab. Levocetirizine 5 mg"
+ },
+ {
+  "box": [
+   213,
+   897,
+   517,
+   946
+  ],
+  "paddle": "1 tab at night",
+  "paddle_score": 0.9926407933235168,
+  "trocr": "1 tab at night"
+ },
+ {
+  "box": [
+   811,
+   888,
+   992,
+   949
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9633356928825378,
+  "trocr": "-5 days ."
+ },
+ {
+  "box": [
+   136,
+   976,
+   486,
+   1032
+  ],
+  "paddle": "④ Throat Lozenges",
+  "paddle_score": 0.9964785575866699,
+  "trocr": "O Throat Lozenges"
+ },
+ {
+  "box": [
+   208,
+   1032,
+   663,
+   1088
+  ],
+  "paddle": "1 lozenge 3-4 times a day",
+  "paddle_score": 0.9855164885520935,
+  "trocr": "1lozenge 3-4 times a day"
+ },
+ {
+  "box": [
+   810,
+   1029,
+   992,
+   1091
+  ],
+  "paddle": "- 5 days",
+  "paddle_score": 0.9739324450492859,
+  "trocr": "- 5 days ."
+ },
+ {
+  "box": [
+   214,
+   1089,
+   389,
+   1127
+  ],
+  "paddle": "as needed",
+  "paddle_score": 0.9999871850013733,
+  "trocr": "as needed ."
+ },
+ {
+  "box": [
+   56,
+   1184,
+   702,
+   1232
+  ],
+  "paddle": "Advice : - Take plenty of warm fluids",
+  "paddle_score": 0.9918440580368042,
+  "trocr": "Advice : - Take plenty of warm fluids"
+ },
+ {
+  "box": [
+   202,
+   1243,
+   704,
+   1288
+  ],
+  "paddle": "- Rest and steam inhalation",
+  "paddle_score": 0.9964916110038757,
+  "trocr": "- Rest and steam inhalation"
+ },
+ {
+  "box": [
+   830,
+   1249,
+   1025,
+   1376
+  ],
+  "paddle": "RMchta",
+  "paddle_score": 0.855909526348114,
+  "trocr": "R. Mehta ."
+ },
+ {
+  "box": [
+   841,
+   1362,
+   1032,
+   1404
+  ],
+  "paddle": "Dr. R. Mehta",
+  "paddle_score": 0.998805820941925,
+  "trocr": "Dr. R. Mehta ."
+ }
+]

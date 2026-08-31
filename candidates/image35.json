@@ -1,0 +1,464 @@
+[
+ {
+  "box": [
+   193,
+   27,
+   548,
+   94
+  ],
+  "paddle": "Dr. Neha Aggarwal",
+  "paddle_score": 0.9999492764472961,
+  "trocr": "Dr. Neha Aggarwal"
+ },
+ {
+  "box": [
+   765,
+   39,
+   1023,
+   86
+  ],
+  "paddle": "Date：10/08/24",
+  "paddle_score": 0.993938148021698,
+  "trocr": "Date : 10/08 (24 ."
+ },
+ {
+  "box": [
+   199,
+   97,
+   575,
+   133
+  ],
+  "paddle": "MBBS, MD (General Medicine)",
+  "paddle_score": 0.9845712184906006,
+  "trocr": "MBBS , MD ( General Medicine )"
+ },
+ {
+  "box": [
+   767,
+   110,
+   1023,
+   152
+  ],
+  "paddle": "Time : 9:45 am",
+  "paddle_score": 0.9174492955207825,
+  "trocr": "Time : 9:45 am"
+ },
+ {
+  "box": [
+   194,
+   142,
+   446,
+   195
+  ],
+  "paddle": "Reg. No. 51234",
+  "paddle_score": 0.9984576106071472,
+  "trocr": "Reg. No. 51234 ."
+ },
+ {
+  "box": [
+   35,
+   229,
+   514,
+   276
+  ],
+  "paddle": "Name : Mr. Sandeep Kumar",
+  "paddle_score": 0.966152012348175,
+  "trocr": "Name : Mr. Sandeep Kumar"
+ },
+ {
+  "box": [
+   739,
+   222,
+   1018,
+   281
+  ],
+  "paddle": "Age/Sex: 45/M",
+  "paddle_score": 0.9440933465957642,
+  "trocr": "Age ( Sex : 45 (M."
+ },
+ {
+  "box": [
+   32,
+   289,
+   592,
+   336
+  ],
+  "paddle": "Add : B-204, Sunrise Apartments,",
+  "paddle_score": 0.9844624996185303,
+  "trocr": "Add : B-204 , Sunrise Apartments ,"
+ },
+ {
+  "box": [
+   185,
+   338,
+   444,
+   374
+  ],
+  "paddle": "Noida - 201301",
+  "paddle_score": 0.9735197424888611,
+  "trocr": "Noida - 201301"
+ },
+ {
+  "box": [
+   22,
+   391,
+   839,
+   459
+  ],
+  "paddle": "C/0: Headache since 1 week, mainly in moning.",
+  "paddle_score": 0.9192236065864563,
+  "trocr": "CFO : Headache since 1 week , mainly in morning ."
+ },
+ {
+  "box": [
+   188,
+   445,
+   639,
+   483
+  ],
+  "paddle": "Feels tired and has acidity.",
+  "paddle_score": 0.9999348521232605,
+  "trocr": "Feels tired and has acidity ."
+ },
+ {
+  "box": [
+   184,
+   486,
+   558,
+   528
+  ],
+  "paddle": "No nausea or vomiting.",
+  "paddle_score": 0.9999286532402039,
+  "trocr": "No nausea or vomiting ."
+ },
+ {
+  "box": [
+   185,
+   526,
+   437,
+   570
+  ],
+  "paddle": "Sleep disturbed.",
+  "paddle_score": 0.9999815225601196,
+  "trocr": "Sleep disturbed ."
+ },
+ {
+  "box": [
+   31,
+   582,
+   123,
+   637
+  ],
+  "paddle": "Dx",
+  "paddle_score": 0.9999326467514038,
+  "trocr": "Dx"
+ },
+ {
+  "box": [
+   160,
+   585,
+   680,
+   626
+  ],
+  "paddle": "Tension Headache with Gastritis",
+  "paddle_score": 0.9998288154602051,
+  "trocr": "Tension Headache with Gastritis"
+ },
+ {
+  "box": [
+   27,
+   643,
+   98,
+   739
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9848488569259644,
+  "trocr": "Rex"
+ },
+ {
+  "box": [
+   160,
+   659,
+   619,
+   707
+  ],
+  "paddle": "① Tab. Pantoprazole 40 mg",
+  "paddle_score": 0.9726113080978394,
+  "trocr": "Q Tab. Pantoprazole 40 mg"
+ },
+ {
+  "box": [
+   324,
+   701,
+   648,
+   739
+  ],
+  "paddle": "1 tab OD empty stomach",
+  "paddle_score": 0.9866976141929626,
+  "trocr": "1 tab \"OD empty stomach"
+ },
+ {
+  "box": [
+   848,
+   689,
+   1006,
+   742
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.9765959978103638,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   159,
+   747,
+   606,
+   793
+  ],
+  "paddle": "② Tab. Domperidone 10 mg",
+  "paddle_score": 0.9850196838378906,
+  "trocr": "Q Tab. Donperidone 10 mg"
+ },
+ {
+  "box": [
+   322,
+   790,
+   643,
+   822
+  ],
+  "paddle": "1 tab TDS before meals",
+  "paddle_score": 0.9872745275497437,
+  "trocr": "1 tab TDS before meals"
+ },
+ {
+  "box": [
+   848,
+   773,
+   1005,
+   827
+  ],
+  "paddle": "- 10 days",
+  "paddle_score": 0.9884768724441528,
+  "trocr": "-10 days ."
+ },
+ {
+  "box": [
+   157,
+   830,
+   606,
+   876
+  ],
+  "paddle": "③ Tab. Paracetamol 650 mg",
+  "paddle_score": 0.991960346698761,
+  "trocr": "3 . Tab. Paracetamol 650 mg"
+ },
+ {
+  "box": [
+   321,
+   875,
+   643,
+   907
+  ],
+  "paddle": "1 tab SOS if headache",
+  "paddle_score": 0.9835488200187683,
+  "trocr": "1 tab SOS if headache"
+ },
+ {
+  "box": [
+   848,
+   856,
+   1005,
+   908
+  ],
+  "paddle": "- 10 days",
+  "paddle_score": 0.9845147728919983,
+  "trocr": "-10 days ."
+ },
+ {
+  "box": [
+   164,
+   917,
+   218,
+   953
+  ],
+  "paddle": "④",
+  "paddle_score": 0.7946286797523499,
+  "trocr": "4 ."
+ },
+ {
+  "box": [
+   218,
+   917,
+   666,
+   953
+  ],
+  "paddle": "Tab. Magnesium + Vitamin B6",
+  "paddle_score": 0.9974090456962585,
+  "trocr": "Tab. Magnesium + Vitamin B6"
+ },
+ {
+  "box": [
+   321,
+   955,
+   609,
+   986
+  ],
+  "paddle": "1 tab OD after food",
+  "paddle_score": 0.986534833908081,
+  "trocr": "1 tab 0D after food"
+ },
+ {
+  "box": [
+   850,
+   938,
+   1001,
+   983
+  ],
+  "paddle": "- 30 days",
+  "paddle_score": 0.9460247755050659,
+  "trocr": "-30 days ."
+ },
+ {
+  "box": [
+   157,
+   991,
+   492,
+   1044
+  ],
+  "paddle": "⑤ Syp. Antacid Gel",
+  "paddle_score": 0.9509500861167908,
+  "trocr": "5 Sep. Antacid_ Gel ."
+ },
+ {
+  "box": [
+   851,
+   1015,
+   1000,
+   1065
+  ],
+  "paddle": "- 15 days",
+  "paddle_score": 0.9715283513069153,
+  "trocr": "-15 days ."
+ },
+ {
+  "box": [
+   313,
+   1030,
+   639,
+   1070
+  ],
+  "paddle": "10 ml TDS after meals",
+  "paddle_score": 0.998898983001709,
+  "trocr": "10 mL TDS after meals"
+ },
+ {
+  "box": [
+   35,
+   1109,
+   676,
+   1151
+  ],
+  "paddle": "Advice : - Avoid spicy, oily and fried food.",
+  "paddle_score": 0.9957071542739868,
+  "trocr": "Advice : - Avoid spicy , only and fried food ."
+ },
+ {
+  "box": [
+   176,
+   1146,
+   597,
+   1178
+  ],
+  "paddle": "- Eat small & frequent meals.",
+  "paddle_score": 0.9891613721847534,
+  "trocr": "- Eat small \" & frequent meals ."
+ },
+ {
+  "box": [
+   176,
+   1184,
+   617,
+   1216
+  ],
+  "paddle": "- Avoid tea, coffee and alcohol.",
+  "paddle_score": 0.9849669933319092,
+  "trocr": "- Avoid tea , coffee and alcohol ."
+ },
+ {
+  "box": [
+   787,
+   1152,
+   927,
+   1276
+  ],
+  "paddle": "Ah",
+  "paddle_score": 0.38752153515815735,
+  "trocr": "Quhn"
+ },
+ {
+  "box": [
+   174,
+   1220,
+   524,
+   1256
+  ],
+  "paddle": "- Drink plenty of water.",
+  "paddle_score": 0.9808850884437561,
+  "trocr": "- Drink plenty of water ."
+ },
+ {
+  "box": [
+   174,
+   1256,
+   707,
+   1291
+  ],
+  "paddle": "- Do regular walk and take adequate sleep.",
+  "paddle_score": 0.9884938597679138,
+  "trocr": "- Do regular walk and take adequate sleep ."
+ },
+ {
+  "box": [
+   770,
+   1214,
+   1051,
+   1350
+  ],
+  "paddle": "Dr. Nala Ayggawal",
+  "paddle_score": 0.739592432975769,
+  "trocr": "Dr. Ncha Aggarwal"
+ },
+ {
+  "box": [
+   177,
+   1296,
+   614,
+   1327
+  ],
+  "paddle": "- If headache persists or worsens,",
+  "paddle_score": 0.9869364500045776,
+  "trocr": "- If headache persists or worsens ,"
+ },
+ {
+  "box": [
+   242,
+   1327,
+   429,
+   1364
+  ],
+  "paddle": "consult again.",
+  "paddle_score": 0.9999604225158691,
+  "trocr": "consult again ."
+ },
+ {
+  "box": [
+   174,
+   1360,
+   546,
+   1401
+  ],
+  "paddle": "- Follow up after 2 weeks.",
+  "paddle_score": 0.999571681022644,
+  "trocr": "- Follow up after 2 weeks ."
+ }
+]

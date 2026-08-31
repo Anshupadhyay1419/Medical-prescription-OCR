@@ -1,0 +1,376 @@
+[
+ {
+  "box": [
+   214,
+   30,
+   499,
+   93
+  ],
+  "paddle": "Dr. A. Tripathi",
+  "paddle_score": 0.9980828762054443,
+  "trocr": "Dr. A. Tripathi ."
+ },
+ {
+  "box": [
+   737,
+   31,
+   1021,
+   89
+  ],
+  "paddle": "Date-27/06/24",
+  "paddle_score": 0.999884843826294,
+  "trocr": "Date - 27,06 )24 ."
+ },
+ {
+  "box": [
+   215,
+   82,
+   545,
+   141
+  ],
+  "paddle": "MBBS, MD ( Med.)",
+  "paddle_score": 0.949123740196228,
+  "trocr": "MBBS , MD' ( Med. )"
+ },
+ {
+  "box": [
+   734,
+   105,
+   1025,
+   153
+  ],
+  "paddle": "Time - 10:20 am",
+  "paddle_score": 0.9866650104522705,
+  "trocr": "Time - 10:20 am"
+ },
+ {
+  "box": [
+   214,
+   134,
+   511,
+   197
+  ],
+  "paddle": "Reg. No. 68109",
+  "paddle_score": 0.9998501539230347,
+  "trocr": "Reg. No. 68109"
+ },
+ {
+  "box": [
+   53,
+   211,
+   612,
+   287
+  ],
+  "paddle": "Name - Mr. Rajesh Sharma",
+  "paddle_score": 0.9646119475364685,
+  "trocr": "Name - Mr. Rajesh Sharma"
+ },
+ {
+  "box": [
+   709,
+   205,
+   1026,
+   272
+  ],
+  "paddle": "Age/sex-56/M",
+  "paddle_score": 0.9710472226142883,
+  "trocr": "Age ( sex - 56 (M."
+ },
+ {
+  "box": [
+   50,
+   274,
+   564,
+   338
+  ],
+  "paddle": "Add - 14, Tilak Road,",
+  "paddle_score": 0.9673111438751221,
+  "trocr": "Add - 14 , Tilak Road ,"
+ },
+ {
+  "box": [
+   218,
+   325,
+   525,
+   388
+  ],
+  "paddle": "Gwalior (M.P.)",
+  "paddle_score": 0.9908620715141296,
+  "trocr": "Gwalior ( M.P. ) ."
+ },
+ {
+  "box": [
+   42,
+   366,
+   983,
+   459
+  ],
+  "paddle": "C/o-Pain in chest on exertion since 1week",
+  "paddle_score": 0.8878840804100037,
+  "trocr": "cjo - pain in chest on exertion since 1 week"
+ },
+ {
+  "box": [
+   203,
+   434,
+   749,
+   497
+  ],
+  "paddle": "+ breathlessness on walking.",
+  "paddle_score": 0.9993188977241516,
+  "trocr": "it breathlessness on walking ."
+ },
+ {
+  "box": [
+   206,
+   487,
+   608,
+   548
+  ],
+  "paddle": "No cough. No fever.",
+  "paddle_score": 0.9791038036346436,
+  "trocr": "No cough . No fever ."
+ },
+ {
+  "box": [
+   45,
+   550,
+   478,
+   613
+  ],
+  "paddle": "Dx - Stable Angina",
+  "paddle_score": 0.9989376068115234,
+  "trocr": "DX - Stable Angina"
+ },
+ {
+  "box": [
+   303,
+   677,
+   725,
+   732
+  ],
+  "paddle": "1 tab OD after dinner",
+  "paddle_score": 0.9970141053199768,
+  "trocr": "1 tab \" OD after dinner"
+ },
+ {
+  "box": [
+   832,
+   651,
+   976,
+   710
+  ],
+  "paddle": "- cont.",
+  "paddle_score": 0.9843375086784363,
+  "trocr": "- cont."
+ },
+ {
+  "box": [
+   142,
+   739,
+   624,
+   801
+  ],
+  "paddle": "② Tab. Clopivas 75 mg",
+  "paddle_score": 0.9850834608078003,
+  "trocr": "O. Tab. Clopivas 75 mg"
+ },
+ {
+  "box": [
+   825,
+   751,
+   962,
+   806
+  ],
+  "paddle": "- cont.",
+  "paddle_score": 0.9421524405479431,
+  "trocr": "- cont."
+ },
+ {
+  "box": [
+   344,
+   793,
+   529,
+   834
+  ],
+  "paddle": "1 tab OD",
+  "paddle_score": 0.967336893081665,
+  "trocr": "1 tab OD ."
+ },
+ {
+  "box": [
+   142,
+   841,
+   628,
+   902
+  ],
+  "paddle": "③ Tab. Metoril 25 mg",
+  "paddle_score": 0.9954429864883423,
+  "trocr": "3 Table . Metoril 25 mg"
+ },
+ {
+  "box": [
+   833,
+   858,
+   1011,
+   907
+  ],
+  "paddle": "- 1 month",
+  "paddle_score": 0.9471714496612549,
+  "trocr": "-1 month ."
+ },
+ {
+  "box": [
+   324,
+   891,
+   519,
+   940
+  ],
+  "paddle": "1/2 tab BD",
+  "paddle_score": 0.9911648035049438,
+  "trocr": "Y2 tab BD ."
+ },
+ {
+  "box": [
+   137,
+   936,
+   625,
+   1002
+  ],
+  "paddle": "4 Tab. Atorfit 20 mg",
+  "paddle_score": 0.9746776819229126,
+  "trocr": "Q Tab . ' Atorfit 20 mg"
+ },
+ {
+  "box": [
+   831,
+   951,
+   973,
+   1010
+  ],
+  "paddle": "- cont.",
+  "paddle_score": 0.9846900105476379,
+  "trocr": "- cont."
+ },
+ {
+  "box": [
+   325,
+   985,
+   548,
+   1034
+  ],
+  "paddle": "1 tab Hs",
+  "paddle_score": 0.9976231455802917,
+  "trocr": "1 tab HS."
+ },
+ {
+  "box": [
+   137,
+   1033,
+   520,
+   1100
+  ],
+  "paddle": "5 Syp. Sorbitrate",
+  "paddle_score": 0.9850051999092102,
+  "trocr": "5 Sep. Sorbitrate"
+ },
+ {
+  "box": [
+   311,
+   1070,
+   810,
+   1135
+  ],
+  "paddle": "5 ml SL when pain occurs",
+  "paddle_score": 0.9717502593994141,
+  "trocr": "5\"ml \" SL when pain occurs ."
+ },
+ {
+  "box": [
+   820,
+   1055,
+   965,
+   1114
+  ],
+  "paddle": "- sos",
+  "paddle_score": 0.9359354972839355,
+  "trocr": "- sos ."
+ },
+ {
+  "box": [
+   42,
+   1148,
+   559,
+   1199
+  ],
+  "paddle": "Advice :- - Avoid heavy work",
+  "paddle_score": 0.9890828132629395,
+  "trocr": "Advice : - Avoid heavy work"
+ },
+ {
+  "box": [
+   195,
+   1239,
+   534,
+   1298
+  ],
+  "paddle": "- Regular walking",
+  "paddle_score": 0.995654821395874,
+  "trocr": "- Regular walking"
+ },
+ {
+  "box": [
+   199,
+   1196,
+   489,
+   1248
+  ],
+  "paddle": "- Low fat diet",
+  "paddle_score": 0.9713525176048279,
+  "trocr": "- Low fat diet"
+ },
+ {
+  "box": [
+   809,
+   1201,
+   1019,
+   1320
+  ],
+  "paddle": "Phu",
+  "paddle_score": 0.48741504549980164,
+  "trocr": "# Plus ."
+ },
+ {
+  "box": [
+   197,
+   1288,
+   656,
+   1346
+  ],
+  "paddle": "- If pain increases, Visit",
+  "paddle_score": 0.9899149537086487,
+  "trocr": "- If pain increases , visit"
+ },
+ {
+  "box": [
+   815,
+   1287,
+   1053,
+   1378
+  ],
+  "paddle": "Dr. A. Tripathi",
+  "paddle_score": 0.9616308212280273,
+  "trocr": "Dr. A. Tripathi ."
+ },
+ {
+  "box": [
+   240,
+   1338,
+   536,
+   1400
+  ],
+  "paddle": "ER immediately.",
+  "paddle_score": 0.9991022944450378,
+  "trocr": "ER immediately ."
+ }
+]

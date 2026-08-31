@@ -1,0 +1,629 @@
+[
+ {
+  "box": [
+   163,
+   21,
+   582,
+   64
+  ],
+  "paddle": "SHREEJI MEDICALS & CLINIC",
+  "paddle_score": 0.9995763897895813,
+  "trocr": "shreeji Medicals & Clinic"
+ },
+ {
+  "box": [
+   807,
+   17,
+   1058,
+   42
+  ],
+  "paddle": "Dr. P. Raghavan",
+  "paddle_score": 0.9970226287841797,
+  "trocr": "Dr. P. Raghavan"
+ },
+ {
+  "box": [
+   803,
+   44,
+   1061,
+   71
+  ],
+  "paddle": "MBBS, MD (Gen. Medicine)",
+  "paddle_score": 0.994792640209198,
+  "trocr": "MBBS , MD ( Gen. Medicine )"
+ },
+ {
+  "box": [
+   166,
+   74,
+   548,
+   98
+  ],
+  "paddle": "GENERAL PHYSICIAN & DIABETES CARE",
+  "paddle_score": 0.9998542070388794,
+  "trocr": "General physician & diabetes care"
+ },
+ {
+  "box": [
+   907,
+   68,
+   1061,
+   95
+  ],
+  "paddle": "Reg. No. 61025",
+  "paddle_score": 0.9983164668083191,
+  "trocr": "Reg. No. 61025"
+ },
+ {
+  "box": [
+   166,
+   106,
+   427,
+   130
+  ],
+  "paddle": "7/3, First Floor, Krishna Nagar,",
+  "paddle_score": 0.9995126724243164,
+  "trocr": "713 . First Floor , Krishna Nagar ,"
+ },
+ {
+  "box": [
+   881,
+   102,
+   1063,
+   129
+  ],
+  "paddle": "Consultation Time :",
+  "paddle_score": 0.9987218976020813,
+  "trocr": "Consultation Time :"
+ },
+ {
+  "box": [
+   166,
+   132,
+   502,
+   156
+  ],
+  "paddle": "Near Bus Stand, Coimbatore - 641 006.",
+  "paddle_score": 0.9996933937072754,
+  "trocr": "Near Bus Stand , Coimbatore - 641 006 ."
+ },
+ {
+  "box": [
+   868,
+   127,
+   1063,
+   151
+  ],
+  "paddle": "10.00 AM - 1.00 PM",
+  "paddle_score": 0.9699227809906006,
+  "trocr": "10,00 AM - 1.00 pm."
+ },
+ {
+  "box": [
+   168,
+   158,
+   342,
+   178
+  ],
+  "paddle": "Ph: 0422 -421 7133",
+  "paddle_score": 0.9558894038200378,
+  "trocr": "ph. 0422 - 421 7133"
+ },
+ {
+  "box": [
+   877,
+   151,
+   1063,
+   175
+  ],
+  "paddle": "5.00 PM - 8.30 PM",
+  "paddle_score": 0.9732081294059753,
+  "trocr": "5.00 pm -8.30 pm."
+ },
+ {
+  "box": [
+   916,
+   175,
+   1063,
+   201
+  ],
+  "paddle": "Sunday Holiday",
+  "paddle_score": 0.9999932646751404,
+  "trocr": "Sunday Holiday"
+ },
+ {
+  "box": [
+   61,
+   226,
+   458,
+   282
+  ],
+  "paddle": "Name: Mr. Suresh B.",
+  "paddle_score": 0.9882772564888,
+  "trocr": "name : Mr. Suresh B."
+ },
+ {
+  "box": [
+   749,
+   219,
+   1032,
+   277
+  ],
+  "paddle": "Date:11/05/24",
+  "paddle_score": 0.9329534769058228,
+  "trocr": "date : 11 ( 05 ( 24 ."
+ },
+ {
+  "box": [
+   61,
+   289,
+   299,
+   340
+  ],
+  "paddle": "Age : 58 yrs",
+  "paddle_score": 0.9987597465515137,
+  "trocr": "Age : 58yrs ."
+ },
+ {
+  "box": [
+   271,
+   281,
+   468,
+   332
+  ],
+  "paddle": " Sex : M",
+  "paddle_score": 0.92684006690979,
+  "trocr": "s sex : M."
+ },
+ {
+  "box": [
+   764,
+   284,
+   1037,
+   340
+  ],
+  "paddle": "BP = 140/90 mmtlg",
+  "paddle_score": 0.9591579437255859,
+  "trocr": "BP # 140 ) 90 mmtly ."
+ },
+ {
+  "box": [
+   767,
+   331,
+   995,
+   375
+  ],
+  "paddle": "PP = 80 /min",
+  "paddle_score": 0.9693603515625,
+  "trocr": "PP. 80\" ) min."
+ },
+ {
+  "box": [
+   42,
+   375,
+   129,
+   480
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.7694721221923828,
+  "trocr": "Rx ."
+ },
+ {
+  "box": [
+   767,
+   376,
+   1042,
+   417
+  ],
+  "paddle": "Sugar (F) = 156 mg/dl",
+  "paddle_score": 0.9532895684242249,
+  "trocr": "Sugar ( F ) : \" 156 mg (dl"
+ },
+ {
+  "box": [
+   184,
+   439,
+   225,
+   477
+  ],
+  "paddle": "1",
+  "paddle_score": 0.39488595724105835,
+  "trocr": "0"
+ },
+ {
+  "box": [
+   254,
+   424,
+   473,
+   479
+  ],
+  "paddle": "Tab. Amlo-5",
+  "paddle_score": 0.9729334115982056,
+  "trocr": "Tab. Asulo -5 ."
+ },
+ {
+  "box": [
+   765,
+   416,
+   975,
+   467
+  ],
+  "paddle": "Wt = 72 kgs",
+  "paddle_score": 0.9887464642524719,
+  "trocr": "Wit : 72 kgs ."
+ },
+ {
+  "box": [
+   339,
+   469,
+   473,
+   514
+  ],
+  "paddle": "1-0-0",
+  "paddle_score": 0.999881386756897,
+  "trocr": "1-0-0"
+ },
+ {
+  "box": [
+   539,
+   464,
+   697,
+   536
+  ],
+  "paddle": "x 30 days",
+  "paddle_score": 0.9847846627235413,
+  "trocr": "x 30 days ."
+ },
+ {
+  "box": [
+   322,
+   503,
+   472,
+   566
+  ],
+  "paddle": "(Moming)",
+  "paddle_score": 0.9250484704971313,
+  "trocr": "( Moming ) ."
+ },
+ {
+  "box": [
+   118,
+   594,
+   170,
+   642
+  ],
+  "paddle": "2",
+  "paddle_score": 0.99661785364151,
+  "trocr": "2 )"
+ },
+ {
+  "box": [
+   201,
+   580,
+   502,
+   654
+  ],
+  "paddle": "Jab. Glycomet-G1",
+  "paddle_score": 0.9675377607345581,
+  "trocr": "Tab. Glycomet-G-1 ."
+ },
+ {
+  "box": [
+   699,
+   579,
+   736,
+   613
+  ],
+  "paddle": "3",
+  "paddle_score": 0.9915083646774292,
+  "trocr": "( 3 ) ."
+ },
+ {
+  "box": [
+   745,
+   552,
+   1066,
+   621
+  ],
+  "paddle": "Jab. Ecosprin-AV 75",
+  "paddle_score": 0.9624571800231934,
+  "trocr": "Tab. Ecosprin - AV 75 ."
+ },
+ {
+  "box": [
+   512,
+   622,
+   611,
+   673
+  ],
+  "paddle": "× 30d",
+  "paddle_score": 0.8982946276664734,
+  "trocr": "x 30d ."
+ },
+ {
+  "box": [
+   824,
+   612,
+   963,
+   660
+  ],
+  "paddle": "0-0-1",
+  "paddle_score": 0.9997846484184265,
+  "trocr": "o-o-1 ."
+ },
+ {
+  "box": [
+   279,
+   644,
+   409,
+   690
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9998458623886108,
+  "trocr": "1-0-t ."
+ },
+ {
+  "box": [
+   800,
+   646,
+   937,
+   713
+  ],
+  "paddle": "(night)",
+  "paddle_score": 0.9995518922805786,
+  "trocr": "cnight ) ."
+ },
+ {
+  "box": [
+   924,
+   673,
+   1089,
+   737
+  ],
+  "paddle": "x 30 days",
+  "paddle_score": 0.9826738834381104,
+  "trocr": "x 30 days ."
+ },
+ {
+  "box": [
+   90,
+   750,
+   142,
+   798
+  ],
+  "paddle": "4",
+  "paddle_score": 0.9998125433921814,
+  "trocr": "4"
+ },
+ {
+  "box": [
+   180,
+   715,
+   431,
+   801
+  ],
+  "paddle": "Cap. Becosules",
+  "paddle_score": 0.9748219847679138,
+  "trocr": "Cap. Becosules"
+ },
+ {
+  "box": [
+   206,
+   772,
+   401,
+   843
+  ],
+  "paddle": "I cap OD",
+  "paddle_score": 0.9046545624732971,
+  "trocr": "1, cap. 0 p."
+ },
+ {
+  "box": [
+   244,
+   808,
+   434,
+   886
+  ],
+  "paddle": "After food",
+  "paddle_score": 0.9957894086837769,
+  "trocr": "After food ."
+ },
+ {
+  "box": [
+   442,
+   804,
+   731,
+   904
+  ],
+  "paddle": "3 Syp Liv-52",
+  "paddle_score": 0.905841588973999,
+  "trocr": "O. Supp. Live-52D"
+ },
+ {
+  "box": [
+   874,
+   803,
+   1100,
+   853
+  ],
+  "paddle": "Tab. Dolo-650",
+  "paddle_score": 0.9767624139785767,
+  "trocr": "Tab. Dolo-650"
+ },
+ {
+  "box": [
+   195,
+   868,
+   391,
+   941
+  ],
+  "paddle": "x 30 days",
+  "paddle_score": 0.9774990081787109,
+  "trocr": "x 30 days ."
+ },
+ {
+  "box": [
+   541,
+   864,
+   731,
+   928
+  ],
+  "paddle": "10 ml BD",
+  "paddle_score": 0.9956222176551819,
+  "trocr": "750 miles. BD ."
+ },
+ {
+  "box": [
+   564,
+   899,
+   788,
+   979
+  ],
+  "paddle": "After meals",
+  "paddle_score": 0.951749861240387,
+  "trocr": "After meals"
+ },
+ {
+  "box": [
+   887,
+   893,
+   1109,
+   963
+  ],
+  "paddle": "if pain /fever",
+  "paddle_score": 0.973141074180603,
+  "trocr": "if painful fever ."
+ },
+ {
+  "box": [
+   905,
+   857,
+   986,
+   904
+  ],
+  "paddle": "sos",
+  "paddle_score": 0.9845659732818604,
+  "trocr": "sos ."
+ },
+ {
+  "box": [
+   614,
+   948,
+   810,
+   1022
+  ],
+  "paddle": "× 20 days",
+  "paddle_score": 0.9400722980499268,
+  "trocr": "ex 20 days ."
+ },
+ {
+  "box": [
+   60,
+   1017,
+   221,
+   1087
+  ],
+  "paddle": "Advice:",
+  "paddle_score": 0.9996743202209473,
+  "trocr": "Advice :"
+ },
+ {
+  "box": [
+   187,
+   1045,
+   470,
+   1116
+  ],
+  "paddle": "→ Low Salt diet",
+  "paddle_score": 0.9525099992752075,
+  "trocr": "your salt diet ."
+ },
+ {
+  "box": [
+   755,
+   1054,
+   978,
+   1124
+  ],
+  "paddle": "Review after",
+  "paddle_score": 0.999671220779419,
+  "trocr": "Review after"
+ },
+ {
+  "box": [
+   185,
+   1087,
+   604,
+   1171
+  ],
+  "paddle": "Avoid oily / fried ood",
+  "paddle_score": 0.9031288623809814,
+  "trocr": "# Avoid # only I tried food"
+ },
+ {
+  "box": [
+   784,
+   1109,
+   941,
+   1170
+  ],
+  "paddle": "4 weeks",
+  "paddle_score": 0.9985593557357788,
+  "trocr": "4 weeks ."
+ },
+ {
+  "box": [
+   180,
+   1143,
+   622,
+   1225
+  ],
+  "paddle": "→ Morning walk 30 mins",
+  "paddle_score": 0.9228007793426514,
+  "trocr": "is Morning walk 30 mins"
+ },
+ {
+  "box": [
+   170,
+   1199,
+   615,
+   1274
+  ],
+  "paddle": "Take medicines negulaly",
+  "paddle_score": 0.9363598823547363,
+  "trocr": "# Take \" medicines regularly"
+ },
+ {
+  "box": [
+   795,
+   1191,
+   965,
+   1283
+  ],
+  "paddle": "Je",
+  "paddle_score": 0.27521735429763794,
+  "trocr": "show ,"
+ },
+ {
+  "box": [
+   169,
+   1254,
+   580,
+   1329
+  ],
+  "paddle": "→ Monitor BP & Sugar",
+  "paddle_score": 0.9550914764404297,
+  "trocr": "# Monitor BP & Sugar"
+ },
+ {
+  "box": [
+   863,
+   1239,
+   1020,
+   1332
+  ],
+  "paddle": "11/5/24",
+  "paddle_score": 0.9862957000732422,
+  "trocr": "11 (5 ( 24 ."
+ }
+]

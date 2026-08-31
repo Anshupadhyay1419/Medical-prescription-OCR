@@ -1,0 +1,354 @@
+[
+ {
+  "box": [
+   193,
+   8,
+   481,
+   79
+  ],
+  "paddle": "Dr. P. Nair",
+  "paddle_score": 0.9606454372406006,
+  "trocr": "Dr. P. Nair"
+ },
+ {
+  "box": [
+   732,
+   17,
+   977,
+   87
+  ],
+  "paddle": "Dt. 18/06/24",
+  "paddle_score": 0.9816568493843079,
+  "trocr": "DT. 18,06 ) 24 ."
+ },
+ {
+  "box": [
+   194,
+   66,
+   542,
+   133
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.9823746085166931,
+  "trocr": "MBBS , \" MD ( medicine )"
+ },
+ {
+  "box": [
+   738,
+   98,
+   842,
+   152
+  ],
+  "paddle": "Time",
+  "paddle_score": 0.9999768733978271,
+  "trocr": "Time ."
+ },
+ {
+  "box": [
+   862,
+   87,
+   1037,
+   139
+  ],
+  "paddle": "5:40 pm",
+  "paddle_score": 0.927347719669342,
+  "trocr": "5:40 pm."
+ },
+ {
+  "box": [
+   188,
+   115,
+   469,
+   195
+  ],
+  "paddle": "Reg. No. 55321",
+  "paddle_score": 0.9412142038345337,
+  "trocr": "Reg. No. 55321 ."
+ },
+ {
+  "box": [
+   26,
+   200,
+   644,
+   281
+  ],
+  "paddle": "Pt. name:- Smt. Kavita Joshi",
+  "paddle_score": 0.8967544436454773,
+  "trocr": "Pet. name : - Smt. Kavita Joshi"
+ },
+ {
+  "box": [
+   736,
+   202,
+   1052,
+   262
+  ],
+  "paddle": "Age/sex:-34/F",
+  "paddle_score": 0.9878864288330078,
+  "trocr": "Age ( Sex : - 34 )F."
+ },
+ {
+  "box": [
+   29,
+   268,
+   627,
+   348
+  ],
+  "paddle": "Address:- 7, Geeta colony,",
+  "paddle_score": 0.9680701494216919,
+  "trocr": "Address : - I , Geeta colony ,"
+ },
+ {
+  "box": [
+   273,
+   325,
+   554,
+   382
+  ],
+  "paddle": "Bhopal (M.P.)",
+  "paddle_score": 0.9044012427330017,
+  "trocr": "Bhopal ( M.P. ) ."
+ },
+ {
+  "box": [
+   27,
+   376,
+   1022,
+   471
+  ],
+  "paddle": "c/oburning urination + freq.passingurine",
+  "paddle_score": 0.8773090243339539,
+  "trocr": "cjo :burning urination t freg. passing urine"
+ },
+ {
+  "box": [
+   214,
+   438,
+   898,
+   509
+  ],
+  "paddle": "since 3 days. Lower abd pain ++",
+  "paddle_score": 0.9887325167655945,
+  "trocr": "since's days . Lower and pain +"
+ },
+ {
+  "box": [
+   214,
+   497,
+   681,
+   562
+  ],
+  "paddle": "No fever. No vomiting.",
+  "paddle_score": 0.9959787726402283,
+  "trocr": "no fever . No vomiting ."
+ },
+ {
+  "box": [
+   32,
+   567,
+   443,
+   636
+  ],
+  "paddle": "Dx :- Acute UTI",
+  "paddle_score": 0.984859824180603,
+  "trocr": "DX : - Acute UTI ."
+ },
+ {
+  "box": [
+   34,
+   652,
+   113,
+   733
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9376472234725952,
+  "trocr": "Rex"
+ },
+ {
+  "box": [
+   146,
+   656,
+   762,
+   726
+  ],
+  "paddle": "① Tab. Nitrofurantoin 100o mg",
+  "paddle_score": 0.9306327700614929,
+  "trocr": "O. Tab. Nitrofurantoin 100 mg"
+ },
+ {
+  "box": [
+   813,
+   675,
+   1011,
+   739
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.9816842079162598,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   300,
+   712,
+   693,
+   771
+  ],
+  "paddle": "1 tab BD after food",
+  "paddle_score": 0.9985640645027161,
+  "trocr": "1 tab BD after food"
+ },
+ {
+  "box": [
+   145,
+   786,
+   721,
+   849
+  ],
+  "paddle": "② Tab. Drotaverine 80 mg",
+  "paddle_score": 0.9943264126777649,
+  "trocr": "Q Table . Drotaverine 80 mg ."
+ },
+ {
+  "box": [
+   806,
+   795,
+   1008,
+   865
+  ],
+  "paddle": "x 3 days",
+  "paddle_score": 0.9679523706436157,
+  "trocr": "x 3 days ."
+ },
+ {
+  "box": [
+   311,
+   843,
+   556,
+   892
+  ],
+  "paddle": "1 tab TDS",
+  "paddle_score": 0.989410936832428,
+  "trocr": "1 tab TDS ."
+ },
+ {
+  "box": [
+   138,
+   901,
+   522,
+   981
+  ],
+  "paddle": "③ Syp. Uralcis",
+  "paddle_score": 0.9614583849906921,
+  "trocr": "O. Syp. Uralcis ."
+ },
+ {
+  "box": [
+   800,
+   915,
+   1005,
+   985
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.9841886758804321,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   317,
+   959,
+   542,
+   1006
+  ],
+  "paddle": "10 ml BD",
+  "paddle_score": 0.9328088164329529,
+  "trocr": "10 mL. BD."
+ },
+ {
+  "box": [
+   134,
+   1021,
+   587,
+   1091
+  ],
+  "paddle": "④ Sachet. Probiokid",
+  "paddle_score": 0.9769109487533569,
+  "trocr": "W. Secret . Probiokid ."
+ },
+ {
+  "box": [
+   791,
+   1034,
+   998,
+   1098
+  ],
+  "paddle": "x 7 days",
+  "paddle_score": 0.9320427775382996,
+  "trocr": "x 7 days ."
+ },
+ {
+  "box": [
+   324,
+   1083,
+   597,
+   1132
+  ],
+  "paddle": "1 sachet OD",
+  "paddle_score": 0.9955077767372131,
+  "trocr": "1 socket OD ."
+ },
+ {
+  "box": [
+   38,
+   1173,
+   634,
+   1230
+  ],
+  "paddle": "Advice :- - drink lots of water",
+  "paddle_score": 0.9770365357398987,
+  "trocr": "Advice : - drink lots of water"
+ },
+ {
+  "box": [
+   216,
+   1227,
+   585,
+   1284
+  ],
+  "paddle": "- avoid spicy food",
+  "paddle_score": 0.9996271133422852,
+  "trocr": "- avoid spicy food"
+ },
+ {
+  "box": [
+   788,
+   1204,
+   961,
+   1329
+  ],
+  "paddle": "Flen",
+  "paddle_score": 0.8455750346183777,
+  "trocr": "plan :"
+ },
+ {
+  "box": [
+   219,
+   1276,
+   750,
+   1343
+  ],
+  "paddle": "- rpt. urine test after 7 days",
+  "paddle_score": 0.9167954325675964,
+  "trocr": "- rpt. urine best after 7 days ."
+ },
+ {
+  "box": [
+   781,
+   1277,
+   1019,
+   1402
+  ],
+  "paddle": "Dr.P. Nair",
+  "paddle_score": 0.9556646347045898,
+  "trocr": "Dr. P. Nair"
+ }
+]

@@ -1,0 +1,420 @@
+[
+ {
+  "box": [
+   592,
+   16,
+   645,
+   40
+  ],
+  "paddle": "DATE:",
+  "paddle_score": 0.9931257963180542,
+  "trocr": "date :"
+ },
+ {
+  "box": [
+   593,
+   32,
+   671,
+   55
+  ],
+  "paddle": "PAGE No.:",
+  "paddle_score": 0.952873945236206,
+  "trocr": "page no ."
+ },
+ {
+  "box": [
+   666,
+   2,
+   732,
+   19
+  ],
+  "paddle": "CRYSTAL",
+  "paddle_score": 0.9999817609786987,
+  "trocr": "crystal )"
+ },
+ {
+  "box": [
+   823,
+   0,
+   983,
+   417
+  ],
+  "paddle": "",
+  "paddle_score": 0.0,
+  "trocr": "to"
+ },
+ {
+  "box": [
+   8,
+   82,
+   810,
+   180
+  ],
+  "paddle": "Admisiondicda",
+  "paddle_score": 0.7093478441238403,
+  "trocr": "Admissions outside discharge date , who broken"
+ },
+ {
+  "box": [
+   25,
+   137,
+   309,
+   193
+  ],
+  "paddle": "sex m service",
+  "paddle_score": 0.9641751050949097,
+  "trocr": "sex in service ."
+ },
+ {
+  "box": [
+   287,
+   140,
+   759,
+   207
+  ],
+  "paddle": "neusosurgery allergies",
+  "paddle_score": 0.9194607138633728,
+  "trocr": "enewasonry , anetigies ."
+ },
+ {
+  "box": [
+   27,
+   179,
+   413,
+   240
+  ],
+  "paddle": "no known allergies",
+  "paddle_score": 0.9570620656013489,
+  "trocr": "no known allergies ."
+ },
+ {
+  "box": [
+   389,
+   187,
+   683,
+   240
+  ],
+  "paddle": "adverse drug",
+  "paddle_score": 0.9644225239753723,
+  "trocr": "sedverse druey ."
+ },
+ {
+  "box": [
+   22,
+   249,
+   839,
+   332
+  ],
+  "paddle": "mla",
+  "paddle_score": 0.5602576732635498,
+  "trocr": "complaint # knowledge , strike"
+ },
+ {
+  "box": [
+   27,
+   223,
+   393,
+   280
+  ],
+  "paddle": "reactions attlending",
+  "paddle_score": 0.9281885027885437,
+  "trocr": "searchions \" attending"
+ },
+ {
+  "box": [
+   374,
+   216,
+   799,
+   284
+  ],
+  "paddle": "fiest name 3 if chiel",
+  "paddle_score": 0.9047498106956482,
+  "trocr": "first name 3 if chief"
+ },
+ {
+  "box": [
+   29,
+   291,
+   791,
+   367
+  ],
+  "paddle": "maugie",
+  "paddle_score": 0.5538091063499451,
+  "trocr": "major surgical perspective procedure"
+ },
+ {
+  "box": [
+   32,
+   333,
+   797,
+   404
+  ],
+  "paddle": "history of present alness this is a year",
+  "paddle_score": 0.8719741702079773,
+  "trocr": "history of present unless this is a year"
+ },
+ {
+  "box": [
+   38,
+   371,
+   825,
+   448
+  ],
+  "paddle": "old man found down by his wife next",
+  "paddle_score": 0.9512709379196167,
+  "trocr": "old man found down by his wife West"
+ },
+ {
+  "box": [
+   30,
+   414,
+   827,
+   487
+  ],
+  "paddle": "to a bottl of whirkey he was brought",
+  "paddle_score": 0.9294111728668213,
+  "trocr": "to a bottle of whiskey he was brought"
+ },
+ {
+  "box": [
+   32,
+   454,
+   830,
+   527
+  ],
+  "paddle": "to hospital and noted to have a  facial",
+  "paddle_score": 0.9304720759391785,
+  "trocr": "to hospital and noted to have a special"
+ },
+ {
+  "box": [
+   37,
+   496,
+   799,
+   568
+  ],
+  "paddle": "droop and weakness he was intubated",
+  "paddle_score": 0.9112579822540283,
+  "trocr": "droop and Twearness he was \" interested"
+ },
+ {
+  "box": [
+   40,
+   538,
+   848,
+   603
+  ],
+  "paddle": "at the oulside hospital for aviway protecta",
+  "paddle_score": 0.9227165579795837,
+  "trocr": "at the outside hospital for away projects"
+ },
+ {
+  "box": [
+   43,
+   578,
+   778,
+   641
+  ],
+  "paddle": "and a cth serettad revealed a I basal",
+  "paddle_score": 0.9188349843025208,
+  "trocr": "and a other secretized revealed a tbasial"
+ },
+ {
+  "box": [
+   46,
+   617,
+   788,
+   684
+  ],
+  "paddle": "ganglia iph with midline shift he was",
+  "paddle_score": 0.9564327597618103,
+  "trocr": "ganglia iph with midline shift he was"
+ },
+ {
+  "box": [
+   27,
+   653,
+   836,
+   726
+  ],
+  "paddle": "traneeto ospital fo eosugic",
+  "paddle_score": 0.6597216129302979,
+  "trocr": "transfessed to hospital # for neurological"
+ },
+ {
+  "box": [
+   25,
+   691,
+   899,
+   765
+  ],
+  "paddle": "evaion pa dihistor  depession",
+  "paddle_score": 0.6508054137229919,
+  "trocr": "evaluation past medical history with depression"
+ },
+ {
+  "box": [
+   30,
+   735,
+   830,
+   812
+  ],
+  "paddle": "ra",
+  "paddle_score": 0.3661559224128723,
+  "trocr": "hypershipidemia alcohol abuse social history"
+ },
+ {
+  "box": [
+   37,
+   782,
+   844,
+   856
+  ],
+  "paddle": "tves wah wife ho alcohol abuse family",
+  "paddle_score": 0.8425604701042175,
+  "trocr": "After work wife he studied abuse family"
+ },
+ {
+  "box": [
+   40,
+   824,
+   790,
+   903
+  ],
+  "paddle": "hito nc phyueal exam on admision",
+  "paddle_score": 0.7424430251121521,
+  "trocr": "history no physical exams on admission"
+ },
+ {
+  "box": [
+   40,
+   903,
+   887,
+   992
+  ],
+  "paddle": " 2",
+  "paddle_score": 0.6382138729095459,
+  "trocr": "comfortable had been't pupils 2mm but neck"
+ },
+ {
+  "box": [
+   46,
+   868,
+   770,
+   946
+  ],
+  "paddle": "oty bp hr r o2 sats gin wd un",
+  "paddle_score": 0.8985714316368103,
+  "trocr": "history the previous oz sets gun and run"
+ },
+ {
+  "box": [
+   43,
+   947,
+   909,
+   1039
+  ],
+  "paddle": "ply",
+  "paddle_score": 0.5198692679405212,
+  "trocr": "supportings its relatively cardiac stress"
+ },
+ {
+  "box": [
+   43,
+   992,
+   837,
+   1081
+  ],
+  "paddle": "supple abd soft nt bs extsem warm",
+  "paddle_score": 0.8007823824882507,
+  "trocr": "supple lunch that it is evident"
+ },
+ {
+  "box": [
+   45,
+   1037,
+   837,
+   1126
+  ],
+  "paddle": "andwellpefusedneso",
+  "paddle_score": 0.6930630207061768,
+  "trocr": "and well confused neuro mental status #"
+ },
+ {
+  "box": [
+   43,
+   1082,
+   869,
+   1174
+  ],
+  "paddle": "n",
+  "paddle_score": 0.4491095244884491,
+  "trocr": "intributed \" off sedation no eye opening pupils"
+ },
+ {
+  "box": [
+   46,
+   1128,
+   896,
+   1216
+  ],
+  "paddle": "ly",
+  "paddle_score": 0.6784708499908447,
+  "trocr": "inlisted suitically corrects gag outoephalia"
+ },
+ {
+  "box": [
+   49,
+   1168,
+   888,
+   1267
+  ],
+  "paddle": "",
+  "paddle_score": 0.0,
+  "trocr": "withdrawable bilateral"
+ },
+ {
+  "box": [
+   54,
+   1210,
+   940,
+   1317
+  ],
+  "paddle": "[",
+  "paddle_score": 0.571094810962677,
+  "trocr": "without political bill developed captured"
+ },
+ {
+  "box": [
+   72,
+   1270,
+   819,
+   1364
+  ],
+  "paddle": "peedetrn",
+  "paddle_score": 0.5523898601531982,
+  "trocr": "pertinent results of brain bases"
+ },
+ {
+  "box": [
+   75,
+   1313,
+   931,
+   1412
+  ],
+  "paddle": "ia",
+  "paddle_score": 0.5481442809104919,
+  "trocr": "interpowerment from"
+ },
+ {
+  "box": [
+   73,
+   1360,
+   963,
+   1472
+  ],
+  "paddle": "[",
+  "paddle_score": 0.22097088396549225,
+  "trocr": "itrapeless magnetic surrounding vasergic"
+ }
+]

@@ -1,0 +1,398 @@
+[
+ {
+  "box": [
+   60,
+   0,
+   456,
+   75
+  ],
+  "paddle": "palpation distal.",
+  "paddle_score": 0.9764904975891113,
+  "trocr": "palpation distance"
+ },
+ {
+  "box": [
+   76,
+   30,
+   461,
+   117
+  ],
+  "paddle": "weatly palpable",
+  "paddle_score": 0.9662514925003052,
+  "trocr": "greatment pathologist"
+ },
+ {
+  "box": [
+   457,
+   20,
+   855,
+   75
+  ],
+  "paddle": "ulses not palpable",
+  "paddle_score": 0.9466012120246887,
+  "trocr": "wisses not preferable"
+ },
+ {
+  "box": [
+   440,
+   59,
+   818,
+   114
+  ],
+  "paddle": "pfermoral pulse",
+  "paddle_score": 0.8655189871788025,
+  "trocr": "professional purposes ."
+ },
+ {
+  "box": [
+   94,
+   111,
+   442,
+   192
+  ],
+  "paddle": "sbc hgb bet",
+  "paddle_score": 0.9248065948486328,
+  "trocr": "sorb high beam"
+ },
+ {
+  "box": [
+   94,
+   156,
+   353,
+   217
+  ],
+  "paddle": "sdw ooam",
+  "paddle_score": 0.9100615978240967,
+  "trocr": "adv ovalarm ."
+ },
+ {
+  "box": [
+   444,
+   131,
+   823,
+   194
+  ],
+  "paddle": "mcv meh mchc",
+  "paddle_score": 0.8957357406616211,
+  "trocr": "movable"
+ },
+ {
+  "box": [
+   73,
+   193,
+   441,
+   267
+  ],
+  "paddle": "plt comt 30am",
+  "paddle_score": 0.9792155623435974,
+  "trocr": "pit come so any"
+ },
+ {
+  "box": [
+   69,
+   239,
+   447,
+   307
+  ],
+  "paddle": "glucose wrea n",
+  "paddle_score": 0.8234657645225525,
+  "trocr": "ghueose mean"
+ },
+ {
+  "box": [
+   427,
+   240,
+   786,
+   306
+  ],
+  "paddle": "e reat sodium",
+  "paddle_score": 0.9105284214019775,
+  "trocr": "great positions ."
+ },
+ {
+  "box": [
+   80,
+   275,
+   721,
+   352
+  ],
+  "paddle": "potassium chloride total co2",
+  "paddle_score": 0.9692331552505493,
+  "trocr": "potassium chloride total was"
+ },
+ {
+  "box": [
+   77,
+   356,
+   902,
+   436
+  ],
+  "paddle": "02 potap 2 am total co2 base vs",
+  "paddle_score": 0.9224427938461304,
+  "trocr": "over # to # to remove these"
+ },
+ {
+  "box": [
+   80,
+   320,
+   707,
+   393
+  ],
+  "paddle": "anion gap 27am type art",
+  "paddle_score": 0.9687179327011108,
+  "trocr": "union gap # can type , and"
+ },
+ {
+  "box": [
+   69,
+   398,
+   897,
+   474
+  ],
+  "paddle": "aad 02 bego7p intubated intubated",
+  "paddle_score": 0.8996371626853943,
+  "trocr": "aador legal interested irritated"
+ },
+ {
+  "box": [
+   73,
+   444,
+   820,
+   513
+  ],
+  "paddle": "27am glueox laitate na k d",
+  "paddle_score": 0.873931884765625,
+  "trocr": "27am guests' tartate na kul"
+ },
+ {
+  "box": [
+   70,
+   489,
+   750,
+   551
+  ],
+  "paddle": "27am hab calchit 02 sat",
+  "paddle_score": 0.9463943839073181,
+  "trocr": "2 Farm high catchlet on 2, But"
+ },
+ {
+  "box": [
+   79,
+   527,
+   900,
+   598
+  ],
+  "paddle": "-brief hospital lousse pt assived",
+  "paddle_score": 0.9167863130569458,
+  "trocr": "brief hospital course at arrived"
+ },
+ {
+  "box": [
+   85,
+   574,
+   829,
+   635
+  ],
+  "paddle": "to trauma pay herm ody namically",
+  "paddle_score": 0.9495404958724976,
+  "trocr": "to trauma pay hemodynamically"
+ },
+ {
+  "box": [
+   90,
+   616,
+   760,
+   676
+  ],
+  "paddle": "unstable pt had alleady",
+  "paddle_score": 0.9796013236045837,
+  "trocr": "unstable pt Chad already"
+ },
+ {
+  "box": [
+   119,
+   648,
+   862,
+   723
+  ],
+  "paddle": "been intubated pror to arrinal",
+  "paddle_score": 0.958601713180542,
+  "trocr": "been irritated prior to arrival"
+ },
+ {
+  "box": [
+   92,
+   697,
+   771,
+   768
+  ],
+  "paddle": "aggressive cohume resucitation",
+  "paddle_score": 0.9410256743431091,
+  "trocr": "aggressive volume representation"
+ },
+ {
+  "box": [
+   88,
+   744,
+   648,
+   807
+  ],
+  "paddle": "was started a left.",
+  "paddle_score": 0.9764205813407898,
+  "trocr": "was started a left ."
+ },
+ {
+  "box": [
+   86,
+   783,
+   781,
+   849
+  ],
+  "paddle": "thoraotomy was emergeutly",
+  "paddle_score": 0.9272270798683167,
+  "trocr": "thoratory was energetic"
+ },
+ {
+  "box": [
+   137,
+   817,
+   882,
+   896
+  ],
+  "paddle": "perfomed in the tralma bay",
+  "paddle_score": 0.9046888947486877,
+  "trocr": "personed this is the trauma they"
+ },
+ {
+  "box": [
+   94,
+   863,
+   941,
+   942
+  ],
+  "paddle": "and othe aorta wa crosclamped",
+  "paddle_score": 0.9221187233924866,
+  "trocr": "and the party was cross developed"
+ },
+ {
+  "box": [
+   114,
+   910,
+   874,
+   987
+  ],
+  "paddle": "the pt was tater emergently to",
+  "paddle_score": 0.9440357089042664,
+  "trocr": "the pH was taken emesgently to"
+ },
+ {
+  "box": [
+   122,
+   956,
+   819,
+   1029
+  ],
+  "paddle": "the o for an explozatony",
+  "paddle_score": 0.9785794615745544,
+  "trocr": "the is for an exploratory"
+ },
+ {
+  "box": [
+   74,
+   999,
+   918,
+   1079
+  ],
+  "paddle": "taparotomy left diaphgram separi",
+  "paddle_score": 0.9127804636955261,
+  "trocr": "capasotomy left diaphagram system ."
+ },
+ {
+  "box": [
+   83,
+   1042,
+   844,
+   1126
+  ],
+  "paddle": "sepan of sight common lillial",
+  "paddle_score": 0.9333173632621765,
+  "trocr": "subarms of sight # illted"
+ },
+ {
+  "box": [
+   103,
+   1091,
+   822,
+   1169
+  ],
+  "paddle": "wein saceration left upper",
+  "paddle_score": 0.8941489458084106,
+  "trocr": "ivers laterations left upper"
+ },
+ {
+  "box": [
+   105,
+   1128,
+   868,
+   1219
+  ],
+  "paddle": "lobe lury serution bilalerial",
+  "paddle_score": 0.8571203947067261,
+  "trocr": "Not truly seventeen bilateral"
+ },
+ {
+  "box": [
+   125,
+   1175,
+   771,
+   1267
+  ],
+  "paddle": "chert tube placemt and",
+  "paddle_score": 0.9755266308784485,
+  "trocr": "chest tube placement and"
+ },
+ {
+  "box": [
+   109,
+   1272,
+   779,
+   1372
+  ],
+  "paddle": "abtormen was paike d and",
+  "paddle_score": 0.8892960548400879,
+  "trocr": "children was parked and"
+ },
+ {
+  "box": [
+   112,
+   1226,
+   796,
+   1319
+  ],
+  "paddle": "washont of lept wrist , the",
+  "paddle_score": 0.9451255798339844,
+  "trocr": "washout of left-year"
+ },
+ {
+  "box": [
+   118,
+   1316,
+   906,
+   1414
+  ],
+  "paddle": "altomen with a locatum an bag",
+  "paddle_score": 0.750744640827179,
+  "trocr": "absend with a strong"
+ },
+ {
+  "box": [
+   118,
+   1365,
+   831,
+   1482
+  ],
+  "paddle": "potin thewas",
+  "paddle_score": 0.7878178954124451,
+  "trocr": "post up slowly the phrases ."
+ }
+]

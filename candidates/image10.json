@@ -1,0 +1,497 @@
+[
+ {
+  "box": [
+   113,
+   12,
+   402,
+   49
+  ],
+  "paddle": "MEDI CARE CLINIC",
+  "paddle_score": 0.9962265491485596,
+  "trocr": "medi care clinic"
+ },
+ {
+  "box": [
+   115,
+   51,
+   350,
+   78
+  ],
+  "paddle": "Dr. Anil Kumar S.",
+  "paddle_score": 0.9999436736106873,
+  "trocr": "Dr. Anil Kumar S."
+ },
+ {
+  "box": [
+   801,
+   28,
+   980,
+   123
+  ],
+  "paddle": "20/5/24",
+  "paddle_score": 0.8966047167778015,
+  "trocr": "20 (5 )24 ."
+ },
+ {
+  "box": [
+   43,
+   90,
+   67,
+   141
+  ],
+  "paddle": "396",
+  "paddle_score": 0.7028846740722656,
+  "trocr": "to"
+ },
+ {
+  "box": [
+   112,
+   79,
+   347,
+   108
+  ],
+  "paddle": "MD (General Medicine)",
+  "paddle_score": 0.9999005198478699,
+  "trocr": "MD ( General Medicine )"
+ },
+ {
+  "box": [
+   113,
+   108,
+   264,
+   133
+  ],
+  "paddle": "Reg No. 44521",
+  "paddle_score": 0.9848684072494507,
+  "trocr": "Reg No. 44521"
+ },
+ {
+  "box": [
+   113,
+   136,
+   334,
+   163
+  ],
+  "paddle": "3-6-511, Street No. 5,",
+  "paddle_score": 0.998481035232544,
+  "trocr": "3-6-511 , Street No. 5 ,"
+ },
+ {
+  "box": [
+   113,
+   164,
+   259,
+   190
+  ],
+  "paddle": "Himayatnagar,",
+  "paddle_score": 0.9999905228614807,
+  "trocr": "himayatnagar ,"
+ },
+ {
+  "box": [
+   113,
+   184,
+   331,
+   214
+  ],
+  "paddle": "Hyderabad - 500 029.",
+  "paddle_score": 0.9992343783378601,
+  "trocr": "Hyderabad -500 029 ."
+ },
+ {
+  "box": [
+   113,
+   211,
+   288,
+   239
+  ],
+  "paddle": "Ph: 88855 22334",
+  "paddle_score": 0.9830698370933533,
+  "trocr": "PH: 88855 22334"
+ },
+ {
+  "box": [
+   30,
+   241,
+   577,
+   333
+  ],
+  "paddle": "Name: Mr. Ramesh yadar",
+  "paddle_score": 0.9586191773414612,
+  "trocr": "Name : Mr. Ramesh Yadav"
+ },
+ {
+  "box": [
+   750,
+   262,
+   957,
+   326
+  ],
+  "paddle": "BP-150/94",
+  "paddle_score": 0.9993706941604614,
+  "trocr": "BP-150/94 ."
+ },
+ {
+  "box": [
+   62,
+   314,
+   534,
+   397
+  ],
+  "paddle": "Age : 46y Sex : M",
+  "paddle_score": 0.962228000164032,
+  "trocr": "Age : 46 y Sex : M."
+ },
+ {
+  "box": [
+   745,
+   302,
+   1016,
+   380
+  ],
+  "paddle": "Sugar(F) - 168",
+  "paddle_score": 0.9881361722946167,
+  "trocr": "Sugar (F ) - 168 ."
+ },
+ {
+  "box": [
+   750,
+   354,
+   1013,
+   429
+  ],
+  "paddle": "wt - 78 kg.",
+  "paddle_score": 0.9869363903999329,
+  "trocr": "witness - 78 kg ."
+ },
+ {
+  "box": [
+   25,
+   401,
+   118,
+   498
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.8902243375778198,
+  "trocr": "Rx"
+ },
+ {
+  "box": [
+   91,
+   445,
+   603,
+   561
+  ],
+  "paddle": "① Tab Metforg-500",
+  "paddle_score": 0.9363757371902466,
+  "trocr": "D Tato Metforg-500"
+ },
+ {
+  "box": [
+   613,
+   477,
+   774,
+   548
+  ],
+  "paddle": " B/fast",
+  "paddle_score": 0.9087200164794922,
+  "trocr": "I bffast ."
+ },
+ {
+  "box": [
+   851,
+   459,
+   1005,
+   524
+  ],
+  "paddle": "30 days.",
+  "paddle_score": 0.995734691619873,
+  "trocr": "30 days ."
+ },
+ {
+  "box": [
+   297,
+   523,
+   552,
+   582
+  ],
+  "paddle": "1-0 - 1",
+  "paddle_score": 0.8833173513412476,
+  "trocr": "I - ' O. I."
+ },
+ {
+  "box": [
+   641,
+   527,
+   824,
+   584
+  ],
+  "paddle": "After Dinner",
+  "paddle_score": 0.9999119639396667,
+  "trocr": "After dinner ."
+ },
+ {
+  "box": [
+   92,
+   583,
+   563,
+   674
+  ],
+  "paddle": "2) Tab Telma - 40",
+  "paddle_score": 0.9411200881004333,
+  "trocr": "( a ) Tats Tehma - 40"
+ },
+ {
+  "box": [
+   623,
+   598,
+   780,
+   672
+  ],
+  "paddle": "morning",
+  "paddle_score": 0.9912437796592712,
+  "trocr": "smosing ."
+ },
+ {
+  "box": [
+   873,
+   569,
+   1000,
+   639
+  ],
+  "paddle": "30d.",
+  "paddle_score": 0.9877884387969971,
+  "trocr": "30 d ."
+ },
+ {
+  "box": [
+   299,
+   644,
+   552,
+   700
+  ],
+  "paddle": "1-0 -0",
+  "paddle_score": 0.9218003749847412,
+  "trocr": "I-O-O."
+ },
+ {
+  "box": [
+   91,
+   686,
+   825,
+   804
+  ],
+  "paddle": "VD",
+  "paddle_score": 0.3502899408340454,
+  "trocr": "( B ) Cap. Vitaming D.3 Rachel , ' Sweettime"
+ },
+ {
+  "box": [
+   893,
+   678,
+   1047,
+   746
+  ],
+  "paddle": "4 weeks",
+  "paddle_score": 0.9998323321342468,
+  "trocr": "4 weeks ."
+ },
+ {
+  "box": [
+   355,
+   760,
+   488,
+   812
+  ],
+  "paddle": "1 cap",
+  "paddle_score": 0.9613355398178101,
+  "trocr": "1 cap ."
+ },
+ {
+  "box": [
+   666,
+   731,
+   847,
+   790
+  ],
+  "paddle": "after lunch.",
+  "paddle_score": 0.9933104515075684,
+  "trocr": "after lunch ."
+ },
+ {
+  "box": [
+   92,
+   807,
+   644,
+   913
+  ],
+  "paddle": "④ Tab. Ecosprin-AV75",
+  "paddle_score": 0.9573516845703125,
+  "trocr": "W. Tab. Ex aspirin - AVF5 ."
+ },
+ {
+  "box": [
+   702,
+   818,
+   826,
+   880
+  ],
+  "paddle": "might",
+  "paddle_score": 0.9999330639839172,
+  "trocr": "might ."
+ },
+ {
+  "box": [
+   891,
+   797,
+   1036,
+   864
+  ],
+  "paddle": "30 days",
+  "paddle_score": 0.9998807907104492,
+  "trocr": "30 days ."
+ },
+ {
+  "box": [
+   339,
+   869,
+   562,
+   925
+  ],
+  "paddle": "0-0-1",
+  "paddle_score": 0.9898797273635864,
+  "trocr": "o-0 - 1 ."
+ },
+ {
+  "box": [
+   85,
+   949,
+   315,
+   1041
+  ],
+  "paddle": "5 sypre",
+  "paddle_score": 0.9368172883987427,
+  "trocr": " # Byrne ."
+ },
+ {
+  "box": [
+   325,
+   933,
+   552,
+   998
+  ],
+  "paddle": "Livopen",
+  "paddle_score": 0.9966464042663574,
+  "trocr": "Liverpool ."
+ },
+ {
+  "box": [
+   620,
+   928,
+   767,
+   986
+  ],
+  "paddle": ", BD",
+  "paddle_score": 0.929792582988739,
+  "trocr": "\" BD ."
+ },
+ {
+  "box": [
+   891,
+   911,
+   1038,
+   976
+  ],
+  "paddle": "15 days",
+  "paddle_score": 0.9970410466194153,
+  "trocr": "15 days ."
+ },
+ {
+  "box": [
+   395,
+   978,
+   533,
+   1033
+  ],
+  "paddle": "15ml",
+  "paddle_score": 0.9998870491981506,
+  "trocr": "15'ml ."
+ },
+ {
+  "box": [
+   656,
+   970,
+   836,
+   1030
+  ],
+  "paddle": "After meals",
+  "paddle_score": 0.9808323383331299,
+  "trocr": "After meals ."
+ },
+ {
+  "box": [
+   97,
+   1054,
+   640,
+   1148
+  ],
+  "paddle": "Diet: how salt, how oit",
+  "paddle_score": 0.9210156202316284,
+  "trocr": "Diet : how salt , how only"
+ },
+ {
+  "box": [
+   262,
+   1090,
+   814,
+   1182
+  ],
+  "paddle": "Avd wts & so drins",
+  "paddle_score": 0.5389734506607056,
+  "trocr": "Avoid all sheets a softly diminutes"
+ },
+ {
+  "box": [
+   247,
+   1178,
+   834,
+   1289
+  ],
+  "paddle": "Take medicines regularly.",
+  "paddle_score": 0.9236149787902832,
+  "trocr": "Walke 3medicines . Inregularly ."
+ },
+ {
+  "box": [
+   252,
+   1144,
+   682,
+   1241
+  ],
+  "paddle": "walk 30 min daily",
+  "paddle_score": 0.9703201055526733,
+  "trocr": "wasid 30min daily"
+ },
+ {
+  "box": [
+   95,
+   1293,
+   649,
+   1393
+  ],
+  "paddle": "Review after I month.",
+  "paddle_score": 0.9553747773170471,
+  "trocr": "Review after ( month-"
+ },
+ {
+  "box": [
+   797,
+   1303,
+   995,
+   1398
+  ],
+  "paddle": "Dr. Amil",
+  "paddle_score": 0.9130638241767883,
+  "trocr": "Dr. Amil"
+ }
+]

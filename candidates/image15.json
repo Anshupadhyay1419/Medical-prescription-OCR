@@ -1,0 +1,376 @@
+[
+ {
+  "box": [
+   579,
+   15,
+   618,
+   41
+  ],
+  "paddle": "DATE",
+  "paddle_score": 0.9981482625007629,
+  "trocr": "fouvre ."
+ },
+ {
+  "box": [
+   637,
+   11,
+   694,
+   29
+  ],
+  "paddle": "CRYSTAL",
+  "paddle_score": 0.9966092705726624,
+  "trocr": "crystals ."
+ },
+ {
+  "box": [
+   581,
+   29,
+   637,
+   50
+  ],
+  "paddle": "PAGE No",
+  "paddle_score": 0.9804372191429138,
+  "trocr": "theatre was"
+ },
+ {
+  "box": [
+   110,
+   47,
+   704,
+   126
+  ],
+  "paddle": "edemamassan",
+  "paddle_score": 0.7603923678398132,
+  "trocr": "of medicine straeffert , and right-ward shift"
+ },
+ {
+  "box": [
+   114,
+   85,
+   738,
+   158
+  ],
+  "paddle": "",
+  "paddle_score": 0.0,
+  "trocr": "clampeline structures has not significantly"
+ },
+ {
+  "box": [
+   105,
+   146,
+   692,
+   215
+  ],
+  "paddle": "d",
+  "paddle_score": 0.7439496517181396,
+  "trocr": "disopening transnational institutions among"
+ },
+ {
+  "box": [
+   109,
+   115,
+   724,
+   189
+  ],
+  "paddle": "a",
+  "paddle_score": 0.650844395160675,
+  "trocr": "disagree the earlier study unlarged"
+ },
+ {
+  "box": [
+   105,
+   175,
+   703,
+   249
+  ],
+  "paddle": "",
+  "paddle_score": 0.0,
+  "trocr": "that always been shown and"
+ },
+ {
+  "box": [
+   105,
+   205,
+   675,
+   278
+  ],
+  "paddle": "",
+  "paddle_score": 0.0,
+  "trocr": "the biggest destructive allegiance"
+ },
+ {
+  "box": [
+   95,
+   269,
+   759,
+   346
+  ],
+  "paddle": "[",
+  "paddle_score": 0.42005422711372375,
+  "trocr": "manounces established the services"
+ },
+ {
+  "box": [
+   105,
+   238,
+   671,
+   309
+  ],
+  "paddle": "",
+  "paddle_score": 0.0,
+  "trocr": "interative equipment with the Argentine"
+ },
+ {
+  "box": [
+   95,
+   333,
+   738,
+   407
+  ],
+  "paddle": "",
+  "paddle_score": 0.0,
+  "trocr": "multilement moderate degenerative tradinger of"
+ },
+ {
+  "box": [
+   99,
+   301,
+   696,
+   371
+  ],
+  "paddle": "sponeaute o",
+  "paddle_score": 0.6945285201072693,
+  "trocr": "sisters to write themed \" quite fractured"
+ },
+ {
+  "box": [
+   92,
+   369,
+   705,
+   432
+  ],
+  "paddle": "the corvical spine are ratre changes",
+  "paddle_score": 0.8830597400665283,
+  "trocr": "the council # pine or the retrospective change at"
+ },
+ {
+  "box": [
+   94,
+   401,
+   722,
+   463
+  ],
+  "paddle": "c3C+ level resuling in mid woal canal",
+  "paddle_score": 0.7085084915161133,
+  "trocr": "know level resulting in mild spinal canal"
+ },
+ {
+  "box": [
+   98,
+   433,
+   765,
+   499
+  ],
+  "paddle": "stensis brif hot co",
+  "paddle_score": 0.6515687704086304,
+  "trocr": "Etonosis brief hospital course Mr. Brown"
+ },
+ {
+  "box": [
+   94,
+   468,
+   693,
+   528
+  ],
+  "paddle": "last name was admilted byy",
+  "paddle_score": 0.9095025658607483,
+  "trocr": "last home was admitted by neurosurgery ."
+ },
+ {
+  "box": [
+   89,
+   504,
+   767,
+   563
+  ],
+  "paddle": "onto cuforfusther management hemained",
+  "paddle_score": 0.767042875289917,
+  "trocr": "on to icu for further management he remained"
+ },
+ {
+  "box": [
+   82,
+   537,
+   776,
+   595
+  ],
+  "paddle": "intubated and stroke heurgy was conu",
+  "paddle_score": 0.8908475041389465,
+  "trocr": "intubated and stroke neurology was come"
+ },
+ {
+  "box": [
+   83,
+   572,
+   772,
+   627
+  ],
+  "paddle": "they determined that given his poor neurdogic",
+  "paddle_score": 0.8579224348068237,
+  "trocr": "they determined that given his poor neurologic"
+ },
+ {
+  "box": [
+   85,
+   609,
+   749,
+   658
+  ],
+  "paddle": "exam with gcs and an ich score is which",
+  "paddle_score": 0.9575172662734985,
+  "trocr": "exam with yes and an ink score is which"
+ },
+ {
+  "box": [
+   81,
+   644,
+   740,
+   693
+  ],
+  "paddle": "well approximate mortality at days subse",
+  "paddle_score": 0.9938287734985352,
+  "trocr": "will approximate mortality at days whose"
+ },
+ {
+  "box": [
+   81,
+   683,
+   775,
+   724
+  ],
+  "paddle": "-qquently on a fanily meeting was coosdinated",
+  "paddle_score": 0.9417998194694519,
+  "trocr": "-guently on a family meeting was \" coordinated"
+ },
+ {
+  "box": [
+   74,
+   712,
+   787,
+   763
+  ],
+  "paddle": "with social work, and prognosis was discuesed",
+  "paddle_score": 0.9596986770629883,
+  "trocr": "with social work and progress was discussed"
+ },
+ {
+  "box": [
+   78,
+   749,
+   746,
+   798
+  ],
+  "paddle": "in depth on his condition remained poor on",
+  "paddle_score": 0.9826750159263611,
+  "trocr": "in depth on his condition remained poor on"
+ },
+ {
+  "box": [
+   70,
+   786,
+   735,
+   836
+  ],
+  "paddle": "exam he was intubated corneals cough",
+  "paddle_score": 0.9825412034988403,
+  "trocr": "exann he was ' intubated corneals' cough"
+ },
+ {
+  "box": [
+   69,
+   824,
+   782,
+   879
+  ],
+  "paddle": "and a weak gag pujits right left by hippus",
+  "paddle_score": 0.9818222522735596,
+  "trocr": "and a weak gag pupils sight left to happens"
+ },
+ {
+  "box": [
+   69,
+   867,
+   723,
+   916
+  ],
+  "paddle": "no eye opening flexed I we ext  we and",
+  "paddle_score": 0.9642214775085449,
+  "trocr": "no eye opening \" flesced ! we're ever's we and"
+ },
+ {
+  "box": [
+   70,
+   902,
+   704,
+   954
+  ],
+  "paddle": "bilat les he was made cmo by his",
+  "paddle_score": 0.9897005558013916,
+  "trocr": "bilt \"les he was made unto by his"
+ },
+ {
+  "box": [
+   70,
+   943,
+   762,
+   993
+  ],
+  "paddle": "family and extubated on and expvied on",
+  "paddle_score": 0.9533336758613586,
+  "trocr": "family and excluded on and enjoyed on"
+ },
+ {
+  "box": [
+   66,
+   980,
+   736,
+   1038
+  ],
+  "paddle": "this date medecations on admission lisin",
+  "paddle_score": 0.9619314074516296,
+  "trocr": "this date medications on admission their"
+ },
+ {
+  "box": [
+   60,
+   1018,
+   739,
+   1082
+  ],
+  "paddle": "-nopri net pravastatin fluoeline conra",
+  "paddle_score": 0.7783854007720947,
+  "trocr": "-neprit acts' presentation fluoseline concerts"
+ },
+ {
+  "box": [
+   60,
+   1054,
+   658,
+   1122
+  ],
+  "paddle": "discharge mationsnoe diage",
+  "paddle_score": 0.717652440071106,
+  "trocr": "discharge medications none discharge"
+ },
+ {
+  "box": [
+   69,
+   1093,
+   709,
+   1177
+  ],
+  "paddle": "d",
+  "paddle_score": 0.2456226497888565,
+  "trocr": "disposition expired discharge diagnosis"
+ }
+]

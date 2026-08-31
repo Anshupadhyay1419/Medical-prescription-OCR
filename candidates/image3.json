@@ -1,0 +1,464 @@
+[
+ {
+  "box": [
+   165,
+   33,
+   554,
+   80
+  ],
+  "paddle": "SAI HEALTH CENTRE",
+  "paddle_score": 0.999984860420227,
+  "trocr": "SAI Health Centre"
+ },
+ {
+  "box": [
+   708,
+   19,
+   953,
+   61
+  ],
+  "paddle": "Dr. V. N. Reddy",
+  "paddle_score": 0.999844491481781,
+  "trocr": "Dr. V. N. Reddy"
+ },
+ {
+  "box": [
+   698,
+   56,
+   958,
+   91
+  ],
+  "paddle": "MBBS, MD (Gen. Medicine)",
+  "paddle_score": 0.9999317526817322,
+  "trocr": "MBBS , MD ( Gen. Medicine )"
+ },
+ {
+  "box": [
+   165,
+   81,
+   402,
+   110
+  ],
+  "paddle": "Multi Speciality Clinic",
+  "paddle_score": 0.9988905191421509,
+  "trocr": "Multi Speciality Clinic"
+ },
+ {
+  "box": [
+   773,
+   80,
+   956,
+   114
+  ],
+  "paddle": "Regn. No. 48/2006",
+  "paddle_score": 0.9996790885925293,
+  "trocr": "regn. No. 48/2006"
+ },
+ {
+  "box": [
+   166,
+   115,
+   368,
+   141
+  ],
+  "paddle": "Shop No. 5, First Floor,",
+  "paddle_score": 0.9996857047080994,
+  "trocr": "Shop No. 5 , First Floor ,"
+ },
+ {
+  "box": [
+   767,
+   107,
+   956,
+   136
+  ],
+  "paddle": "Consultant Physician",
+  "paddle_score": 0.9999922513961792,
+  "trocr": "consultant physician"
+ },
+ {
+  "box": [
+   170,
+   144,
+   424,
+   161
+  ],
+  "paddle": "Above HDFC Bank. Main Road.",
+  "paddle_score": 0.9843075275421143,
+  "trocr": "Above HDFC Bank . Main Road ."
+ },
+ {
+  "box": [
+   170,
+   166,
+   431,
+   184
+  ],
+  "paddle": "Kothapet, Hyderabad - 500035",
+  "paddle_score": 0.9725193977355957,
+  "trocr": "Kothapet . Hyderabad - 500035 ."
+ },
+ {
+  "box": [
+   762,
+   153,
+   956,
+   182
+  ],
+  "paddle": "Consultation Timings :",
+  "paddle_score": 0.9941017031669617,
+  "trocr": "Consultation Timings :"
+ },
+ {
+  "box": [
+   781,
+   176,
+   958,
+   203
+  ],
+  "paddle": "9:00 AM - 1:00 PM",
+  "paddle_score": 0.9846085906028748,
+  "trocr": "9,000 AM-000pm."
+ },
+ {
+  "box": [
+   781,
+   196,
+   958,
+   224
+  ],
+  "paddle": "6:30 PM - 9:00 PM",
+  "paddle_score": 0.9712226986885071,
+  "trocr": "6.30pm-9,00pm."
+ },
+ {
+  "box": [
+   808,
+   215,
+   960,
+   248
+  ],
+  "paddle": "(Sunday Closed)",
+  "paddle_score": 0.9991680383682251,
+  "trocr": "isunday closed )"
+ },
+ {
+  "box": [
+   51,
+   273,
+   556,
+   334
+  ],
+  "paddle": "Name: Mr. Ramesh Yadar",
+  "paddle_score": 0.9400045871734619,
+  "trocr": "name : Mr. Ramesh Yadov"
+ },
+ {
+  "box": [
+   650,
+   268,
+   957,
+   336
+  ],
+  "paddle": "Date: 07/05/24",
+  "paddle_score": 0.9656351208686829,
+  "trocr": "date : 07/05 ( 24 ."
+ },
+ {
+  "box": [
+   54,
+   332,
+   367,
+   376
+  ],
+  "paddle": "Age : 53 / M",
+  "paddle_score": 0.9011733531951904,
+  "trocr": "Age : 53/1 .M."
+ },
+ {
+  "box": [
+   650,
+   324,
+   888,
+   387
+  ],
+  "paddle": "BP:150/92",
+  "paddle_score": 0.9595991969108582,
+  "trocr": "BP : 150,92"
+ },
+ {
+  "box": [
+   32,
+   391,
+   91,
+   460
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.8365033864974976,
+  "trocr": "ry ."
+ },
+ {
+  "box": [
+   109,
+   430,
+   644,
+   496
+  ],
+  "paddle": "① T- Telma-Amlo 40/5",
+  "paddle_score": 0.9327866435050964,
+  "trocr": "O.T-Telma-Ambo 40/5"
+ },
+ {
+  "box": [
+   259,
+   487,
+   582,
+   547
+  ],
+  "paddle": "os bt-1-0-0",
+  "paddle_score": 0.9296342730522156,
+  "trocr": "of but I-0-0 ."
+ },
+ {
+  "box": [
+   676,
+   465,
+   859,
+   539
+  ],
+  "paddle": "x30d",
+  "paddle_score": 0.930579662322998,
+  "trocr": "x 30d ."
+ },
+ {
+  "box": [
+   89,
+   562,
+   577,
+   628
+  ],
+  "paddle": "② T. Mat-XL 500",
+  "paddle_score": 0.902377724647522,
+  "trocr": "O. T. Met XL.500"
+ },
+ {
+  "box": [
+   706,
+   594,
+   864,
+   668
+  ],
+  "paddle": "x30d",
+  "paddle_score": 0.9739654660224915,
+  "trocr": "x 300l ,"
+ },
+ {
+  "box": [
+   259,
+   621,
+   585,
+   676
+  ],
+  "paddle": "og pc 1-0-1",
+  "paddle_score": 0.9243253469467163,
+  "trocr": "of pc 1-0-1 ."
+ },
+ {
+  "box": [
+   74,
+   693,
+   585,
+   764
+  ],
+  "paddle": "③ T. Glycomet-GP1",
+  "paddle_score": 0.9333865642547607,
+  "trocr": "B. T. Glycomet-GPI ."
+ },
+ {
+  "box": [
+   708,
+   705,
+   863,
+   767
+  ],
+  "paddle": "×30d",
+  "paddle_score": 0.8940894603729248,
+  "trocr": "x 30d ."
+ },
+ {
+  "box": [
+   264,
+   754,
+   580,
+   802
+  ],
+  "paddle": "os ac 0-1-0",
+  "paddle_score": 0.8958133459091187,
+  "trocr": "op \" ac o-1-0"
+ },
+ {
+  "box": [
+   70,
+   803,
+   619,
+   886
+  ],
+  "paddle": "④ T- Ecosprin AV 75",
+  "paddle_score": 0.8803849220275879,
+  "trocr": "O. T. Ecosporin AN. 75 ."
+ },
+ {
+  "box": [
+   314,
+   855,
+   579,
+   923
+  ],
+  "paddle": "o8 1-0-0",
+  "paddle_score": 0.9043264389038086,
+  "trocr": "top i-0-0 ."
+ },
+ {
+  "box": [
+   704,
+   838,
+   852,
+   902
+  ],
+  "paddle": "x30d",
+  "paddle_score": 0.9488270282745361,
+  "trocr": "x 30d ,"
+ },
+ {
+  "box": [
+   75,
+   926,
+   515,
+   996
+  ],
+  "paddle": "⑤ T. Atorva 20",
+  "paddle_score": 0.963403582572937,
+  "trocr": "O.T. Atorva 20 ."
+ },
+ {
+  "box": [
+   702,
+   946,
+   877,
+   1026
+  ],
+  "paddle": "x30d",
+  "paddle_score": 0.9748004674911499,
+  "trocr": "x 3od ."
+ },
+ {
+  "box": [
+   306,
+   979,
+   586,
+   1031
+  ],
+  "paddle": "HS 0-0-1",
+  "paddle_score": 0.9885088801383972,
+  "trocr": "its O-O-I ."
+ },
+ {
+  "box": [
+   70,
+   1038,
+   577,
+   1132
+  ],
+  "paddle": "⑥ Cop. vit D3 60k",
+  "paddle_score": 0.8867843747138977,
+  "trocr": "GO Cap. Virt Dz 60/K."
+ },
+ {
+  "box": [
+   342,
+   1084,
+   910,
+   1167
+  ],
+  "paddle": "1 cap. oncewach  6 wcks",
+  "paddle_score": 0.9091428518295288,
+  "trocr": "1 cap . \" oncework # weeks"
+ },
+ {
+  "box": [
+   94,
+   1168,
+   641,
+   1237
+  ],
+  "paddle": "Advice → how salt diet-",
+  "paddle_score": 0.9525059461593628,
+  "trocr": "Advice : is how salt-diet-"
+ },
+ {
+  "box": [
+   243,
+   1227,
+   577,
+   1280
+  ],
+  "paddle": "→Wt- reduction",
+  "paddle_score": 0.8967289924621582,
+  "trocr": " # wet reduction"
+ },
+ {
+  "box": [
+   232,
+   1254,
+   699,
+   1333
+  ],
+  "paddle": "→Walk 30 mins daily",
+  "paddle_score": 0.971107006072998,
+  "trocr": "is Walk to 30 mins daily"
+ },
+ {
+  "box": [
+   233,
+   1308,
+   584,
+   1393
+  ],
+  "paddle": "→ Sugar control",
+  "paddle_score": 0.9507576823234558,
+  "trocr": "is \" Sugar control ."
+ },
+ {
+  "box": [
+   785,
+   1309,
+   948,
+   1416
+  ],
+  "paddle": "ch",
+  "paddle_score": 0.6547120809555054,
+  "trocr": "ch"
+ },
+ {
+  "box": [
+   144,
+   1382,
+   583,
+   1472
+  ],
+  "paddle": "Reriow ofter 4 waks",
+  "paddle_score": 0.9225192070007324,
+  "trocr": "Review after 4 weeks ."
+ },
+ {
+  "box": [
+   747,
+   1397,
+   998,
+   1495
+  ],
+  "paddle": "-07/05/24",
+  "paddle_score": 0.9609906673431396,
+  "trocr": "07 ( 05 ( 24 ."
+ }
+]

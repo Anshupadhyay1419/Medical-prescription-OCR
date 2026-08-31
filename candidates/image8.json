@@ -1,0 +1,431 @@
+[
+ {
+  "box": [
+   129,
+   22,
+   418,
+   52
+  ],
+  "paddle": "Healing Hands Clinic",
+  "paddle_score": 0.9999289512634277,
+  "trocr": "Healing Hands Clinic"
+ },
+ {
+  "box": [
+   723,
+   4,
+   1110,
+   70
+  ],
+  "paddle": "Dr. V. Pradeep",
+  "paddle_score": 0.9859481453895569,
+  "trocr": "Dr. V. Pradeep ."
+ },
+ {
+  "box": [
+   126,
+   50,
+   434,
+   78
+  ],
+  "paddle": "#12-8-3/1/B, Opp. R.T.C. Depot,",
+  "paddle_score": 0.9991011023521423,
+  "trocr": "#12-8-3/7B. Opp. R.T.C. Depot ,"
+ },
+ {
+  "box": [
+   126,
+   74,
+   434,
+   105
+  ],
+  "paddle": "Main Road, Warangal - 506 002.",
+  "paddle_score": 0.9998738169670105,
+  "trocr": "Main Road , Warangal - 506 002 ."
+ },
+ {
+  "box": [
+   752,
+   71,
+   1050,
+   115
+  ],
+  "paddle": "MBBS, DNB (Onitho)",
+  "paddle_score": 0.9444625377655029,
+  "trocr": "MBBS , DNB ( Oxitho )"
+ },
+ {
+  "box": [
+   126,
+   101,
+   312,
+   127
+  ],
+  "paddle": "Ph: 0870-2434 567",
+  "paddle_score": 0.9978912472724915,
+  "trocr": "ph. 0870-2434 567"
+ },
+ {
+  "box": [
+   736,
+   109,
+   1145,
+   161
+  ],
+  "paddle": "Regd. No. TSMc/76452.",
+  "paddle_score": 0.9555795788764954,
+  "trocr": "Regd. No. T.S.C. 7.5.2 ."
+ },
+ {
+  "box": [
+   82,
+   185,
+   421,
+   238
+  ],
+  "paddle": "Pt: R..Mahesh.",
+  "paddle_score": 0.9297673106193542,
+  "trocr": "Pt : R. Mahesh ."
+ },
+ {
+  "box": [
+   72,
+   244,
+   567,
+   310
+  ],
+  "paddle": "'Age: 34yrs, Sex: M",
+  "paddle_score": 0.9402028322219849,
+  "trocr": "Age : 34yrs . Sex : M."
+ },
+ {
+  "box": [
+   777,
+   219,
+   1039,
+   277
+  ],
+  "paddle": "Dt: 27/06/24",
+  "paddle_score": 0.976557195186615,
+  "trocr": "Dt : 27,06/24 ."
+ },
+ {
+  "box": [
+   764,
+   293,
+   1146,
+   347
+  ],
+  "paddle": "BP 128/82 mm of hg",
+  "paddle_score": 0.9575636386871338,
+  "trocr": "BP 128/8\"2 mm of hg ."
+ },
+ {
+  "box": [
+   19,
+   343,
+   97,
+   434
+  ],
+  "paddle": "4",
+  "paddle_score": 0.4391942322254181,
+  "trocr": "by"
+ },
+ {
+  "box": [
+   179,
+   360,
+   642,
+   437
+  ],
+  "paddle": "① Tab. Zenodol-P",
+  "paddle_score": 0.9696444272994995,
+  "trocr": "O. Tab. 2eroctol -P."
+ },
+ {
+  "box": [
+   772,
+   345,
+   871,
+   386
+  ],
+  "paddle": "P.",
+  "paddle_score": 0.8504408597946167,
+  "trocr": "p."
+ },
+ {
+  "box": [
+   774,
+   369,
+   1061,
+   446
+  ],
+  "paddle": "wit 68 kigs.",
+  "paddle_score": 0.8595922589302063,
+  "trocr": "' w't too ' kgs . ."
+ },
+ {
+  "box": [
+   868,
+   342,
+   1034,
+   391
+  ],
+  "paddle": "76 /min",
+  "paddle_score": 0.9502281546592712,
+  "trocr": "to bring ."
+ },
+ {
+  "box": [
+   631,
+   405,
+   668,
+   452
+  ],
+  "paddle": "了",
+  "paddle_score": 0.9606035947799683,
+  "trocr": "j ."
+ },
+ {
+  "box": [
+   386,
+   441,
+   643,
+   484
+  ],
+  "paddle": "1 -0-1 pc",
+  "paddle_score": 0.9272894263267517,
+  "trocr": "1-0-1 pc."
+ },
+ {
+  "box": [
+   722,
+   452,
+   929,
+   516
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.974919319152832,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   193,
+   491,
+   260,
+   538
+  ],
+  "paddle": "2",
+  "paddle_score": 0.9996058344841003,
+  "trocr": "2 )"
+ },
+ {
+  "box": [
+   269,
+   487,
+   649,
+   538
+  ],
+  "paddle": "Tab. Rantac 300",
+  "paddle_score": 0.9684950709342957,
+  "trocr": "Tab. Rantac 300"
+ },
+ {
+  "box": [
+   401,
+   546,
+   669,
+   590
+  ],
+  "paddle": "0-0-1 HS",
+  "paddle_score": 0.9435536861419678,
+  "trocr": "0-0-1 . His"
+ },
+ {
+  "box": [
+   748,
+   547,
+   952,
+   606
+  ],
+  "paddle": "x 5 days",
+  "paddle_score": 0.9986968040466309,
+  "trocr": "x 5 days ."
+ },
+ {
+  "box": [
+   175,
+   592,
+   713,
+   657
+  ],
+  "paddle": "③ Cap. Neurobion forte",
+  "paddle_score": 0.9949586987495422,
+  "trocr": "( 3 Cap. Neurobion forte"
+ },
+ {
+  "box": [
+   350,
+   648,
+   1035,
+   710
+  ],
+  "paddle": "1-Cap OD After food- x 15 days",
+  "paddle_score": 0.9439846277236938,
+  "trocr": "1-Cap OD After food - x 15 days"
+ },
+ {
+  "box": [
+   165,
+   698,
+   615,
+   762
+  ],
+  "paddle": "④ Tab. Myonal 50",
+  "paddle_score": 0.9718112945556641,
+  "trocr": "( # Table . Myonal 58 ."
+ },
+ {
+  "box": [
+   397,
+   763,
+   581,
+   805
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9998299479484558,
+  "trocr": "1-0-1 ."
+ },
+ {
+  "box": [
+   725,
+   734,
+   945,
+   801
+  ],
+  "paddle": "x 1o days",
+  "paddle_score": 0.8722296953201294,
+  "trocr": "x 100 days ."
+ },
+ {
+  "box": [
+   174,
+   820,
+   223,
+   862
+  ],
+  "paddle": "5",
+  "paddle_score": 0.6088922619819641,
+  "trocr": "5"
+ },
+ {
+  "box": [
+   269,
+   810,
+   597,
+   870
+  ],
+  "paddle": "Diclofenac Gel",
+  "paddle_score": 0.987327516078949,
+  "trocr": "Diclofenac Gel ."
+ },
+ {
+  "box": [
+   742,
+   828,
+   978,
+   900
+  ],
+  "paddle": "x 7 days.",
+  "paddle_score": 0.9759093523025513,
+  "trocr": "x 7 days ."
+ },
+ {
+  "box": [
+   282,
+   849,
+   665,
+   937
+  ],
+  "paddle": "Apply thrice daily",
+  "paddle_score": 0.9753804802894592,
+  "trocr": "Apply thrice daily"
+ },
+ {
+  "box": [
+   470,
+   898,
+   646,
+   966
+  ],
+  "paddle": "locally",
+  "paddle_score": 0.9893400073051453,
+  "trocr": "locally !"
+ },
+ {
+  "box": [
+   33,
+   966,
+   529,
+   1036
+  ],
+  "paddle": "Advice: Hot fomentation",
+  "paddle_score": 0.9935098886489868,
+  "trocr": "Advice : Hot formation"
+ },
+ {
+  "box": [
+   213,
+   1012,
+   631,
+   1080
+  ],
+  "paddle": "Avoid heavy lifting-",
+  "paddle_score": 0.9913082122802734,
+  "trocr": "Avoid heavy lifting ."
+ },
+ {
+  "box": [
+   195,
+   1054,
+   791,
+   1132
+  ],
+  "paddle": "Do Knee Strengthening Exercises",
+  "paddle_score": 0.9013370275497437,
+  "trocr": "Do\" Knee strengthening exercises"
+ },
+ {
+  "box": [
+   195,
+   1109,
+   676,
+   1180
+  ],
+  "paddle": "Take high protein diet",
+  "paddle_score": 0.9983944296836853,
+  "trocr": "Take high protein diet"
+ },
+ {
+  "box": [
+   144,
+   1215,
+   608,
+   1294
+  ],
+  "paddle": "Review after 1.0 days",
+  "paddle_score": 0.9636152386665344,
+  "trocr": "Review after 10 days"
+ },
+ {
+  "box": [
+   838,
+   1175,
+   1152,
+   1266
+  ],
+  "paddle": "Dr. V. Pradeep.",
+  "paddle_score": 0.9614400863647461,
+  "trocr": "Dr. V. Pradeep ."
+ }
+]

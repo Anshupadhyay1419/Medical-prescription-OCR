@@ -1,0 +1,33 @@
+Palliative care clinic
+Dr. Rajesh Kumar, MD, FRCPC
+Full Street Address: 123 Main Road, Sector 5, Gurgaon, Haryana, 122001
+Phone Numbers: +91 9812345678, +91 9812345679
+Clinic Timings: 9 AM - 5 PM
+Patient Block:
+Name: [Unclear]
+Age: [Unclear]
+Sex: [Unclear]
+Date: [Unclear]
+Vitals:
+BP: [Unclear]
+Wt: [Unclear]
+Pulse: [Unclear]
+PPBS: [Unclear]
+Rx Section:
+1. 1-0-1
+2. 0-0-1
+3. 1-0-0
+Advice / Investigations / Diagnosis Sections:
+Brief hospital course pt arrived to trauma bay hemodynamically unstable pt had already been intubated prior to arrival
+Aggressive volume resuscitation was started
+A left thoracotomy was emergently performed in the trauma bay
+The aorta was cross-clamped
+The pt was taken emergently to the OR for an exploratory laparotomy
+Left diaphragm repair of right common iliac vein laceration left upper lobe lung resection bilateral chest tube placement
+Washout of left wrist
+The abdomen was packed and closed with a laparotomy bag
+Post operatively the pt was
+Footer:
+Signature Name: [Unclear]
+Registration Number: [Unclear]
+Date: [Unclear]

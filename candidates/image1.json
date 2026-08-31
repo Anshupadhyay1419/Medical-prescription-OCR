@@ -1,0 +1,431 @@
+[
+ {
+  "box": [
+   155,
+   48,
+   403,
+   88
+  ],
+  "paddle": "Dr. S. K. Mittal",
+  "paddle_score": 0.9576214551925659,
+  "trocr": "Dr. S. K. Mittal"
+ },
+ {
+  "box": [
+   850,
+   46,
+   980,
+   75
+  ],
+  "paddle": "Mittal Clinic",
+  "paddle_score": 0.9957989454269409,
+  "trocr": "Mittal Clinic ."
+ },
+ {
+  "box": [
+   75,
+   88,
+   105,
+   142
+  ],
+  "paddle": "99",
+  "paddle_score": 0.39696019887924194,
+  "trocr": "00"
+ },
+ {
+  "box": [
+   155,
+   85,
+   368,
+   117
+  ],
+  "paddle": "MBBS, MD (Medicine)",
+  "paddle_score": 0.9945496916770935,
+  "trocr": "MBBS , MD ( Medicine )"
+ },
+ {
+  "box": [
+   785,
+   75,
+   980,
+   102
+  ],
+  "paddle": "1/8, West Patel Nagar",
+  "paddle_score": 0.9878487586975098,
+  "trocr": "1/8 , West Patel Nagar"
+ },
+ {
+  "box": [
+   815,
+   102,
+   977,
+   125
+  ],
+  "paddle": "New Delhi-110008",
+  "paddle_score": 0.9999862909317017,
+  "trocr": "New Delhi-100008"
+ },
+ {
+  "box": [
+   158,
+   115,
+   310,
+   144
+  ],
+  "paddle": "Reg. No. 40752",
+  "paddle_score": 0.9936016201972961,
+  "trocr": "Reg. No. 40.752"
+ },
+ {
+  "box": [
+   802,
+   125,
+   977,
+   152
+  ],
+  "paddle": "Ph.: 011-2580 2316",
+  "paddle_score": 0.9917833805084229,
+  "trocr": "ph.011-25802316"
+ },
+ {
+  "box": [
+   46,
+   192,
+   489,
+   255
+  ],
+  "paddle": "Name Mr. Vijay Kumar",
+  "paddle_score": 0.966549277305603,
+  "trocr": "Name Mr. Vijay Kumar"
+ },
+ {
+  "box": [
+   649,
+   197,
+   875,
+   261
+  ],
+  "paddle": "Date 23/11) 19",
+  "paddle_score": 0.9137614965438843,
+  "trocr": "date 23 (11 ) 19 ."
+ },
+ {
+  "box": [
+   46,
+   245,
+   371,
+   296
+  ],
+  "paddle": "Age 46 / M / F",
+  "paddle_score": 0.9289860725402832,
+  "trocr": "Age 4.6. ' m\"F."
+ },
+ {
+  "box": [
+   42,
+   306,
+   104,
+   371
+  ],
+  "paddle": "Rx",
+  "paddle_score": 0.9529662132263184,
+  "trocr": "rx."
+ },
+ {
+  "box": [
+   136,
+   347,
+   625,
+   418
+  ],
+  "paddle": "1) Tab. Azithro 500",
+  "paddle_score": 0.9511563181877136,
+  "trocr": "D. Tab. Azithro'500"
+ },
+ {
+  "box": [
+   606,
+   373,
+   886,
+   463
+  ],
+  "paddle": "x5d-",
+  "paddle_score": 0.835204541683197,
+  "trocr": "\" x 5d ."
+ },
+ {
+  "box": [
+   306,
+   414,
+   501,
+   466
+  ],
+  "paddle": "1-0-1",
+  "paddle_score": 0.9999009370803833,
+  "trocr": "I-O-1 ."
+ },
+ {
+  "box": [
+   128,
+   485,
+   605,
+   572
+  ],
+  "paddle": "2) Tas. Pantap 40",
+  "paddle_score": 0.9642808437347412,
+  "trocr": "2 ) Tab. Pantop 40"
+ },
+ {
+  "box": [
+   332,
+   550,
+   773,
+   622
+  ],
+  "paddle": "0-0-1 Ac x10d",
+  "paddle_score": 0.9512099027633667,
+  "trocr": "0-0-1 Acc x1od"
+ },
+ {
+  "box": [
+   121,
+   648,
+   182,
+   711
+  ],
+  "paddle": "3)",
+  "paddle_score": 0.994499683380127,
+  "trocr": "3 ) ."
+ },
+ {
+  "box": [
+   268,
+   647,
+   659,
+   708
+  ],
+  "paddle": "Levocetinia 5mg",
+  "paddle_score": 0.992494523525238,
+  "trocr": "Levocetimia . Sony"
+ },
+ {
+  "box": [
+   324,
+   698,
+   779,
+   766
+  ],
+  "paddle": "1-0-0 Hs x7d",
+  "paddle_score": 0.9409634470939636,
+  "trocr": "I-O-O.H.S. K.F.D."
+ },
+ {
+  "box": [
+   113,
+   783,
+   182,
+   855
+  ],
+  "paddle": "4)",
+  "paddle_score": 0.9997426867485046,
+  "trocr": "4 )"
+ },
+ {
+  "box": [
+   283,
+   776,
+   576,
+   831
+  ],
+  "paddle": "Mucolite-Ls",
+  "paddle_score": 0.9502866864204407,
+  "trocr": "phucohite - US"
+ },
+ {
+  "box": [
+   604,
+   806,
+   868,
+   890
+  ],
+  "paddle": "x5d-",
+  "paddle_score": 0.9483781456947327,
+  "trocr": "ex sold -"
+ },
+ {
+  "box": [
+   294,
+   831,
+   553,
+   884
+  ],
+  "paddle": "2.5ml tds",
+  "paddle_score": 0.974041223526001,
+  "trocr": "2.5 mL tools ."
+ },
+ {
+  "box": [
+   110,
+   913,
+   179,
+   986
+  ],
+  "paddle": "5)",
+  "paddle_score": 0.998784065246582,
+  "trocr": "5 ) ."
+ },
+ {
+  "box": [
+   248,
+   897,
+   588,
+   979
+  ],
+  "paddle": "Syp. Ascoril LS",
+  "paddle_score": 0.9260684251785278,
+  "trocr": "byp. Ascorials ."
+ },
+ {
+  "box": [
+   622,
+   943,
+   764,
+   1018
+  ],
+  "paddle": "x5d",
+  "paddle_score": 0.9888911843299866,
+  "trocr": "x 5d ."
+ },
+ {
+  "box": [
+   311,
+   960,
+   509,
+   1017
+  ],
+  "paddle": "5 ml tds",
+  "paddle_score": 0.9726504683494568,
+  "trocr": "5 miles tools ."
+ },
+ {
+  "box": [
+   113,
+   1039,
+   177,
+   1103
+  ],
+  "paddle": "6)",
+  "paddle_score": 0.9998552799224854,
+  "trocr": "6 ) ."
+ },
+ {
+  "box": [
+   257,
+   1027,
+   549,
+   1094
+  ],
+  "paddle": "Inj. T. mih",
+  "paddle_score": 0.9393746852874756,
+  "trocr": "Iry ! . To unite"
+ },
+ {
+  "box": [
+   581,
+   1062,
+   711,
+   1127
+  ],
+  "paddle": "stat",
+  "paddle_score": 0.9940968751907349,
+  "trocr": "stat ."
+ },
+ {
+  "box": [
+   360,
+   1078,
+   523,
+   1136
+  ],
+  "paddle": "0.3 ml",
+  "paddle_score": 0.9938764572143555,
+  "trocr": "0.3 mL ."
+ },
+ {
+  "box": [
+   881,
+   1099,
+   948,
+   1148
+  ],
+  "paddle": "10",
+  "paddle_score": 0.9267295002937317,
+  "trocr": "to"
+ },
+ {
+  "box": [
+   88,
+   1182,
+   221,
+   1262
+  ],
+  "paddle": "Adv:",
+  "paddle_score": 0.8997845649719238,
+  "trocr": "Adri"
+ },
+ {
+  "box": [
+   277,
+   1173,
+   722,
+   1251
+  ],
+  "paddle": "Warm saline gargle,",
+  "paddle_score": 0.9691885113716125,
+  "trocr": "Warm saline gargle ,"
+ },
+ {
+  "box": [
+   285,
+   1232,
+   666,
+   1317
+  ],
+  "paddle": "Plenty of fluids.",
+  "paddle_score": 0.9839606285095215,
+  "trocr": "plenty of fluids ."
+ },
+ {
+  "box": [
+   217,
+   1294,
+   754,
+   1407
+  ],
+  "paddle": "Reriew after 4-5 days.",
+  "paddle_score": 0.9422112107276917,
+  "trocr": "Review after \" 4-5 days :"
+ },
+ {
+  "box": [
+   665,
+   1278,
+   905,
+   1493
+  ],
+  "paddle": "10",
+  "paddle_score": 0.4209845960140228,
+  "trocr": "was Over ! \" ) ;"
+ },
+ {
+  "box": [
+   674,
+   1402,
+   936,
+   1520
+  ],
+  "paddle": "—83/1/17",
+  "paddle_score": 0.754033088684082,
+  "trocr": "VER 3 )UT 19 ."
+ }
+]

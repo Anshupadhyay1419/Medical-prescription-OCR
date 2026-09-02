@@ -1,3 +1,6 @@
+"""
+LLM-based document restructurer for medical prescriptions.
+"""
 import requests
 import re
 
@@ -24,7 +27,10 @@ MEDICATION_KEYWORDS = [
 
 
 def count_medications(lines_data):
-   
+    """
+    Count lines that look like medication entries.
+    Handles both text-only and (text, coords) tuples.
+    """
     count = 0
     for item in lines_data:
         text = item if isinstance(item, str) else item[0]

@@ -1,21 +1,3 @@
-"""
-PaddleOCR detection -> TrOCR recognition -> LLM restructure -> LLM correct.
-
-One recognition pass produces both comparison arms:
-  outputs_raw/  raw TrOCR, no LLM stage at all  (lower-bound baseline)
-  outputs/      the full pipeline               (Point D + Point B)
-
-Detection and TrOCR are the expensive part, so they run once per image and both
-files are written from the same recognised lines. That keeps the two arms
-strictly comparable — any difference between them is the LLM stages and nothing
-else — and halves the GPU time versus two separate batches.
-
-Usage:
-    python trocr_llm.py                 # all images, resumes where it stopped
-    python trocr_llm.py --only 1        # single image (use this to smoke-test)
-    python trocr_llm.py --force         # redo images that already have output
-    python trocr_llm.py --no-llm        # raw baseline only, skip Ollama stages
-"""
 import argparse
 import os
 import re

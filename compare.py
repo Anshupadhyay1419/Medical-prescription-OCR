@@ -1,25 +1,3 @@
-"""
-Comparison of recognition arms against gts/.
-
-    python compare.py
-
-Every arm is scored on exactly the same set of images — the intersection of the
-images all arms actually produced — so the numbers are comparable. An arm that
-is missing files is reported rather than silently scored on fewer documents.
-
-Corpus split
-------------
-image11-15 are NOT prescriptions. They are lowercase, unpunctuated clinical
-narrative (discharge summaries / radiology reports) in a different format from
-the 32 prescription scans. They are scored separately; mixing them into one
-total would misrepresent both. PRESCRIPTIONS is the headline set.
-
-Metrics per arm, aggregated as total-edits / total-reference-length:
-  CER / WER        raw, nothing normalised
-  nCER / nWER      case, spacing, punctuation and unit-joins normalised
-  drug recall      fraction of ground-truth drug names recovered
-  dose recall      fraction of ground-truth d-d-d schedules recovered
-"""
 import os
 import re
 import sys

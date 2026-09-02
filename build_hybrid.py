@@ -1,20 +1,3 @@
-"""
-Build the hybrid recogniser output from the dumped candidates.
-
-    python build_hybrid.py [--thr 0.80]
-
-Per detected box, take the PP-OCR reading when its confidence clears the
-threshold, otherwise fall back to TrOCR. PP-OCR is far stronger on the printed
-letterhead/label text that trocr-large-handwritten was never trained for, and
-its confidence is a good proxy for "this box is the kind of text I handle well".
-
-Threshold 0.80 was chosen by sweeping candidates/ offline against gts/ — see the
-sweep in the session notes. It is a flat minimum across CER/WER and the best
-point for dose recall, which is the metric that matters medically.
-
-No LLM and no VLM in this path: detection + two allowed recognisers + a
-deterministic rule.
-"""
 import argparse, json, os
 from postprocess import clean_ocr_output
 

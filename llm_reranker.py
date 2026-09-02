@@ -1,6 +1,3 @@
-"""
-LLM-based beam candidate reranker for TrOCR output.
-"""
 import requests
 import re
 

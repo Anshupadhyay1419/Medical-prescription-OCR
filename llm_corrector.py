@@ -1,7 +1,3 @@
-"""
-LLM-based contextual corrector for OCR output.
-Uses local Qwen2.5-7B via Ollama.
-"""
 import requests
 import re
 import time

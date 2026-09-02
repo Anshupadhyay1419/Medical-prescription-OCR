@@ -1,6 +1,3 @@
-"""
-LLM-based document restructurer for medical prescriptions.
-"""
 import requests
 import re
 
@@ -27,10 +24,7 @@ MEDICATION_KEYWORDS = [
 
 
 def count_medications(lines_data):
-    """
-    Count lines that look like medication entries.
-    Handles both text-only and (text, coords) tuples.
-    """
+   
     count = 0
     for item in lines_data:
         text = item if isinstance(item, str) else item[0]
@@ -199,17 +193,7 @@ def deduplicate_lines(lines):
 # ============================================================
 
 def restructure_document(lines_with_boxes, timeout=180, verbose=False):
-    """
-    Reorganize OCR lines into proper reading order with safety checks.
     
-    Args:
-        lines_with_boxes: list of tuples (text, x1, y1, x2, y2)
-        timeout: max seconds for LLM response
-        verbose: print debug info
-    
-    Returns:
-        list of restructured text lines
-    """
     if not lines_with_boxes:
         return []
     

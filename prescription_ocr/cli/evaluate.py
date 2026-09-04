@@ -1,12 +1,12 @@
 """
 Per-image evaluation table for one arm.
 
-    python -m prescription_ocr.cli.evaluate                    # results/trocr_llm
-    python -m prescription_ocr.cli.evaluate results/trocr_raw  # any other arm
+    python -m prescription_ocr.cli.evaluate                                # results/text
+    python -m prescription_ocr.cli.evaluate results/experiments/hybrid    # another arm
 """
 import argparse
 
-from prescription_ocr.config import GROUND_TRUTH_DIR, TROCR_LLM_DIR
+from prescription_ocr.config import GROUND_TRUTH_DIR, TEXT_DIR
 from prescription_ocr.evaluation.metrics import (
     COUNT_KEYS, available_images, best_match_cer, rate, score_image, with_ground_truth,
 )
@@ -15,7 +15,7 @@ from prescription_ocr.evaluation.metrics import (
 def parse_args():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("results_dir", nargs="?", default=str(TROCR_LLM_DIR),
+    p.add_argument("results_dir", nargs="?", default=str(TEXT_DIR),
                    help="directory of final_clean<N>.txt files to score")
     p.add_argument("--gt-dir", default=str(GROUND_TRUTH_DIR))
     return p.parse_args()

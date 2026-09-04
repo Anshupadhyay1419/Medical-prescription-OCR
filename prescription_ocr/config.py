@@ -13,14 +13,18 @@ GROUND_TRUTH_DIR = DATA_DIR / "ground_truth"    # image<N>.txt references
 
 RESULTS_DIR = PROJECT_ROOT / "results"
 
-# One directory per pipeline "arm" so their scores stay comparable.
-TROCR_LLM_DIR = RESULTS_DIR / "trocr_llm"       # TrOCR + LLM restructure/correct
-TROCR_RAW_DIR = RESULTS_DIR / "trocr_raw"       # TrOCR only, no LLM
-HYBRID_DIR = RESULTS_DIR / "hybrid"             # PP-OCR/TrOCR per-box pick
-QWEN_VL_DIR = RESULTS_DIR / "qwen_vl"           # Qwen2.5-VL baseline
+# A complete pipeline run fills exactly these three directories.
+TEXT_DIR = RESULTS_DIR / "text"                 # final transcriptions
+PREPROCESSED_DIR = RESULTS_DIR / "preprocessed" # DIP output fed to PaddleOCR
+DETECTION_BOXES_DIR = RESULTS_DIR / "detection_boxes"   # boxes in reading order
 
-CANDIDATES_DIR = RESULTS_DIR / "candidates"     # per-box dual-recogniser dumps
-DETECTION_BOXES_DIR = RESULTS_DIR / "detection_boxes"   # debug visualisations
+# Earlier comparison arms, kept for scoring but out of the way so the three
+# directories above are the only ones a normal run touches.
+EXPERIMENTS_DIR = RESULTS_DIR / "experiments"
+TROCR_RAW_DIR = EXPERIMENTS_DIR / "trocr_raw"   # TrOCR only, no LLM
+HYBRID_DIR = EXPERIMENTS_DIR / "hybrid"         # PP-OCR/TrOCR per-box pick
+QWEN_VL_DIR = EXPERIMENTS_DIR / "qwen_vl"       # Qwen2.5-VL baseline
+CANDIDATES_DIR = EXPERIMENTS_DIR / "candidates" # per-box dual-recogniser dumps
 
 # --------------------------------------------------------------------------
 # File naming
@@ -50,6 +54,11 @@ NUM_BEAMS = 5           # only used when the Point A reranker is enabled
 # Pipeline toggles
 # --------------------------------------------------------------------------
 
+# Document image processing — illumination correction, denoising, CLAHE,
+# deskew and binarisation — applied before detection. PaddleOCR and TrOCR both
+# see the processed image, so detection boxes are in its coordinate space.
+USE_PREPROCESSING = True
+
 # Point A — beam search + LLM reranking of the candidates for each line.
 #           Off by default: beams hallucinate more than greedy on handwriting.
 USE_RERANKER = False
@@ -67,7 +76,7 @@ USE_CORRECTOR = True
 # Arms shown by `compare`, in table order: (display name, results directory).
 COMPARISON_ARMS = [
     ("Raw TrOCR", TROCR_RAW_DIR),
-    ("TrOCR + LLM", TROCR_LLM_DIR),
+    ("TrOCR + LLM", TEXT_DIR),
     ("Hybrid PP+TrOCR", HYBRID_DIR),
     ("Qwen2.5-VL", QWEN_VL_DIR),
 ]

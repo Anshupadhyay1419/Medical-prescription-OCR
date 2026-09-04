@@ -1,24 +1,58 @@
 """
-Detection and recognition: image in, per-box text plus coordinates out.
+Preprocessing, detection and recognition: image in, per-box text plus
+coordinates out.
+
+The scan is put through document image processing first, and everything
+downstream — detection, box visualisation and the TrOCR crops — works on that
+processed image. This matters because the DIP stage resizes and deskews: box
+coordinates are in the processed image's space, not the original scan's, so
+mixing the two would crop the wrong regions.
 
 The coordinates travel with the text because the restructuring stage needs them
 to work out which fragments belong on the same visual row.
 """
+import os
 import time
 
 import cv2
+import numpy as np
 import torch
 from PIL import Image
 
-from prescription_ocr.config import MAX_NEW_TOKENS, NUM_BEAMS, USE_RERANKER
+from prescription_ocr.config import (
+    MAX_NEW_TOKENS, NUM_BEAMS, USE_PREPROCESSING, USE_RERANKER,
+)
 from prescription_ocr.llm.reranker import rerank_candidates
 from prescription_ocr.ocr.models import DEVICE
 from prescription_ocr.ocr.reading_order import sort_reading_order
+from prescription_ocr.ocr.visualize import draw
+from prescription_ocr.preprocessing import preprocess_prescription
 
 
-def detect_boxes(detector, img_path):
-    """Detected text polygons for one image, already in reading order."""
-    result = detector.predict(str(img_path))
+def load_image(img_path, use_preprocessing=USE_PREPROCESSING, preprocessed_path=None):
+    """
+    The image every later stage works on.
+
+    With preprocessing on, that is the DIP output (optionally written to
+    `preprocessed_path`); with it off, the untouched scan.
+    """
+    if use_preprocessing:
+        return preprocess_prescription(img_path, output_path=preprocessed_path)
+
+    img = cv2.imread(str(img_path))
+    if img is None:
+        raise ValueError(f"Cannot load {img_path}")
+    return img
+
+
+def detect_boxes(detector, image):
+    """
+    Detected text polygons, already in reading order.
+
+    `image` may be a path or a BGR array — the pipeline passes the preprocessed
+    array so that detection and cropping share one coordinate space.
+    """
+    result = detector.predict(image if isinstance(image, np.ndarray) else str(image))
     return sort_reading_order(result[0]['dt_polys'])
 
 
@@ -57,17 +91,42 @@ def read_crop(processor, model, crop_bgr, use_reranker=USE_RERANKER):
 
 @torch.inference_mode()
 def recognize(detector, processor, model, img_path,
-              use_reranker=USE_RERANKER, verbose=True):
-    """Detect, sort and transcribe. Returns [(text, x1, y1, x2, y2), ...]."""
-    print("[1/5] Detecting text lines...")
+              use_reranker=USE_RERANKER, verbose=True,
+              use_preprocessing=USE_PREPROCESSING,
+              preprocessed_path=None, boxes_path=None):
+    """
+    Preprocess, detect, sort and transcribe.
+
+    Returns [(text, x1, y1, x2, y2), ...] in the coordinate space of the
+    processed image. `preprocessed_path` and `boxes_path`, when given, receive
+    the DIP output and the box visualisation.
+    """
+    print("[1/6] Document image processing...")
     t0 = time.time()
-    boxes = detect_boxes(detector, img_path)
+    if use_preprocessing:
+        img = load_image(img_path, use_preprocessing=True,
+                         preprocessed_path=preprocessed_path)
+        print(f"      Preprocessed to {img.shape[1]}x{img.shape[0]} "
+              f"in {time.time() - t0:.0f}s")
+        if preprocessed_path:
+            print(f"      Saved DIP image: {preprocessed_path}")
+        print()
+    else:
+        img = load_image(img_path, use_preprocessing=False)
+        print("      Skipped (USE_PREPROCESSING is off)\n")
+
+    print("[2/6] Detecting text lines...")
+    t0 = time.time()
+    boxes = detect_boxes(detector, img)
     print(f"      Detected and sorted {len(boxes)} boxes in {time.time() - t0:.0f}s\n")
 
-    img = cv2.imread(str(img_path))
+    if boxes_path:
+        os.makedirs(os.path.dirname(str(boxes_path)) or ".", exist_ok=True)
+        cv2.imwrite(str(boxes_path), draw(img, boxes))
+        print(f"      Saved box visualisation: {boxes_path}\n")
 
     label = "TrOCR + Point A reranker" if use_reranker else "TrOCR (greedy)"
-    print(f"[2/5] Recognition: {label}")
+    print(f"[3/6] Recognition: {label}")
     t0 = time.time()
 
     lines_with_boxes = []

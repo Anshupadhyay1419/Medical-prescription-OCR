@@ -2,6 +2,8 @@
 Preprocessing pipeline for handwritten prescription images.
 Lightweight, no heavy dependencies.
 """
+import os
+
 import cv2
 import numpy as np
 
@@ -20,7 +22,7 @@ def preprocess_prescription(img_path, output_path=None, debug=False):
     7. Optional: adaptive binarization
     """
     # ---- Load ----
-    img = cv2.imread("data/images/image1.png")
+    img = cv2.imread(str(img_path))
     if img is None:
         raise ValueError(f"Cannot load {img_path}")
     
@@ -60,19 +62,11 @@ def preprocess_prescription(img_path, output_path=None, debug=False):
     
     # convert back to 3-channel for compatibility with PaddleOCR
     output = cv2.cvtColor(binary, cv2.COLOR_GRAY2BGR)
-    
-    if debug:
-        # save intermediate steps for debugging
-        cv2.imwrite("debug_1_original.png", original)
-        cv2.imwrite("debug_2_gray.png", gray)
-        cv2.imwrite("debug_3_illum.png", illum_corrected)
-        cv2.imwrite("debug_4_denoised.png", denoised)
-        cv2.imwrite("debug_5_enhanced.png", enhanced)
-        cv2.imwrite("debug_6_deskewed.png", deskewed)
-    
+
     if output_path:
-        cv2.imwrite(output_path, output)
-    
+        os.makedirs(os.path.dirname(str(output_path)) or ".", exist_ok=True)
+        cv2.imwrite(str(output_path), output)
+
     return output
 
 

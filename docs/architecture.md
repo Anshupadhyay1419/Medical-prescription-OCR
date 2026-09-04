@@ -17,30 +17,51 @@ detection into the LLM stage, instead of flattening to text early.
 ```
 image
   │
-  ├─ 1. detection          PaddleOCR TextDetection → polygons
-  │                        ocr/recognizer.py :: detect_boxes
+  ├─ 1. preprocessing      illumination correction, bilateral denoise, CLAHE,
+  │                        deskew, adaptive threshold
+  │                        preprocessing.py  → results/preprocessed/
   │
-  ├─ 2. reading order      group boxes into visual rows, sort left-to-right
+  ├─ 2. detection          PaddleOCR TextDetection → polygons
+  │                        ocr/recognizer.py :: detect_boxes
+  │                        └─ boxes drawn → results/detection_boxes/
+  │
+  ├─ 3. reading order      group boxes into visual rows, sort left-to-right
   │                        ocr/reading_order.py :: sort_reading_order
   │
-  ├─ 3. recognition        TrOCR reads each cropped box
+  ├─ 4. recognition        TrOCR reads each cropped box
   │                        ocr/recognizer.py :: read_crop
   │                        └─ optional Point A: beam search + LLM reranking
   │
-  │        ├──────────────► raw arm: cleanup only, no LLM  → results/trocr_raw/
+  │        ├──────────────► raw arm  → results/experiments/trocr_raw/
   │        │
-  ├─ 4. Point D            LLM reflows boxes into reading order, using coords
+  ├─ 5. Point D            LLM reflows boxes into reading order, using coords
   │                        llm/restructurer.py
   │
-  ├─ 5. Point B            LLM fixes known OCR confusions, line by line
+  ├─ 6. Point B            LLM fixes known OCR confusions, line by line
   │                        llm/corrector.py
   │
-  └─ 6. cleanup            strip LLM commentary, normalise dose codes
-                           postprocess.py    → results/trocr_llm/
+  └─ 7. cleanup            strip LLM commentary, normalise dose codes
+                           postprocess.py    → results/text/
 ```
 
 Both arms come from a single recognition pass, so the comparison between them is
 never confounded by two different detection runs.
+
+## Why everything downstream uses the preprocessed image
+
+The DIP stage **resizes** (anything over 2000px is scaled down) and **deskews**
+(rotating the page, which changes its dimensions). So a box detected on the
+processed image does not line up with the original scan.
+
+Detection, the box visualisations and the TrOCR crops therefore all work on the
+processed image, and box coordinates live in its space. Cropping the original
+using those coordinates would read the wrong regions — which is why
+`recognizer.py` preprocesses once and passes the resulting array everywhere,
+rather than re-reading the file per stage.
+
+The consequence worth knowing: `results/detection_boxes/` shows boxes on the
+binarised, deskewed image, not on your original scan. That is deliberate — it
+shows what the detector actually saw.
 
 ## Why greedy decoding by default
 

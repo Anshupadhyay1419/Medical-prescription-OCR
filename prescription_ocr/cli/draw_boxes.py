@@ -8,52 +8,28 @@ Save text-detection visualisations for every image.
 Writes results/detection_boxes/image<N>_boxes.png — the original scan with every
 detected region outlined and numbered.
 
+The boxes are drawn on the preprocessed (DIP) image, because that is what the
+detector actually sees. Pass --no-dip to draw on the original scan instead.
+
 The numbers are the pipeline's own reading order, not raw detector order. That
 makes these directly useful for diagnosing multi-column interleaving: if the
 numbers jump between a left and a right column instead of running down one and
 then the other, the sort is the problem, not TrOCR.
+
+run_pipeline already writes these on every run; this command is for redrawing
+them without redoing recognition.
 """
 import argparse
 import os
 import time
 
 import cv2
-import numpy as np
 from paddleocr import TextDetection
 
 from prescription_ocr.config import DETECTION_BOXES_DIR, IMAGES_DIR
 from prescription_ocr.io_utils import extract_image_number, list_images
-from prescription_ocr.ocr.recognizer import detect_boxes
-
-BOX_COLOR = (0, 200, 0)        # BGR — green outline
-LABEL_BG = (0, 0, 220)         # red chip behind the index
-LABEL_FG = (255, 255, 255)
-
-
-def draw(img, boxes):
-    """Outline each box and stamp its reading-order index."""
-    vis = img.copy()
-    # Scale strokes with image size so 2.5MP scans and small jpegs both read.
-    scale = max(1.0, min(vis.shape[:2]) / 900.0)
-    thickness = max(1, int(round(2 * scale)))
-    font_scale = 0.5 * scale
-
-    for i, box in enumerate(boxes):
-        pts = [(int(x), int(y)) for x, y in box]
-        x1, y1 = min(p[0] for p in pts), min(p[1] for p in pts)
-
-        cv2.polylines(vis, [np.array(pts, dtype=np.int32)], isClosed=True,
-                      color=BOX_COLOR, thickness=thickness)
-
-        label = str(i)
-        (tw, th), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, font_scale, thickness)
-        # Keep the chip on-canvas for boxes that touch the top edge.
-        ly = max(th + 4, y1)
-        cv2.rectangle(vis, (x1, ly - th - 4), (x1 + tw + 6, ly), LABEL_BG, -1)
-        cv2.putText(vis, label, (x1 + 3, ly - 3), cv2.FONT_HERSHEY_SIMPLEX,
-                    font_scale, LABEL_FG, thickness, cv2.LINE_AA)
-
-    return vis
+from prescription_ocr.ocr.recognizer import detect_boxes, load_image
+from prescription_ocr.ocr.visualize import draw
 
 
 def parse_args():
@@ -61,6 +37,8 @@ def parse_args():
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--only", type=int, metavar="N", help="process only image N")
     p.add_argument("--force", action="store_true", help="redraw images already done")
+    p.add_argument("--no-dip", action="store_true",
+                   help="draw on the original scan instead of the preprocessed image")
     p.add_argument("--img-dir", default=str(IMAGES_DIR))
     p.add_argument("--out-dir", default=str(DETECTION_BOXES_DIR))
     return p.parse_args()
@@ -91,11 +69,12 @@ def main():
     detector = TextDetection()
     t_all = time.time()
     for i, (path, out) in enumerate(todo, 1):
-        img = cv2.imread(path)
-        if img is None:
+        try:
+            img = load_image(path, use_preprocessing=not args.no_dip)
+        except ValueError:
             print(f"[{i:2d}/{len(todo)}] {os.path.basename(path):18s} -> unreadable, skipped")
             continue
-        boxes = detect_boxes(detector, path)
+        boxes = detect_boxes(detector, img)
         cv2.imwrite(out, draw(img, boxes))
         print(f"[{i:2d}/{len(todo)}] {os.path.basename(path):18s} -> "
               f"{len(boxes):3d} boxes  {out}")

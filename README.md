@@ -1,8 +1,9 @@
 # Prescription OCR
 
-Reading handwritten Indian medical prescriptions: **PaddleOCR** finds the text
-lines, **TrOCR** reads the handwriting, and a **local LLM** (via Ollama) fixes
-the reading order and known OCR confusions.
+Reading handwritten Indian medical prescriptions: **document image processing**
+cleans the scan, **PaddleOCR** finds the text lines, **TrOCR** reads the
+handwriting, and a **local LLM** (via Ollama) fixes the reading order and known
+OCR confusions.
 
 Four recogniser arms are kept side by side so any change can be measured rather
 than guessed at.
@@ -29,12 +30,14 @@ Every command runs from the repository root and takes `--help`.
 prescription_ocr/          the package — all the logic
 ├── config.py              ► EVERY path, model name and toggle. Start here.
 ├── io_utils.py            finding images, reading/writing per-image text files
+├── preprocessing.py       DIP: illumination, denoise, CLAHE, deskew, binarise
 ├── postprocess.py         deterministic cleanup applied to every arm
 │
 ├── ocr/                   the recognition pipeline
 │   ├── reading_order.py   sorting detected boxes the way a human reads
 │   ├── models.py          loading the detector + TrOCR
-│   ├── recognizer.py      detect → sort → transcribe each box
+│   ├── visualize.py       drawing boxes numbered in reading order
+│   ├── recognizer.py      preprocess → detect → sort → transcribe each box
 │   └── pipeline.py        end-to-end orchestration for one image
 │
 ├── llm/                   the local-LLM stages
@@ -51,13 +54,16 @@ data/
 ├── images/                input scans (image<N>.png)
 └── ground_truth/          reference transcriptions (image<N>.txt)
 
-results/                   one directory per arm, all as final_clean<N>.txt
-├── trocr_raw/             TrOCR only, no LLM        (baseline)
-├── trocr_llm/             TrOCR + LLM stages        (this project's pipeline)
-├── hybrid/                PP-OCR or TrOCR per box   (best non-VLM arm)
-├── qwen_vl/               Qwen2.5-VL                (reference ceiling)
-├── candidates/            per-box dual-recogniser dumps (feeds `hybrid`)
-└── detection_boxes/       debug visualisations of detection + reading order
+results/                   a complete run fills exactly these three:
+├── text/                  final transcriptions      final_clean<N>.txt
+├── preprocessed/          DIP images fed to PaddleOCR   image<N>.png
+├── detection_boxes/       boxes in reading order    image<N>_boxes.png
+│
+└── experiments/           earlier comparison arms, kept for scoring
+    ├── trocr_raw/         TrOCR only, no LLM        (baseline)
+    ├── hybrid/            PP-OCR or TrOCR per box   (best non-VLM arm)
+    ├── qwen_vl/           Qwen2.5-VL                (reference ceiling)
+    └── candidates/        per-box dual-recogniser dumps (feeds `hybrid`)
 
 archive/                   superseded prototypes, kept for reference only
 docs/architecture.md       how the pipeline works and why
@@ -71,6 +77,8 @@ docs/architecture.md       how the pipeline works and why
 |---|---|
 | Point at a different dataset | `config.py` → `IMAGES_DIR`, `GROUND_TRUTH_DIR` |
 | Swap the handwriting model | `config.py` → `TROCR_MODEL` |
+| Change the DIP steps | `preprocessing.py` — CLAHE, denoise, deskew, threshold |
+| Turn DIP off | `config.py` → `USE_PREPROCESSING`, or `--no-dip` |
 | Swap the LLM | `config.py` → `OLLAMA_MODEL`, `OLLAMA_URL` |
 | Turn an LLM stage on/off | `config.py` → `USE_RESTRUCTURER`, `USE_CORRECTOR`, `USE_RERANKER` |
 | Change what the LLM is told | `prescription_ocr/llm/prompts/*.txt` — no Python involved |
@@ -88,7 +96,7 @@ anchored to the repository root — commands behave the same from any directory.
 
 | Command | What it does |
 |---|---|
-| `run_pipeline` | Recognise the corpus. Writes the raw **and** LLM arms from one pass. |
+| `run_pipeline` | Preprocess + recognise the corpus. Fills all three output folders in one pass. |
 | `evaluate` | Per-image CER/WER table for one arm. Takes a results directory. |
 | `compare` | All four arms side by side, on the images they all produced. |
 | `dump_candidates` | Records both recognisers' reading of every box (GPU, run once). |
@@ -141,3 +149,6 @@ on CPU, just slowly.
 rather than prescriptions and are reported separately by `compare`.
 
 Reproduce with `python -m prescription_ocr.cli.compare`.
+
+> These numbers predate the DIP stage. Regenerate them with
+> `python -m prescription_ocr.cli.run_pipeline --force`.

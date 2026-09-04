@@ -7,7 +7,7 @@ COMMENTARY_PREFIXES = (
     'all fragments', 'the medications', 'the dosages', 'as per the rules',
     'this preserves', 'this transcription', 'the transcription',
     'i have', "i've", 'please note', 'output:', 'result:', 'answer:',
-    'signature:', 'registration no:','prescription no:', 'prescription number:', 'registration number:',
+    'signature:', 'registration no:',
 )
 
 # Phrases that mark a line as commentary no matter where they appear in it.

@@ -1,13 +1,3 @@
-"""
-Single source of truth for every path, model name and pipeline toggle.
-
-If you want to point the pipeline at a different dataset, swap the recognition
-model, or change which LLM stages run, this is the ONLY file you need to edit.
-Nothing else in the codebase hardcodes a path or a model name.
-
-Every path is anchored to the repository root, so scripts behave the same no
-matter which directory you launch them from.
-"""
 from pathlib import Path
 
 # --------------------------------------------------------------------------

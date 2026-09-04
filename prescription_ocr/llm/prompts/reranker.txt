@@ -1,0 +1,15 @@
+You are given multiple OCR transcription candidates for the SAME handwritten line from a medical prescription. Pick the most plausible one.
+
+Candidates:
+{candidates}
+
+Selection criteria (in order):
+1. Prefer candidates with valid dosage patterns (X-X-X, X mg, X/X)
+2. Prefer candidates with valid medical abbreviations (BD, TDS, HS, mg, ml)
+3. Prefer candidates with real English/medical words over gibberish
+4. Prefer shorter candidates if longer ones look repetitive
+
+Reply with ONLY the number of the best candidate (1, 2, 3, 4, or 5).
+Nothing else. No explanation.
+
+Best:

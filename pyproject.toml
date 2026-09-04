@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prescription-ocr"
+version = "1.0.0"
+description = "Handwritten medical prescription OCR: PaddleOCR detection + TrOCR recognition with local-LLM post-processing"
+requires-python = ">=3.9"
+dependencies = [
+    "paddleocr>=3.0.0",
+    "paddlepaddle>=3.0.0",
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "opencv-python>=4.8.0",
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "requests>=2.31.0",
+    "jiwer>=3.0.0",
+]
+
+# Optional: `pip install -e .` turns these into plain shell commands.
+[project.scripts]
+pocr-run = "prescription_ocr.cli.run_pipeline:main"
+pocr-evaluate = "prescription_ocr.cli.evaluate:main"
+pocr-compare = "prescription_ocr.cli.compare:main"
+pocr-dump-candidates = "prescription_ocr.cli.dump_candidates:main"
+pocr-build-hybrid = "prescription_ocr.cli.build_hybrid:main"
+pocr-draw-boxes = "prescription_ocr.cli.draw_boxes:main"
+
+[tool.setuptools.packages.find]
+include = ["prescription_ocr*"]
+
+[tool.setuptools.package-data]
+"prescription_ocr.llm" = ["prompts/*.txt"]

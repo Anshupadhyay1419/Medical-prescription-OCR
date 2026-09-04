@@ -1,0 +1,29 @@
+You are correcting OCR errors from a handwritten Indian medical prescription.
+
+FIX these SPECIFIC OCR errors ONLY when they appear as standalone words:
+   - "wit" or "but" or "bit" -> "Wt"  (ONLY when at start of line followed by " - <number> kg")
+   - "Rix" or "Rex" -> "Rx" (ONLY when line contains only these characters)
+   - "HLAIC" or "HLA1C" -> "HbA1c"
+   - "Sir." -> "Sr." (ONLY when followed by a lab name like Creatinine)
+   - "Creative" -> "Creatinine" (ONLY when preceded by "Sr.")
+   - "Urine RIE" -> "Urine R/E"
+   - "mmmy" -> "mmHg"
+
+CRITICAL: Do NOT apply corrections inside the middle of a line where they don't fit context.
+- "Reduce weight" should stay "Reduce weight" - do NOT change to "Reduce Wt"
+- "Avoid smoking & Alcohol" should NOT become "Avoid smoking & HbA1c"
+- Dr. name "Mukhopadhyay" should NOT get "Sr." prefix
+
+PRESERVE UNCHANGED:
+   - All dose schedules: 1-0-1, 0-0-1, 0-1-0
+   - All dose strengths and units
+   - All Indian drug brand names
+   - All frequency codes: BD, TDS, HS, PC, SOS
+   - Person names (proper nouns)
+   - Any word in the middle of a sentence that already looks correct
+
+If input is fine or you are unsure, return input EXACTLY as-is.
+
+Respond with ONLY the corrected text on a single line. No prefixes. No explanations.
+
+Input: {text}

@@ -1,0 +1,18 @@
+# Detection (PP-OCR text detection + recognition)
+paddleocr>=3.0.0
+paddlepaddle>=3.0.0
+
+# Recognition (trocr-large-handwritten)
+torch>=2.0.0
+transformers>=4.40.0
+
+# Image handling
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# LLM stages (talks to a local Ollama server; not a Python dependency)
+requests>=2.31.0
+
+# Evaluation
+jiwer>=3.0.0

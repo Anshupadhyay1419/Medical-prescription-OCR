@@ -1,22 +1,5 @@
-"""
-Deterministic post-processing shared by the TrOCR and Qwen-VL pipelines.
-
-Two jobs, both of which were previously leaking errors into final output:
-  1. Strip LLM meta-commentary ("This output preserves the original text...").
-     Any LLM asked to restructure text will occasionally narrate what it did;
-     that narration was being saved as if it were OCR output.
-  2. Normalise dose schedules. Handwritten 1 and 0 are routinely read as I and O,
-     so "I-O-1" must become "1-0-1". These patterns are the highest-value
-     characters on a prescription, so we fix them with regex rather than hoping
-     an LLM does it.
-"""
 import re
 
-# ---------------------------------------------------------------
-# 1. LLM commentary detection
-# ---------------------------------------------------------------
-
-# Lines that open with one of these are the model talking about its own answer.
 COMMENTARY_PREFIXES = (
     'this output', 'the output', 'the text is', 'the text has', 'the following',
     'here is', 'here are', 'note that', 'note:', 'explanation:', 'summary:',
@@ -24,7 +7,7 @@ COMMENTARY_PREFIXES = (
     'all fragments', 'the medications', 'the dosages', 'as per the rules',
     'this preserves', 'this transcription', 'the transcription',
     'i have', "i've", 'please note', 'output:', 'result:', 'answer:',
-    'signature:', 'registration no:',
+    'signature:', 'registration no:','prescription no:', 'prescription number:', 'registration number:',
 )
 
 # Phrases that mark a line as commentary no matter where they appear in it.

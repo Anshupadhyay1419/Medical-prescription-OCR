@@ -1,55 +1,36 @@
-You are reorganizing OCR output from a medical prescription into proper reading order.
+You are reassembling OCR fragments from a medical prescription into reading
+order. Prescriptions differ in layout, language, handwriting and medicines.
+Do not assume any particular clinic, doctor, format or set of drugs.
 
-INPUT: A list of OCR text fragments with bounding box coordinates in format [x=X,y=Y,w=W,h=H].
+INPUT: text fragments, each with its bounding box as [x=X,y=Y,w=W,h=H].
 
-CRITICAL RULES:
+RULES
 
-1. MERGE fragments that share SIMILAR y-coordinates (within 40 pixels - doctors write dosages slightly above/below drug names).
-   - Sort fragments left-to-right by x-coordinate
-   - Join them with spaces into ONE output line
+1. Fragments whose vertical positions overlap belong to the SAME output line.
+   Order them by increasing x and join them with single spaces.
 
-2. Different y-coordinates (>40px apart) = different output lines. Keep them SEPARATE.
+2. Fragments that do not overlap vertically belong to DIFFERENT output lines,
+   in increasing y order.
 
-3. DOSAGE ATTACHMENT RULES (CRITICAL - patient safety):
-   - Dosages (X-X-X patterns) belong to the CLOSEST medication with similar y-coordinate
-   - Never move a dosage to a different medication row
-   - If unsure which medication a dosage belongs to, keep it with the CLOSEST y-coordinate medication
-   - "HS" means bedtime, "BD" twice daily, "TDS" thrice daily, "PC" after food — these belong with their same-row medication
+3. If the page has columns — groups of fragments separated by a wide vertical
+   band of empty space — finish one column completely before starting the next,
+   working left to right. Never alternate between columns.
 
-4. Preserve original text EXACTLY. No spelling corrections. No additions.
+4. A dose schedule, strength, frequency or duration belongs to the medicine it
+   shares a line with. Never move one to a different medicine's line. When it is
+   unclear which line a fragment belongs to, keep it with the nearest one
+   vertically.
 
-5. PRESERVE prefixes like "Tab.", "Cap.", "Syp." - do NOT strip them.
+5. Reproduce the text EXACTLY as given. No spelling corrections, no expansions,
+   no translations, no additions, no removals.
 
-6. Every input fragment must appear in output exactly ONCE.
+6. Every input fragment must appear in the output exactly once.
 
-EXAMPLES:
+OUTPUT
+One reassembled line per visual row, in reading order. Nothing else — no
+numbering, no headings, no commentary, no explanation of what you did.
 
-Input:
-    [x=100,y=720] O. Tab. Atorva 20
-    [x=550,y=700] 0-0-1 HS         ← y=700, close to Atorva y=720 (20px apart)
-    [x=700,y=725] x 1 month
-
-Correct output (merge these - similar y-coordinates):
-    O. Tab. Atorva 20 0-0-1 HS x 1 month
-
-Input:
-    [x=100,y=980] Q Tab. Rantac 150
-    [x=500,y=980] 0-1-0            ← same y=980
-    [x=700,y=1010] (Before dinner) ← y=1010, close to 980 (30px apart)
-
-Correct output (all similar y):
-    Q Tab. Rantac 150 0-1-0 (Before dinner)
-
-WRONG output (would swap dosages):
-    O. Tab. Atorva 20 0-1-0           ← WRONG! 0-1-0 belongs to Rantac
-    Q Tab. Rantac 150 0-0-1 HS        ← WRONG! 0-0-1 HS belongs to Atorva
-
-COLUMN HANDLING (for bottom sections):
-- Detect columns by clusters of similar x-coordinates
-- Process one column FULLY top-to-bottom before moving to next column
-- Do NOT interleave text across columns
-
-INPUT LINES TO PROCESS:
+FRAGMENTS:
 {lines_with_coords}
 
-OUTPUT (merged by similar y-coordinate, all medications preserved with CORRECT dosages):
+OUTPUT:

@@ -1,9 +1,3 @@
-"""
-Point A — pick the best of several beam-search transcriptions for one line.
-
-Only used when config.USE_RERANKER is on. Edit prompts/reranker.txt to change
-the selection criteria.
-"""
 import re
 
 from prescription_ocr.llm import prompts

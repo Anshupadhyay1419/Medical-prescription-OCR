@@ -10,20 +10,27 @@ confounded by two different detection runs.
 import time
 
 from prescription_ocr.config import (
-    USE_CORRECTOR, USE_PREPROCESSING, USE_RERANKER, USE_RESTRUCTURER,
+    RECOGNIZER, USE_CORRECTOR, USE_PREPROCESSING, USE_RERANKER, USE_RESTRUCTURER,
 )
 from prescription_ocr.io_utils import write_lines
 from prescription_ocr.llm.corrector import correct_lines_batch
 from prescription_ocr.llm.restructurer import restructure_document
+from prescription_ocr.ocr.layout import merge_rows
 from prescription_ocr.ocr.models import load_models
 from prescription_ocr.ocr.recognizer import recognize
 from prescription_ocr.postprocess import clean_ocr_output
 
 
-def apply_llm_stages(lines_with_boxes,
-                     use_restructurer=USE_RESTRUCTURER,
-                     use_corrector=USE_CORRECTOR):
-    """Point D (reading order) then Point B (line corrections)."""
+def assemble_lines(lines_with_boxes, page_shape,
+                   use_restructurer=USE_RESTRUCTURER,
+                   use_corrector=USE_CORRECTOR):
+    """
+    Turn per-box results into document lines.
+
+    By default this is pure geometry: boxes sharing a visual row are joined in
+    reading order by ocr/layout.py. The LLM stages are opt-in because, measured
+    against ground truth, both made the output worse.
+    """
     if use_restructurer:
         print("[4/6] Point D: LLM document restructuring...")
         t0 = time.time()
@@ -31,7 +38,11 @@ def apply_llm_stages(lines_with_boxes,
         print(f"      Restructured {len(lines_with_boxes)} -> {len(lines)} lines "
               f"in {time.time() - t0:.0f}s\n")
     else:
-        lines = [text for text, *_ in lines_with_boxes]
+        print("[4/6] Assembling rows from box geometry...")
+        t0 = time.time()
+        lines = merge_rows(lines_with_boxes, page_shape)
+        print(f"      Merged {len(lines_with_boxes)} boxes -> {len(lines)} rows "
+              f"in {time.time() - t0:.1f}s\n")
 
     if use_corrector:
         print("[5/6] Point B: LLM line-level correction...")
@@ -48,6 +59,7 @@ def run_pipeline(img_path,
                  preprocessed_path=None,
                  boxes_path=None,
                  models=None,
+                 recognizer=RECOGNIZER,
                  use_reranker=USE_RERANKER,
                  use_preprocessing=USE_PREPROCESSING,
                  use_restructurer=USE_RESTRUCTURER,
@@ -66,30 +78,34 @@ def run_pipeline(img_path,
     print("=" * 60)
     print(f"Input:  {img_path}")
     print(f"Output: {output_path or '(skipped)'}   Raw: {raw_output_path or '(skipped)'}")
-    print(f"Config: preprocessing={use_preprocessing}, reranker={use_reranker}, "
+    print(f"Config: recogniser={recognizer}, preprocessing={use_preprocessing}, "
           f"restructurer={use_restructurer}, corrector={use_corrector}")
     print()
 
-    detector, processor, model = models if models else load_models()
+    detector, processor, model, paddle_recognizer = (
+        models if models else load_models(recognizer))
 
-    lines_with_boxes = recognize(detector, processor, model, img_path,
-                                 use_reranker=use_reranker,
-                                 use_preprocessing=use_preprocessing,
-                                 preprocessed_path=preprocessed_path,
-                                 boxes_path=boxes_path)
+    lines_with_boxes, page_shape = recognize(
+        detector, processor, model, img_path,
+        paddle_recognizer=paddle_recognizer,
+        recognizer=recognizer,
+        use_reranker=use_reranker,
+        use_preprocessing=use_preprocessing,
+        preprocessed_path=preprocessed_path,
+        boxes_path=boxes_path)
 
-    # The raw arm gets the same deterministic cleanup as every other arm
-    # (whitespace + dose-code normalisation) but no LLM anywhere, so the
-    # comparison isolates the LLM's contribution.
+    # The raw arm is one line per detected box, with the same deterministic
+    # cleanup every arm gets. It isolates recognition quality from the row
+    # assembly that the main arm applies on top.
     if raw_output_path:
         write_lines(raw_output_path,
                     clean_ocr_output([text for text, *_ in lines_with_boxes]))
-        print(f"Saved raw TrOCR baseline: {raw_output_path}")
+        print(f"Saved per-box baseline: {raw_output_path}")
 
     if output_path:
-        lines = apply_llm_stages(lines_with_boxes,
-                                 use_restructurer=use_restructurer,
-                                 use_corrector=use_corrector)
+        lines = assemble_lines(lines_with_boxes, page_shape,
+                               use_restructurer=use_restructurer,
+                               use_corrector=use_corrector)
         print("[6/6] Deterministic cleanup...")
         write_lines(output_path, clean_ocr_output(lines))
         print(f"Saved final cleaned output: {output_path}")

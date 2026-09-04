@@ -1,27 +1,3 @@
-"""
-Scoring OCR output against the references in data/ground_truth/.
-
-Headline metrics are document-level CER/WER: the whole page is joined into one
-string before comparison. That is the standard measure for full-page OCR and is
-insensitive to how the text happened to be split into lines.
-
-  raw         exact comparison, nothing normalised.
-  normalized  lowercased, whitespace and punctuation normalised, unit joins
-              split (5ml -> 5 ml). Cosmetic differences stop counting as
-              recognition errors, isolating genuine misreads.
-
-Corpus totals aggregate as (total edits / total reference length) rather than
-averaging per-file rates, so one short file cannot dominate the result.
-
-For a prescription system the clinical metrics matter more than CER: getting
-the drug name and the dose right is the entire point.
-
-NOTE: an earlier version reported the average of a per-line "best match" CER.
-That divides an edit distance by the length of a possibly very short reference
-line, so one collapsed-paragraph prediction could score a CER of 29. Those
-numbers were measurement artefacts. It survives below only as a diagnostic,
-clamped to [0, 1].
-"""
 import os
 import re
 from collections import Counter

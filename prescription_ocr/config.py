@@ -43,6 +43,17 @@ SUPPORTED_EXTENSIONS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff"}
 # Handwriting recogniser pulled from the HuggingFace hub.
 TROCR_MODEL = "microsoft/trocr-large-handwritten"
 
+# Which recogniser reads each detected box:
+#   "hybrid"  PP-OCR when it is confident, TrOCR otherwise  (best measured)
+#   "paddle"  PP-OCR only
+#   "trocr"   TrOCR only
+# PP-OCR turns out to read this corpus considerably better than TrOCR, including
+# the handwritten lines, so it wins most boxes. TrOCR covers the rest.
+RECOGNIZER = "hybrid"
+
+# PP-OCR confidence at or above which PP-OCR wins a box in "hybrid" mode.
+PADDLE_CONFIDENCE_THRESHOLD = 0.80
+
 # Local Ollama server used by every LLM stage.
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:7b"
@@ -64,10 +75,21 @@ USE_PREPROCESSING = True
 USE_RERANKER = False
 
 # Point D — LLM reflows the detected boxes into correct reading order.
-USE_RESTRUCTURER = True
+#
+# Off by default. Reading order is decided by ocr/layout.py instead, which
+# solves it from the coordinates. Measured on the 32 prescriptions, handing the
+# job to the LLM reordered the letterhead to the bottom of the page and dropped
+# lines outright. Set this True to use the LLM stage instead of the layout
+# engine; the deterministic path scored better on every metric.
+USE_RESTRUCTURER = False
 
-# Point B — LLM fixes known OCR confusions line by line.
-USE_CORRECTOR = True
+# Point B — LLM fixes OCR confusions line by line.
+#
+# Off by default. Even with a format-neutral prompt and guard rails that reject
+# any output introducing new words, it cost drug recall (0.658 -> 0.597) without
+# improving character error. Deterministic cleanup in postprocess.py does the
+# part that is safe to automate.
+USE_CORRECTOR = False
 
 # --------------------------------------------------------------------------
 # Evaluation

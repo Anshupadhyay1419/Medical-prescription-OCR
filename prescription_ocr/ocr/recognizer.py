@@ -20,8 +20,10 @@ import torch
 from PIL import Image
 
 from prescription_ocr.config import (
-    MAX_NEW_TOKENS, NUM_BEAMS, USE_PREPROCESSING, USE_RERANKER,
+    MAX_NEW_TOKENS, NUM_BEAMS, PADDLE_CONFIDENCE_THRESHOLD, RECOGNIZER,
+    USE_PREPROCESSING, USE_RERANKER,
 )
+from prescription_ocr.ocr.layout import order_items
 from prescription_ocr.llm.reranker import rerank_candidates
 from prescription_ocr.ocr.models import DEVICE
 from prescription_ocr.ocr.reading_order import sort_reading_order
@@ -63,6 +65,33 @@ def box_bounds(box):
             max(p[0] for p in pts), max(p[1] for p in pts))
 
 
+def read_crop_paddle(paddle_recognizer, crop_bgr):
+    """(text, confidence) from the PP-OCR recogniser for one crop."""
+    out = paddle_recognizer.predict(crop_bgr)
+    if not out:
+        return "", 0.0
+    return out[0].get("rec_text", ""), float(out[0].get("rec_score", 0.0))
+
+
+def read_crop_hybrid(processor, model, paddle_recognizer, crop_bgr,
+                     recognizer=RECOGNIZER,
+                     threshold=PADDLE_CONFIDENCE_THRESHOLD,
+                     use_reranker=USE_RERANKER):
+    """
+    Transcribe one crop with whichever recogniser the configured mode selects.
+
+    PP-OCR reads this corpus better than TrOCR overall, so in "hybrid" mode it
+    wins any box it is confident about and TrOCR picks up the rest.
+    """
+    if recognizer == "trocr":
+        return read_crop(processor, model, crop_bgr, use_reranker=use_reranker)
+
+    text, score = read_crop_paddle(paddle_recognizer, crop_bgr)
+    if recognizer == "paddle" or score >= threshold:
+        return text
+    return read_crop(processor, model, crop_bgr, use_reranker=use_reranker)
+
+
 def read_crop(processor, model, crop_bgr, use_reranker=USE_RERANKER):
     """
     Transcribe one cropped text line.
@@ -91,15 +120,18 @@ def read_crop(processor, model, crop_bgr, use_reranker=USE_RERANKER):
 
 @torch.inference_mode()
 def recognize(detector, processor, model, img_path,
+              paddle_recognizer=None,
+              recognizer=RECOGNIZER,
               use_reranker=USE_RERANKER, verbose=True,
               use_preprocessing=USE_PREPROCESSING,
               preprocessed_path=None, boxes_path=None):
     """
-    Preprocess, detect, sort and transcribe.
+    Preprocess, detect, transcribe and put into reading order.
 
-    Returns [(text, x1, y1, x2, y2), ...] in the coordinate space of the
-    processed image. `preprocessed_path` and `boxes_path`, when given, receive
-    the DIP output and the box visualisation.
+    Returns (lines_with_boxes, page_shape), where lines_with_boxes is
+    [(text, x1, y1, x2, y2), ...] in document reading order, in the coordinate
+    space of the processed image. `preprocessed_path` and `boxes_path`, when
+    given, receive the DIP output and the box visualisation.
     """
     print("[1/6] Document image processing...")
     t0 = time.time()
@@ -125,7 +157,9 @@ def recognize(detector, processor, model, img_path,
         cv2.imwrite(str(boxes_path), draw(img, boxes))
         print(f"      Saved box visualisation: {boxes_path}\n")
 
-    label = "TrOCR + Point A reranker" if use_reranker else "TrOCR (greedy)"
+    label = {"trocr": "TrOCR + reranker" if use_reranker else "TrOCR (greedy)",
+             "paddle": "PP-OCR",
+             "hybrid": f"PP-OCR (conf >= {PADDLE_CONFIDENCE_THRESHOLD}) else TrOCR"}[recognizer]
     print(f"[3/6] Recognition: {label}")
     t0 = time.time()
 
@@ -136,11 +170,17 @@ def recognize(detector, processor, model, img_path,
         if crop.size == 0:
             continue
 
-        text = read_crop(processor, model, crop, use_reranker=use_reranker)
+        text = read_crop_hybrid(processor, model, paddle_recognizer, crop,
+                                recognizer=recognizer, use_reranker=use_reranker)
         lines_with_boxes.append((text, x1, y1, x2, y2))
 
-        if verbose:
-            print(f"      Line {i:2d}: [{x1:4d},{y1:4d}] {text}")
-
     print(f"      Recognition done in {time.time() - t0:.0f}s\n")
-    return lines_with_boxes
+
+    # Reading order is decided here, from the geometry, not by an LLM later.
+    lines_with_boxes = order_items(lines_with_boxes, img.shape[:2])
+    if verbose:
+        for i, (text, x1, y1, *_ ) in enumerate(lines_with_boxes):
+            print(f"      Line {i:2d}: [{x1:4d},{y1:4d}] {text}")
+        print()
+
+    return lines_with_boxes, img.shape[:2]

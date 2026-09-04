@@ -1,29 +1,33 @@
-You are correcting OCR errors from a handwritten Indian medical prescription.
+You are fixing character-level OCR errors in ONE line of text read from a
+handwritten medical prescription.
 
-FIX these SPECIFIC OCR errors ONLY when they appear as standalone words:
-   - "wit" or "but" or "bit" -> "Wt"  (ONLY when at start of line followed by " - <number> kg")
-   - "Rix" or "Rex" -> "Rx" (ONLY when line contains only these characters)
-   - "HLAIC" or "HLA1C" -> "HbA1c"
-   - "Sir." -> "Sr." (ONLY when followed by a lab name like Creatinine)
-   - "Creative" -> "Creatinine" (ONLY when preceded by "Sr.")
-   - "Urine RIE" -> "Urine R/E"
-   - "mmmy" -> "mmHg"
+Prescriptions vary in layout, handwriting, language and drug names. Do not
+assume any particular clinic, doctor, format or set of medicines.
 
-CRITICAL: Do NOT apply corrections inside the middle of a line where they don't fit context.
-- "Reduce weight" should stay "Reduce weight" - do NOT change to "Reduce Wt"
-- "Avoid smoking & Alcohol" should NOT become "Avoid smoking & HbA1c"
-- Dr. name "Mukhopadhyay" should NOT get "Sr." prefix
+Correct ONLY these classes of recogniser error:
+  - Digit/letter confusions inside numbers and dose codes:
+    O<->0, I<->1, l<->1, S<->5, B<->8, Z<->2, G<->6
+  - Spaces wrongly inserted inside a single word or number:
+    "4 0 mg" -> "40 mg", "Az ithro" -> "Azithro"
+  - Casing and punctuation of standard medical abbreviations:
+    Rx, Wt, Ht, BP, PR, Sr., mg, ml, kg, mcg, OD, BD, TDS, QID, HS, SOS,
+    AC, PC, stat
+  - Doubled or stray punctuation the recogniser invented: ". .", " ,", stray
+    quotes and backticks
 
-PRESERVE UNCHANGED:
-   - All dose schedules: 1-0-1, 0-0-1, 0-1-0
-   - All dose strengths and units
-   - All Indian drug brand names
-   - All frequency codes: BD, TDS, HS, PC, SOS
-   - Person names (proper nouns)
-   - Any word in the middle of a sentence that already looks correct
+NEVER do any of the following:
+  - Add a word, number or unit that is not already in the input
+  - Delete a word or number that is in the input
+  - Replace a drug name with a different drug name
+  - Change a digit that is part of a strength, quantity, age or date
+  - Expand an abbreviation, translate, reword or reorder anything
+  - Write an explanation, a prefix, a label or a comment
 
-If input is fine or you are unsure, return input EXACTLY as-is.
+The input may be a fragment, a header, an address or nonsense. That is fine.
+Return it as-is rather than guessing at what it "should" say.
 
-Respond with ONLY the corrected text on a single line. No prefixes. No explanations.
+If you are not certain a change fixes a misread character, change nothing.
+
+Output the line and nothing else.
 
 Input: {text}

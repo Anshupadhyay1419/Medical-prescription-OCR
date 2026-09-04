@@ -1,17 +1,3 @@
-"""
-Point D — reflow detected boxes into correct reading order.
-
-A prescription is a two-dimensional layout: the drug name, its dose schedule and
-its duration sit side by side on one visual row. The detector emits them as
-separate boxes, so this stage hands the LLM every box with its coordinates and
-asks for one output line per visual row.
-
-Edit prompts/restructurer.txt to change the merging rules.
-
-The safety checks below matter more than the prompt. A restructuring that drops
-a medication is a patient-safety failure, so anything that shrinks, balloons or
-collapses the document is rejected in favour of the unrestructured lines.
-"""
 import re
 
 import requests
@@ -24,13 +10,15 @@ from prescription_ocr.postprocess import is_commentary, normalize_doses
 # Medication detection
 # --------------------------------------------------------------------------
 
-# Dose-form prefixes plus the drug names that recur across this corpus.
+# Dose forms only. An earlier version also listed the specific drug names that
+# happened to appear in this corpus (telma, atorva, rantac, ...), which made the
+# safety check silently useless on any prescription outside it. Dose-form
+# prefixes generalise; brand names do not.
 MEDICATION_KEYWORDS = [
-    'tab.', 'tab ', 'cap.', 'cap ', 'syp.', 'syp ',
-    'inj.', 'inj ', 'inhaler', 'oint', 'susp', 'drops',
-    'metformin', 'telma', 'atorva', 'rantac', 'clopilet', 'omega',
-    'gliminox', 'deriphyllin', 'ecosprin', 'amlokind', 'monti',
-    'vit d', 'vit b', 'vitamin',
+    'tab.', 'tab ', 'cap.', 'cap ', 'syp.', 'syp ', 'susp', 'sus.',
+    'inj.', 'inj ', 'inhaler', 'oint', 'drops', 'sol.', 'lotion',
+    'cream', 'gel ', 'powder', 'sachet', 'vial', 'amp.', 'neb ',
+    'vit ', 'vitamin', 'tablet', 'capsule', 'syrup', 'injection',
 ]
 
 # Rows are considered the same visual line within this many pixels.

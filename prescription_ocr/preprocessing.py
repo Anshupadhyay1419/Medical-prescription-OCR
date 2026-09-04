@@ -1,7 +1,3 @@
-"""
-Preprocessing pipeline for handwritten prescription images.
-Lightweight, no heavy dependencies.
-"""
 import os
 
 import cv2
@@ -9,18 +5,6 @@ import numpy as np
 
 
 def preprocess_prescription(img_path, output_path=None, debug=False):
-    """
-    Complete preprocessing pipeline.
-    
-    Steps:
-    1. Load and resize (if too large)
-    2. Grayscale conversion (preserve strokes)
-    3. Illumination correction (handle uneven lighting)
-    4. Denoising (bilateral filter — preserves edges)
-    5. Contrast enhancement (CLAHE)
-    6. Skew detection + correction
-    7. Optional: adaptive binarization
-    """
     # ---- Load ----
     img = cv2.imread(str(img_path))
     if img is None:

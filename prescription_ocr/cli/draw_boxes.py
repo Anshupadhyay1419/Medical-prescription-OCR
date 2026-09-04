@@ -28,7 +28,8 @@ from paddleocr import TextDetection
 
 from prescription_ocr.config import DETECTION_BOXES_DIR, IMAGES_DIR
 from prescription_ocr.io_utils import extract_image_number, list_images
-from prescription_ocr.ocr.recognizer import detect_boxes, load_image
+from prescription_ocr.ocr.layout import order_items
+from prescription_ocr.ocr.recognizer import box_bounds, detect_boxes, load_image
 from prescription_ocr.ocr.visualize import draw
 
 
@@ -75,6 +76,11 @@ def main():
             print(f"[{i:2d}/{len(todo)}] {os.path.basename(path):18s} -> unreadable, skipped")
             continue
         boxes = detect_boxes(detector, img)
+        # Number them in the pipeline's reading order, not raw detector order.
+        items = [(None, *box_bounds(b)) for b in boxes]
+        ordered = order_items(items, img.shape[:2])
+        index = {tuple(box_bounds(b)): b for b in boxes}
+        boxes = [index[(i[1], i[2], i[3], i[4])] for i in ordered]
         cv2.imwrite(out, draw(img, boxes))
         print(f"[{i:2d}/{len(todo)}] {os.path.basename(path):18s} -> "
               f"{len(boxes):3d} boxes  {out}")

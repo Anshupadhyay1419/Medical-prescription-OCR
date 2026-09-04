@@ -12,8 +12,8 @@ A complete run fills three directories from a single pass:
     results/preprocessed/     DIP image PaddleOCR sees   image<N>.png
     results/detection_boxes/  detected boxes in reading order  image<N>_boxes.png
 
-The raw TrOCR baseline is also written, into results/experiments/trocr_raw/,
-so the LLM stages can still be scored against it.
+Pass --raw-dir DIR to also write a per-box baseline (one line per detected box,
+no row assembly) for diagnosing recognition separately from layout.
 
 Images whose transcription already exists are skipped, so an interrupted batch
 resumes where it stopped.
@@ -23,7 +23,7 @@ import os
 import time
 
 from prescription_ocr.config import (
-    DETECTION_BOXES_DIR, IMAGES_DIR, PREPROCESSED_DIR, TEXT_DIR, TROCR_RAW_DIR,
+    DETECTION_BOXES_DIR, IMAGES_DIR, PREPROCESSED_DIR, TEXT_DIR,
 )
 from prescription_ocr.io_utils import extract_image_number, list_images, output_path
 from prescription_ocr.ocr.models import load_models
@@ -38,14 +38,13 @@ def parse_args():
     p.add_argument("--force", action="store_true",
                    help="redo images whose output already exists")
     p.add_argument("--no-llm", action="store_true",
-                   help="write the raw TrOCR baseline only, skip the LLM stages")
-    p.add_argument("--no-raw", action="store_true",
-                   help="skip writing the raw TrOCR baseline")
+                   help="skip the optional LLM stages (they are off by default)")
+    p.add_argument("--raw-dir", default=None,
+                   help="also write a per-box baseline here (default: not written)")
     p.add_argument("--no-dip", action="store_true",
                    help="skip document image processing, feed PaddleOCR the raw scan")
     p.add_argument("--img-dir", default=str(IMAGES_DIR))
     p.add_argument("--out-dir", default=str(TEXT_DIR))
-    p.add_argument("--raw-dir", default=str(TROCR_RAW_DIR))
     p.add_argument("--dip-dir", default=str(PREPROCESSED_DIR))
     p.add_argument("--boxes-dir", default=str(DETECTION_BOXES_DIR))
     return p.parse_args()
@@ -66,7 +65,7 @@ def build_worklist(args):
     for image_path in image_files:
         n = extract_image_number(image_path)
         out = None if args.no_llm else output_path(args.out_dir, n)
-        raw = None if args.no_raw else output_path(args.raw_dir, n)
+        raw = output_path(args.raw_dir, n) if args.raw_dir else None
         dip = None if args.no_dip else os.path.join(args.dip_dir, f"image{n}.png")
         boxes = os.path.join(args.boxes_dir, f"image{n}_boxes.png")
 

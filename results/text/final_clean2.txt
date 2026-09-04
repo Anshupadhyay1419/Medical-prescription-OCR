@@ -1,27 +1,29 @@
 Life care clinic
-clinic timing : mon-sat .
+Clinic Timing : Mon-Sat .
+0 .
 Dr. R. K. Malhotra
-MBBS , DNB ( Medicine )
+9:30 AM - 1,00 PM
+6,00 pm - 9,00 pm
 Consultant Physician
 (Sunday by Appointment)
-name : Mr. Pooja S.
-date : 14/6/24
-age : 28
-Rx.
-D. Tads . Dolo - bso 1-1-1 x 3d .
-Cap. Amory 500 1-0-0, X 5d.
-Tab. Pant-D 0-0-1 AC.
-ex 7d .
-Syp. momter LC 5 miles . His x 7d .
-Tab. Ibugesic so ! " rain ( fever .
-Mufirocin oint
-Capp ) TDS .
-Adrise ! . Warren saline gargles
+Name : Mr. Pooja S.
+date : 14/6/24 .
+Age :28 " IF
+bp .
+Rx .
+D. Tab. Dolo - 680 I-I-I-X3d.
+O. Cap. Smory 500 1-0-1. X 5'd
+3 .
+Tab. Pant-D 0-0-1 AC X.Fd.
+Syp. Monoted LC. 5 miles . His X 7d
+0 .
+Tab . Inbugesic 503 " pain (ferer
+Mupiscocin oint
+Capefio
+T D.S.
+Advice's Warren saline gargles
 Steam inhalation
 Plenty of fluids .
-Order .
-Review " on 20/6/24
+Review " one're defray
 Dr. R. K. Malhotra
 Reg. No. 65212
-The clinic information and doctor's details are on the top.
-The prescription section starts with "rx." and contains multiple medications and their dosages.

@@ -1,35 +1,9 @@
-Rx. Health Plus Clinic
-Dr. A. Chatterjee
-23 , Raja Basu Road
-MBBS . MD ( Medicine )
-Kolkata-700029
-Reg. No. 53867 ( WBMC )
-ph : 033 2465 7550
-Consultant Physician
-Pts Mr. B. Sen.
-D4 24/8/25 .
-58 yrs .
-Sex , M.
-40 fta.5 .
-ex 15'd .
-O. Mugglin , 500 . 1-0-1. 500
-ex from
-O clapid-AV. 75 . 1 -0- 75 mg .
-x ( mo .
-0 # A to # 20 ,
-0-0- 200 mg .
-ex 1m .
-to # so # # #
-O. Syp. D " congest . comb .
-Diet - Low salt .
-Tabo Ecosprin 75, only
-walk 30 min.
-avoidify food ,
-after disc.
-Sugar ( f ) .
-Bip chk .
-Wt. Loss
-death .
-fugger's month .
-The first part of the input contains clinic and doctor information, which are kept together.
-The patient details (age, sex, etc.) are kept together.
+Rx Health Plus Clinic 23, Raja Basu Road MBBS , MD ( Medicine ) Kolkata - 700029 Reg. No. 53867 ( WBMC ) Ph : 033 2465 7550 Consultant Physician
+Mr. B. Sen. D4 24/8/25
+O. Mietglim , 500 Two own 500 ex ( mo .
+O. clupid -AV 75.75 mg 1 - 0 # x ( mo .
+0 # At 2o. 0-0- ex I'm
+O. Syp. D. congest . to CO-mb . 6 b .
+Diet - Low self ) TabERcocks of walk 30 min. avoid only food , after dinner .
+Sugar ( f ). B.P chk. Wt. Loss Much sugar P month .
+The top section is a header with clinic and patient details.

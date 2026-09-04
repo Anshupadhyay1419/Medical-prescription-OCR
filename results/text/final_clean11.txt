@@ -1,18 +1,33 @@
-Based on the provided rules and input, the output should be organized as follows:
-Admission date - # Discharge date : # Date of birth -
-Sexes . # Service - Surgery .
-Allergies - no drug categories I Information on spite :
-Complaint - Spur shots wound major surgical or invasive procedure
-placement of bilateral thoracotomy tubes kept thoracotomy explanatory
-laparatory left displays left upon vote with resources without
-of left with repairs of sight common iliac vein - whilst began
-common HbA1c resin faceration history of present
-illness pt is you who presented to hospital via formations
-thissp gun shot wound to chest and abdomen pt unresponsive
-at scene and irritated prior to assinal past medical history zone
-family history , non contemporary physical example 130s by good
-unresponsive irritated gunshot wounds to chest and abdomen
-eines simplified bilateral heart tachycardic about disturbed fast
-grossly positive express to
-Wt - 50 kg Rix Creatinine Sr. 1-0-1 Tab Amlodipine 10 mg BD Urine RIE HLAIC 7.2 mmmy Dr. Mukhopadhyay
-The original text is preserved exactly as given.
+x
+Autmission date -
+X
+discharge date :
+mile of birth -
+0 0
+Secers
+service Survey .
+Alleges - no drug villages .
+Information on file :
+Complaint - Gper shot-woerd_mages
+surgical or invasive procedure .
+placement of bilateral thoracostomy
+tubes gift thoractory explanatory .
+depository left displaying supplier
+left-upper-case using resolution washed
+of legal-weight report of sight .
+common illistress most repairs .
+of sight common illian rain .
+faceration history of present
+illness pt is my own who
+presented to hospital via location .
+insp gun shot-word to
+chest and abdomen -pt unresponsive
+at scene and irritated prior to
+assinal-past medical history some
+family history - non contributory
+Financial exams # p 130s up aged
+unresponsive irritated further
+favourists to chest and arbitrary
+feings-dimished bilateral heart
+Trachycardic , abolished west
+grossly positive extensions

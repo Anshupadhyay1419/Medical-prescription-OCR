@@ -69,28 +69,7 @@ archive/                   superseded prototypes, kept for reference only
 docs/architecture.md       how the pipeline works and why
 ```
 
----
 
-## How to make a change
-
-| I want to… | Edit this |
-|---|---|
-| Point at a different dataset | `config.py` → `IMAGES_DIR`, `GROUND_TRUTH_DIR` |
-| Swap the handwriting model | `config.py` → `TROCR_MODEL` |
-| Change the DIP steps | `preprocessing.py` — CLAHE, denoise, deskew, threshold |
-| Turn DIP off | `config.py` → `USE_PREPROCESSING`, or `--no-dip` |
-| Swap the LLM | `config.py` → `OLLAMA_MODEL`, `OLLAMA_URL` |
-| Turn an LLM stage on/off | `config.py` → `USE_RESTRUCTURER`, `USE_CORRECTOR`, `USE_RERANKER` |
-| Change what the LLM is told | `prescription_ocr/llm/prompts/*.txt` — no Python involved |
-| Change how boxes group into rows | `ocr/reading_order.py` → `ROW_GROUPING_FACTOR` |
-| Add a new safety check on LLM output | `llm/restructurer.py` or `llm/corrector.py` |
-| Add a new metric | `evaluation/metrics.py` |
-| Add a new arm to the comparison | `config.py` → `COMPARISON_ARMS` |
-
-Nothing outside `config.py` hardcodes a path or a model name, and every path is
-anchored to the repository root — commands behave the same from any directory.
-
----
 
 ## The commands
 

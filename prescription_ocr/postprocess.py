@@ -7,7 +7,7 @@ COMMENTARY_PREFIXES = (
     'all fragments', 'the medications', 'the dosages', 'as per the rules',
     'this preserves', 'this transcription', 'the transcription',
     'i have', "i've", 'please note', 'output:', 'result:', 'answer:',
-    'signature:', 'registration no:',
+    'signature:', 'registration no:', 'registration number:', 'prescription:', 'prescription text:',
 )
 
 # Phrases that mark a line as commentary no matter where they appear in it.
@@ -17,7 +17,7 @@ COMMENTARY_PHRASES = (
     'correctly grouped', 'patient safety', 'y-coordinate', 'y coordinate',
     'bounding box', 'reading order', 'exactly as provided',
     'is divided into sections', 'organized into logical',
-    'based on the coordinates', 'each medication and its',
+    'based on the coordinates', 'each medication and its','both the medations and the dosages', 'the medications and the dosages',
 )
 
 

@@ -6,14 +6,6 @@ from prescription_ocr.llm import prompts
 from prescription_ocr.llm.client import generate
 from prescription_ocr.postprocess import is_commentary, normalize_doses
 
-# --------------------------------------------------------------------------
-# Medication detection
-# --------------------------------------------------------------------------
-
-# Dose forms only. An earlier version also listed the specific drug names that
-# happened to appear in this corpus (telma, atorva, rantac, ...), which made the
-# safety check silently useless on any prescription outside it. Dose-form
-# prefixes generalise; brand names do not.
 MEDICATION_KEYWORDS = [
     'tab.', 'tab ', 'cap.', 'cap ', 'syp.', 'syp ', 'susp', 'sus.',
     'inj.', 'inj ', 'inhaler', 'oint', 'drops', 'sol.', 'lotion',
